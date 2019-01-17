@@ -69,11 +69,6 @@ class InstitutionalNavbar extends React.Component {
                         </NavItem>
                       );
                     })
-                  // .reduce((prev, curr, index) => [
-                  //   prev,
-                  //   <span key={index} className="text-white mr-3">+</span>,
-                  //   curr
-                  // ])
                 )
               }
             </Nav>
