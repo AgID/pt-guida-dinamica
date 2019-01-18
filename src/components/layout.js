@@ -72,6 +72,10 @@ const Layout = ({ children }) => (
             <a href="https://www.gatsbyjs.org">Gatsby</a>
           </footer>
         </div>
+        <Footer
+          footerLinks={data.allDataYaml.edges[0].node.site.footerLinks}
+          socialLinks={data.allDataYaml.edges[0].node.site.socialLinks}
+        />
       </>
     )}
   />
