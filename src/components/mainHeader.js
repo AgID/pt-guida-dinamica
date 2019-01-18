@@ -8,7 +8,7 @@ import {
 } from 'reactstrap';
 
 const MainHeader = props => (
-  <div className="it-header-center-wrapper it-small-header">
+  <header className="it-header-center-wrapper it-small-header">
     <Container>
       <Row>
         <Col xs="12">
@@ -59,8 +59,7 @@ const MainHeader = props => (
         </Col>
       </Row>
     </Container>
-  </div>
-
+  </header>
 );
 
 MainHeader.propTypes = {
