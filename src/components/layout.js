@@ -3,23 +3,34 @@ import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 
 import './layout.scss';
-import InstitutionalNavbar from './institutionalNavbar';
+import SlimHeader from './slimHeader';
+import MainHeader from './mainHeader';
 
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
-        allDataYaml {
+        allDataYaml(filter: {
+          site: {title: {ne: null}}
+        }) {
           edges {
             node {
-              title
-              institutionalOwners {
-                name
-                url
-              }
-              institutionalNavbarLinks {
-                name
-                url
+              site {
+                title
+                description
+                institutionalOwners {
+                  name
+                  url
+                }
+                institutionalNavbarLinks {
+                  name
+                  url
+                }
+                socialLinks {
+                  name
+                  url
+                  icon
+                }
               }
             }
           }
@@ -28,13 +39,18 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <InstitutionalNavbar
+        <SlimHeader
           institutionalOwners={
-            data.allDataYaml.edges[0].node.institutionalOwners
+            data.allDataYaml.edges[0].node.site.institutionalOwners
           }
           institutionalNavbarLinks={
-            data.allDataYaml.edges[0].node.institutionalNavbarLinks
+            data.allDataYaml.edges[0].node.site.institutionalNavbarLinks
           }
+        />
+        <MainHeader
+          title={data.allDataYaml.edges[0].node.site.title}
+          description={data.allDataYaml.edges[0].node.site.description}
+          socialLinks={data.allDataYaml.edges[0].node.site.socialLinks}
         />
         <div
           style={{
