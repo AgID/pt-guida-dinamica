@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import './layout.scss';
 import SlimHeader from './slimHeader';
 import MainHeader from './mainHeader';
+import Footer from './footer';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -18,11 +19,11 @@ const Layout = ({ children }) => (
               site {
                 title
                 description
-                institutionalOwners {
+                owners {
                   name
                   url
                 }
-                institutionalNavbarLinks {
+                slimHeaderLinks {
                   name
                   url
                 }
@@ -30,6 +31,10 @@ const Layout = ({ children }) => (
                   name
                   url
                   icon
+                }
+                footerLinks {
+                  name
+                  url
                 }
               }
             }
@@ -40,11 +45,11 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <SlimHeader
-          institutionalOwners={
-            data.allDataYaml.edges[0].node.site.institutionalOwners
+          owners={
+            data.allDataYaml.edges[0].node.site.owners
           }
-          institutionalNavbarLinks={
-            data.allDataYaml.edges[0].node.site.institutionalNavbarLinks
+          slimHeaderLinks={
+            data.allDataYaml.edges[0].node.site.slimHeaderLinks
           }
         />
         <MainHeader
