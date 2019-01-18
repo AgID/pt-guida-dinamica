@@ -18,10 +18,6 @@ module.exports = {
     ],
 
     "semi": ["error", "always"],
-    "max-len": ["error", {
-      code: 80,
-      comments: 120
-    }],
     "arrow-parens": ["error", "as-needed"],
 
     // standard.js
