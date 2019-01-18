@@ -58,7 +58,7 @@ class SlimHeader extends React.Component {
                       isOpen={this.state.isOpen}
                       className="link-list-wrapper"
                     >
-                      <ul className="link-list">
+                      <ul className="link-list border-0">
                         {this.props.slimHeaderLinks
                           .map((slimHeaderLinkGroup, groupIndex) =>
                             slimHeaderLinkGroup.map((slimHeaderLinkItem, itemIndex) =>
@@ -69,7 +69,7 @@ class SlimHeader extends React.Component {
                                         slimHeaderLinkGroup.length) &&
                                         (groupIndex + 1 !==
                                           this.props.slimHeaderLinks.length)
-                                    ? 'nav-item-w-divider' : null
+                                    ? 'border-right' : null
                                 }
                               >
                                 <a href={slimHeaderLinkItem.url}>
