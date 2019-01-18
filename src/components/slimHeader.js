@@ -24,7 +24,7 @@ class SlimHeader extends React.Component {
           <Row>
             <Col xs="12">
               <div className="it-header-slim-wrapper-content">
-                {this.props.institutionalOwners
+                {this.props.owners
                   .map(institutionalOwner => {
                     return (
                       <a
@@ -59,21 +59,21 @@ class SlimHeader extends React.Component {
                       className="link-list-wrapper"
                     >
                       <ul className="link-list">
-                        {this.props.institutionalNavbarLinks
-                          .map((institutionalNavbarLinkGroup, groupIndex) =>
-                            institutionalNavbarLinkGroup.map((institutionalNavbarLinkItem, itemIndex) =>
+                        {this.props.slimHeaderLinks
+                          .map((slimHeaderLinkGroup, groupIndex) =>
+                            slimHeaderLinkGroup.map((slimHeaderLinkItem, itemIndex) =>
                               <li
                                 key={[groupIndex, itemIndex].join('-')}
                                 className={
                                   (itemIndex + 1 ===
-                                        institutionalNavbarLinkGroup.length) &&
+                                        slimHeaderLinkGroup.length) &&
                                         (groupIndex + 1 !==
-                                          this.props.institutionalNavbarLinks.length)
+                                          this.props.slimHeaderLinks.length)
                                     ? 'nav-item-w-divider' : null
                                 }
                               >
-                                <a href={institutionalNavbarLinkItem.url}>
-                                  {institutionalNavbarLinkItem.name}
+                                <a href={slimHeaderLinkItem.url}>
+                                  {slimHeaderLinkItem.name}
                                 </a>
                               </li>
                             )
@@ -93,12 +93,12 @@ class SlimHeader extends React.Component {
 }
 
 SlimHeader.propTypes = {
-  institutionalOwners: PropTypes.arrayOf(
+  owners: PropTypes.arrayOf(
     PropTypes.exact({
       name: PropTypes.string.isRequired,
       url: PropTypes.string.isRequired
     })).isRequired,
-  institutionalNavbarLinks:
+  slimHeaderLinks:
     PropTypes.arrayOf(PropTypes.arrayOf(
       PropTypes.exact({
         name: PropTypes.string.isRequired,
