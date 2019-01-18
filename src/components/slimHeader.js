@@ -19,11 +19,11 @@ class SlimHeader extends React.Component {
   }
   render() {
     return (
-      <div class="it-header-slim-wrapper">
+      <div className="it-header-slim-wrapper">
         <Container>
           <Row>
             <Col xs="12">
-              <div class="it-header-slim-wrapper-content">
+              <div className="it-header-slim-wrapper-content">
                 {this.props.institutionalOwners
                   .map(institutionalOwner => {
                     return (
@@ -45,12 +45,12 @@ class SlimHeader extends React.Component {
                     curr
                   ])
                 }
-                <span class="nav-palce-mobile">
+                <span className="nav-palce-mobile">
                   <nav>
                     <a
                       className="it-opener d-lg-none p-0"
                       onClick={() => this.toggle()}>
-                      <svg class="icon">
+                      <svg className="icon">
                         <use xlinkHref="/assets/icons.svg#it-expand"></use>
                       </svg>
                     </a>
