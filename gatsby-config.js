@@ -9,6 +9,10 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-eslint`,
     {
+      resolve: `gatsby-plugin-stylelint`,
+      options: { files: [`**/*.scss`] }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
