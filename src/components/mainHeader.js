@@ -37,7 +37,7 @@ const MainHeader = props => (
                             href={socialLink.url}
                             aria-label={socialLink.name}
                           >
-                            <Icon icon={socialLink.icon}/>
+                            <Icon icon={socialLink.icon} />
                           </a>
                         </li>
                       );
