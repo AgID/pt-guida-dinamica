@@ -6,6 +6,7 @@ import {
   Container,
   Row
 } from 'reactstrap';
+import Icon from './icon';
 
 const Footer = props => (
   <footer className="neutral-1-bg-a9">
@@ -28,13 +29,7 @@ const Footer = props => (
                   href={socialLink.url}
                   aria-label={socialLink.name}
                 >
-                  <svg className="icon icon-sm icon-light align-top">
-                    <use
-                      xlinkHref=
-                        {`/assets/icons.svg#it-${socialLink.icon}`}
-                    >
-                    </use>
-                  </svg>
+                  <Icon icon={socialLink.icon} className="icon-sm icon-light align-top"/>
                 </a>
               );
             })
@@ -52,7 +47,7 @@ const Footer = props => (
                 <Link
                   className="small-prints font-weight-bold"
                   style={{ color: '#0bd9d2' }}
-                  href={footerLink.url}>
+                  to={footerLink.url}>
                   {footerLink.name}
                 </Link>
               </li>

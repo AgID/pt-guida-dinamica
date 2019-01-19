@@ -6,6 +6,7 @@ import {
   Container,
   Row
 } from 'reactstrap';
+import Icon from './icon';
 
 const MainHeader = props => (
   <header className="it-header-center-wrapper it-small-header">
@@ -15,11 +16,7 @@ const MainHeader = props => (
           <div className="it-header-center-content-wrapper p-0">
             <div className="it-brand-wrapper">
               <Link to="/">
-                <svg className="icon">
-                  <use
-                    xlinkHref="/assets/icons.svg#it-code-circle">
-                  </use>
-                </svg>
+                <Icon icon="code-circle" />
                 <div className="it-brand-text">
                   <h2 className="no_toc">{props.title}</h2>
                   <h3 className="no_toc d-none d-md-block">
@@ -40,13 +37,7 @@ const MainHeader = props => (
                             href={socialLink.url}
                             aria-label={socialLink.name}
                           >
-                            <svg className="icon">
-                              <use
-                                xlinkHref=
-                                  {`/assets/icons.svg#it-${socialLink.icon}`}
-                              >
-                              </use>
-                            </svg>
+                            <Icon icon={socialLink.icon}/>
                           </a>
                         </li>
                       );

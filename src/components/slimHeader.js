@@ -6,6 +6,7 @@ import {
   Container,
   Row
 } from 'reactstrap';
+import Icon from './icon';
 
 class SlimHeader extends React.Component {
   state = {
@@ -24,36 +25,61 @@ class SlimHeader extends React.Component {
           <Row>
             <Col xs="12">
               <div className="it-header-slim-wrapper-content">
-                {this.props.owners
-                  .map(institutionalOwner => {
-                    return (
-                      <a
-                        className="navbar-brand mr-1 mr-lg-3"
-                        key={institutionalOwner.name}
-                        href={institutionalOwner.url}>
-                        {institutionalOwner.name}
-                      </a>
-                    );
-                  })
-                  .reduce((prev, curr, index) => [
-                    prev,
-                    <span
-                      key={index}
-                      className="navbar-brand text-white mr-1 mr-lg-3">
-                      +
-                    </span>,
-                    curr
-                  ])
-                }
-                <span className="nav-palce-mobile">
+                <div className="d-none d-lg-block">
+                  {this.props.owners
+                    .map(institutionalOwner => {
+                      return (
+                        <a
+                          className="navbar-brand mr-1 mr-lg-3"
+                          key={institutionalOwner.name}
+                          href={institutionalOwner.url}>
+                          {institutionalOwner.name}
+                        </a>
+                      );
+                    })
+                    .reduce((prev, curr, index) => [
+                      prev,
+                      <span
+                        key={index}
+                        className="navbar-brand text-white mr-1 mr-lg-3">
+                        +
+                      </span>,
+                      curr
+                    ])
+                  }
+                </div>
+                <span className="nav-palce-mobile col-12 col-lg-auto">
                   <nav>
-                    <a
-                      className="it-opener d-lg-none p-0"
-                      onClick={() => this.toggle()}>
-                      <svg className="icon">
-                        <use xlinkHref="/assets/icons.svg#it-expand"></use>
-                      </svg>
-                    </a>
+                    <div className="d-flex">
+                      <div className="d-lg-none">
+                        {this.props.owners
+                          .map(institutionalOwner => {
+                            return (
+                              <a
+                                className="navbar-brand mr-1 mr-lg-3"
+                                key={institutionalOwner.name}
+                                href={institutionalOwner.url}>
+                                {institutionalOwner.name}
+                              </a>
+                            );
+                          })
+                          .reduce((prev, curr, index) => [
+                            prev,
+                            <span
+                              key={index}
+                              className="navbar-brand text-white mr-1 mr-lg-3">
+                              +
+                            </span>,
+                            curr
+                          ])
+                        }
+                      </div>
+                      <a
+                        className="it-opener d-lg-none p-1 ml-auto"
+                        onClick={() => this.toggle()}>
+                        <Icon icon="expand" />
+                      </a>
+                    </div>
                     <Collapse
                       isOpen={this.state.isOpen}
                       className="link-list-wrapper"
@@ -69,10 +95,13 @@ class SlimHeader extends React.Component {
                                         slimHeaderLinkGroup.length) &&
                                         (groupIndex + 1 !==
                                           this.props.slimHeaderLinks.length)
-                                    ? 'border-right' : null
+                                    ? 'border-lg-right border-bottom border-lg-bottom-0' : null
                                 }
                               >
-                                <a href={slimHeaderLinkItem.url}>
+                                <a
+                                  href={slimHeaderLinkItem.url}
+                                  className="px-0 px-lg-3"
+                                >
                                   {slimHeaderLinkItem.name}
                                 </a>
                               </li>
