@@ -63,8 +63,9 @@ jobs:
       - attach_workspace:
           at: .
 
-      # Restore dependencies
-      - restore_cache: *restore_cache
+      - run:
+          name: Install dependencies
+          command: sudo apt-get install -qy libxtst6 libnss3 libxss1 libasound2 libatk-bridge2.0-0 libgtk-3-0
 
       - run:
           name: Check versions
@@ -117,7 +118,7 @@ jobs:
 workflows:
   version: 2
 
-  deploy:
+  build-test-deploy:
     jobs:
       - build:
           filters:
