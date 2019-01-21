@@ -1,0 +1,517 @@
+cards:
+  # 13 fatto
+  - title: Circolare 5/2017 Censimento del Patrimonio.
+    text: >
+      Da novembre 2017 è online la circolare n. 5/2017 «Censimento del Patrimonio ICT
+      delle Amministrazioni e qualificazione dei Poli Strategici Nazionali».
+
+  - title: Censimento del patrimonio ICT
+    text: >
+      Dopo una prima fase di rilevazione, avviata a dicembre 2017, ad aprile 2018 è
+      stata avviata la seconda fase.
+
+  - title: Circolari 2 e 3/2018 Cloud della PA
+    text: >
+      Da aprile 2018 sono state avviate le qualificazioni dei Cloud Service Provider
+      (CSP) ed è stato realizzato il registro pubblico dei CSP.
+
+  - title: Marketplace della PA
+    text: >
+      Da aprile 2018 è stato realizzato il catalogo dei servizi cloud qualificati, la
+      piattaforma espone servizi e infrastrutture qualificate da AGID secondo quanto
+      previsto dalle circolari.
+
+  - title: Portale cloud.italia.it
+    text: >
+      Da giugno 2018 è stato pubblicato il portale cloud.italia.it per rendere più
+      fruibile la strategia sull’adozione del Cloud Computing nella PA e diffondere
+      informazioni e strumenti utili.
+
+  # 13 da fare
+  - title: Servizi Cloud qualificati
+    text: >
+      Dal 1° aprile 2019, le PA possono acquisire solo servizi IaaS, PaaS e SaaS
+      qualificati da AGID e pubblicati nel Cloud Marketplace.
+
+  - title: Acquisti infrastrutture
+    text: >
+      Le PA non possono effettuare spese o investimenti in materia di data center,
+      secondo le indicazioni e le eccezioni indicate nella circolare AGID n.2/2016 e
+      nella circolare AGID n.5/2017.
+
+  - title: Piani di migrazione
+    text: >
+      Le PA dovranno progressivamente definire un piano per la migrazione verso il
+      Cloud della PA.
+
+  # 14 fatto
+  - title: I nuovi contratti SPC2
+    text: >
+      Sono stati sottoscritti un migliaio di contratti per i servizi di connettività
+      nell’ambito del Sistema pubblico di connettività (SPC), di cui 50 afferenti alle
+      PA centrali.
+
+  - title: L’infrastruttura QXN2
+    text: >
+      Sono concluse le attività di migrazione delle amministrazioni titolari di
+      precedenti contratti SPC sui nuovi contratti quadro SPC2 ed è avvenuto il
+      rilascio da parte di AGID della nuova infrastruttura QXN2, su cui sono operativi
+      i fornitori della nuova gara SPC2.
+
+  - title: Connettività della rete internazionale della PA
+    text: >
+      Consip ha indetto una gara per la stipula di un accordo quadro avente ad oggetto
+      la progettazione della rete e l’erogazione dei servizi di connettività della
+      Rete Internazionale della PA.
+
+  # 14 da fare
+  - title: Cessazione infrastruttura QXN
+    text: >
+      Entro il 31 marzo 2019 è prevista la cessazione dei servizi della vecchia
+      infrastruttura QXN.
+
+  - title: Capacità di connessione della PA
+    text: >
+      Le PA devono avviare processi di adeguamento della propria connettività sulla
+      base delle linee guida fornite da AGID.
+
+  - title: Linee guida wi-fi
+    text: >
+      Saranno pubblicate entro settembre 2019 le linee guida per l’utilizzo delle
+      wi-fi, al fine di rendere accessibile ai cittadini wi-fi gratuito negli uffici e
+      nei luoghi pubblici.
+
+  # 15 fatto
+  - title: Modello di interoperabilità
+    text: >
+      Rappresenta l’asse portante all’attuazione del Piano Triennale, rendendo
+      possibile la collaborazione tra pubbliche amministrazioni e tra queste e
+      soggetti terzi (cittadini e imprese).
+
+  - title: Linee Guida per transitare al nuovo Modello di interoperabilità
+    text: >
+      Nell’agosto 2017, AGID ha definito, per le piattaforme esistenti e per le
+      attività progettuali in corso, nella determina 219/2017 «Linee Guida per
+      transitare al nuovo Modello di Interoperabilità», le azioni che le pubbliche
+      amministrazioni devono realizzare al fine di dare seguito al processo di
+      transizione al nuovo Modello.
+
+  - title: Linee Guida del nuovo Modello di interoperabilità
+    text: >
+      AGID ha rilasciato i primi due capitoli del nuovo Modello, definendo il quadro
+      di riferimento tecnico per l'implementazione dei servizi digitali nella PA.
+
+  # 15 da fare
+  - title: Transizione dei servizi SP-Coop
+    text: >
+      Per assicurare la comunicazione tra i propri sistemi esistenti e tra questi e
+      quelli di soggetti terzi, le PA utilizzano gli standard e i profili definiti dal
+      Modello, secondo le indicazioni operative fornite da AGID. ((INSERIRE LINK
+      ALLEGATO 3 Indicazioni operative per la migrazione dei servizi SP-Coop)
+
+  - title: Adozione linee guida nuovo Modello
+    text: >
+      Le PA realizzano le Interfacce di servizio per abilitare la comunicazione tra i
+      sistemi informatici della PA e di questi con cittadini ed imprese.
+
+  # 16 fatto
+  - title: Basi di dati di interesse nazionale
+    text: >
+      Nell’agosto 2017 è stato pubblicato l’elenco delle Basi di dati di interesse
+      nazionale e le relative schede descrittive. Da gennaio 2018 sono disponibili le
+      «Linee guida per l’implementazione della specifica europea GeoDCAT-AP». Da
+      aprile 2018 è on line la nuova versione (2.0) del Repertorio nazionale dei dati
+      territoriali. A maggio 2018 è stato messo in produzione il Catalogo dei servizi.
+      A settembre 2018 sono state redatte le Linee guida relative alle Regole tecniche
+      da seguire per l’iscrizione e l’aggiornamento dei dati in IPA. A novembre 2018
+      il popolamento di ANPR ha raggiunto i 1.206 comuni e oltre 14 milioni di
+      abitanti.
+
+  # 16 da fare
+  - title: Basi dati di interesse nazionale
+    text: >
+      AGID e PA titolari definiscono piani di sviluppo e aggiornamento dei servizi per
+      l’utilizzo delle banche dati.
+
+  - title: Catalogo dei servizi
+    text: >
+      Le PA procedono al popolamento del Catalogo dei servizi, attraverso le nuove
+      funzionalità implementate da AGID.
+
+  - title: ANPR
+    text: >
+      Si procederà al completamento della migrazione delle anagrafi comunali a ANPR.
+      Un campione di Comuni realizza prototipi di registri di stato civile, valutando
+      le possibili semplificazioni derivanti dalla loro digitalizzazione e
+      centralizzazione.
+
+  - title: Aggiornamento IPA
+    text: >
+      Le Amministrazioni gestori di pubblici servizi adottano le linee guida per
+      l’aggiornamento dei dati in IPA.
+
+  # 17 fatto
+  - title: Dati aperti
+    text: >
+      A marzo 2017 è stato reso disponibile il portale dei dati aperti della PA
+      dati.gov.it Nell’agosto 2017 sono state aggiornate le «Linee guida per la
+      valorizzazione del patrimonio informativo pubblico».
+
+  - title: Vocabolari controllati e modelli di dati
+    text: >
+      Nel 2018 è stato pubblicato il Sistema di Registri centrale INSPIRE Italia per
+      la gestione dei vocabolari controllati.
+
+  - title: Piattaforma Digitale Nazionale Dati
+    text: >
+      Nel 2018 la piattaforma tecnologica PDND ha raggiunto uno stadio sperimentale
+      pubblicato sul sito dataportal.daf.teamdigitale.it e al momento viene utilizzata
+      su alcuni casi di studio.
+
+  # 17 da fare
+  - title: Evoluzione del catalogo nazionale dati.gov.it
+    text: >
+      AGID rilascerà la nuova versione del catalogo nazionale con nuove funzionalità.
+
+  - title: Sviluppo ontologie
+    text: >
+      Le PA con AGID lavorano alla definizione di ontologie e/o vocabolari controllati
+      di riferimento.
+
+  - title: Sviluppo PDND
+    text: >
+      Il Team per la trasformazione Digitale lavora al consolidamento e alla
+      successiva messa in produzione della piattaforma.
+
+  # 18 fatto
+  - title: Public e-procurement
+    text: >
+      È stata definita l’architettura di riferimento costituita dalle seguenti
+      componenti: ComproPA, Banca dati degli operatori economici (BDOE), Nodo di
+      smistamento degli ordini di acquisto delle amministrazioni pubbliche (NSO),
+      Fatturazione elettronica.
+
+  - title: pagoPA
+    text: >
+      Dall’avvio in produzione del sistema nel 2012, particolare cura è stata dedicata
+      al miglioramento dell’esperienza utente, con l’introduzione di funzionalità che
+      consentono di semplificare il pagamento. È a disposizione delle PA, un kit di
+      sviluppo software per realizzare applicazioni mobili integrate con pagoPA.
+
+  - title: Siope+
+    text: >
+      L’iniziativa è governata dal MEF e rappresenta l’evoluzione di SIOPE, il sistema
+      informativo sulle operazioni degli enti pubblici. Il sistema SIOPE+ è andato a
+      regime dal 2018 per Regioni, Comuni, Asl e aziende ospedaliere.
+
+  - title: NoiPA
+    text: >
+      Da gennaio 2018 è operativa la piattaforma cloud in termini di componenti
+      strutturali e prodotti software.
+
+  # 18 da fare
+  - title: Implementazione public e-procurement
+    text: >
+      Rispetto all’attuale stato di avanzamento delle diverse componenti
+      dell’architettura, verranno realizzate la messa in esercizio, il rilascio delle
+      evoluzioni e il relativo adeguamento da parte delle PA.
+
+  - title: Evoluzione pagoPA
+    text: >
+      Sarà completata l’attivazione dei servizi da parte dei soggetti obbligati
+      all’adesione alla piattaforma.
+
+  - title: Dispiegamento SIOPE+
+    text: >
+      È prevista l’adesione da parte di Enti di ricerca, Università, Autorità
+      portuali, Enti Parco e l’estensione successiva ad altri enti pubblici.
+
+  - title: Evoluzione NoiPA
+    text: >
+      Si procederà a completare il sistema NoiPA, integrandolo con le altre
+      Piattaforme abilitanti, per favorirne l'adozione da parte di tutte le PA.
+
+  # 19 fatto
+  - title: SPID
+    text: >
+      Sono stati accreditati 10 gestori di identità. AGID ha supportato le PA nelle
+      attività di interfacciamento con SPID portando a 4000 il numero di PA che
+      offrono servizi accessibili con SPID.
+
+  - title: Carta d’identità elettronica (CIE)
+    text: >
+      A fine 2018 risultano emesse 6,7 mln di CIE. Il dispiegamento del sistema ha
+      coperto quasi totalmente il territorio nazionale.
+
+  - title: Sistema di gestione di procedimenti amministrativi
+    text: >
+      Nell’ambito della progettazione della piattaforma SGPA, AGID ha avviato attività
+      per la diffusione e la gestione dei documenti informatici nelle PA, tra cui la
+      redazione di regole tecniche e documenti di riferimento.
+
+  - title: Poli di conservazione
+    text: >
+      Nel marzo 2018 l’Archivio Centrale di Stato, il Consiglio Nazionale del
+      Notariato, il Ministero della Difesa e AGID hanno sottoscritto un accordo di
+      collaborazione per la definizione di regole di interscambio tra i sistemi di
+      conservazione.
+
+  - title: ANPR
+    text: >
+      ANPR non è solo una banca dati, ma un sistema integrato per la cui piena
+      funzionalità sono stati realizzati: interventi per valorizzare i risultati
+      conseguiti, azioni di raccordo con le altre iniziative del PT e azioni di
+      comunicazione verso gli stakeholder.
+
+  # 19 da fare
+  - title: Evoluzione e diffusione SPID
+    text: >
+      Evoluzione del sistema per l’integrazione con fornitori di servizi privati,
+      l’adesione delle Attribute authority e l’automazione dei processi.
+
+  - title: Sviluppo funzionalità CIE
+    text: >
+      Emissione della CIE all’estero e accesso ai servizi online.
+
+  - title: Linee Guida e modelli per SGPA
+    text: >
+      Emanazione di Linee Guida per la formazione, conservazione e gestione dei
+      documenti informatici e di moduli per l'interoperabilità tra sistemi.
+
+  - title: Regole per l’interoperabilità tra sistemi di conservazione
+    text: >
+      Pubblicazione delle regole tecniche da parte di AGID. Le PA comunicano avvio e
+      conclusione del processo di dematerializzazione.
+
+  - title: Servizio nazionale per la certificazione anagrafica
+    text: >
+      Definizione di un modello per la stipula di accordi di servizio. Realizzazione
+      web app nazionale di servizi di certificazione.
+
+  # 20 fatto
+  - title: Definizione degli ecosistemi
+    text: >
+      AGID ha provveduto a una prima definizione degli ecosistemi e del loro perimetro
+      e ha individuato le amministrazioni capofila degli ecosistemi.
+
+  - title: Modello di riferimento
+    text: >
+      AGID ha definito un modello di riferimento che descrive un processo di
+      costruzione e di evoluzione degli ecosistemi.
+
+  - title: Sviluppo primi ecosistemi
+    text: >
+      Nel 2017 sono state avviate dalle amministrazioni le attività per lo sviluppo
+      degli ecosistemi più maturi in termini di iniziative e progettualità (Sanità,
+      Finanza pubblica, Beni culturali e turismo, Sviluppo e sostenibilità, Giustizia
+      e Welfare).
+
+  - title: Ecosistema Sanità
+    text: >
+      In riferimento all’ecosistema Sanità ad agosto 2017 è stato pubblicato il
+      Decreto ministeriale che definisce le regole di interoperabilità del Fascicolo
+      sanitario elettronico (FSE).
+
+  # 20 da fare
+  - title: Gruppi di lavoro
+    text: >
+      Le PA devono cooperare per favorire lo sviluppo degli ecosistemi che le vedono
+      coinvolte anche attraverso la predisposizione di gruppi di lavoro volti a
+      definire regole e standard di riferimento e linee guida specifiche e ad avviare
+      progettualità innovative.
+
+  - title: Coinvolgimento degli stakeholder
+    text: >
+      Le amministrazioni capofila hanno il compito di definire il perimetro
+      dell’ecosistema, di individuare e coinvolgere gli stakeholder pubblici e privati
+      di riferimento e di supportare lo sviluppo dell’ecosistema.
+
+  # 21 fatto
+  - title: Misure per la sicurezza ICT
+    text: >
+      Nel 2017 AGID ha pubblicato la circolare 2/2017 «Misure minime per la sicurezza
+      ICT delle Pubbliche amministrazioni» per fornire alle PA indicazioni puntuali su
+      come raggiungere livelli di sicurezza prefissati a partire da quello minimo,
+      obbligatorio per tutti.
+
+  - title: CERT-PA
+    text: >
+      È stata progressivamente aumentata la capacità operativa del CERT-PA,
+      completando l’infrastruttura ICT di erogazione dei servizi di base e realizzando
+      un primo modello di sistema informativo sulle minacce cibernetiche.
+
+  - title: Piattaforma Infosec
+    text: >
+      Nel corso del 2017 AGID, tramite il CERT-PA, ha provveduto a sviluppare
+      ulteriormente il National Vulnerability Database, gestito tramite la piattaforma
+      Infosec.
+
+  # 21 da fare
+  - title: Garantire la sicurezza
+    text: >
+      Le pubbliche amministrazioni devono garantire la sicurezza dei servizi
+      informatici e telematici erogati, rispettando le indicazioni sul tema fornite da
+      AGID.
+
+  - title: Segnalare incidenti di sicurezza
+    text: >
+      Le PA devono segnalare al CERT-PA eventuali incidenti di sicurezza informatica,
+      tramite piattaforma Infosec.
+
+  # 22 fatto
+  - title: Designers Italia
+    text: >
+      È stata sviluppata la piattaforma Designers Italia che è dedicata
+      all’aggiornamento di linee guida, strumenti e kit di sviluppo  front-end per
+      siti web della PA. Designers Italia contiene indicazioni circa l’accessibilità e
+      l’usabilità dei siti web istituzionali.
+
+  - title: Docs Italia
+    text: >
+      È stata realizzata una piattaforma, a disposizione di tutte le pubbliche
+      amministrazioni per la pubblicazione e la consultazione di documenti pubblici
+      relativi ai progetti tecnologici dell’agenda digitale.
+
+  - title: Riorganizzazione del dominio «.gov.it»
+    text: >
+      A febbraio 2018 è stata emanata la Determinazione n. 36/2018 per il riordino del
+      dominio di secondo livello (SLD) “.gov.it”. A marzo 2018 il dominio «edu.it» è
+      stato assegnata al Ministero dell’Istruzione, dell’Università e della Ricerca.
+
+  # 22 da fare
+  - title: Linee guida di design
+    text: >
+      Aggiornamento delle Linee guida di design dei siti e dei servizi web della PA.
+      Attuazione della direttiva europea 2016/2102 sull’accessibilità dei siti web.
+      Realizzazione dei test di usabilità secondo il protocollo eGLU.
+
+  - title: Riuso
+    text: >
+      Predisposizione di linee guida per fornire alla PA le indicazioni per la
+      condivisione di software aperti.
+
+  - title: Web Analytics
+    text: >
+      Creazione della piattaforma Web Analytics Italia a disposizione delle PA per
+      l’analisi dei propri servizi digitali.
+
+  - title: IO
+    text: >
+      Sviluppo di un’app che rende possibile la fruizione efficace dei servizi
+      pubblici digitali delle PA da parte di cittadini e imprese.
+
+  - title: Dominio «.edu.it» e «.it»
+    text: >
+      Migrazione delle scuole al dominio «.edu.it» e degli enti territoriali al
+      dominio «.it».
+
+  # 23 fatto
+  - title: Pre Commercial Procurement
+    text: >
+      AGID è partner istituzionale del MIUR per l'attuazione del Programma di appalti
+      pre-commerciali finalizzati alla soddisfazione dei fabbisogni di innovazione del
+      settore pubblico. Dal 2017 sono state avviate in tutto 19 gare.
+
+  - title: Modello di Smart Community
+    text: >
+      AGID ha lavorato alla definizione e allo sviluppo di un nuovo modello di smart
+      community denominato Smart Landscape.
+
+  # 23 da fare
+  - title: Strumenti per l’innovazione
+    text: >
+      Le amministrazioni devono utilizzare pratiche per appalti di innovazione:
+      consultazioni di mercato, procedure negoziate, dialogo competitivo, partenariato
+      per l’innovazione a condividere le informazioni chiave.
+
+  - title: Modelli per l’innovazione
+    text: >
+      Progettazione e realizzazione del primo prototipo del motore predittivo a
+      supporto della governance del modello Smart Landscape.
+
+  # 24 fatto
+  - title: Coordinamento sul territorio
+    text: >
+      A febbraio 2018 AGID e Conferenza delle Regioni e delle Province Autonome hanno
+      siglato un Accordo di collaborazione ai fini dell’attuazione della strategia
+      Crescita Digitale.
+
+  - title: Responsabile della transizione al digitale
+    text: >
+      A ottobre 2018 è stata emanata la circolare 3/2018 del Ministro per la Pubblica
+      Amministrazione per sollecitare tutte le Amministrazioni ad individuare al
+      proprio interno un RTD.
+
+  - title: Monitoraggio
+    text: >
+      Sono stati individuati i primi indicatori in coerenza con quelli della Strategia
+      per la Crescita Digitale.
+
+  - title: Competenze digitali
+    text: >
+      AGID ha pubblicato le Linee guida per l’armonizzazione delle qualificazioni
+      professionali, delle professioni e dei profili ICT. SNA, Formez, AGID e Team
+      digitale hanno avviato attività di formazione e webinar per i dipendenti della
+      PA.
+
+  - title: Cittadini e imprese
+    text: >
+      Presso AGID è stato istituito l’ufficio del difensore civico per il digitale. Il
+      Dipartimento della funzione pubblica ha avviato con AGID, Regioni, Comuni e
+      sistema Camerale un’azione di semplificazione amministrativa dei SUAP.
+
+  # 24 da fare
+  - title: Costituzione PMO
+    text: >
+      Progressiva istituzione di unità di Program Management Office nazionali e
+      regionali con il compito di coordinare le attività operative oggetto
+      dell’accordo.
+
+  - title: Avvio della rete RTD
+    text: >
+      Creazione di un gruppo di lavoro permanente (RTD di PA centrali, Regioni, Città
+      Metro e relativi Comuni capoluogo).
+
+  - title: Sistema di monitoraggio
+    text: >
+      Rilascio di una piattaforma per la raccolta dei dati e il monitoraggio degli
+      aspetti tecnici ed economici da parte delle PA sull’attuazione delle Agende
+      digitali.
+
+  - title: Sviluppo di competenze digitali
+    text: >
+      Incremento delle attività di formazione di project management, specialistica e
+      di base per RTD, dipendenti pubblici e cittadini.
+
+  - title: Prime iniziative verso cittadini e imprese
+    text: >
+      Redazione guida sui diritti di cittadinanza digitale. Adozione modulistica
+      standardizzata per le attività produttive.
+
+  # 25 fatto
+  - title: Rilevazione della spesa ICT 2018
+    text: >
+      Tra ottobre 2017 e maggio 2018 è stata realizzata un’attività di ricerca e
+      analisi sulla spesa e sulle attività ICT nella PA, con il  coinvolgimento delle
+      principali PA centrali e locali nella raccolta di dati e informazioni, che ha
+      fornito elementi utili alla definizione di una fotografia aggiornata delle
+      caratteristiche di questo settore. La Rilevazione ha coinvolto 83 soggetti di
+      cui 68 amministrazioni, allargando il panel rispetto alla precedente edizione
+      che aveva visto la partecipazione di 21 PAC.
+
+      L’insieme delle PA che hanno partecipato è così composto: 19 Amministrazioni
+      Centrali (tutti i Ministeri, Agenzie Fiscali, INPS, INAIL e ACI) 21
+      Amministrazioni Regionali e Province Autonome 14 Città Metropolitane 14 Comuni
+      capoluogo delle Città Metropolitane
+        5 società in-house centrali e regionali
+      10 centrali di committenza nazionali e regionali
+
+      (INSERIRE LINK ALLEGATO 2 - Rilevazione spesa ICT della PA 2018 - Report di
+      sintesi)
+
+  # 25 da fare
+  - title: Monitoraggio spesa e progetti ICT
+    text: >
+      Le amministrazioni e gli enti individuati devono proseguire – o avviare - la
+      partecipazione alla Rilevazione sulla spesa ICT secondo le indicazioni di AGID,
+      sia nella fase di sperimentazione sia in quella di realizzazione e di follow-up.
