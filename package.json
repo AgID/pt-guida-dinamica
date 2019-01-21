@@ -5,34 +5,6 @@
   "version": "0.1.0",
   "author": "AGID",
   "dependencies": {
-    "gatsby": "^2.0.91",
-    "gatsby-image": "^2.0.26",
-    "gatsby-plugin-manifest": "^2.0.13",
-    "gatsby-plugin-offline": "^2.0.21",
-    "gatsby-plugin-react-helmet": "^3.0.2",
-    "gatsby-plugin-sass": "^2.0.7",
-    "gatsby-plugin-sharp": "^2.0.17",
-    "gatsby-source-filesystem": "^2.0.16",
-    "gatsby-transformer-sharp": "^2.1.10",
-    "gatsby-transformer-yaml": "^2.1.7",
-    "node-sass": "^4.11.0",
-    "prop-types": "^15.6.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-helmet": "^5.2.0",
-    "reactstrap": "^7.1.0"
-  },
-  "keywords": [
-    "piano triennale"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
-  },
-  "devDependencies": {
     "babel-eslint": "^10.0.1",
     "bootstrap-italia": "^0.29.3",
     "eslint": "^5.12.1",
@@ -43,11 +15,40 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-standard": "^4.0.0",
+    "gatsby": "^2.0.91",
+    "gatsby-image": "^2.0.26",
     "gatsby-plugin-eslint": "^2.0.3",
+    "gatsby-plugin-manifest": "^2.0.13",
+    "gatsby-plugin-offline": "^2.0.21",
+    "gatsby-plugin-react-helmet": "^3.0.2",
+    "gatsby-plugin-sass": "^2.0.7",
+    "gatsby-plugin-sharp": "^2.0.17",
     "gatsby-plugin-stylelint": "^3.1.0",
+    "gatsby-source-filesystem": "^2.0.16",
+    "gatsby-transformer-sharp": "^2.1.10",
+    "gatsby-transformer-yaml": "^2.1.7",
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0",
+    "pa11y-ci": "^2.1.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-helmet": "^5.2.0",
+    "reactstrap": "^7.1.0",
     "stylelint": "^9.10.1",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-webpack-plugin": "^0.10.5"
+  },
+  "keywords": [
+    "piano triennale"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "node_modules/gatsby/dist/bin/gatsby.js build --prefix-paths",
+    "develop": "node_modules/gatsby/dist/bin/gatsby.js develop",
+    "start": "npm run develop",
+    "test": "node_modules/pa11y-ci/bin/pa11y-ci.js ./public/{,**}/*.html",
+    "deploy": "node_modules/gh-pages/bin/gh-pages.js -d public -m 'Automated deploy'"
   },
   "repository": {
     "type": "git",

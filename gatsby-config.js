@@ -4,6 +4,7 @@ module.exports = {
     description: `Piano triennale ICT 2019-2021 - Guida dinamica`,
     author: `AGID`
   },
+  pathPrefix: '/pt-guida-dinamica',
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
