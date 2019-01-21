@@ -76,6 +76,11 @@ class SlimHeader extends React.Component {
                       </div>
                       <a
                         className="it-opener d-lg-none p-1 ml-auto"
+                        href="#slimHeaderLinks"
+                        role="button"
+                        aria-label="Espandi link slim header"
+                        aria-expanded={this.state.isOpen}
+                        aria-controls="slimHeaderLinks"
                         onClick={() => this.toggle()}>
                         <Icon icon="expand" />
                       </a>
@@ -83,6 +88,7 @@ class SlimHeader extends React.Component {
                     <Collapse
                       isOpen={this.state.isOpen}
                       className="link-list-wrapper"
+                      id="slimHeaderLinks"
                     >
                       <ul className="link-list border-0">
                         {this.props.slimHeaderLinks
