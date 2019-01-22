@@ -48,7 +48,7 @@
     "develop": "node node_modules/gatsby/dist/bin/gatsby.js develop",
     "start": "npm run develop",
     "test": "node node_modules/pa11y-ci/bin/pa11y-ci.js ./public/{,**}/*.html",
-    "deploy": "node node_modules/gh-pages/bin/gh-pages.js -d public -m 'Automated deploy'"
+    "deploy": "node node_modules/gh-pages/bin/gh-pages.js -d public -m 'Automated deploy [ci skip]'"
   },
   "repository": {
     "type": "git",
