@@ -6,6 +6,7 @@ import {
   Container,
   Row
 } from 'reactstrap';
+
 import Icon from './icon';
 import AgidLogo from '../images/logo-agid.svg';
 import DTLogo from '../images/logo-team-digitale.svg';
