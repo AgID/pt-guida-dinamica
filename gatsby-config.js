@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Piano triennale ICT 2019-2021 - Guida dinamica`,
     description: `Piano triennale ICT 2019-2021 - Guida dinamica`,
-    author: `AGID`
+    author: `AGID`,
+    keywords: [`piano triennale ict`, `AGID`, `piano triennale 2019 2021`, `guida dinamica`]
   },
   pathPrefix: '/pt-guida-dinamica',
   plugins: [
