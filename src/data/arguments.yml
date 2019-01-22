@@ -1,152 +1,150 @@
-arguments:
+- id: data-center-cloud
+  title: Data center e cloud
+  text: >
+    Il Cloud nell’ambito della trasformazione digitale rappresenta una delle
+    tecnologie “disruptive” con notevoli vantaggi in termini di: incremento di
+    affidabilità dei sistemi, qualità dei servizi erogati, risparmi di spesa
+    realizzabili con la migrazione dei data center esistenti verso il cloud e la
+    possibilità di pagare soltanto gli effettivi consumi (pay-per-use). L’adozione
+    del paradigma Cloud consente una vera e propria rivoluzione del modo di pensare
+    i processi di erogazione dei servizi della PA verso i cittadini.
+  link_visualizza_azioni:
+  link_approfondisci:
+  link_consulta_obiettivi:
 
-    - id: data-center-cloud
-      title: Data center e cloud
-      text: >
-        Il Cloud nell’ambito della trasformazione digitale rappresenta una delle
-        tecnologie “disruptive” con notevoli vantaggi in termini di: incremento di
-        affidabilità dei sistemi, qualità dei servizi erogati, risparmi di spesa
-        realizzabili con la migrazione dei data center esistenti verso il cloud e la
-        possibilità di pagare soltanto gli effettivi consumi (pay-per-use). L’adozione
-        del paradigma Cloud consente una vera e propria rivoluzione del modo di pensare
-        i processi di erogazione dei servizi della PA verso i cittadini.
-      link_visualizza_azioni:
-      link_approfondisci:
-      link_consulta_obiettivi:
+- id: connettivita
+  title: Connettività
+  text: >
+    In raccordo con il Piano Nazionale Banda Ultra Larga e con la strategia di
+    razionalizzazione delle risorse ICT della PA, è necessario che le PA
+    incrementino la loro connettività alla rete e razionalizzino le spese per la
+    connettività attraverso l’utilizzo delle gare SPC. Va inoltre garantita
+    l’interconnessione dei territori a SPC e la connettività per le sedi estere
+    della PA.
+  link_visualizza_azioni:
+  link_approfondisci:
+  link_consulta_obiettivi:
 
-    - id: connettivita
-      title: Connettività
-      text: >
-        In raccordo con il Piano Nazionale Banda Ultra Larga e con la strategia di
-        razionalizzazione delle risorse ICT della PA, è necessario che le PA
-        incrementino la loro connettività alla rete e razionalizzino le spese per la
-        connettività attraverso l’utilizzo delle gare SPC. Va inoltre garantita
-        l’interconnessione dei territori a SPC e la connettività per le sedi estere
-        della PA.
-      link_visualizza_azioni:
-      link_approfondisci:
-      link_consulta_obiettivi:
+- id: modello-di-interoperabilita
+  title: Modello di interoperabilità
+  text: >
+    La definizione del modello di interoperabilità facilita l’interazione e lo
+    scambio di informazioni tra le PA e armonizza le scelte architetturali delle PA.
+    Permette di individuare scelte tecnologiche che favoriscano lo sviluppo, da
+    parte di PA, cittadini e imprese, di soluzioni applicative tra loro integrate e
+    sicure.
+  link_visualizza_azioni:
+  link_approfondisci:
+  link_consulta_obiettivi:
 
-    - id: modello-di-interoperabilita
-      title: Modello di interoperabilità
-      text: >
-        La definizione del modello di interoperabilità facilita l’interazione e lo
-        scambio di informazioni tra le PA e armonizza le scelte architetturali delle PA.
-        Permette di individuare scelte tecnologiche che favoriscano lo sviluppo, da
-        parte di PA, cittadini e imprese, di soluzioni applicative tra loro integrate e
-        sicure.
-      link_visualizza_azioni:
-      link_approfondisci:
-      link_consulta_obiettivi:
+- id: dati-della-pa
+  title: Dati della PA
+  text: >
+    Le basi dati sono l’ossatura del patrimonio informativo pubblico da rendere
+    disponibile a tutte le PA, facilitando la condivisione dei dati ed evitando di
+    chiedere più volte la stessa informazione al cittadino o all’impresa.
+    Gli open data comportano un processo volto a rendere disponibili e
+    riutilizzabili, anche per finalità commerciali, i dati pubblici gestiti dalle
+    PA. I vocabolari controllati e i modelli di dati sono utili per favorire il
+    processo di scambio dati tra le PA tramite codici e ontologie condivisi. La PDND
+    è uno strumento operativo per valorizzare il patrimonio di informazioni della
+    PA, facilitandone l’accesso ai dati. 
+  link_visualizza_azioni:
+  link_approfondisci:
+  link_consulta_obiettivi:
 
-    - id: dati-della-pa
-      title: Dati della PA
-      text: >
-        Le basi dati sono l’ossatura del patrimonio informativo pubblico da rendere
-        disponibile a tutte le PA, facilitando la condivisione dei dati ed evitando di
-        chiedere più volte la stessa informazione al cittadino o all’impresa.
-        Gli open data comportano un processo volto a rendere disponibili e
-        riutilizzabili, anche per finalità commerciali, i dati pubblici gestiti dalle
-        PA. I vocabolari controllati e i modelli di dati sono utili per favorire il
-        processo di scambio dati tra le PA tramite codici e ontologie condivisi. La PDND
-        è uno strumento operativo per valorizzare il patrimonio di informazioni della
-        PA, facilitandone l’accesso ai dati. 
-      link_visualizza_azioni:
-      link_approfondisci:
-      link_consulta_obiettivi:
+- id: piattaforme
+  title: Piattaforme
+  text: >
+    Attraverso l’utilizzo delle Piattaforme si favorisce l’attuazione di un modello
+    uniforme di interazione per i servizi realizzati dalla PA per i cittadini e le
+    imprese. Le piattaforme abilitanti sollevano le amministrazioni dalla necessità
+    di dover acquistare e/o realizzare funzionalità comuni a più sistemi software,
+    semplificando la progettazione, riducendo i tempi e i costi di realizzazione di
+    nuovi servizi e garantendo maggiore sicurezza informatica.
+    Le piattaforme abilitanti consentono alle PA di gestire i procedimenti in modo
+    più efficace e veloce e di dialogare in maniera più efficiente tra di loro, con
+    minore richiesta di informazioni a cittadini ed imprese (principio Once only). 
+  link_visualizza_azioni:
+  link_approfondisci:
+  link_consulta_obiettivi:
 
-    - id: piattaforme
-      title: Piattaforme
-      text: >
-        Attraverso l’utilizzo delle Piattaforme si favorisce l’attuazione di un modello
-        uniforme di interazione per i servizi realizzati dalla PA per i cittadini e le
-        imprese. Le piattaforme abilitanti sollevano le amministrazioni dalla necessità
-        di dover acquistare e/o realizzare funzionalità comuni a più sistemi software,
-        semplificando la progettazione, riducendo i tempi e i costi di realizzazione di
-        nuovi servizi e garantendo maggiore sicurezza informatica.
-        Le piattaforme abilitanti consentono alle PA di gestire i procedimenti in modo
-        più efficace e veloce e di dialogare in maniera più efficiente tra di loro, con
-        minore richiesta di informazioni a cittadini ed imprese (principio Once only). 
-      link_visualizza_azioni:
-      link_approfondisci:
-      link_consulta_obiettivi:
+- id: ecosistemi
+  title: Ecosistemi
+  text: >
+    Le pubbliche amministrazioni applicano il modello basato su ecosistemi per
+    facilitare l’integrazione tra diverse pubbliche amministrazioni ed abilitare
+    l’interoperabilità e l’interscambio di dati, informazioni e servizi a livello
+    nazionale. Attraverso gli ecosistemi si sviluppa una visione orientata al
+    cittadino e alle imprese che conduce alla realizzazione di servizi che
+    semplificano l’interazione con le PA, con un approccio di sviluppo uniforme.
+  link_visualizza_azioni:
+  link_approfondisci:
+  link_consulta_obiettivi:
 
-    - id: ecosistemi
-      title: Ecosistemi
-      text: >
-        Le pubbliche amministrazioni applicano il modello basato su ecosistemi per
-        facilitare l’integrazione tra diverse pubbliche amministrazioni ed abilitare
-        l’interoperabilità e l’interscambio di dati, informazioni e servizi a livello
-        nazionale. Attraverso gli ecosistemi si sviluppa una visione orientata al
-        cittadino e alle imprese che conduce alla realizzazione di servizi che
-        semplificano l’interazione con le PA, con un approccio di sviluppo uniforme.
-      link_visualizza_azioni:
-      link_approfondisci:
-      link_consulta_obiettivi:
+- id: sicurezza
+  title: Sicurezza
+  text: >
+    La sicurezza ha un’importanza fondamentale in quanto garantisce la
+    disponibilità, l’integrità, la riservatezza delle informazioni proprie del
+    Sistema informativo della PA e la resilienza della complessa macchina
+    amministrativa, è inoltre direttamente collegata ai principi di privacy previsti
+    dall’ordinamento giuridico
+  link_visualizza_azioni:
+  link_approfondisci:
+  link_consulta_obiettivi:
 
-    - id: sicurezza
-      title: Sicurezza
-      text: >
-        La sicurezza ha un’importanza fondamentale in quanto garantisce la
-        disponibilità, l’integrità, la riservatezza delle informazioni proprie del
-        Sistema informativo della PA e la resilienza della complessa macchina
-        amministrativa, è inoltre direttamente collegata ai principi di privacy previsti
-        dall’ordinamento giuridico
-      link_visualizza_azioni:
-      link_approfondisci:
-      link_consulta_obiettivi:
+- id: servizi-digitali
+  title: Strumenti per la generazione e la diffusione dei servizi digitali
+  text: >
+    Cittadini e imprese accedono preferenzialmente attraverso interfacce digitali ai
+    servizi online, interoperabili e decentralizzati, messi a disposizione dalla PA.
+    Le amministrazioni pubbliche sono chiamate ad attuare progetti ad elevato
+    contenuto di innovazione, volti non soltanto alla razionalizzazione dei costi di
+    gestione e allo sviluppo dei servizi in un’ottica di modernizzazione degli
+    stessi, ma anche al rafforzamento di un processo di trasformazione dei servizi
+    pubblici offerti a cittadini e imprese che stimoli la domanda pubblica, accresca
+    la competitività dei territori e punti al miglioramento qualitativo delle
+    prestazioni fornite dal mercato.
+  link_visualizza_azioni:
+  link_approfondisci:
+  link_consulta_obiettivi:
 
-    - id: servizi-digitali
-      title: Strumenti per la generazione e la diffusione dei servizi digitali
-      text: >
-        Cittadini e imprese accedono preferenzialmente attraverso interfacce digitali ai
-        servizi online, interoperabili e decentralizzati, messi a disposizione dalla PA.
-        Le amministrazioni pubbliche sono chiamate ad attuare progetti ad elevato
-        contenuto di innovazione, volti non soltanto alla razionalizzazione dei costi di
-        gestione e allo sviluppo dei servizi in un’ottica di modernizzazione degli
-        stessi, ma anche al rafforzamento di un processo di trasformazione dei servizi
-        pubblici offerti a cittadini e imprese che stimoli la domanda pubblica, accresca
-        la competitività dei territori e punti al miglioramento qualitativo delle
-        prestazioni fornite dal mercato.
-      link_visualizza_azioni:
-      link_approfondisci:
-      link_consulta_obiettivi:
+- id: modelli-strumenti-innovazione
+  title: Modelli e strumenti per l'innovazione
+  text: >
+    Le amministrazioni pubbliche sono chiamate ad attuare progetti ad elevato
+    contenuto di innovazione, volti non soltanto alla razionalizzazione dei costi di
+    gestione e allo sviluppo dei servizi in un’ottica di modernizzazione degli
+    stessi, ma anche al rafforzamento di un processo di trasformazione dei servizi
+    pubblici offerti a cittadini e imprese che stimoli la domanda pubblica, accresca
+    la competitività dei territori e punti al miglioramento qualitativo delle
+    prestazioni fornite dal mercato.
+  link_visualizza_azioni:
+  link_approfondisci:
+  link_consulta_obiettivi:
 
-    - id: modelli-strumenti-innovazione
-      title: Modelli e strumenti per l'innovazione
-      text: >
-        Le amministrazioni pubbliche sono chiamate ad attuare progetti ad elevato
-        contenuto di innovazione, volti non soltanto alla razionalizzazione dei costi di
-        gestione e allo sviluppo dei servizi in un’ottica di modernizzazione degli
-        stessi, ma anche al rafforzamento di un processo di trasformazione dei servizi
-        pubblici offerti a cittadini e imprese che stimoli la domanda pubblica, accresca
-        la competitività dei territori e punti al miglioramento qualitativo delle
-        prestazioni fornite dal mercato.
-      link_visualizza_azioni:
-      link_approfondisci:
-      link_consulta_obiettivi:
+- id: governare-trasformazione-digitale
+  title: Governare la trasformazione digitale
+  text: >
+    Per raggiungere gli obiettivi definiti dal Piano Triennale è indispensabile il
+    coordinamento di una pluralità di soggetti, diversi nel ruolo, nella funzione e
+    nell’organizzazione, ma tutti chiamati a partecipare alla realizzazione della
+    strategia nazionale.
+  link_visualizza_azioni:
+  link_approfondisci:
+  link_consulta_obiettivi:
 
-    - id: governare-trasformazione-digitale
-      title: Governare la trasformazione digitale
-      text: >
-        Per raggiungere gli obiettivi definiti dal Piano Triennale è indispensabile il
-        coordinamento di una pluralità di soggetti, diversi nel ruolo, nella funzione e
-        nell’organizzazione, ma tutti chiamati a partecipare alla realizzazione della
-        strategia nazionale.
-      link_visualizza_azioni:
-      link_approfondisci:
-      link_consulta_obiettivi:
-
-    - id: rilevazione-spesa-ict
-      title: Rilevazione della spesa ICT
-      text: >
-        Le indicazioni per le PA contenute nel Piano Triennale tracciano la strada per
-        la razionalizzazione della spesa, intesa come percorso di riqualificazione
-        rispetto alla tipologia di spesa e di ottimizzazione rispetto ai canali di
-        acquisto. Con tale attività di analisi, AGID ha avviato un’azione di verifica e
-        valutazione della spesa e dei progetti ICT anche per individuare correlazioni su
-        come le diverse tipologie di progettualità della PA ritrovino coerenza nella
-        logica d’impianto del Piano Triennale.
-      link_visualizza_azioni:
-      link_approfondisci:
-      link_consulta_obiettivi:
+- id: rilevazione-spesa-ict
+  title: Rilevazione della spesa ICT
+  text: >
+    Le indicazioni per le PA contenute nel Piano Triennale tracciano la strada per
+    la razionalizzazione della spesa, intesa come percorso di riqualificazione
+    rispetto alla tipologia di spesa e di ottimizzazione rispetto ai canali di
+    acquisto. Con tale attività di analisi, AGID ha avviato un’azione di verifica e
+    valutazione della spesa e dei progetti ICT anche per individuare correlazioni su
+    come le diverse tipologie di progettualità della PA ritrovino coerenza nella
+    logica d’impianto del Piano Triennale.
+  link_visualizza_azioni:
+  link_approfondisci:
+  link_consulta_obiettivi:
