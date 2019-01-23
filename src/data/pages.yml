@@ -18,6 +18,24 @@
             slug: data-center-e-cloud
           - name: connettivita
             slug: connettivita
+          - name: modello-di-interoperabilita
+            slug: modello-di-interoperabilita
+          - name: dati-della-pa
+            slug: dati-della-pa
+          - name: piattaforme
+            slug: piattaforme
+          - name: ecosistemi
+            slug: ecosistemi
+          - name: sicurezza
+            slug: sicurezza
+          - name: servizi-digitali
+            slug: servizi-digitali
+          - name: modelli-strumenti-innovazione
+            slug: modelli-strumenti-innovazione
+          - name: governare-trasformazione-digitale
+            slug: governare-trasformazione-digitale
+          - name: rilevazione-spesa-ict
+            slug: rilevazione-spesa-ict
   - name: cittadini
     slug: cittadini
   - name: imprese
