@@ -1,0 +1,24 @@
+- name: home
+  slug: ''
+  subtree:
+  - name: pubblica-amministrazione
+    slug: pubblica-amministrazione
+    subtree:
+      - name: come-nasce-il-pt
+        slug: come-nasce-il-piano-triennale
+        subtree:
+          - name: '2017-2019'
+            slug: '2017-2019'
+          - name: '2019-2021'
+            slug: '2019-2021'
+      - name: cosa-e-stato-fatto
+        slug: cosa-e-stato-fatto-cosa-da-fare
+        subtree:
+          - name: data-center-e-cloud
+            slug: data-center-e-cloud
+          - name: connettivita
+            slug: connettivita
+  - name: cittadini
+    slug: cittadini
+  - name: imprese
+    slug: imprese

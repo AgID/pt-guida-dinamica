@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Piano triennale ICT 2019-2021 - Guida dinamica`,
     description: `Piano triennale ICT 2019-2021 - Guida dinamica`,
-    author: `AGID`
+    author: `AGID`,
+    keywords: [`piano triennale ict`, `AGID`, `piano triennale 2019 2021`, `guida dinamica`]
   },
   pathPrefix: '/pt-guida-dinamica',
   plugins: [
@@ -38,9 +39,17 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/data`,
+        path: `${__dirname}/src/data`
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: 'markdown-pages',
+      },
+    },
+    `gatsby-transformer-remark`
     // this (optional) plugin enables PWA + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',

@@ -6,6 +6,7 @@ import {
   Container,
   Row
 } from 'reactstrap';
+
 import Icon from './icon';
 
 const MainHeader = props => (
