@@ -45,12 +45,23 @@ const createMarkdownPages = (createPage, page, pageNav) => {
   });
 };
 
-const getPageNav = (current, parent, prev, next, firstChild) => {
+/**
+ * Given a page and its parent paths and a group of related page slugs
+ * returns an object with corresponding absolute paths to be consumed
+ * in a page navigation component.
+ * @param {string} currentPagePath - Absolute path of the current page.
+ * @param {string} parentPagePath - Absolute path of the parent page.
+ * @param {string} prevPage - Slug of the previous page.
+ * @param {string} nextPage - Slug of the next page.
+ * @param {string} firstChildPage - Slug of the first child page.
+ * @returns {number}
+ */
+const getPageNav = (currentPagePath, parentPagePath, prevPage, nextPage, firstChildPage) => {
   return {
-    parentPath: parent,
-    prevPath: (prev !== null) && [trimTrailingSlash(parent), prev].join('/'),
-    nextPath: (next !== null) && [trimTrailingSlash(parent), next].join('/'),
-    firstChildPath: firstChild && [current, firstChild].join('/')
+    parentPath: parentPagePath,
+    prevPath: (prevPage !== null) && [trimTrailingSlash(parentPagePath), prevPage].join('/'),
+    nextPath: (nextPage !== null) && [trimTrailingSlash(parentPagePath), nextPage].join('/'),
+    firstChildPath: firstChildPage && [currentPagePath, firstChildPage].join('/')
   };
 };
 
