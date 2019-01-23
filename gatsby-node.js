@@ -23,7 +23,7 @@ exports.createPages = ({ actions }) => {
 
 const createMarkdownPages = (createPage, page, pageNav) => {
   const pageTemplate = path.resolve(`src/templates/page.js`);
-  const pagePath = [(pageNav.parentPath || '').replace(/\/$/, ''), page.slug].join('/');
+  const pagePath = [trimTrailingSlash(pageNav.parentPath), page.slug].join('/');
 
   createPage({
     path: pagePath,
@@ -36,7 +36,7 @@ const createMarkdownPages = (createPage, page, pageNav) => {
 
   page.subtree && page.subtree.map((subPage, subPageIndex) => {
     createMarkdownPages(createPage, subPage, getPageNav(
-      [pagePath.replace(/\/$/, ''), subPage.slug].join('/'),
+      [trimTrailingSlash(pagePath), subPage.slug].join('/'),
       pagePath,
       (subPageIndex - 1) in page.subtree ? page.subtree[subPageIndex - 1].slug : null,
       (subPageIndex + 1) in page.subtree ? page.subtree[subPageIndex + 1].slug : null,
@@ -48,8 +48,10 @@ const createMarkdownPages = (createPage, page, pageNav) => {
 const getPageNav = (current, parent, prev, next, firstChild) => {
   return {
     parentPath: parent,
-    prevPath: (prev !== null) && [(parent || '').replace(/\/$/, ''), prev].join('/'),
-    nextPath: (next !== null) && [(parent || '').replace(/\/$/, ''), next].join('/'),
+    prevPath: (prev !== null) && [trimTrailingSlash(parent), prev].join('/'),
+    nextPath: (next !== null) && [trimTrailingSlash(parent), next].join('/'),
     firstChildPath: firstChild && [current, firstChild].join('/')
   };
 };
+
+const trimTrailingSlash = url => (url || '').replace(/\/$/, '');
