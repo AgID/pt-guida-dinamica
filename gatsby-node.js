@@ -14,22 +14,25 @@ exports.createPages = ({ actions }) => {
         (pageIndex - 1) in pagesArray ? pages[pageIndex - 1].slug : null,
         (pageIndex + 1) in pagesArray ? pages[pageIndex + 1].slug : null,
         pages[pageIndex].subtree ? pages[pageIndex].subtree[0].slug : null
-      ));
+      ), pages);
     });
   } catch (error) {
     console.error(error);
   }
 };
 
-const createMarkdownPages = (createPage, page, pageNav) => {
+const createMarkdownPages = (createPage, page, pageNav, siteNav) => {
   const pageTemplate = path.resolve(`src/templates/page.js`);
   const pagePath = [trimTrailingSlash(pageNav.parentPath), page.slug].join('/');
+
+  siteNav = siteNav[0].slug !== '' ? siteNav : siteNav[0].subtree;
 
   createPage({
     path: pagePath,
     component: pageTemplate,
     context: {
-      filenameRegex: `/${page.name}.md$/`,
+      filenameRegex: `/${page.slug}.md$/`,
+      siteNav: siteNav,
       pageNav: JSON.stringify(pageNav)
     }
   });
@@ -41,7 +44,7 @@ const createMarkdownPages = (createPage, page, pageNav) => {
       (subPageIndex - 1) in page.subtree ? page.subtree[subPageIndex - 1].slug : null,
       (subPageIndex + 1) in page.subtree ? page.subtree[subPageIndex + 1].slug : null,
       subPage.subtree ? subPage.subtree[0].slug : null
-    ));
+    ), siteNav);
   });
 };
 
