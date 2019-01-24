@@ -12,7 +12,7 @@ const Page = ({
   const pageNav = pageNavigation(JSON.parse(pageContext.pageNav));
 
   return (
-    <Layout>
+    <Layout menu={pageContext.siteNav}>
       <SEO title={frontmatter.title} />
       <div
         dangerouslySetInnerHTML={{ __html: html }}
