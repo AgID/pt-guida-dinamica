@@ -1,42 +1,42 @@
-- name: home
+- name: Home
   slug: ''
   subtree:
-  - name: pubblica-amministrazione
+  - name: Pubblica amministrazione
     slug: pubblica-amministrazione
     subtree:
-      - name: come-nasce-il-pt
+      - name: Come nasce il piano triennale
         slug: come-nasce-il-piano-triennale
         subtree:
-          - name: '2017-2019'
+          - name: 'Piano triennale 2017-2019'
             slug: '2017-2019'
-          - name: '2019-2021'
+          - name: 'Piano triennale 2019-2021'
             slug: '2019-2021'
-      - name: cosa-e-stato-fatto
+      - name: Cosa è stato fatto e cosa c'è da fare
         slug: cosa-e-stato-fatto-cosa-da-fare
         subtree:
-          - name: data-center-e-cloud
+          - name: Data center e cloud
             slug: data-center-e-cloud
-          - name: connettivita
+          - name: Connettività
             slug: connettivita
-          - name: modello-di-interoperabilita
+          - name: Modello di interoperabilità
             slug: modello-di-interoperabilita
-          - name: dati-della-pa
+          - name: Dati della PA
             slug: dati-della-pa
-          - name: piattaforme
+          - name: Piattaforme
             slug: piattaforme
-          - name: ecosistemi
+          - name: Ecosistemi
             slug: ecosistemi
-          - name: sicurezza
+          - name: Sicurezza
             slug: sicurezza
-          - name: servizi-digitali
+          - name: Strumenti per la generazione e la diffusione dei servizi digitali
             slug: servizi-digitali
-          - name: modelli-strumenti-innovazione
+          - name: Modelli e strumenti per l'innovazione
             slug: modelli-strumenti-innovazione
-          - name: governare-trasformazione-digitale
+          - name: Governare la trasformazione digitale
             slug: governare-trasformazione-digitale
-          - name: rilevazione-spesa-ict
+          - name: Rilevazione della spesa ICT
             slug: rilevazione-spesa-ict
-  - name: cittadini
+  - name: Cittadini
     slug: cittadini
-  - name: imprese
+  - name: Imprese
     slug: imprese
