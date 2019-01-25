@@ -30,7 +30,8 @@ const createMarkdownPages = (createPage, page, pageNav) => {
     component: pageTemplate,
     context: {
       filenameRegex: `/${page.name}.md$/`,
-      pageNav: JSON.stringify(pageNav)
+      pageNav: JSON.stringify(pageNav),
+      slug: page.slug
     }
   });
 

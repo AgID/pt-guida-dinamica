@@ -14,29 +14,54 @@
       - name: cosa-e-stato-fatto
         slug: cosa-e-stato-fatto-cosa-da-fare
         subtree:
-          - name: data-center-e-cloud
+          - name: pa/data-center-e-cloud
             slug: data-center-e-cloud
-          - name: connettivita
+          - name: pa/connettivita
             slug: connettivita
-          - name: modello-di-interoperabilita
+          - name: pa/modello-di-interoperabilita
             slug: modello-di-interoperabilita
-          - name: dati-della-pa
+          - name: pa/dati-della-pa
             slug: dati-della-pa
-          - name: piattaforme
+          - name: pa/piattaforme
             slug: piattaforme
-          - name: ecosistemi
+          - name: pa/ecosistemi
             slug: ecosistemi
-          - name: sicurezza
+          - name: pa/sicurezza
             slug: sicurezza
-          - name: servizi-digitali
+          - name: pa/servizi-digitali
             slug: servizi-digitali
-          - name: modelli-strumenti-innovazione
+          - name: pa/modelli-strumenti-innovazione
             slug: modelli-strumenti-innovazione
-          - name: governare-trasformazione-digitale
+          - name: pa/governare-trasformazione-digitale
             slug: governare-trasformazione-digitale
-          - name: rilevazione-spesa-ict
+          - name: pa/rilevazione-spesa-ict
             slug: rilevazione-spesa-ict
   - name: cittadini
     slug: cittadini
+    subtree:
+      - name: cittadini/accessibilita
+        slug: accessibilita
+      - name: cittadini/anpr
+        slug: anpr
+      - name: cittadini/catalogo-servizi
+        slug: catalogo-servizi
+      - name: cittadini/cie
+        slug: cie
+      - name: cittadini/cloud
+        slug: cloud
+      - name: cittadini/dati-aperti
+        slug: dati-aperti
+      - name: cittadini/diritti
+        slug: diritti
+      - name: cittadini/ipa
+        slug: ipa
+      - name: cittadini/pagamenti
+        slug: pagamenti
+      - name: cittadini/sicurezza
+        slug: sicurezza
+      - name: cittadini/spid
+        slug: spid
+      - name: cittadini/wifi
+        slug: wifi
   - name: imprese
     slug: imprese

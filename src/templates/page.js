@@ -4,11 +4,22 @@ import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
+const Card = ({ card }) => (
+  <div class="card-wrapper">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{card.node.title}</h5>
+        <p class="card-text">{card.node.text}</p>
+      </div>
+    </div>
+  </div>
+);
+
 const Page = ({
   data, pageContext
 }) => {
-  const { markdownRemark } = data;
-  const { frontmatter, html } = markdownRemark;
+  const { page, cards } = data;
+  const { frontmatter, html } = page;
   const pageNav = pageNavigation(JSON.parse(pageContext.pageNav));
 
   return (
@@ -17,6 +28,23 @@ const Page = ({
       <div
         dangerouslySetInnerHTML={{ __html: html }}
       />
+
+      <h2>Cosa è stato fatto</h2>
+      <div class="d-flex">
+        {(cards ? cards.edges : [])
+          .filter(card => card.node.tags.indexOf('fatto') !== -1)
+          .map(card => <Card card={card} />)
+        }
+      </div>
+
+      <h2>Cosa rimane da fare</h2>
+      <div class="d-flex">
+        {(cards ? cards.edges : [])
+          .filter(card => card.node.tags.indexOf('da-fare') !== -1)
+          .map(card => <Card card={card} />)
+        }
+      </div>
+
       {pageNav}
     </Layout>
   );
@@ -32,11 +60,20 @@ const pageNavigation = pageNav => {
 };
 
 export const pageQuery = graphql`
-  query($filenameRegex: String!) {
-    markdownRemark(fileAbsolutePath: { regex: $filenameRegex }) {
+  query($filenameRegex: String!, $slug: String!) {
+    page: markdownRemark(fileAbsolutePath: { regex: $filenameRegex }) {
       html
       frontmatter {
         title
+      }
+    }
+    cards: allCardsYaml(filter: { tags: { in: [ $slug ] }}) {
+      edges {
+        node {
+          title
+          text
+          tags
+        }
       }
     }
   }
