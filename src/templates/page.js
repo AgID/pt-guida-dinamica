@@ -5,11 +5,11 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 
 const Card = ({ card }) => (
-  <div class="card-wrapper">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">{card.node.title}</h5>
-        <p class="card-text">{card.node.text}</p>
+  <div className="card-wrapper col-lg-4 col-xl-4 col-sm-12 col-12">
+    <div className="card">
+      <div className="card-body">
+        <h5 className="card-title">{card.node.title}</h5>
+        <p className="card-text">{card.node.text}</p>
       </div>
     </div>
   </div>
@@ -22,6 +22,14 @@ const Page = ({
   const { frontmatter, html } = page;
   const pageNav = pageNavigation(JSON.parse(pageContext.pageNav));
 
+  const done = (cards ? cards.edges : [])
+    .filter(card => card.node.tags.indexOf('fatto') !== -1)
+    .map(card => <Card card={card} />);
+
+  const todo = (cards ? cards.edges : [])
+    .filter(card => card.node.tags.indexOf('da-fare') !== -1)
+    .map(card => <Card card={card} />);
+
   return (
     <Layout menu={pageContext.siteNav}>
       <SEO title={frontmatter.title} />
@@ -29,24 +37,26 @@ const Page = ({
         dangerouslySetInnerHTML={{ __html: html }}
       />
 
-      <h2>Cosa è stato fatto</h2>
-      <div class="d-flex">
-        {(cards ? cards.edges : [])
-          .filter(card => card.node.tags.indexOf('fatto') !== -1)
-          .map(card => <Card card={card} />)
-        }
-      </div>
+      {done[0] && (
+        <>
+          <h2>Cosa è stato fatto</h2>
+          <div className="d-flex flex-wrap">
+            {done}
+          </div>
+        </>
+      )}
 
-      <h2>Cosa rimane da fare</h2>
-      <div class="d-flex">
-        {(cards ? cards.edges : [])
-          .filter(card => card.node.tags.indexOf('da-fare') !== -1)
-          .map(card => <Card card={card} />)
-        }
-      </div>
+      {todo[0] && (
+        <>
+          <h2>Cosa rimane da fare</h2>
+          <div className="d-flex flex-wrap">
+            {todo}
+          </div>
+        </>
+      )}
 
       {pageNav}
-    </Layout>
+    </Layout >
   );
 };
 
