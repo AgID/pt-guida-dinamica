@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
+import { CSSTransition } from 'react-transition-group';
 import { Link } from 'gatsby';
 import {
   Col,
@@ -84,7 +85,7 @@ class MegaMenu extends React.Component {
     return menuTree && menuTree.map((subMenuItem, subMenuIndex) => {
       let subColSizes = colSizes && subMenuItem.subtree && subMenuItem.subtree.map(subTreeMenuItem => {
         let subColSize = 12;
-        (subMenuIndex === maxDepthMenuItem.index) && (
+        maxDepthMenuItem && (subMenuIndex === maxDepthMenuItem.index) && (
           subColSize = colSizes[subMenuIndex] === 8 ? 6 : 4
         );
 
@@ -139,105 +140,117 @@ class MegaMenu extends React.Component {
         >
           <Icon icon="list" />
         </button>
-        <div
-          className={classNames('navbar-collapsable d-block', { expanded: this.state.isOffcanvasOpen })}
-          id="megaMenu"
-          style={{
-            visibility: this.state.isOffcanvasOpen ? 'visible' : 'hidden',
+        <CSSTransition
+          in={this.state.isOffcanvasOpen}
+          timeout={{
+            enter: 1,
+            exit: 300,
+          }}
+          classNames={{
+            enter: 'navbar-collapsable d-block',
+            enterDone: 'navbar-collapsable d-block expanded',
+            exit: 'navbar-collapsable d-block',
+            exitDone: 'navbar-collapsable',
           }}
         >
-          <div
-            className="overlay"
-            onClick={() => this.toggleOffcanvas()}
-            style={{ display: this.state.isOffcanvasOpen && 'block' }}
-          ></div>
-          <div className="close-div sr-only">
-            <button
-              className="btn close-menu"
-              type="button"
-              onClick={() => this.toggleOffcanvas()}
+          {state => (
+            <div
+              className='navbar-collapsable'
+              id="megaMenu"
             >
-              <Icon icon="close" />close
-            </button>
-          </div>
-          <div className="menu-wrapper">
-            <ul className="navbar-nav">
-              {this.props.menu.map(menuItem => (
-                <li
-                  key={menuItem.slug}
-                  className={classNames({
-                    'mb-3': this.state.isOffcanvasOpen
-                  })}
-                >{menuItem.subtree ? (
-                    <Dropdown
-                      isOpen={this.state.isOffcanvasOpen || this.state.isDropdownOpen[menuItem.slug]}
-                      toggle={() => this.toggleDropdown(menuItem.slug)}
-                      className="nav-item megamenu"
-                    >
-                      <DropdownToggle
-                        tag="a"
+              <div
+                className="overlay d-block"
+                onClick={() => this.toggleOffcanvas()}
+              ></div>
+              <div className="close-div sr-only">
+                <button
+                  className="btn close-menu"
+                  type="button"
+                  onClick={() => this.toggleOffcanvas()}
+                >
+                  <Icon icon="close" />close
+                </button>
+              </div>
+              <div className="menu-wrapper">
+                <ul className="navbar-nav">
+                  {this.props.menu.map(menuItem => (
+                    <li
+                      key={menuItem.slug}
+                      className={classNames({
+                        'mb-3': this.state.isOffcanvasOpen
+                      })}
+                    >{menuItem.subtree ? (
+                        <Dropdown
+                          isOpen={this.state.isOffcanvasOpen || this.state.isDropdownOpen[menuItem.slug]}
+                          toggle={() => this.toggleDropdown(menuItem.slug)}
+                          className="nav-item megamenu"
+                        >
+                          <DropdownToggle
+                            tag="a"
+                            className="nav-link dropdown-toggle"
+                            style={{
+                              marginBottom: this.state.isOffcanvasOpen && '-16px',
+                              cursor: 'pointer'
+                            }}
+                          >
+                            {menuItem.name}
+                            <Icon
+                              icon="expand"
+                              className={classNames(
+                                'icon-xs',
+                                'ml-1',
+                                { 'd-none': this.state.isOffcanvasOpen }
+                              )}
+                            />
+                          </DropdownToggle>
+                          <DropdownMenu modifiers={{
+                            relativePosition: {
+                              enabled: true,
+                              order: 890,
+                              fn: data => {
+                                data = this.state.isOffcanvasOpen
+                                  ? {
+                                    ...data,
+                                    styles: {
+                                      ...data.styles,
+                                      borderRadius: '4px',
+                                      position: 'relative',
+                                      transform: 'none',
+                                      animationDuration: '0.1s'
+                                    }
+                                  } : {
+                                    ...data,
+                                    styles: {
+                                      ...data.styles,
+                                      borderRadius: '4px',
+                                      transform: 'translate3d(25px, 35px, 0px)',
+                                      animationDuration: '0.1s'
+                                    }
+                                  };
+                                return data;
+                              },
+                            },
+                          }}
+                          className="p-3"
+                          >
+                            <Row>
+                              {this.renderMenu(menuItem.slug, menuItem.subtree)}
+                            </Row>
+                          </DropdownMenu>
+                        </Dropdown>
+                      ) : <Link
+                        to={`/${menuItem.slug}`}
                         className="nav-link dropdown-toggle"
-                        style={{
-                          marginBottom: this.state.isOffcanvasOpen && '-16px',
-                          cursor: 'pointer'
-                        }}
                       >
                         {menuItem.name}
-                        <Icon
-                          icon="expand"
-                          className={classNames(
-                            'icon-xs',
-                            'ml-1',
-                            { 'd-none': this.state.isOffcanvasOpen }
-                          )}
-                        />
-                      </DropdownToggle>
-                      <DropdownMenu modifiers={{
-                        relativePosition: {
-                          enabled: true,
-                          order: 890,
-                          fn: data => {
-                            data = this.state.isOffcanvasOpen
-                              ? {
-                                ...data,
-                                styles: {
-                                  ...data.styles,
-                                  borderRadius: '4px',
-                                  position: 'relative',
-                                  transform: 'none',
-                                  animationDuration: '0.1s'
-                                }
-                              } : {
-                                ...data,
-                                styles: {
-                                  ...data.styles,
-                                  borderRadius: '4px',
-                                  transform: 'translate3d(25px, 35px, 0px)',
-                                  animationDuration: '0.1s'
-                                }
-                              };
-                            return data;
-                          },
-                        },
-                      }}
-                      className="p-3"
-                      >
-                        <Row>
-                          {this.renderMenu(menuItem.slug, menuItem.subtree)}
-                        </Row>
-                      </DropdownMenu>
-                    </Dropdown>
-                  ) : <Link
-                    to={`/${menuItem.slug}`}
-                    className="nav-link dropdown-toggle"
-                  >
-                    {menuItem.name}
-                  </Link>}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
+                      </Link>}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          )}
+        </CSSTransition>
       </nav>
     );
   }
