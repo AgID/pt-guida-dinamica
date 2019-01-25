@@ -12,7 +12,7 @@ import SlimHeader from './slimHeader';
 import MainHeader from './mainHeader';
 import Footer from './footer';
 
-const Layout = ({ children }) => (
+const Layout = props => (
   <StaticQuery
     query={graphql`
       query SiteConfigQuery {
@@ -53,11 +53,12 @@ const Layout = ({ children }) => (
           title={data.configYaml.title}
           description={data.configYaml.description}
           socialLinks={data.configYaml.socialLinks}
+          menu={props.menu}
         />
         <Container>
           <Row>
-            <Col xs="12">
-              {children}
+            <Col xs="12" className="my-4">
+              {props.children}
             </Col>
           </Row>
         </Container>
@@ -72,6 +73,7 @@ const Layout = ({ children }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  menu: PropTypes.array.isRequired
 };
 
 export default Layout;

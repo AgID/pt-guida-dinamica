@@ -1,67 +1,67 @@
-- name: home
+- name: Home
   slug: ''
   subtree:
-  - name: pubblica-amministrazione
+  - name: Pubblica amministrazione
     slug: pubblica-amministrazione
     subtree:
-      - name: come-nasce-il-pt
+      - name: Come nasce il piano triennale
         slug: come-nasce-il-piano-triennale
         subtree:
-          - name: '2017-2019'
+          - name: 'Piano triennale 2017-2019'
             slug: '2017-2019'
-          - name: '2019-2021'
+          - name: 'Piano triennale 2019-2021'
             slug: '2019-2021'
-      - name: cosa-e-stato-fatto
+      - name: Cosa è stato fatto e cosa c'è da fare
         slug: cosa-e-stato-fatto-cosa-da-fare
         subtree:
-          - name: pa/data-center-e-cloud
+          - name: Data center e cloud
             slug: data-center-e-cloud
-          - name: pa/connettivita
+          - name: Connettività
             slug: connettivita
-          - name: pa/modello-di-interoperabilita
+          - name: Modello di interoperabilità
             slug: modello-di-interoperabilita
-          - name: pa/dati-della-pa
+          - name: Dati della PA
             slug: dati-della-pa
-          - name: pa/piattaforme
+          - name: Piattaforme
             slug: piattaforme
-          - name: pa/ecosistemi
+          - name: Ecosistemi
             slug: ecosistemi
-          - name: pa/sicurezza
+          - name: Sicurezza
             slug: sicurezza
-          - name: pa/servizi-digitali
+          - name: Strumenti per la generazione e la diffusione dei servizi digitali
             slug: servizi-digitali
-          - name: pa/modelli-strumenti-innovazione
+          - name: Modelli e strumenti per l'innovazione
             slug: modelli-strumenti-innovazione
-          - name: pa/governare-trasformazione-digitale
+          - name: Governare la trasformazione digitale
             slug: governare-trasformazione-digitale
-          - name: pa/rilevazione-spesa-ict
+          - name: Rilevazione della spesa ICT
             slug: rilevazione-spesa-ict
-  - name: cittadini
+  - name: Cittadini
     slug: cittadini
     subtree:
-      - name: cittadini/accessibilita
+      - name: Accessibilita
         slug: accessibilita
-      - name: cittadini/anpr
+      - name: ANPR
         slug: anpr
-      - name: cittadini/catalogo-servizi
+      - name: Catalogo servizi
         slug: catalogo-servizi
-      - name: cittadini/cie
+      - name: CIE
         slug: cie
-      - name: cittadini/cloud
+      - name: Cloud
         slug: cloud
-      - name: cittadini/dati-aperti
+      - name: Dati aperti
         slug: dati-aperti
-      - name: cittadini/diritti
+      - name: Diritti
         slug: diritti
-      - name: cittadini/ipa
+      - name: IPA
         slug: ipa
-      - name: cittadini/pagamenti
+      - name: Pagamenti
         slug: pagamenti
-      - name: cittadini/sicurezza
+      - name: Sicurezza
         slug: sicurezza
-      - name: cittadini/spid
+      - name: SPID
         slug: spid
-      - name: cittadini/wifi
+      - name: Wi-fi
         slug: wifi
   - name: imprese
     slug: imprese

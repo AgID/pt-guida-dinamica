@@ -15,10 +15,13 @@ class SlimHeader extends React.Component {
   };
 
   toggle() {
-    this.setState({
-      isOpen: !this.state.isOpen
+    this.setState(prevState => {
+      return {
+        isOpen: !prevState.isOpen
+      };
     });
   }
+
   render() {
     return (
       <div className="it-header-slim-wrapper">
@@ -49,7 +52,7 @@ class SlimHeader extends React.Component {
                     ])
                   }
                 </div>
-                <span className="nav-palce-mobile col-12 col-lg-auto">
+                <span className="nav-mobile col-12 col-lg-auto">
                   <nav>
                     <div className="d-flex">
                       <div className="d-lg-none">
@@ -77,12 +80,12 @@ class SlimHeader extends React.Component {
                       </div>
                       <a
                         className="it-opener d-lg-none p-1 ml-auto"
-                        href="#slimHeaderLinks"
                         role="button"
                         aria-label="Espandi link slim header"
                         aria-expanded={this.state.isOpen}
                         aria-controls="slimHeaderLinks"
-                        onClick={() => this.toggle()}>
+                        onClick={() => this.toggle()}
+                      >
                         <Icon icon="expand" />
                       </a>
                     </div>
