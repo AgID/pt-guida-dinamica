@@ -2,52 +2,52 @@
   text: >
     Da novembre 2017 è online la circolare n. 5/2017 «Censimento del Patrimonio ICT
     delle Amministrazioni e qualificazione dei Poli Strategici Nazionali».
-  tags: [ fatto, data-center-cloud ]
+  tags: [ fatto, data-center-e-cloud ]
 
 - title: Censimento del patrimonio ICT
   text: >
     Dopo una prima fase di rilevazione, avviata a dicembre 2017, ad aprile 2018 è
     stata avviata la seconda fase.
-  tags: [ fatto, data-center-cloud ]
+  tags: [ fatto, data-center-e-cloud ]
 
 - title: Circolari 2 e 3/2018 Cloud della PA
   text: >
     Da aprile 2018 sono state avviate le qualificazioni dei Cloud Service Provider
     (CSP) ed è stato realizzato il registro pubblico dei CSP.
-  tags: [ fatto, data-center-cloud ]
+  tags: [ fatto, data-center-e-cloud ]
 
 - title: Marketplace della PA
   text: >
     Da aprile 2018 è stato realizzato il catalogo dei servizi cloud qualificati, la
     piattaforma espone servizi e infrastrutture qualificate da AGID secondo quanto
     previsto dalle circolari.
-  tags: [ fatto, data-center-cloud ]
+  tags: [ fatto, data-center-e-cloud ]
 
 - title: Portale cloud.italia.it
   text: >
     Da giugno 2018 è stato pubblicato il portale cloud.italia.it per rendere più
     fruibile la strategia sull’adozione del Cloud Computing nella PA e diffondere
     informazioni e strumenti utili.
-  tags: [ fatto, data-center-cloud ]
+  tags: [ fatto, data-center-e-cloud ]
 
 - title: Servizi Cloud qualificati
   text: >
     Dal 1° aprile 2019, le PA possono acquisire solo servizi IaaS, PaaS e SaaS
     qualificati da AGID e pubblicati nel Cloud Marketplace.
-  tags: [ da-fare, data-center-cloud ]
+  tags: [ da-fare, data-center-e-cloud ]
 
 - title: Acquisti infrastrutture
   text: >
     Le PA non possono effettuare spese o investimenti in materia di data center,
     secondo le indicazioni e le eccezioni indicate nella circolare AGID n.2/2016 e
     nella circolare AGID n.5/2017.
-  tags: [ da-fare, data-center-cloud ]
+  tags: [ da-fare, data-center-e-cloud ]
 
 - title: Piani di migrazione
   text: >
     Le PA dovranno progressivamente definire un piano per la migrazione verso il
     Cloud della PA.
-  tags: [ da-fare, data-center-cloud ]
+  tags: [ da-fare, data-center-e-cloud ]
 
 - title: I nuovi contratti SPC2
   text: >

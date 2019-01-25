@@ -38,5 +38,30 @@
             slug: rilevazione-spesa-ict
   - name: Cittadini
     slug: cittadini
-  - name: Imprese
+    subtree:
+      - name: Accessibilita
+        slug: accessibilita
+      - name: ANPR
+        slug: anpr
+      - name: Catalogo servizi
+        slug: catalogo-servizi
+      - name: CIE
+        slug: cie
+      - name: Cloud
+        slug: cloud
+      - name: Dati aperti
+        slug: dati-aperti
+      - name: Diritti
+        slug: diritti
+      - name: IPA
+        slug: ipa
+      - name: Pagamenti
+        slug: pagamenti
+      - name: Sicurezza
+        slug: sicurezza
+      - name: SPID
+        slug: spid
+      - name: Wi-fi
+        slug: wifi
+  - name: imprese
     slug: imprese
