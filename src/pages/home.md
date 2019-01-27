@@ -1,25 +1,44 @@
 ---
-title: Home
+title: Guida dinamica al Piano Triennale 2019-2021
 ---
-# Home
 
-Morbi ligula arcu, consectetur a condimentum vitae, pretium eget felis. Aliquam
-venenatis augue quam, ut venenatis mi fringilla sed. Nam ut nisl quis ipsum
-interdum viverra. Nam congue eleifend sagittis. Sed libero metus, dictum viverra
-sapien in, iaculis aliquet nisi. Donec tincidunt, ipsum nec tristique luctus,
-lectus lorem tincidunt augue, vel hendrerit diam sapien vitae tortor.
-Suspendisse potenti. Cras eget nulla tempus, varius orci nec, tincidunt augue.
-Curabitur tempus massa at leo ornare, sit amet posuere nulla gravida. Vestibulum
-eget orci condimentum, imperdiet elit vel, efficitur metus. Vivamus laoreet
-rhoncus convallis. Pellentesque maximus enim metus, non placerat nisl fermentum
-a. Praesent ornare diam quis rutrum rutrum. Cras vestibulum suscipit
-sollicitudin.
+La Guida dinamica alla lettura del Piano Triennale per l’informatica nella
+Pubblica Amministrazione è lo strumento che ha l’obiettivo di permettere una
+migliore comprensione del Piano attraverso l’approfondimento delle sue diverse
+parti, evidenziando le azioni che hanno un impatto su pubbliche amministrazioni,
+cittadini e imprese.
 
-Phasellus eros sem, sagittis quis odio quis, efficitur efficitur elit. Curabitur
-consectetur eleifend sodales. Vestibulum in eleifend nibh, ac porta leo. Orci
-varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-mus. Vivamus non mollis dui. Quisque tortor purus, lobortis eu bibendum vitae,
-feugiat eu orci. Nulla facilisi. Nam dolor ligula, vehicula non accumsan quis,
-facilisis at lacus. Etiam placerat ipsum quis est semper, nec pretium risus
-tincidunt. Integer auctor condimentum ex. Maecenas turpis lectus, mollis a
-turpis a, bibendum dignissim sem.
+## Perché un modello strategico ICT per la Pubblica Amministrazione?
+
+L’attuazione dell’Agenda digitale italiana richiede il coordinamento di
+molteplici azioni in capo alla Pubblica Amministrazione, alle imprese e alla
+società civile, una gestione integrata delle diverse fonti di finanziamento
+nazionali e comunitarie oltre che un indirizzo uniforme nell’interpretazione
+delle norme in materia di digitale.
+
+Attraverso il Piano Triennale, quindi, si dà attuazione al modello strategico
+per lo sviluppo del digitale secondo cui:
+
+* Il livello nazionale definisce le strategie, le regole e gli standard, realizza
+  inoltre le piattaforme abilitanti che ottimizzano gli investimenti.
+* Le amministrazioni sviluppano servizi secondo le proprie specificità, anche
+  territoriali, utilizzando competenze interne e/o di mercato.
+* Le imprese programmano investimenti di lungo periodo e sfruttano le nuove
+  opportunità di mercato creando soluzioni che si integrino con le piattaforme
+  nazionali.
+
+## Obiettivi del piano triennale
+
+* abilitare una strategia di Paese a livello locale e nazionale, inserendo il
+  sistema informativo della Pubblica Amministrazione in un quadro organico in
+  base a quanto previsto dagli obiettivi dell’Agenda digitale italiana
+* indirizzare l’attuazione dei principi di razionalizzazione della spesa
+  definiti dalla Legge di Stabilità 2016
+* definire regole di interoperabilità, usabilità, standard e ontologie per le
+  infrastrutture immateriali e fisiche nazionali, oltre che il modello di
+  cooperazione fra ecosistemi e piattaforme
+* accompagnare le amministrazioni nella realizzazione di servizi digitali,
+  organizzati in ecosistemi secondo i bisogni di cittadini e imprese 
+* facilitare il rapporto con il mercato definendo standard di riferimento e
+  priorità, coinvolgendo anche i soggetti privati nello sviluppo di servizi
+  integrati ed interoperabili.

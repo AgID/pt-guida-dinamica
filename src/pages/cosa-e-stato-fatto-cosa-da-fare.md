@@ -1,7 +1,6 @@
 ---
 title: Cosa è stato fatto e cosa c'è da fare
 ---
-# Cosa è stato fatto e cosa c'è da fare
 
 Morbi ligula arcu, consectetur a condimentum vitae, pretium eget felis. Aliquam
 venenatis augue quam, ut venenatis mi fringilla sed. Nam ut nisl quis ipsum
