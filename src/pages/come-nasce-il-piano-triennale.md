@@ -1,25 +1,20 @@
 ---
 title: Come nasce il piano triennale
 ---
-# Come nasce il piano triennale
 
-Morbi ligula arcu, consectetur a condimentum vitae, pretium eget felis. Aliquam
-venenatis augue quam, ut venenatis mi fringilla sed. Nam ut nisl quis ipsum
-interdum viverra. Nam congue eleifend sagittis. Sed libero metus, dictum viverra
-sapien in, iaculis aliquet nisi. Donec tincidunt, ipsum nec tristique luctus,
-lectus lorem tincidunt augue, vel hendrerit diam sapien vitae tortor.
-Suspendisse potenti. Cras eget nulla tempus, varius orci nec, tincidunt augue.
-Curabitur tempus massa at leo ornare, sit amet posuere nulla gravida. Vestibulum
-eget orci condimentum, imperdiet elit vel, efficitur metus. Vivamus laoreet
-rhoncus convallis. Pellentesque maximus enim metus, non placerat nisl fermentum
-a. Praesent ornare diam quis rutrum rutrum. Cras vestibulum suscipit
-sollicitudin.
+Previsto dal CAD (art. 14-bis, lettera b) e dalla Legge di stabilità 2016 (art.
+1, comma 513 e seguenti), il Piano Triennale è stato costruito sulla base del
+Modello strategico di evoluzione del sistema informativo della Pubblica
+Amministrazione e ha come riferimento le azioni, la definizione dei fabbisogni
+finanziari e gli indicatori indicati nella Strategia per la Crescita Digitale,
+secondo le linee guida del Governo e in coerenza con gli obiettivi e i programmi
+europei per la trasformazione digitale. 
 
-Phasellus eros sem, sagittis quis odio quis, efficitur efficitur elit. Curabitur
-consectetur eleifend sodales. Vestibulum in eleifend nibh, ac porta leo. Orci
-varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-mus. Vivamus non mollis dui. Quisque tortor purus, lobortis eu bibendum vitae,
-feugiat eu orci. Nulla facilisi. Nam dolor ligula, vehicula non accumsan quis,
-facilisis at lacus. Etiam placerat ipsum quis est semper, nec pretium risus
-tincidunt. Integer auctor condimentum ex. Maecenas turpis lectus, mollis a
-turpis a, bibendum dignissim sem.
+2015 Strategia per la Crescita Digitale Rappresenta l’Agenda Digitale italiana
+approvata dal Governo e dalla Commissione Europea.
+
+2016 Modello Strategico ICT Individua gli elementi tecnici abilitanti per
+realizzare l’Agenda Digitale.
+
+2017 Piano Triennale ICT Declina azioni e obiettivi da raggiungere per ogni
+elemento del modello.
