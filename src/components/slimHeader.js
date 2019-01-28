@@ -53,7 +53,7 @@ class SlimHeader extends React.Component {
                   }
                 </div>
                 <span className="nav-mobile col-12 col-lg-auto">
-                  <nav>
+                  <nav aria-label="navigazione network">
                     <div className="d-flex">
                       <div className="d-lg-none">
                         {this.props.owners

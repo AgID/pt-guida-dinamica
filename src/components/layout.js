@@ -55,7 +55,7 @@ const Layout = props => (
           socialLinks={data.configYaml.socialLinks}
           menu={props.menu}
         />
-        <Container>
+        <Container role="main">
           <Row>
             <Col xs="12" className="my-4">
               {props.children}

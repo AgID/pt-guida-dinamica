@@ -55,7 +55,7 @@ const MainHeader = props => (
       </Container>
     </header>
     <div className="navbar">
-      <Container >
+      <Container className="d-block">
         <MegaMenu menu={props.menu}/>
       </Container>
     </div>
