@@ -1,5 +1,5 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'gatsby';
 import {
@@ -14,7 +14,7 @@ import Icon from './icon';
 const PageNav = props => (
   <Container className="py-3">
     <Row>
-      <Col xs="12" lg="4" className="align-self-center text-left">
+      <Col xs="12" lg="4" className="align-self-center text-center text-lg-left mb-2 mb-lg-0">
         {props.left.path && (
           <Link to={props.left.path}>
             <Button
@@ -33,7 +33,7 @@ const PageNav = props => (
       </Col>
       <Col xs="12" lg="4">
         {props.up.path && (
-          <Col xs="12" className={classNames('text-center', { 'mb-2': props.down.path })}>
+          <Col xs="12" className={classNames('text-center p-0', { 'mb-2': props.down.path })}>
             <Link to={props.up.path}>
               <Button
                 outline
@@ -50,7 +50,7 @@ const PageNav = props => (
           </Col>
         )}
         {props.down.path && (
-          <Col xs="12" className="text-center">
+          <Col xs="12" className="text-center p-0">
             <Link to={props.down.path}>
               <Button
                 outline
@@ -67,7 +67,7 @@ const PageNav = props => (
           </Col>
         )}
       </Col>
-      <Col xs="12" lg="4" className="align-self-center text-right">
+      <Col xs="12" lg="4" className="align-self-center text-center text-lg-right mt-2 mb-lg-0">
         {props.right.path && (
           <Link to={props.right.path}>
             <Button
@@ -88,18 +88,23 @@ const PageNav = props => (
   </Container>
 );
 
-// MainHeader.propTypes = {
-//   title: PropTypes.string.isRequired,
-//   description: PropTypes.string.isRequired,
-//   socialLinks:
-//     PropTypes.arrayOf(
-//       PropTypes.exact({
-//         name: PropTypes.string.isRequired,
-//         url: PropTypes.string.isRequired,
-//         icon: PropTypes.string.isRequired
-//       })
-//     ).isRequired,
-//   menu: PropTypes.array.isRequired
-// };
+PageNav.propTypes = {
+  left: PropTypes.exact({
+    path: PropTypes.string,
+    label: PropTypes.string,
+  }),
+  up: PropTypes.exact({
+    path: PropTypes.string,
+    label: PropTypes.string,
+  }),
+  down: PropTypes.exact({
+    path: PropTypes.string,
+    label: PropTypes.string,
+  }),
+  right: PropTypes.exact({
+    path: PropTypes.string,
+    label: PropTypes.string,
+  })
+};
 
 export default PageNav;
