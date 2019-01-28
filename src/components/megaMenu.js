@@ -54,7 +54,7 @@ class MegaMenu extends React.Component {
 
   renderMenu(parentSlug, menuTree) {
     let maxDepthMenuItem = null;
-    let colSizes = [4, 4, 4];
+    let colSizes = Array(menuTree.length).fill(4);
 
     if (menuTree.length < 3) {
       maxDepthMenuItem = menuTree.reduce((maxDepthMenuItem, menuItem, menuItemIndex) => {
@@ -96,15 +96,18 @@ class MegaMenu extends React.Component {
           key={`${parentSlug}-${subMenuItem.slug}`}
           className={subColSizes && 'pb-3 pb-lg-0'}
         >
-          <DropdownItem
-            tag="div"
-            className="py-2 text-wrap"
+          <Link
+            className="d-block"
+            to={`/${parentSlug}/${subMenuItem.slug}`}
           >
-            <Link to={`/${parentSlug}/${subMenuItem.slug}`}>
+            <DropdownItem
+              tag="div"
+              className="py-2"
+            >
               {subMenuItem.name}
-            </Link>
-          </DropdownItem>
-          {subMenuItem.subtree && (
+            </DropdownItem>
+          </Link>
+          {subMenuItem.subtree && maxDepthMenuItem && (
             <div className="d-flex flex-wrap ml-3 border-top">
               {this.getMenuChildren(`/${parentSlug}/${subMenuItem.slug}`, subMenuItem.subtree, subColSizes)}
             </div>
