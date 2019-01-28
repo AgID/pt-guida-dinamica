@@ -4,7 +4,6 @@ link_visualizza_azioni:
 link_approfondisci:
 link_consulta_obiettivi:
 ---
-# Dati della PA
 
 Le basi dati sono l’ossatura del patrimonio informativo pubblico da rendere
 disponibile a tutte le PA, facilitando la condivisione dei dati ed evitando di

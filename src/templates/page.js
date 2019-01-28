@@ -4,8 +4,13 @@ import { Link, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
+import {
+  Col,
+  Row
+} from 'reactstrap';
+
 const Card = ({ card }) => (
-  <div className="card-wrapper col-lg-4 col-xl-4 col-sm-12 col-12">
+  <div className="card-wrapper">
     <div className="card">
       <div className="card-body">
         <h5 className="card-title">{card.node.title}</h5>
@@ -33,27 +38,35 @@ const Page = ({
   return (
     <Layout menu={pageContext.siteNav}>
       <SEO title={frontmatter.title} />
-      <div
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
 
-      {done[0] && (
-        <>
-          <h2>Cosa è stato fatto</h2>
-          <div className="d-flex flex-wrap">
-            {done}
-          </div>
-        </>
-      )}
+      <Row className="justify-content-center">
+        <Col xs="12" lg="8" md="8" sm="12" xl="6" className="my-4">
+          <h1>{frontmatter.title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: html }} />
+        </Col>
+      </Row>
 
-      {todo[0] && (
-        <>
-          <h2>Cosa rimane da fare</h2>
-          <div className="d-flex flex-wrap">
-            {todo}
-          </div>
-        </>
-      )}
+      <Row className="justify-content-center">
+        <Col xs="12" lg="8" md="8" sm="12" xl="6" className="my-4">
+          {done[0] && (
+            <>
+              <h2>Cosa è stato fatto</h2>
+              <div className="d-flex flex-wrap">
+                {done}
+              </div>
+            </>
+          )}
+
+          {todo[0] && (
+            <>
+              <h2>Cosa rimane da fare</h2>
+              <div className="d-flex flex-wrap">
+                {todo}
+              </div>
+            </>
+          )}
+        </Col>
+      </Row>
 
       {pageNav}
     </Layout >
@@ -70,14 +83,14 @@ const pageNavigation = pageNav => {
 };
 
 export const pageQuery = graphql`
-  query($filenameRegex: String!, $slug: String!) {
+  query($filenameRegex: String!, $tag: String) {
     page: markdownRemark(fileAbsolutePath: { regex: $filenameRegex }) {
       html
       frontmatter {
         title
       }
     }
-    cards: allCardsYaml(filter: { tags: { in: [ $slug ] }}) {
+    cards: allCardsYaml(filter: { tags: { in: [ $tag ] }}) {
       edges {
         node {
           title

@@ -16,26 +16,37 @@
         subtree:
           - name: Data center e cloud
             slug: data-center-e-cloud
+            tag: pa-data-center-e-cloud
           - name: Connettività
             slug: connettivita
+            tag: pa-connettivita
           - name: Modello di interoperabilità
             slug: modello-di-interoperabilita
+            tag: pa-modello-di-interoperabilita
           - name: Dati della PA
             slug: dati-della-pa
+            tag: pa-dati-della-pa
           - name: Piattaforme
             slug: piattaforme
+            tag: pa-piattaforme
           - name: Ecosistemi
             slug: ecosistemi
+            tag: pa-ecosistemi
           - name: Sicurezza
             slug: sicurezza
-          - name: Servizi digitali
+            tag: pa-sicurezza
+          - name: Strumenti per la generazione e la diffusione dei servizi digitali
             slug: servizi-digitali
+            tag: pa-servizi-digitali
           - name: Modelli e strumenti per l'innovazione
             slug: modelli-strumenti-innovazione
+            tag: pa-modelli-strumenti-innovazione
           - name: Governare la trasformazione digitale
             slug: governare-trasformazione-digitale
+            tag: pa-governare-trasformazione-digitale
           - name: Rilevazione della spesa ICT
             slug: rilevazione-spesa-ict
+            tag: pa-rilevazione-spesa-ict
   - name: Cittadini
     slug: cittadini
     subtree:

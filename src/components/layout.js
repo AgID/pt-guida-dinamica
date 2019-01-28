@@ -2,9 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import {
-  Col,
-  Container,
-  Row
+  Container
 } from 'reactstrap';
 
 import './layout.scss';
@@ -55,12 +53,8 @@ const Layout = props => (
           socialLinks={data.configYaml.socialLinks}
           menu={props.menu}
         />
-        <Container role="main">
-          <Row>
-            <Col xs="12" className="my-4">
-              {props.children}
-            </Col>
-          </Row>
+        <Container className="justify-content-md-center">
+          {props.children}
         </Container>
         <Footer
           footerLinks={data.configYaml.footerLinks}

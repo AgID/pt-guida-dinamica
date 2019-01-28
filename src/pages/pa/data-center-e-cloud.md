@@ -4,7 +4,6 @@ link_visualizza_azioni:
 link_approfondisci:
 link_consulta_obiettivi:
 ---
-# Data center e cloud
 
 Il Cloud nell’ambito della trasformazione digitale rappresenta una delle
 tecnologie “disruptive” con notevoli vantaggi in termini di: incremento di

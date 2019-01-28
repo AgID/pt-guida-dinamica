@@ -4,7 +4,6 @@ link_visualizza_azioni:
 link_approfondisci:
 link_consulta_obiettivi:
 ---
-# Modelli e strumenti per l'innovazione
 
 Le amministrazioni pubbliche sono chiamate ad attuare progetti ad elevato
 contenuto di innovazione, volti non soltanto alla razionalizzazione dei costi di
