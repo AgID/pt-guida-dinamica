@@ -1,8 +1,9 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import PageNav from '../components/pageNav';
 
 const Card = ({ card }) => (
   <div className="card-wrapper col-lg-4 col-xl-4 col-sm-12 col-12">
@@ -20,7 +21,7 @@ const Page = ({
 }) => {
   const { page, cards } = data;
   const { frontmatter, html } = page;
-  const pageNav = pageNavigation(JSON.parse(pageContext.pageNav));
+  const pageNav = JSON.parse(pageContext.pageNav);
 
   const done = (cards ? cards.edges : [])
     .filter(card => card.node.tags.indexOf('fatto') !== -1)
@@ -55,19 +56,36 @@ const Page = ({
         </>
       )}
 
-      {pageNav}
+      <PageNav
+        left={{
+          path: pageNav.prev.path,
+          label: pageNav.prev.name
+        }}
+        down={{
+          path: pageNav.firstChild.path,
+          label: pageNav.firstChild.name,
+        }}
+        up={{
+          path: pageNav.parent.path,
+          label: pageNav.parent.name,
+        }}
+        right={{
+          path: pageNav.next.path,
+          label: pageNav.next.name
+        }}
+      />
     </Layout >
   );
 };
 
-const pageNavigation = pageNav => {
-  return [
-    pageNav.nextPath && <Link key="next" to={pageNav.nextPath}>Pagina successiva</Link>,
-    pageNav.prevPath && <Link key="prev" to={pageNav.prevPath}>Pagina precedente</Link>,
-    pageNav.parentPath && <Link key="parent" to={pageNav.parentPath}>Pagina madre</Link>,
-    pageNav.firstChildPath && <Link key="child" to={pageNav.firstChildPath}>Pagina figlia</Link>
-  ];
-};
+// const pageNavigation = pageNav => {
+//   return [
+//     pageNav.nextPath && <Link key="next" to={pageNav.nextPath}>Pagina successiva</Link>,
+//     pageNav.prevPath && <Link key="prev" to={pageNav.prevPath}>Pagina precedente</Link>,
+//     pageNav.parentPath && <Link key="parent" to={pageNav.parentPath}>Pagina madre</Link>,
+//     pageNav.firstChildPath && <Link key="child" to={pageNav.firstChildPath}>Pagina figlia</Link>
+//   ];
+// };
 
 export const pageQuery = graphql`
   query($filenameRegex: String!, $slug: String!) {
