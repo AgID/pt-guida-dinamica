@@ -23,6 +23,11 @@ const Card = ({ card }) => (
   </div>
 );
 
+const toCards = (cards, tag) =>
+  (cards ? cards.edges : [])
+    .filter(card => card.node.tags.indexOf(tag) !== -1)
+    .map(card => <Card key={card.node.title.split(' ').join('-')} card={card} />);
+
 const Page = ({
   data, pageContext
 }) => {
@@ -30,25 +35,11 @@ const Page = ({
   const { frontmatter, html } = page;
   const pageNav = JSON.parse(pageContext.pageNav);
 
-  const done = (cards ? cards.edges : [])
-    .filter(card => card.node.tags.indexOf('fatto') !== -1)
-    .map(card => <Card key={card.node.title.split(' ').join('-')} card={card} />);
-
-  const todo = (cards ? cards.edges : [])
-    .filter(card => card.node.tags.indexOf('da-fare') !== -1)
-    .map(card => <Card key={card.node.title.split(' ').join('-')} card={card} />);
-
-  const intro = (cards ? cards.edges : [])
-    .filter(card => card.node.tags.indexOf('intro') !== -1)
-    .map(card => <Card key={card.node.title.split(' ').join('-')} card={card} />);
-
-  const howItWorks = (cards ? cards.edges : [])
-    .filter(card => card.node.tags.indexOf('come-funziona') !== -1)
-    .map(card => <Card key={card.node.title.split(' ').join('-')} card={card} />);
-
-  const advantages = (cards ? cards.edges : [])
-    .filter(card => card.node.tags.indexOf('vantaggi') !== -1)
-    .map(card => <Card key={card.node.title.split(' ').join('-')} card={card} />);
+  const done = toCards(cards, 'fatto');
+  const todo = toCards(cards, 'da-fare');
+  const intro = toCards(cards, 'intro');
+  const howItWorks = toCards(cards, 'come-funziona');
+  const advantages = toCards(cards, 'vantaggi');
 
   return (
     <Layout menu={pageContext.siteNav}>
