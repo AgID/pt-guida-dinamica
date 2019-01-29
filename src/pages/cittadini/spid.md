@@ -5,12 +5,14 @@ link_faq:
 link_piano_triennale:
 ---
 
-## SPID: cos’è?
+## SPID
+
+### Cos’è?
 
 La soluzione che permette di accedere a tutti i servizi online della Pubblica
 Amministrazione con un'unica identità digitale.
 
-## SPID: come funziona?
+### Come funziona
 
 L’identità SPID è rilasciata dai Gestori di Identità Digitale (Identity
 Provider), soggetti privati accreditati da AgID, che forniscono le identità
@@ -20,7 +22,7 @@ dopo aver verificato i dati, emette l’identità digitale, rilasciando le
 credenziali. I cittadini accedono con SPID ai servizi online delle pubbliche
 amministrazioni e dei privati aderenti.
 
-## SPID: quali possibili vantaggi?
+### Possibili vantaggi
 
 I cittadini utilizzano un’unica identità digitale (username e password) SPID per
 accedere a tutti i servizi online della Pubblica Amministrazione e dei privati

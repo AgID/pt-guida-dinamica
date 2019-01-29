@@ -5,19 +5,21 @@ link_faq:
 link_piano_triennale:
 ---
 
-## CATALOGO DEI SERVIZI: cos’è?
+## Servizi.gov.it
+
+### Cos’è?
 
 Lo strumento a disposizione delle pubbliche amministrazioni per far conoscere i
 propri servizi digitali ai cittadini, mettendo a loro disposizione informazioni
 di dettaglio sempre aggiornate.
 
-## CATALOGO DEI SERVIZI: come funziona?
+### Come funziona?
 
 I cittadini possono utilizzare il Catalogo, progressivamente popolato dalle
 pubbliche amministrazioni, utilizzando come chiave di ricerca la classificazione
 dei servizi definita da AGID.
 
-## CATALOGO DEI SERVIZI: quali possibili vantaggi?
+### Quali possibili vantaggi?
 
 I cittadini vengono indirizzati in modo efficace all'utilizzo dei servizi
 digitali e hanno a disposizione informazioni semplificate e aggiornate. I

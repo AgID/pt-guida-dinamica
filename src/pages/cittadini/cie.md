@@ -5,13 +5,15 @@ link_faq:
 link_piano_triennale:
 ---
 
-## CIE: cos’è?
+## CIE
+
+### Cos’è?
 
 La Carta Identità Elettronica è documento personale che attesta l’identità del
 cittadino. Realizzato su supporto plastico, è dotato di elementi di sicurezza e
 di un microchip a radiofrequenza (RF) che memorizza i dati del titolare.
 
-## CIE: come funziona?
+### Come funziona?
 
 La CIE può essere richiesta alla scadenza della propria Carta d’identità (o in
 seguito a smarrimento, furto o deterioramento) presso il Comune di residenza o
@@ -22,7 +24,7 @@ il Comune o presso un indirizzo indicato. L’emissione della CIE nelle sedi
 estere dei consolati ne permetterà il rilascio anche agli italiani residenti
 all’estero.
 
-## CIE: quali possibili vantaggi?
+### Quali possibili vantaggi?
 
 La CIE è l’evoluzione del documento di identità in versione cartacea, che i
 cittadini possono utilizzare in modo sicuro in quanto dotata di una componente

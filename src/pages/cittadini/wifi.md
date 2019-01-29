@@ -5,18 +5,20 @@ link_faq:
 link_piano_triennale:
 ---
 
-## WI-FI PUBBLICO: cos’è?
+## WI-FI PUBBLICO
+
+### Cos’è?
 
 La possibilità di connettersi, nei luoghi pubblici e negli uffici, gratuitamente
 e in modo semplice alle reti WI – FI pubbliche diffuse sul territorio nazionale.
 
-## WI-FI PUBBLICO: come funziona?
+### Come funziona
 
 I cittadini potranno accedere alle reti wi-fi degli uffici e dei luoghi
 pubblici, rese disponibili dalle amministrazioni sulla base delle linee guida
 AGID.
 
-## WI-FI PUBBLICO: quali possibili vantaggi?
+### Possibili vantaggi
 
 Connessione internet presente in maniera uniforme in tutti i centri della vita
 pubblica per favorire l’accesso ai servizi pubblici digitali (es. biblioteche o

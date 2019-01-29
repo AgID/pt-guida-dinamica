@@ -5,11 +5,13 @@ link_faq:
 link_piano_triennale:
 ---
 
-## pagoPA: cos’è?
+## pagoPA
+
+### Cos’è
 
 ll sistema dei pagamenti elettronici a favore della Pubblica Amministrazione.
 
-## pagoPA: come funziona?
+### Come funziona
 
 pagoPA è una nuova modalità per eseguire pagamenti verso la Pubblica
 Amministrazione in modalità standardizzata, direttamente sul sito o sull’app
@@ -22,7 +24,7 @@ banche e altri Prestatori di Servizi di Pagamento, ovvero:
   * punti vendita di SISAL, Lottomatica e Banca 5
   * uffici Postali.
 
-## pagoPA: quali possibili vantaggi?
+### Quali possibili vantaggi
 
 I cittadini possono effettuare pagamenti elettronici verso le pubbliche
 amministrazioni (Comuni, ASL, scuole o Regioni) in modo sicuro e affidabile in

@@ -10,9 +10,9 @@ import {
 } from 'reactstrap';
 
 const Card = ({ card }) => (
-  <div className="card-wrapper">
+  <div className="card-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
     <div className="card">
-      <div className="card-body">
+      <div className="card-body pl-0">
         <h5 className="card-title">{card.node.title}</h5>
         <p className="card-text">{card.node.text}</p>
       </div>
@@ -39,34 +39,32 @@ const Page = ({
     <Layout menu={pageContext.siteNav}>
       <SEO title={frontmatter.title} />
 
-      <Row className="justify-content-center">
+      <Row>
         <Col xs="12" lg="8" md="8" sm="12" xl="6" className="my-4">
           <h1>{frontmatter.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </Col>
       </Row>
 
-      <Row className="justify-content-center">
-        <Col xs="12" lg="8" md="8" sm="12" xl="6" className="my-4">
-          {done[0] && (
-            <>
-              <h2>Cosa è stato fatto</h2>
-              <div className="d-flex flex-wrap">
-                {done}
-              </div>
-            </>
-          )}
+      <div className="my-4">
+        {done[0] && (
+          <>
+            <h2>Cosa è stato fatto</h2>
+            <div className="d-flex flex-wrap">
+              {done}
+            </div>
+          </>
+        )}
 
-          {todo[0] && (
-            <>
-              <h2>Cosa rimane da fare</h2>
-              <div className="d-flex flex-wrap">
-                {todo}
-              </div>
-            </>
-          )}
-        </Col>
-      </Row>
+        {todo[0] && (
+          <div className="my-5">
+            <h2>Cosa rimane da fare</h2>
+            <div className="d-flex flex-wrap">
+              {todo}
+            </div>
+          </div>
+        )}
+      </div>
 
       {pageNav}
     </Layout >

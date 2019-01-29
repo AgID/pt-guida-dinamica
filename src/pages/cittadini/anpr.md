@@ -5,19 +5,21 @@ link_faq:
 link_piano_triennale:
 ---
 
-## Anagrafe Nazionale della Popolazione Residente –ANPR: cos’è?
+## ANPR
+
+### Cos’è
 
 ANPR è l’anagrafe centrale unica di tutti i cittadini e i residenti in Italia,
 in cui confluiscono progressivamente le anagrafi comunali.
 
-## Anagrafe Nazionale della Popolazione Residente –ANPR: come funziona?
+### Come funziona
 
 ANPR è un sistema integrato che consente ai Comuni di svolgere i servizi
 anagrafici e di consultare o estrarre dati, monitorare le attività, effettuare
 statistiche e diventa un punto di riferimento unico per tutti coloro che sono
 interessati ai dati anagrafici.
 
-## ANPR: quali possibili vantaggi?
+### Quali possibili vantaggi
 
 I cittadini hanno la possibilità di accedere in tempo reale ai propri dati non
 solo dal comune di residenza ma da qualunque Comune subentrato in ANPR. I
