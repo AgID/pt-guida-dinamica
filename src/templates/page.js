@@ -10,12 +10,14 @@ import {
   Row
 } from 'reactstrap';
 
+const ReactMarkdown = require('react-markdown');
+
 const Card = ({ card }) => (
   <div className="card-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
     <div className="card">
       <div className="card-body pl-0">
         <h5 className="card-title">{card.node.title}</h5>
-        <p className="card-text">{card.node.text}</p>
+        <p className="card-text"><ReactMarkdown source={card.node.text}></ReactMarkdown></p>
       </div>
     </div>
   </div>
