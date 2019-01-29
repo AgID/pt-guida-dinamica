@@ -4,7 +4,6 @@ link_visualizza_azioni:
 link_approfondisci:
 link_consulta_obiettivi:
 ---
-# Modello di interoperabilità
 
 La definizione del modello di interoperabilità facilita l’interazione e lo
 scambio di informazioni tra le PA e armonizza le scelte architetturali delle PA.

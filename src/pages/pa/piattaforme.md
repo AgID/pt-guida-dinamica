@@ -4,7 +4,6 @@ link_visualizza_azioni:
 link_approfondisci:
 link_consulta_obiettivi:
 ---
-# Piattaforme
 
 Attraverso l’utilizzo delle Piattaforme si favorisce l’attuazione di un modello
 uniforme di interazione per i servizi realizzati dalla PA per i cittadini e le

@@ -36,6 +36,7 @@ const createMarkdownPages = (createPage, page, pageNav, siteNav) => {
       filenameRegex: `/${filename}.md$/`,
       pageNav: JSON.stringify(pageNav),
       slug: page.slug,
+      tag: page.tag || '',
       siteNav: siteNav
     }
   });

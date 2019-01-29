@@ -4,7 +4,6 @@ link_visualizza_azioni:
 link_approfondisci:
 link_consulta_obiettivi:
 ---
-# Rilevazione della spesa ICT
 
 Le indicazioni per le PA contenute nel Piano Triennale tracciano la strada per
 la razionalizzazione della spesa, intesa come percorso di riqualificazione

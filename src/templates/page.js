@@ -5,16 +5,28 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageNav from '../components/pageNav';
 
+import {
+  Col,
+  Row
+} from 'reactstrap';
+
+const ReactMarkdown = require('react-markdown');
+
 const Card = ({ card }) => (
-  <div className="card-wrapper col-lg-4 col-xl-4 col-sm-12 col-12">
+  <div className="card-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
     <div className="card">
-      <div className="card-body">
+      <div className="card-body pl-0">
         <h5 className="card-title">{card.node.title}</h5>
-        <p className="card-text">{card.node.text}</p>
+        <p className="card-text"><ReactMarkdown source={card.node.text}></ReactMarkdown></p>
       </div>
     </div>
   </div>
 );
+
+const toCards = (cards, tag) =>
+  (cards ? cards.edges : [])
+    .filter(card => card.node.tags.indexOf(tag) !== -1)
+    .map(card => <Card key={card.node.title.split(' ').join('-')} card={card} />);
 
 const Page = ({
   data, pageContext
@@ -23,38 +35,48 @@ const Page = ({
   const { frontmatter, html } = page;
   const pageNav = JSON.parse(pageContext.pageNav);
 
-  const done = (cards ? cards.edges : [])
-    .filter(card => card.node.tags.indexOf('fatto') !== -1)
-    .map(card => <Card key={card.node.title.split(' ').join('-')} card={card} />);
-
-  const todo = (cards ? cards.edges : [])
-    .filter(card => card.node.tags.indexOf('da-fare') !== -1)
-    .map(card => <Card key={card.node.title.split(' ').join('-')} card={card} />);
+  const done = toCards(cards, 'fatto');
+  const todo = toCards(cards, 'da-fare');
+  const intro = toCards(cards, 'intro');
+  const howItWorks = toCards(cards, 'come-funziona');
+  const advantages = toCards(cards, 'vantaggi');
 
   return (
     <Layout menu={pageContext.siteNav}>
       <SEO title={frontmatter.title} />
-      <div
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
 
-      {done[0] && (
-        <>
-          <h2>Cosa è stato fatto</h2>
-          <div className="d-flex flex-wrap">
-            {done}
-          </div>
-        </>
-      )}
+      <Row>
+        <Col xs="12" lg="8" md="8" sm="12" xl="6" className="my-4">
+          <h1>{frontmatter.title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: html }} />
+        </Col>
+      </Row>
 
-      {todo[0] && (
-        <>
-          <h2>Cosa rimane da fare</h2>
-          <div className="d-flex flex-wrap">
-            {todo}
+      <div className="my-4">
+        {done[0] && (
+          <>
+            <h2>Cosa è stato fatto</h2>
+            <div className="d-flex flex-wrap">
+              {done}
+            </div>
+          </>
+        )}
+
+        {todo[0] && (
+          <div className="my-5">
+            <h2>Cosa rimane da fare</h2>
+            <div className="d-flex flex-wrap">
+              {todo}
+            </div>
           </div>
-        </>
-      )}
+        )}
+      </div>
+
+      <div className="my-5 d-flex flex-wrap">
+        {intro[0] && intro}
+        {howItWorks[0] && howItWorks}
+        {advantages[0] && advantages}
+      </div>
 
       <PageNav
         left={{
@@ -79,23 +101,23 @@ const Page = ({
 };
 
 export const pageQuery = graphql`
-  query($filenameRegex: String!, $slug: String!) {
-    page: markdownRemark(fileAbsolutePath: { regex: $filenameRegex }) {
-      html
+  query($filenameRegex: String!, $tag: String) {
+        page: markdownRemark(fileAbsolutePath: {regex: $filenameRegex }) {
+        html
       frontmatter {
         title
       }
-    }
-    cards: allCardsYaml(filter: { tags: { in: [ $slug ] }}) {
-      edges {
-        node {
-          title
-          text
-          tags
-        }
       }
+    cards: allCardsYaml(filter: {tags: { in: [ $tag ] }}) {
+        edges {
+      node {
+        title
+          text
+      tags
     }
   }
+}
+}
 `;
 
 export default Page;

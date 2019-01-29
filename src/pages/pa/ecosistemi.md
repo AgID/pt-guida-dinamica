@@ -4,7 +4,6 @@ link_visualizza_azioni:
 link_approfondisci:
 link_consulta_obiettivi:
 ---
-# Ecosistemi
 
 Le pubbliche amministrazioni applicano il modello basato su ecosistemi per
 facilitare l’integrazione tra diverse pubbliche amministrazioni ed abilitare

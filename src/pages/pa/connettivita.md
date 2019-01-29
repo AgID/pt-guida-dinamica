@@ -4,7 +4,6 @@ link_visualizza_azioni:
 link_approfondisci:
 link_consulta_obiettivi:
 ---
-# Connettività
 
 In raccordo con il Piano Nazionale Banda Ultra Larga e con la strategia di
 razionalizzazione delle risorse ICT della PA, è necessario che le PA
