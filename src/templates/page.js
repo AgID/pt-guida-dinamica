@@ -1,8 +1,9 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import PageNav from '../components/pageNav';
 
 import {
   Col,
@@ -25,15 +26,15 @@ const Page = ({
 }) => {
   const { page, cards } = data;
   const { frontmatter, html } = page;
-  const pageNav = pageNavigation(JSON.parse(pageContext.pageNav));
+  const pageNav = JSON.parse(pageContext.pageNav);
 
   const done = (cards ? cards.edges : [])
     .filter(card => card.node.tags.indexOf('fatto') !== -1)
-    .map(card => <Card card={card} />);
+    .map(card => <Card key={card.node.title.split(' ').join('-')} card={card} />);
 
   const todo = (cards ? cards.edges : [])
     .filter(card => card.node.tags.indexOf('da-fare') !== -1)
-    .map(card => <Card card={card} />);
+    .map(card => <Card key={card.node.title.split(' ').join('-')} card={card} />);
 
   return (
     <Layout menu={pageContext.siteNav}>
@@ -66,18 +67,26 @@ const Page = ({
         )}
       </div>
 
-      {pageNav}
+      <PageNav
+        left={{
+          path: pageNav.prev.path,
+          label: pageNav.prev.name
+        }}
+        down={{
+          path: pageNav.firstChild.path,
+          label: pageNav.firstChild.name,
+        }}
+        up={{
+          path: pageNav.parent.path,
+          label: pageNav.parent.name,
+        }}
+        right={{
+          path: pageNav.next.path,
+          label: pageNav.next.name
+        }}
+      />
     </Layout >
   );
-};
-
-const pageNavigation = pageNav => {
-  return [
-    pageNav.nextPath && <Link key="next" to={pageNav.nextPath}>Pagina successiva</Link>,
-    pageNav.prevPath && <Link key="prev" to={pageNav.prevPath}>Pagina precedente</Link>,
-    pageNav.parentPath && <Link key="parent" to={pageNav.parentPath}>Pagina madre</Link>,
-    pageNav.firstChildPath && <Link key="child" to={pageNav.firstChildPath}>Pagina figlia</Link>
-  ];
 };
 
 export const pageQuery = graphql`

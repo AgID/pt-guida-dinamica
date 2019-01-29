@@ -9,11 +9,12 @@ exports.createPages = ({ actions }) => {
     const pages = yaml.safeLoad(fs.readFileSync(path.resolve(`src/data/pages.yml`), 'utf8'));
     Object.keys(pages).map((page, pageIndex, pagesArray) => {
       createMarkdownPages(createPage, pages[pageIndex], getPageNav(
-        pages[pageIndex].slug,
         null,
-        (pageIndex - 1) in pagesArray ? pages[pageIndex - 1].slug : null,
-        (pageIndex + 1) in pagesArray ? pages[pageIndex + 1].slug : null,
-        pages[pageIndex].subtree ? pages[pageIndex].subtree[0].slug : null
+        null,
+        pages[pageIndex],
+        (pageIndex - 1) in pagesArray ? pages[pageIndex - 1] : null,
+        (pageIndex + 1) in pagesArray ? pages[pageIndex + 1] : null,
+        pages[pageIndex].subtree ? pages[pageIndex].subtree[0] : null
       ), pages);
     });
   } catch (error) {
@@ -23,7 +24,8 @@ exports.createPages = ({ actions }) => {
 
 const createMarkdownPages = (createPage, page, pageNav, siteNav) => {
   const pageTemplate = path.resolve(`src/templates/page.js`);
-  const pagePath = [trimTrailingSlash(pageNav.parentPath), page.slug].join('/');
+  const pagePath = getPagePath(pageNav.parent.path, page.slug);
+  const filename = page.slug || 'home';
 
   siteNav = siteNav[0].slug !== '' ? siteNav : siteNav[0].subtree;
 
@@ -31,7 +33,7 @@ const createMarkdownPages = (createPage, page, pageNav, siteNav) => {
     path: pagePath,
     component: pageTemplate,
     context: {
-      filenameRegex: `/${page.slug}.md$/`,
+      filenameRegex: `/${filename}.md$/`,
       pageNav: JSON.stringify(pageNav),
       slug: page.slug,
       tag: page.tag || '',
@@ -41,33 +43,49 @@ const createMarkdownPages = (createPage, page, pageNav, siteNav) => {
 
   page.subtree && page.subtree.map((subPage, subPageIndex) => {
     createMarkdownPages(createPage, subPage, getPageNav(
-      [trimTrailingSlash(pagePath), subPage.slug].join('/'),
       pagePath,
-      (subPageIndex - 1) in page.subtree ? page.subtree[subPageIndex - 1].slug : null,
-      (subPageIndex + 1) in page.subtree ? page.subtree[subPageIndex + 1].slug : null,
-      subPage.subtree ? subPage.subtree[0].slug : null
+      page,
+      subPage,
+      (subPageIndex - 1) in page.subtree ? page.subtree[subPageIndex - 1] : null,
+      (subPageIndex + 1) in page.subtree ? page.subtree[subPageIndex + 1] : null,
+      subPage.subtree ? subPage.subtree[0] : null
     ), siteNav);
   });
 };
 
 /**
- * Given a page and its parent paths and a group of related page slugs
- * returns an object with corresponding absolute paths to be consumed
- * in a page navigation component.
- * @param {string} currentPagePath - Absolute path of the current page.
- * @param {string} parentPagePath - Absolute path of the parent page.
- * @param {string} prevPage - Slug of the previous page.
- * @param {string} nextPage - Slug of the next page.
- * @param {string} firstChildPage - Slug of the first child page.
- * @returns {number}
+ * Given a page and a group of related pages
+ * returns an object with corresponding absolute paths
+ * and name to be consumed in a page navigation component.
+ * @param {string} parentPagePath Absolute path of the parent page.
+ * @param {Object} parentPage Parent page object.
+ * @param {Object} currentPage Current page object
+ * @param {Object} prevPage Previous page object.
+ * @param {Object} nextPage Next page object.
+ * @param {Object} firstChildPage First child page object.
+ * @returns {Object} Pages paths and names
  */
-const getPageNav = (currentPagePath, parentPagePath, prevPage, nextPage, firstChildPage) => {
+const getPageNav = (parentPagePath, parentPage, currentPage, prevPage, nextPage, firstChildPage) => {
   return {
-    parentPath: parentPagePath,
-    prevPath: (prevPage !== null) && [trimTrailingSlash(parentPagePath), prevPage].join('/'),
-    nextPath: (nextPage !== null) && [trimTrailingSlash(parentPagePath), nextPage].join('/'),
-    firstChildPath: firstChildPage && [currentPagePath, firstChildPage].join('/')
+    parent: {
+      name: parentPage && parentPage.name,
+      path: parentPage && parentPagePath
+    },
+    prev: {
+      name: prevPage && prevPage.name,
+      path: prevPage && getPagePath(parentPagePath, prevPage.slug)
+    },
+    next: {
+      name: nextPage && nextPage.name,
+      path: nextPage && getPagePath(parentPagePath, nextPage.slug)
+    },
+    firstChild: {
+      name: firstChildPage && firstChildPage.name,
+      path: firstChildPage && getPagePath(parentPagePath, [currentPage.slug, firstChildPage.slug].join('/'))
+    }
   };
 };
 
 const trimTrailingSlash = url => (url || '').replace(/\/$/, '');
+
+const getPagePath = (parentPagePath, pageSlug) => [trimTrailingSlash(parentPagePath), pageSlug].join('/');
