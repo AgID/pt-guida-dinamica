@@ -36,6 +36,18 @@ const Page = ({
     .filter(card => card.node.tags.indexOf('da-fare') !== -1)
     .map(card => <Card key={card.node.title.split(' ').join('-')} card={card} />);
 
+  const intro = (cards ? cards.edges : [])
+    .filter(card => card.node.tags.indexOf('intro') !== -1)
+    .map(card => <Card key={card.node.title.split(' ').join('-')} card={card} />);
+
+  const howItWorks = (cards ? cards.edges : [])
+    .filter(card => card.node.tags.indexOf('come-funziona') !== -1)
+    .map(card => <Card key={card.node.title.split(' ').join('-')} card={card} />);
+
+  const advantages = (cards ? cards.edges : [])
+    .filter(card => card.node.tags.indexOf('vantaggi') !== -1)
+    .map(card => <Card key={card.node.title.split(' ').join('-')} card={card} />);
+
   return (
     <Layout menu={pageContext.siteNav}>
       <SEO title={frontmatter.title} />
@@ -67,6 +79,12 @@ const Page = ({
         )}
       </div>
 
+      <div className="my-5 d-flex flex-wrap">
+        {intro[0] && intro}
+        {howItWorks[0] && howItWorks}
+        {advantages[0] && advantages}
+      </div>
+
       <PageNav
         left={{
           path: pageNav.prev.path,
@@ -91,22 +109,22 @@ const Page = ({
 
 export const pageQuery = graphql`
   query($filenameRegex: String!, $tag: String) {
-    page: markdownRemark(fileAbsolutePath: { regex: $filenameRegex }) {
-      html
+        page: markdownRemark(fileAbsolutePath: {regex: $filenameRegex }) {
+        html
       frontmatter {
         title
       }
-    }
-    cards: allCardsYaml(filter: { tags: { in: [ $tag ] }}) {
-      edges {
-        node {
-          title
-          text
-          tags
-        }
       }
+    cards: allCardsYaml(filter: {tags: { in: [ $tag ] }}) {
+        edges {
+      node {
+        title
+          text
+      tags
     }
   }
+}
+}
 `;
 
 export default Page;

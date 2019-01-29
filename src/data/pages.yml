@@ -52,6 +52,7 @@
     subtree:
       - name: Accessibilita
         slug: accessibilita
+        tag: cit-accessibilita
       - name: ANPR
         slug: anpr
       - name: Catalogo servizi
