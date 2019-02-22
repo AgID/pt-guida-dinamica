@@ -5,11 +5,6 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageNav from '../components/pageNav';
 
-import {
-  Col,
-  Row
-} from 'reactstrap';
-
 const ReactMarkdown = require('react-markdown');
 
 const Card = ({ card }) => (
@@ -46,12 +41,10 @@ const Page = ({
     <Layout menu={pageContext.siteNav}>
       <SEO title={frontmatter.title} />
 
-      <Row>
-        <Col xs="12" lg="8" md="8" sm="12" xl="6" className="my-4">
-          <h1>{frontmatter.title}</h1>
-          <div dangerouslySetInnerHTML={{ __html: html }} />
-        </Col>
-      </Row>
+      <div className="d-flex flex-wrap mb-4">
+        {frontmatter.title && <h1>{frontmatter.title}</h1>}
+        <div dangerouslySetInnerHTML={{ __html: html }} />
+      </div>
 
       <div className="my-4">
         {done[0] && (

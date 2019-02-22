@@ -26,3 +26,21 @@
     }
   }
 }
+
+.u-layout-releaseFull {
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  position: relative;
+  right: 50%;
+  width: 100vw;
+}
+
+p {
+  max-width: 32em;
+  font-family: Lora, Georgia, serif;
+}
+
+li {
+  font-family: Lora, Georgia, serif;
+}

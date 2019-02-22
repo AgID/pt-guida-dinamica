@@ -29,7 +29,7 @@ const MainHeader = props => (
                 </Link>
               </div>
               <div className="it-right-zone">
-                <div className="it-socials d-none d-md-flex">
+                {/* <div className="it-socials d-none d-md-flex">
                   <span>Seguici su</span>
                   <ul>
                     {props.socialLinks
@@ -47,7 +47,7 @@ const MainHeader = props => (
                       })
                     }
                   </ul>
-                </div>
+                  </div> */}
               </div>
             </div>
           </Col>
@@ -56,7 +56,7 @@ const MainHeader = props => (
     </header>
     <div className="navbar">
       <Container className="d-block">
-        <MegaMenu menu={props.menu}/>
+        <MegaMenu menu={props.menu} />
       </Container>
     </div>
   </>
