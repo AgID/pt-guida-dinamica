@@ -17,7 +17,7 @@ const Card = ({ card }) => (
     <div className="card">
       <div className="card-body pl-0">
         <h5 className="card-title">{card.node.title}</h5>
-        <p className="card-text"><ReactMarkdown source={card.node.text}></ReactMarkdown></p>
+        <div className="card-text"><ReactMarkdown source={card.node.text}></ReactMarkdown></div>
       </div>
     </div>
   </div>
@@ -78,7 +78,7 @@ const Page = ({
         {advantages[0] && advantages}
       </div>
 
-      <PageNav
+      {pageNav && <PageNav
         left={{
           path: pageNav.prev.path,
           label: pageNav.prev.name
@@ -95,7 +95,7 @@ const Page = ({
           path: pageNav.next.path,
           label: pageNav.next.name
         }}
-      />
+      />}
     </Layout >
   );
 };

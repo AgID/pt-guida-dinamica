@@ -2,12 +2,28 @@ const path = require('path');
 const fs = require('fs');
 const yaml = require('js-yaml');
 
+const pageTemplate = path.resolve(`src/templates/page.js`);
+
 exports.createPages = ({ actions }) => {
   const { createPage } = actions;
 
   try {
     const pages = yaml.safeLoad(fs.readFileSync(path.resolve(`src/data/pages.yml`), 'utf8'));
-    Object.keys(pages).map((page, pageIndex, pagesArray) => {
+
+    // create homepage
+    createPage({
+      path: '/',
+      component: pageTemplate,
+      context: {
+        filenameRegex: `/home.md$/`,
+        pageNav: JSON.stringify(null),
+        slug: '',
+        tag: '',
+        siteNav: pages
+      }
+    });
+
+    Object.keys(pages).map((_, pageIndex, pagesArray) => {
       createMarkdownPages(createPage, pages[pageIndex], getPageNav(
         null,
         null,
@@ -23,17 +39,17 @@ exports.createPages = ({ actions }) => {
 };
 
 const createMarkdownPages = (createPage, page, pageNav, siteNav) => {
-  const pageTemplate = path.resolve(`src/templates/page.js`);
   const pagePath = getPagePath(pageNav.parent.path, page.slug);
-  const filename = page.slug || 'home';
 
   siteNav = siteNav[0].slug !== '' ? siteNav : siteNav[0].subtree;
+
+  console.log(`creating: /${pagePath.replace('/', '\\/')}.md$/`);
 
   createPage({
     path: pagePath,
     component: pageTemplate,
     context: {
-      filenameRegex: `/${filename}.md$/`,
+      filenameRegex: `/${pagePath.replace('/', '\\/')}.md$/`,
       pageNav: JSON.stringify(pageNav),
       slug: page.slug,
       tag: page.tag || '',

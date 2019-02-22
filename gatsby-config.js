@@ -5,7 +5,7 @@ module.exports = {
     author: `AGID`,
     keywords: [`piano triennale ict`, `AGID`, `piano triennale 2019 2021`, `guida dinamica`]
   },
-  pathPrefix: '/pt-guida-dinamica',
+  pathPrefix: '/',
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,

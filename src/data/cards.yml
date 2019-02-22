@@ -911,3 +911,293 @@
     normativo e tecnologico in linea con le indicazioni europee e nel rispetto degli
     standard di sicurezza previsti da AGID.
   tags: [ vantaggi, cit-wifi ]
+
+##################################
+
+- title: Cos'è
+  text: >
+    Il cloud è un modello di infrastrutture informatiche che consente di disporre
+    tramite internet di un insieme di risorse di calcolo (ad es. reti, server,
+    storage, applicazioni e servizi) erogate come un servizio. Il PT 2017-2019 ha
+    introdotto il modello Cloud della PA che descrive l’insieme di infrastrutture IT
+    e servizi cloud qualificati da AGID a disposizione della PA.
+  tags: [ intro, imp-cloud ]
+
+- title: Come funziona
+  text: >
+    Questo modello semplifica la gestione dei sistemi informativi, trasformando le
+    infrastrutture fisiche in servizi virtuali e migliorando i processi di
+    erogazione dei servizi della PA verso le imprese.
+  tags: [ come-funziona, imp-cloud ]
+
+- title: Possibili vantaggi
+  text: >
+    Il Cloud della PA introduce vantaggi significativi rispetto alle
+    tradizionali soluzioni hardware, consentendo di usufruire delle applicazioni
+    da qualsiasi dispositivo in qualsiasi luogo tramite l’accesso internet,
+    garantendo elevati standard di sicurezza ed affidabilità e incrementando il
+    livello di disponibilità dei servizi alle imprese.
+  tags: [ vantaggi, imp-cloud ]
+
+- title: Cos'è
+  text: >
+    Lo strumento a disposizione delle imprese per conoscere i servizi digitali
+    della PA, attraverso informazioni di dettaglio sempre aggiornate.
+  tags: [ intro, imp-servizi ]
+
+- title: Come funziona
+  text: >
+    Le imprese possono utilizzare il Catalogo, progressivamente popolato dalle
+    pubbliche amministrazioni, utilizzando come chiave di ricerca la
+    classificazione dei servizi definita da AGID.
+  tags: [ come-funziona, imp-servizi ]
+
+- title: Possibili vantaggi
+  text: >
+    Le imprese vengono indirizzate in modo efficace all'utilizzo dei servizi
+    digitali e hanno a disposizione informazioni semplificate e aggiornate.
+  tags: [ vantaggi, imp-servizi ]
+
+- title: Cos'è
+  text: >
+    Indice delle pubbliche amministrazioni è l’elenco pubblico di fiducia, gestito
+    da AGID e alimentato periodicamente da tutte le PA, contenente i domicili
+    digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi.
+  tags: [ intro, imp-ipa ]
+
+- title: Come funziona
+  text: >
+    Le imprese, interrogando l’IPA, possono ottenere informazioni generali e
+    organizzative sulle PA (tra le quali il domicilio digitale e l’indirizzo di
+    posta certificata da utilizzare per le comunicazioni a valore legale) e i
+    servizi offerti dalle singole PA.
+  tags: [ come-funziona, imp-ipa ]
+
+- title: Possibili vantaggi
+  text: >
+    Le imprese possono consultare e fruire, tramite interfaccia web, nell’ottica
+    della trasparenza, dei dati anche in formato aperto relativi alle singole
+    PA.
+  tags: [ vantaggi, imp-ipa ]
+
+- title: Cos'è
+  text: >
+    Il catalogo nazionale degli open data che espone i dati pubblicati e aggiornati
+    dalle pubbliche amministrazioni in formato aperto
+  tags: [ intro, imp-dati ]
+
+- title: Come funziona
+  text: >
+    Le sezioni del portale sono dedicate a: ricercare i dati (sono disponibili i
+    metadati dei dataset, classificati per categorie tematiche); fare open data
+    (sono riportate le risorse utili ad attuare il processo di apertura dei dati);
+    usare i dati (sono fornite indicazioni tecniche agli sviluppatori per utilizzare
+    i dati).
+  tags: [ come-funziona, imp-dati ]
+
+- title: Possibili vantaggi
+  text: >
+    Le imprese possono accedere alle piattaforme dei dati aperti ai fini del
+    riutilizzo degli stessi, per finalità commerciali. La diffusione di queste
+    informazioni favorisce la crescita economica e produttiva, la ricerca,
+    l’innovazione e la competitività.
+  tags: [ vantaggi, imp-dati ]
+
+- title: Cos'è
+  text: >
+    Il catalogo nazionale dei dati territoriali rilasciati in formato aperto
+    dalle pubbliche amministrazioni.
+  tags: [ intro, imp-geodati ]
+
+- title: Come funziona
+  text: >
+    Il portale presenta due funzionalità: la consultazione dei metadati, accessibile
+    a tutti; la gestione dei metadati, riservata alle PA accreditate.
+  tags: [ come-funziona, imp-geodati ]
+
+- title: Possibili vantaggi
+  text: >
+    Le imprese possono accedere alle piattaforme dei dati aperti ai fini del
+    riutilizzo degli stessi, per finalità commerciali. La diffusione di queste
+    informazioni favorisce la crescita economica e produttiva, la ricerca,
+    l’innovazione e la competitività.
+  tags: [ vantaggi, imp-geodati ]
+
+- title: Cos'è
+  text: >
+    ll sistema dei pagamenti elettronici a favore della Pubblica Amministrazione.
+  tags: [ intro, imp-pagopa ]
+
+- title: Come funziona
+  text: >
+    pagoPA è una nuova modalità per eseguire pagamenti verso le PA in modalità
+    standardizzata, direttamente sul sito o sull’app dell’Ente (il Comune, ad
+    esempio) o attraverso i canali (online e fisici) di banche e di altri Prestatori
+    di Servizi di Pagamento, ovvero: agenzie bancarie home banking del PSP sportelli
+    ATM (se abilitati) punti vendita di SISAL, Lottomatica e Banca 5 uffici Postali.
+  tags: [ come-funziona, imp-pagopa ]
+
+- title: Possibili vantaggi
+  text: >
+    Le imprese possono utilizzare pagoPA per effettuare pagamenti verso la
+    pubblica amministrazione in modo sicuro, semplice, affidabile e trasparente
+    (certezza dei costi di commissione, chiarezza degli importi, etc…). Le
+    imprese sono libere di scegliere il canale di pagamento preferito (sito
+    della PA, sportelli fisici, home banking, smartphone o tablet) e possono
+    sempre pagare online con carte di pagamento (carte di credito, debito o
+    prepagate).
+  tags: [ vantaggi, imp-pagopa ]
+
+- title: Cos'è
+  text: >
+    La soluzione che permette di accedere a tutti i servizi online della
+    Pubblica Amministrazione con un'unica identità digitale.
+  tags: [ intro, imp-spid ]
+
+- title: Come funziona
+  text: >
+    L’identità SPID è rilasciata dai Gestori di Identità Digitale (Identity
+    Provider), soggetti privati accreditati da AGID, che forniscono le identità
+    digitali e gestiscono l’autenticazione degli utenti. Il gestore, dopo aver
+    verificato i dati, emette l’identità digitale, rilasciando le credenziali. Le
+    imprese accedono ai servizi online che le pubbliche amministrazioni e i privati
+    rendono accessibili tramite SPID.
+  tags: [ come-funziona, imp-spid ]
+
+- title: Possibili vantaggi
+  text: >
+    Le imprese possono utilizzare l’identità digitale SPID per uso professionale.
+    Essa costituisce prova dell’appartenenza di una persona fisica
+    all’organizzazione di una persona giuridica e/o la sua qualità di
+    professionista.
+  tags: [ vantaggi, imp-spid ]
+
+- title: Cos'è
+  text: >
+    L’architettura del public e-procurement sottende al processo di acquisto e
+    negoziazione di beni e servizi della PA e, è costituita da un insieme di regole
+    che permetterà di gestire in digitale l’intero processo di procurement delle PA
+  tags: [ intro, imp-procurement ]
+
+- title: Come funziona
+  text: >
+    Il sistema public e-procurement è costituito da piattaforme di acquisto sia
+    pubbliche che private, da soggetti istituzionali che gestiscono servizi,
+    piattaforme e banche dati coinvolti nel processo di acquisto e negoziazione,
+    registri pubblici nazionali ecc. Nel public procurement si distinguono due
+    ambiti con relativi processi: pre-aggiudicazione e post-aggiudicazione.
+  tags: [ come-funziona, imp-procurement ]
+
+- title: Possibili vantaggi
+  text: >
+    Sono ridotti gli oneri documentali ed economici a carico delle imprese per
+    favorire la loro partecipazione alle procedure di affidamento dei contratti
+    pubblici  in un’ottica di competitività e allargamento dell’ambito  geografico.
+    Si sviluppano nuove strategie commerciali verso il mercato pubblico che viene
+    percepito più trasparente e accessibile.
+  tags: [ vantaggi, imp-procurement ]
+
+- title: Cos'è
+  text: >
+    La conservazione digitale di documenti e dati informatici, si realizza
+    attraverso il ricorso ai conservatori accreditati da AGID, soggetti pubblici
+    e privati specializzati.  
+  tags: [ intro, imp-conservazione ]
+
+- title: Come funziona
+  text: >
+    La conservazione digitale si realizza attraverso il ricorso ai conservatori
+    accreditati da AGID, soggetti pubblici e privati che sono specializzati
+    nell’offerta di servizi di conservazione per le pubbliche amministrazioni. Ai
+    fini di memoria storica i Poli di conservazione svolgono funzioni di
+    conservazione permanente.
+  tags: [ come-funziona, imp-conservazione ]
+
+- title: Possibili vantaggi
+  text: >
+    Le imprese possono avere vantaggi in termini di accessibilità, autenticità e
+    fruibilità della documentazione conservata a lungo termine dalle pubbliche
+    amministrazioni.
+  tags: [ vantaggi, imp-conservazione ]
+
+- title: Cos'è
+  text: >
+    La sicurezza informatica garantisce la disponibilità, l’integrità e la
+    riservatezza delle informazioni del Sistema informativo della Pubblica
+    amministrazione.
+  tags: [ intro, imp-sicurezza ]
+
+- title: Come funziona
+  text: >
+    Le imprese devono avere la certezza che i servizi resi dalle pubbliche
+    amministrazioni siano sicuri e affidabili, e possano essere usati con fiducia. A
+    tal fine le PA, per migliorare la consapevolezza nei riguardi della minaccia di
+    attacchi informatici e aumentare le capacità di prevenzione, protezione e
+    risposta agli incidenti, mettono in atto le iniziative tecniche ed organizzative
+    predisposte da AGID.
+  tags: [ come-funziona, imp-sicurezza ]
+
+- title: Possibili vantaggi
+  text: >
+    Le imprese consultano siti web affidabili che offrono servizi nel rispetto
+    delle indicazioni di sicurezza fissate da AGID.
+  tags: [ vantaggi, imp-sicurezza ]
+
+- title: Cos'è
+  text: >
+    Una serie di azioni atte a semplificare e migliorare lo sviluppo e l’utilizzo
+    dei siti istituzionali e dei servizi digitali erogati alle imprese dalle
+    pubbliche amministrazioni.
+  tags: [ intro, imp-accessibilita ]
+
+- title: Come funziona
+  text: >
+    Le PA adeguano i siti e i servizi ad ogni esigenza di navigazione e usabilità,
+    sulla base di linee guida e kit di sviluppo definiti da AGID.
+  tags: [ come-funziona, imp-accessibilita ]
+
+- title: Possibili vantaggi
+  text: >
+    La semplificazione nell'accesso e nell’uso di strumenti informatici e servizi
+    pubblici digitali favorisce la comunicazione tra imprese e PA.
+  tags: [ vantaggi, imp-accessibilita ]
+
+- title: Cos'è
+  text: >
+  tags: [ intro, imp-smart ]
+
+- title: Come funziona
+  text: >
+  tags: [ come-funziona, imp-smart ]
+
+- title: Possibili vantaggi
+  text: >
+  tags: [ vantaggi, imp-smart ]
+
+- title: Cos'è
+  text: >
+    La semplificazione amministrativa punta alla semplificazione e standardizzazione
+    procedurale, che si realizza attraverso una serie di azioni che vanno
+    dall’ampliamento della ricognizione dei procedimenti aventi un impatto sulle
+    imprese per le attività produttive all’ulteriore riduzione dei procedimenti
+    ancora assoggettati ad autorizzazioni, completando la standardizzazione della
+    modulistica.
+  tags: [ intro, imp-semplificazione ]
+
+- title: Come funziona
+  text: >
+    Nell’ambito della semplificazione amministrativa, relativamente agli sportelli
+    unici delle attività produttive (SUAP) e dell’edilizia (SUE), si è avviato il
+    passaggio da un approccio autorizzativo-centrico ad uno impresa-centrico,
+    attraverso l’incremento dell’interoperabilità delle soluzioni software
+    realizzate o in via di realizzazione. 
+  tags: [ come-funziona, imp-semplificazione ]
+
+- title: Possibili vantaggi
+  text: >
+    Attuazione del principio del once only: la stessa informazione inserita una sola
+    volta ed usata in più procedure comprese le partecipazioni a gare. Riduzione dei
+    punti di contatto con la PA così come previsto dal DPR 160/2010. Conoscenza in
+    tempo reale dello stato delle pratiche avviate.
+  tags: [ vantaggi, imp-semplificazione ]
+  

@@ -9,7 +9,6 @@ import {
 
 import Icon from './icon';
 import AgidLogo from '../images/logo-agid.svg';
-import DTLogo from '../images/logo-team-digitale.svg';
 
 const Footer = props => (
   <footer className="neutral-1-bg-a9">
@@ -24,9 +23,6 @@ const Footer = props => (
         </Col>
         <Col xs="12" sm="6" md="4" className="d-flex">
           <div className="px-2 py-2">
-            <a href="https://www.agid.gov.it/" target="_blank">
-              <img src={DTLogo} alt="Agenzia per l'Italia Digitale" height="48" style={{ maxWidth: `100%` }} />
-            </a>
           </div>
         </Col>
         <Col xs="12" sm="6" md="4" className="text-white text-right pt-2">

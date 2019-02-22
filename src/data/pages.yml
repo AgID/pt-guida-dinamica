@@ -1,90 +1,121 @@
-- name: Home
-  slug: ''
+- name: Pubblica amministrazione
+  slug: pa
   subtree:
-  - name: Pubblica amministrazione
-    slug: pubblica-amministrazione
-    subtree:
-      - name: Come nasce il piano triennale
-        slug: come-nasce-il-piano-triennale
-        subtree:
-          - name: 'Piano triennale 2017-2019'
-            slug: '2017-2019'
-          - name: 'Piano triennale 2019-2021'
-            slug: '2019-2021'
-      - name: Cosa è stato fatto e cosa c'è da fare
-        slug: cosa-e-stato-fatto-cosa-da-fare
-        subtree:
-          - name: Data center e cloud
-            slug: data-center-e-cloud
-            tag: pa-data-center-e-cloud
-          - name: Connettività
-            slug: connettivita
-            tag: pa-connettivita
-          - name: Modello di interoperabilità
-            slug: modello-di-interoperabilita
-            tag: pa-modello-di-interoperabilita
-          - name: Dati della PA
-            slug: dati-della-pa
-            tag: pa-dati-della-pa
-          - name: Piattaforme
-            slug: piattaforme
-            tag: pa-piattaforme
-          - name: Ecosistemi
-            slug: ecosistemi
-            tag: pa-ecosistemi
-          - name: Sicurezza
-            slug: sicurezza
-            tag: pa-sicurezza
-          - name: Strumenti per la generazione e la diffusione dei servizi digitali
-            slug: servizi-digitali
-            tag: pa-servizi-digitali
-          - name: Modelli e strumenti per l'innovazione
-            slug: modelli-strumenti-innovazione
-            tag: pa-modelli-strumenti-innovazione
-          - name: Governare la trasformazione digitale
-            slug: governare-trasformazione-digitale
-            tag: pa-governare-trasformazione-digitale
-          - name: Rilevazione della spesa ICT
-            slug: rilevazione-spesa-ict
-            tag: pa-rilevazione-spesa-ict
-  - name: Cittadini
-    slug: cittadini
-    subtree:
-      - name: Accessibilita
-        slug: accessibilita
-        tag: cit-accessibilita
-      - name: ANPR
-        slug: anpr
-        tag: cit-anpr
-      - name: Catalogo servizi
-        slug: catalogo-servizi
-        tag: cit-catalogo-servizi
-      - name: CIE
-        slug: cie
-        tag: cit-cie
-      - name: Cloud
-        slug: cloud
-        tag: cit-cloud
-      - name: Dati aperti
-        slug: dati-aperti
-        tag: cit-dati-aperti
-      - name: Diritti
-        slug: diritti
-        tag: cit-diritti
-      - name: IPA
-        slug: ipa
-        tag: cit-ipa
-      - name: Pagamenti
-        slug: pagamenti
-        tag: cit-pagamenti
-      - name: Sicurezza
-        slug: sicurezza
-        tag: cit-sicurezza
-      - name: SPID
-        slug: spid
-        tag: cit-spid
-      - name: Wi-fi
-        slug: wifi
-        tag: cit-wifi
-  - name: Imprese
-    slug: imprese
+    - name: Come nasce il piano triennale
+      slug: come-nasce-il-piano-triennale
+      subtree:
+        - name: 'Piano triennale 2017-2019'
+          slug: '2017-2019'
+        - name: 'Piano triennale 2019-2021'
+          slug: '2019-2021'
+    - name: Data center e cloud
+      slug: data-center-e-cloud
+      tag: pa-data-center-e-cloud
+    - name: Connettività
+      slug: connettivita
+      tag: pa-connettivita
+    - name: Modello di interoperabilità
+      slug: modello-di-interoperabilita
+      tag: pa-modello-di-interoperabilita
+    - name: Dati della PA
+      slug: dati-della-pa
+      tag: pa-dati-della-pa
+    - name: Piattaforme
+      slug: piattaforme
+      tag: pa-piattaforme
+    - name: Ecosistemi
+      slug: ecosistemi
+      tag: pa-ecosistemi
+    - name: Sicurezza
+      slug: sicurezza
+      tag: pa-sicurezza
+    - name: Servizi digitali
+      slug: servizi-digitali
+      tag: pa-servizi-digitali
+    - name: Modelli e strumenti per l'innovazione
+      slug: modelli-strumenti-innovazione
+      tag: pa-modelli-strumenti-innovazione
+    - name: Governare la trasformazione digitale
+      slug: governare-trasformazione-digitale
+      tag: pa-governare-trasformazione-digitale
+    - name: Rilevazione della spesa ICT
+      slug: rilevazione-spesa-ict
+      tag: pa-rilevazione-spesa-ict
+- name: Cittadini
+  slug: cittadini
+  subtree:
+    - name: Accessibilita
+      slug: accessibilita
+      tag: cit-accessibilita
+    - name: ANPR
+      slug: anpr
+      tag: cit-anpr
+    - name: Catalogo servizi
+      slug: catalogo-servizi
+      tag: cit-catalogo-servizi
+    - name: CIE
+      slug: cie
+      tag: cit-cie
+    - name: Cloud
+      slug: cloud
+      tag: cit-cloud
+    - name: Dati aperti
+      slug: dati-aperti
+      tag: cit-dati-aperti
+    - name: Diritti
+      slug: diritti
+      tag: cit-diritti
+    - name: IPA
+      slug: ipa
+      tag: cit-ipa
+    - name: Pagamenti
+      slug: pagamenti
+      tag: cit-pagamenti
+    - name: Sicurezza
+      slug: sicurezza
+      tag: cit-sicurezza
+    - name: SPID
+      slug: spid
+      tag: cit-spid
+    - name: Wi-fi
+      slug: wifi
+      tag: cit-wifi
+- name: Imprese
+  slug: imprese
+  subtree:
+    - name: Cloud
+      slug: cloud
+      tag: imp-cloud
+    - name: Servizi
+      slug: servizi
+      tag: imp-servizi
+    - name: IPA
+      slug: ipa
+      tag: imp-ipa
+    - name: Dati
+      slug: dati
+      tag: imp-dati
+    - name: Geodati
+      slug: geodati
+      tag: imp-geodati
+    - name: Pagamenti
+      slug: pagamenti
+      tag: imp-pagopa
+    - name: SPID
+      slug: spid
+      tag: imp-spid
+    - name: Procurement
+      slug: procurement
+      tag: imp-procurement
+    - name: Conservazione
+      slug: conservazione
+      tag: imp-conservazione
+    - name: Sicurezza
+      slug: sicurezza
+      tag: imp-sicurezza
+    - name: Accessibilita
+      slug: accessibilita
+      tag: imp-accessibilita
+    - name: Semplificazione
+      slug: semplificazione
+      tag: imp-semplificazione
