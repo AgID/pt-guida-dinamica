@@ -16,7 +16,8 @@ const Card = ({ card }) => (
   <div className="card-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
     <div className="card">
       <div className="card-body pl-0">
-        <h5 className="card-title">{card.node.title}</h5>
+        <h5 className="card-title">{card.node.link
+          ? <a href={card.node.link}>{card.node.title}</a> : card.node.title}</h5>
         <div className="card-text"><ReactMarkdown source={card.node.text}></ReactMarkdown></div>
       </div>
     </div>
@@ -102,20 +103,21 @@ const Page = ({
 
 export const pageQuery = graphql`
   query($filenameRegex: String!, $tag: String) {
-        page: markdownRemark(fileAbsolutePath: {regex: $filenameRegex }) {
-        html
+      page: markdownRemark(fileAbsolutePath: {regex: $filenameRegex }) {
+      html
       frontmatter {
-        title
-      }
-      }
-    cards: allCardsYaml(filter: {tags: { in: [ $tag ] }}) {
-        edges {
-      node {
-        title
-          text
-      tags
+      title
     }
-  }
+    }
+    cards: allCardsYaml(filter: {tags: { in: [ $tag ] }}) {
+      edges {
+    node {
+      title
+        link
+    text
+tags
+}
+}
 }
 }
 `;
