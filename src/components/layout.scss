@@ -49,6 +49,13 @@
   display: 'inlineBlock';
 }
 
+.megamenu-list.depth-0 {
+  @include media-breakpoint-up(md) {
+    columns: 2;
+    column-gap: 1em;
+  }
+}
+
 .megamenu-list li {
   list-style: none;
 }

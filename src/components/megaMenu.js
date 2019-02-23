@@ -41,8 +41,7 @@ class MegaMenu extends React.Component {
   }
 
   renderMenu(parentSlug, menuTree, depth = 0) {
-    const columns = depth === 0 ? 2 : 1;
-    return <ul className="p-2 megamenu-list" style={{ columns, columnGap: '1em' }}>
+    return <ul className={`depth-${depth} p-2 megamenu-list`}>
       {menuTree.map(subMenuItem => (
         <li
           className="mx-4 my-2"
