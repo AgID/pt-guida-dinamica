@@ -53,7 +53,7 @@ const Layout = props => (
           socialLinks={data.configYaml.socialLinks}
           menu={props.menu}
         />
-        <Container className="justify-content-md-center">
+        <Container className="justify-content-md-center main">
           {props.children}
         </Container>
         <Footer

@@ -4,11 +4,9 @@ import PropTypes from 'prop-types';
 import { CSSTransition } from 'react-transition-group';
 import { Link } from 'gatsby';
 import {
-  Col,
   Dropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem,
   Row
 } from 'reactstrap';
 
@@ -42,92 +40,23 @@ class MegaMenu extends React.Component {
     });
   }
 
-  getSubMenuDepth(subMenuItem) {
-    if (typeof subMenuItem.subtree === 'undefined') {
-      return 1;
-    }
-    return subMenuItem.subtree.reduce((depth, subMenuItem) => {
-      depth = depth + this.getSubMenuDepth(subMenuItem);
-      return depth;
-    }, 1);
-  }
-
-  renderMenu(parentSlug, menuTree) {
-    let maxDepthMenuItem = null;
-    let colSizes = Array(menuTree.length).fill(4);
-
-    if (menuTree.length < 3) {
-      maxDepthMenuItem = menuTree.reduce((maxDepthMenuItem, menuItem, menuItemIndex) => {
-        const menuItemDepth = this.getSubMenuDepth(menuItem);
-
-        maxDepthMenuItem = {
-          index: menuItemDepth > maxDepthMenuItem.maxDepth ? menuItemIndex : maxDepthMenuItem.index,
-          maxDepth: menuItemDepth > maxDepthMenuItem.maxDepth ? menuItemDepth : maxDepthMenuItem.maxDepth
-        };
-        return maxDepthMenuItem;
-      }, {
-        index: null,
-        maxDepth: 0
-      });
-
-      (menuTree.length === 2) && (colSizes = [
-        maxDepthMenuItem.index === 0 ? 8 : 4,
-        maxDepthMenuItem.index === 1 ? 8 : 4
-      ]);
-
-      (menuTree.length === 1) && (colSizes = [12]);
-    }
-
-    return this.getMenuChildren(parentSlug, menuTree, colSizes, maxDepthMenuItem);
-  }
-
-  getMenuChildren(parentSlug, menuTree, colSizes, maxDepthMenuItem) {
-    return menuTree && menuTree.map((subMenuItem, subMenuIndex) => {
-      let subColSizes = colSizes && subMenuItem.subtree && subMenuItem.subtree.map(subTreeMenuItem => {
-        let subColSize = 12;
-        maxDepthMenuItem && (subMenuIndex === maxDepthMenuItem.index) && (
-          subColSize = colSizes[subMenuIndex] === 8 ? 6 : 4
-        );
-
-        return subColSize;
-      });
-      let renderedMenuSubItem = (
-        <div
+  renderMenu(parentSlug, menuTree, depth = 0) {
+    const columns = depth === 0 ? 2 : 1;
+    return <ul className="p-2 megamenu-list" style={{ columns, columnGap: '1em' }}>
+      {menuTree.map(subMenuItem => (
+        <li
+          className="mx-4 my-2"
           key={`${parentSlug}-${subMenuItem.slug}`}
-          className={subColSizes && 'pb-3 pb-lg-0'}
         >
           <Link
-            className="d-block"
             to={`/${parentSlug}/${subMenuItem.slug}`}
           >
-            <DropdownItem
-              tag="div"
-              className="py-2"
-            >
-              {subMenuItem.name}
-            </DropdownItem>
+            {subMenuItem.name}
           </Link>
-          {subMenuItem.subtree && maxDepthMenuItem && (
-            <div className="d-flex flex-wrap ml-3 border-top">
-              {this.getMenuChildren(`/${parentSlug}/${subMenuItem.slug}`, subMenuItem.subtree, subColSizes)}
-            </div>
-          )}
-        </div>
-      );
-
-      colSizes && (
-        renderedMenuSubItem = (
-          <Col
-            key={`col-${parentSlug}-${subMenuItem.slug}`}
-            lg={colSizes[subMenuIndex]}
-            xs='12'
-          >
-            {renderedMenuSubItem}
-          </Col>
-        )
-      );
-      return renderedMenuSubItem;
-    });
+          {subMenuItem.subtree && this.renderMenu(`/${parentSlug}/${subMenuItem.slug}`, subMenuItem.subtree, depth + 1)}
+        </li>
+      ))}
+    </ul>;
   }
 
   render() {

@@ -2,7 +2,7 @@
 ---
 
 <div class="u-layout-releaseFull primary-bg-b1 py-5">
-  <div class="col-xs-12 col-lg-6 mx-auto">
+  <div class="col-xs-12 col-md-6 mx-auto">
     <h1 class="text-white">Guida dinamica<br> del piano triennale</h1>
     <p class="h6 text-white">2019-2021</p>
     <p class="text-white">
@@ -18,14 +18,18 @@
 <div class="col-xs-12 col-lg-6 mx-auto my-5 text-center">
   <h2 class="mb-4">Perché un modello strategico<br> ICT per la Pubblica<br> Amministrazione?</h2>
 
+  <p class="m-auto">
   L’attuazione dell’Agenda digitale italiana richiede il coordinamento di
   molteplici azioni in capo alla Pubblica Amministrazione, alle imprese e alla
   società civile, una gestione integrata delle diverse fonti di finanziamento
   nazionali e comunitarie oltre che un indirizzo uniforme nell’interpretazione
   delle norme in materia di digitale.
-
+  </p>
+  <br>
+  <p class="m-auto">
   Attraverso il Piano Triennale, quindi, si dà attuazione al modello strategico
   per lo sviluppo del digitale secondo cui:
+  </p>
 </div>
 
 <div class="d-flex flex-wrap">

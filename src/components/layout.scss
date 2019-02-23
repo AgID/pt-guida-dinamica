@@ -36,11 +36,19 @@
   width: 100vw;
 }
 
-p {
+.main p {
   max-width: 32em;
   font-family: Lora, Georgia, serif;
 }
 
-li {
+.main li {
   font-family: Lora, Georgia, serif;
+}
+
+.megamenu-list {
+  display: 'inlineBlock';
+}
+
+.megamenu-list li {
+  list-style: none;
 }
