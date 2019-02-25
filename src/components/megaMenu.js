@@ -6,8 +6,7 @@ import { Link } from 'gatsby';
 import {
   Dropdown,
   DropdownToggle,
-  DropdownMenu,
-  Row
+  DropdownMenu
 } from 'reactstrap';
 
 import Icon from './icon';
@@ -164,9 +163,7 @@ class MegaMenu extends React.Component {
                           }}
                           className="p-3"
                           >
-                            <Row>
-                              {this.renderMenu(menuItem.slug, menuItem.subtree)}
-                            </Row>
+                            {this.renderMenu(menuItem.slug, menuItem.subtree)}
                           </DropdownMenu>
                         </Dropdown>
                       ) : <Link

@@ -49,6 +49,13 @@ module.exports = {
         name: 'markdown-pages',
       },
     },
+    {
+      resolve: 'gatsby-plugin-copy-files',
+      options: {
+        source: `${__dirname}/src/images`,
+        destination: '/images'
+      }
+    },
     `gatsby-transformer-remark`
     // this (optional) plugin enables PWA + Offline functionality
     // To learn more, visit: https://gatsby.app/offline

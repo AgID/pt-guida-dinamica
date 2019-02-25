@@ -42,11 +42,12 @@
 }
 
 .main li {
+  max-width: 32em;
   font-family: Lora, Georgia, serif;
 }
 
 .megamenu-list {
-  display: 'inlineBlock';
+  display: inline-block;
 }
 
 .megamenu-list.depth-0 {
@@ -58,4 +59,8 @@
 
 .megamenu-list li {
   list-style: none;
+}
+
+.align-p-center p {
+  margin: auto;
 }

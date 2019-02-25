@@ -37,40 +37,54 @@ const Page = ({
   const howItWorks = toCards(cards, 'come-funziona');
   const advantages = toCards(cards, 'vantaggi');
 
+  const getLayoutClasses = frontmatter => {
+    switch (frontmatter.layout) {
+    case 'home':
+      return 'd-flex flex-wrap mb-4';
+    case 'centered':
+      return 'd-flex flex-column text-center align-p-center mt-4';
+    default:
+      return 'mt-4';
+    }
+  };
+
   return (
     <Layout menu={pageContext.siteNav}>
       <SEO title={frontmatter.title} />
 
-      <div className="d-flex flex-wrap mb-4">
+      <div className={getLayoutClasses(frontmatter)}>
         {frontmatter.title && <h1>{frontmatter.title}</h1>}
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
 
-      <div className="my-4">
-        {done[0] && (
-          <>
-            <h2>Cosa è stato fatto</h2>
-            <div className="d-flex flex-wrap">
-              {done}
-            </div>
-          </>
-        )}
+      {(done[0] || todo[0]) &&
+        <div className="my-4">
+          {done[0] && (
+            <>
+              <h2>Cosa è stato fatto</h2>
+              <div className="d-flex flex-wrap">
+                {done}
+              </div>
+            </>
+          )}
 
-        {todo[0] && (
-          <div className="my-5">
-            <h2>Cosa rimane da fare</h2>
-            <div className="d-flex flex-wrap">
-              {todo}
+          {todo[0] && (
+            <div className="my-5">
+              <h2>Cosa rimane da fare</h2>
+              <div className="d-flex flex-wrap">
+                {todo}
+              </div>
             </div>
-          </div>
-        )}
-      </div>
+          )}
+        </div>
+      }
 
-      <div className="my-5 d-flex flex-wrap">
-        {intro[0] && intro}
-        {howItWorks[0] && howItWorks}
-        {advantages[0] && advantages}
-      </div>
+      {(intro[0] || howItWorks[0] || advantages[0]) &&
+        <div className="my-5 d-flex flex-wrap">
+          {intro[0] && intro}
+          {howItWorks[0] && howItWorks}
+          {advantages[0] && advantages}
+        </div>}
 
       {pageNav && <PageNav
         left={{
@@ -90,7 +104,7 @@ const Page = ({
           label: pageNav.next.name
         }}
       />}
-    </Layout >
+    </Layout>
   );
 };
 
@@ -100,6 +114,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
       title
+      layout
     }
     }
     cards: allCardsYaml(filter: {tags: { in: [ $tag ] }}) {
