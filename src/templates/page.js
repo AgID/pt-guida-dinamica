@@ -132,6 +132,7 @@ export const pageQuery = graphql`
           new {
             label
             title
+            icon
           }
         }
       }

@@ -19,27 +19,30 @@ const Actions = ({ actions }) => {
           {actions.map(a => (
             <tr>
               <td>
-                <span className="float-left"><span className="circle">{a.label}</span></span>
-                <p>{a.title}<br />
-                  <small>{a.subtitle}</small>
-                </p>
+                <div className="d-flex">
+                  <span><span className="circle">{a.label}</span></span>
+                  <p>{a.title}<br />
+                    <small>{a.subtitle}</small>
+                  </p>
+                </div>
               </td>
               <td>
-                <img src={`/images/${a.status}.svg`} alt="" />
+                <img src={`/images/${a.status}.svg`} alt={a.status} title={a.status} />
               </td>
 
               <td>
                 {a.new && a.new.map(n => (
                   <>
                     {n.label &&
-                      <>
-                        <span className="float-left"><span className="circle">{n.label}</span></span>
+                      <div className="d-flex">
+                        <span><span className="circle">{n.label}</span></span>
                         <p>{n.title}</p>
-                      </>
+                      </div>
                     }
                     {n.icon &&
-                      <div className="d-flex w-100 pb-4">
-                        <span className="float-left pl-3"><img src={`/images/${n.icon}.svg`} alt="" /></span>
+                      <div className="d-flex w-100 pb-4 pl-3">
+                        <span><img src={`/images/${n.icon}.svg`} alt={n.icon} tile={n.icon} />
+                        </span>
                       </div>
                     }
                   </>
