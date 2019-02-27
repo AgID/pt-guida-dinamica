@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageNav from '../components/pageNav';
+import Actions from '../components/actions';
 
 const ReactMarkdown = require('react-markdown');
 
@@ -28,6 +29,10 @@ const Page = ({
   data, pageContext
 }) => {
   const { page, cards } = data;
+  if (!page) {
+    console.error('cannot create page', data);
+    return '';
+  }
   const { frontmatter, html } = page;
   const pageNav = JSON.parse(pageContext.pageNav);
 
@@ -56,6 +61,10 @@ const Page = ({
         {frontmatter.title && <h1>{frontmatter.title}</h1>}
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
+
+      {console.log(frontmatter)}
+
+      {frontmatter.actions && Actions(frontmatter)}
 
       {(done[0] || todo[0]) &&
         <div className="my-4">
@@ -110,24 +119,34 @@ const Page = ({
 
 export const pageQuery = graphql`
   query($filenameRegex: String!, $tag: String) {
-      page: markdownRemark(fileAbsolutePath: {regex: $filenameRegex }) {
+    page: markdownRemark(fileAbsolutePath: {regex: $filenameRegex }) {
       html
       frontmatter {
-      title
-      layout
-    }
+        title
+        layout
+        actions {
+          label
+          title
+          subtitle
+          status
+          new {
+            label
+            title
+          }
+        }
+      }
     }
     cards: allCardsYaml(filter: {tags: { in: [ $tag ] }}) {
       edges {
-    node {
-      title
-        link
-    text
-tags
-}
-}
-}
-}
+        node {
+          title
+          link
+          text
+          tags
+        }
+      }
+    }
+  }
 `;
 
 export default Page;
