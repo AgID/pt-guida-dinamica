@@ -32,7 +32,7 @@ const PageNav = props => (
         )}
       </Col>
       <Col xs="12" lg="4">
-        {props.up.path && (
+        {props.up && props.up.path && (
           <Col xs="12" className={classNames('text-center p-0', { 'mb-2': props.down.path })}>
             <Link to={props.up.path}>
               <Button
@@ -49,7 +49,7 @@ const PageNav = props => (
             </Link>
           </Col>
         )}
-        {props.down.path && (
+        {props.down && props.down.path && (
           <Col xs="12" className="text-center p-0">
             <Link to={props.down.path}>
               <Button

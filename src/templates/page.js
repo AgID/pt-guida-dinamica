@@ -62,8 +62,6 @@ const Page = ({
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
 
-      {console.log(frontmatter)}
-
       {frontmatter.actions && Actions(frontmatter)}
 
       {(done[0] || todo[0]) &&
@@ -100,14 +98,14 @@ const Page = ({
           path: pageNav.prev.path,
           label: pageNav.prev.name
         }}
-        down={{
+        /* down={{
           path: pageNav.firstChild.path,
           label: pageNav.firstChild.name,
         }}
         up={{
           path: pageNav.parent.path,
           label: pageNav.parent.name,
-        }}
+        }} */
         right={{
           path: pageNav.next.path,
           label: pageNav.next.name

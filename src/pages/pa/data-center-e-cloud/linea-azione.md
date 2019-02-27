@@ -18,6 +18,7 @@ actions:
     new:
       - label: LA01
         title: Comunicazione dei risultati del censimento del Patrimonio ICT
+      - icon: risultati_down
       - label: LA02
         title: Migrazione dei sistemi informativi delle PA verso il Cloud 
   - label: 4

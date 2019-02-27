@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
 const Actions = ({ actions }) => {
@@ -17,7 +17,7 @@ const Actions = ({ actions }) => {
         <tbody>
 
           {actions.map(a => (
-            <tr>
+            <tr key={`a${a.label}`}>
               <td>
                 <div className="d-flex">
                   <span><span className="circle">{a.label}</span></span>
@@ -32,7 +32,7 @@ const Actions = ({ actions }) => {
 
               <td>
                 {a.new && a.new.map(n => (
-                  <>
+                  <Fragment key={`n${n.label}`}>
                     {n.label &&
                       <div className="d-flex">
                         <span><span className="circle">{n.label}</span></span>
@@ -45,7 +45,7 @@ const Actions = ({ actions }) => {
                         </span>
                       </div>
                     }
-                  </>
+                  </Fragment>
                 ))}
               </td>
             </tr>

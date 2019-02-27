@@ -11,8 +11,9 @@
     - name: Data center e cloud
       slug: data-center-e-cloud
       tag: pa-data-center-e-cloud
-    - name: Data center e cloud - linee d'azione
-      slug: la-data-center-cloud
+      subtree:
+        - name: Linee d'azione
+          slug: linea-azione
     - name: Connettività
       slug: connettivita
       tag: pa-connettivita

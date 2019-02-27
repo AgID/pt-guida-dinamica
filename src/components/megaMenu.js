@@ -47,6 +47,7 @@ class MegaMenu extends React.Component {
           key={`${parentSlug}-${subMenuItem.slug}`}
         >
           <Link
+            className="w-100 d-inline-block"
             to={`/${parentSlug}/${subMenuItem.slug}`}
           >
             {subMenuItem.name}
