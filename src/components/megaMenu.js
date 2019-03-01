@@ -40,10 +40,10 @@ class MegaMenu extends React.Component {
   }
 
   renderMenu(parentSlug, menuTree, depth = 0) {
-    return <ul className={`depth-${depth} p-2 megamenu-list`}>
+    return <ul className={`depth-${depth} p-${depth > 0 ? '0' : '2'} megamenu-list`}>
       {menuTree.map(subMenuItem => (
         <li
-          className="mx-4 my-2"
+          className={`mx-${depth > 0 ? '2' : '4'} my-2`}
           key={`${parentSlug}-${subMenuItem.slug}`}
         >
           <Link

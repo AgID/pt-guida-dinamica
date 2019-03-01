@@ -14,37 +14,49 @@ europei per la trasformazione digitale.
 <div class="d-flex flex-wrap mt-4">
 
 <div class="card-wrapper card-space col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-  <div class="card card-bg m-4">
+  <div class="card card-bg m-2 text-left">
+    <h2 class="text-sans-serif mt-3 px-3" style="color: #0066cc; font-size: 1rem; letter-spacing: 0.01rem">2015 Strategia per la Crescita Digitale</h2>
     <div class="card-body">
-      <p>2015 Strategia per la Crescita Digitale</p>
       <p class="card-text">
         Rappresenta l’Agenda Digitale italiana
         approvata dal Governo e dalla Commissione Europea.
       </p>
+      <div class="d-flex mt-3">
+        <img src="/images/cover_pt_2015_80px.svg" />
+        <p class="p-4">2014-2015<br />la strategia approvata dal governo</p>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="card-wrapper card-space col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-  <div class="card card-bg m-4">
+  <div class="card card-bg m-2 text-left">
+    <h2 class="text-sans-serif mt-3 px-3" style="color: #0066cc; font-size: 1rem; letter-spacing: 0.01rem">2016 Modello Strategico ICT</h2>
     <div class="card-body">
-      <p>2016 Modello Strategico ICT</p> 
       <p class="card-text">
         Individua gli elementi tecnici abilitanti per
-        realizzare l’Agenda Digitale.
+        realizzare l’Agenda Digitale.<br /><br />
       </p>
+      <div class="d-flex mt-3">
+        <img src="/images/cover_pt_2016_80px.svg" />
+        <p class="p-4">2016<br />il modello strategico di trasformazione digitale della PA</p>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="card-wrapper card-space col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-  <div class="card card-bg m-4">
+  <div class="card card-bg m-2 text-left">
+    <h2 class="text-sans-serif mt-3 px-3" style="color: #0066cc; font-size: 1rem; letter-spacing: 0.01rem">2017 Piano Triennale ICT</h2>
     <div class="card-body">
-      <p>2017 Piano Triennale ICT</p>
       <p class="card-text">
         Declina azioni e obiettivi da raggiungere per ogni
-        elemento del modello.
+        elemento del modello.<BR />
       </p>
+      <div class="d-flex mt-4">
+        <img src="/images/cover_pt_2017_80.svg" />
+        <p class="p-4">2017<br />il Piano Triennale definisce gli obiettivi da raggiungere</p>
+      </div>
     </div>
   </div>
 </div>
