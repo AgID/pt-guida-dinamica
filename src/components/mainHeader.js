@@ -8,7 +8,7 @@ import Icon from './icon';
 const MainHeader = props => (
   <>
     <div class="it-nav-wrapper">
-      <div class="it-header-center-wrapper">
+      <div class="it-header-center-wrapper it-small-header">
         <div class="container">
           <div class="row">
             <div class="col-12">
