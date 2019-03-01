@@ -1,63 +1,47 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
-import {
-  Col,
-  Container,
-  Row
-} from 'reactstrap';
 
 import MegaMenu from './megaMenu';
 import Icon from './icon';
 
 const MainHeader = props => (
   <>
-    <header className="it-header-center-wrapper it-small-header">
-      <Container>
-        <Row>
-          <Col xs="12">
-            <div className="it-header-center-content-wrapper p-0">
-              <div className="it-brand-wrapper">
-                <Link to="/">
-                  <Icon icon="code-circle" />
-                  <div className="it-brand-text">
-                    <h2 className="no_toc">{props.title}</h2>
-                    <h3 className="no_toc d-none d-md-block">
-                      {props.description}
-                    </h3>
+    <div class="it-nav-wrapper">
+      <div class="it-header-center-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="it-header-center-content-wrapper">
+                <div class="it-brand-wrapper">
+                  <Link to="/">
+                    <Icon icon="code-circle" />
+                    <div class="it-brand-text">
+                      <h2 class="no_toc">{props.title}</h2>
+                      <h3 class="no_toc d-none d-md-block">{props.description}</h3>
+                    </div>
+                  </Link>
+                </div>
+                <div class="it-right-zone">
+                  <div class="it-socials d-none d-md-flex">
                   </div>
-                </Link>
+                  <div class="it-search-wrapper">
+                  </div>
+                </div>
               </div>
-              <div className="it-right-zone">
-                {/* <div className="it-socials d-none d-md-flex">
-                  <span>Seguici su</span>
-                  <ul>
-                    {props.socialLinks
-                      .map(socialLink => {
-                        return (
-                          <li key={socialLink.icon}>
-                            <a
-                              href={socialLink.url}
-                              aria-label={socialLink.name}
-                            >
-                              <Icon icon={socialLink.icon} />
-                            </a>
-                          </li>
-                        );
-                      })
-                    }
-                  </ul>
-                  </div> */}
-              </div>
+            </div >
+          </div >
+        </div >
+      </div >
+      <div class="it-header-navbar-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <MegaMenu menu={props.menu} />
             </div>
-          </Col>
-        </Row>
-      </Container>
-    </header>
-    <div className="navbar">
-      <Container className="d-block">
-        <MegaMenu menu={props.menu} />
-      </Container>
+          </div>
+        </div>
+      </div>
     </div>
   </>
 );

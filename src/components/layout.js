@@ -39,20 +39,22 @@ const Layout = props => (
     `}
     render={data => (
       <>
-        <SlimHeader
-          owners={
-            data.configYaml.owners
-          }
-          slimHeaderLinks={
-            data.configYaml.slimHeaderLinks
-          }
-        />
-        <MainHeader
-          title={data.configYaml.title}
-          description={data.configYaml.description}
-          socialLinks={data.configYaml.socialLinks}
-          menu={props.menu}
-        />
+        <div class="it-header-wrapper">
+          <SlimHeader
+            owners={
+              data.configYaml.owners
+            }
+            slimHeaderLinks={
+              data.configYaml.slimHeaderLinks
+            }
+          />
+          <MainHeader
+            title={data.configYaml.title}
+            description={data.configYaml.description}
+            socialLinks={data.configYaml.socialLinks}
+            menu={props.menu}
+          />
+        </div>
         <Container className="justify-content-md-center main">
           {props.children}
         </Container>

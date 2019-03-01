@@ -43,7 +43,7 @@ body {
   <div class="card-wrapper card-space col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
     <div class="card card-bg m-2">
       <div class="card-body">
-        <p class="card-text h6">
+        <p class="card-text">
           Il livello nazionale definisce le strategie, le regole e gli standard, realizza
           inoltre le piattaforme abilitanti che ottimizzano gli investimenti.
         </p>
