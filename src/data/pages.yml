@@ -17,30 +17,57 @@
     - name: Connettività
       slug: connettivita
       tag: pa-connettivita
+      subtree:
+        - name: Linee d'azione
+          slug: linea-azione
     - name: Modello di interoperabilità
       slug: modello-di-interoperabilita
       tag: pa-modello-di-interoperabilita
+      subtree:
+        - name: Linee d'azione
+          slug: linea-azione
     - name: Dati della PA
       slug: dati-della-pa
       tag: pa-dati-della-pa
+      subtree:
+        - name: Linee d'azione
+          slug: linea-azione
     - name: Piattaforme
       slug: piattaforme
       tag: pa-piattaforme
+      subtree:
+        - name: Linee d'azione
+          slug: linea-azione
     - name: Ecosistemi
       slug: ecosistemi
       tag: pa-ecosistemi
+      subtree:
+        - name: Linee d'azione
+          slug: linea-azione
     - name: Sicurezza
       slug: sicurezza
       tag: pa-sicurezza
+      subtree:
+        - name: Linee d'azione
+          slug: linea-azione
     - name: Servizi digitali
       slug: servizi-digitali
       tag: pa-servizi-digitali
+      subtree:
+        - name: Linee d'azione
+          slug: linea-azione
     - name: Modelli e strumenti per l'innovazione
       slug: modelli-strumenti-innovazione
       tag: pa-modelli-strumenti-innovazione
+      subtree:
+        - name: Linee d'azione
+          slug: linea-azione
     - name: Governare la trasformazione digitale
       slug: governare-trasformazione-digitale
       tag: pa-governare-trasformazione-digitale
+      subtree:
+        - name: Linee d'azione
+          slug: linea-azione
     - name: Rilevazione della spesa ICT
       slug: rilevazione-spesa-ict
       tag: pa-rilevazione-spesa-ict

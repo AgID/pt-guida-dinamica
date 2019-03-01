@@ -85,6 +85,7 @@ body {
   <div class="card-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
     <div class="card m-4">
       <div class="card-body">
+        <div style="height: 70px"><img src="/images/icon_coordinamento.svg" /></div>
         <p class="card-text">
   Abilitare una strategia di Paese a livello locale e nazionale, inserendo il
     sistema informativo della Pubblica Amministrazione in un quadro organico in
@@ -97,6 +98,7 @@ body {
   <div class="card-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
     <div class="card m-4">
       <div class="card-body">
+        <div style="height: 70px"><img src="/images/spesa.svg" /></div>
         <p class="card-text">
   Indirizzare l’attuazione dei principi di razionalizzazione della spesa
     definiti dalla Legge di Stabilità 2016
@@ -108,6 +110,7 @@ body {
   <div class="card-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
     <div class="card m-4">
       <div class="card-body">
+        <div style="height: 70px"><img src="/images/regole.svg" /></div>
         <p class="card-text">
   Definire regole di interoperabilità, usabilità, standard e ontologie per le
     infrastrutture immateriali e fisiche nazionali, oltre che il modello di
@@ -120,7 +123,8 @@ body {
   <div class="card-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
     <div class="card m-4">
       <div class="card-body">
-        <p class="card-text">
+         <div style="height: 70px"><img src="/images/ecosistemi.svg" /></div>
+       <p class="card-text">
   Accompagnare le amministrazioni nella realizzazione di servizi digitali,
     organizzati in ecosistemi secondo i bisogni di cittadini e imprese 
         </p>
@@ -131,6 +135,7 @@ body {
   <div class="card-wrapper col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
     <div class="card m-4">
       <div class="card-body">
+        <div style="height: 70px"><img src="/images/stakeholder.svg" /></div>
         <p class="card-text">
  Facilitare il rapporto con il mercato definendo standard di riferimento e
     priorità, coinvolgendo anche i soggetti privati nello sviluppo di servizi

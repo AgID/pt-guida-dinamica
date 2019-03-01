@@ -20,21 +20,21 @@ const Actions = ({ actions }) => {
             <tr key={`a${a.label}`}>
               <td>
                 <div className="d-flex">
-                  <span><span className="circle">{a.label}</span></span>
+                  {a.label && <span><span className="circle">{a.label}</span></span>}
                   <p>{a.title}<br />
-                    <small>{a.subtitle}</small>
+                    {a.subtitle && <small>{a.subtitle}</small>}
                   </p>
                 </div>
               </td>
               <td>
-                <img src={`/images/${a.status}.svg`} alt={a.status} title={a.status} />
+                {a.status && <img src={`/images/${a.status}.svg`} alt={a.status} title={a.status} />}
               </td>
 
               <td>
                 {a.new && a.new.map(n => (
                   <Fragment key={`n${n.label}`}>
                     {n.label &&
-                      <div className="d-flex">
+                      <div className="d-flex pb-2">
                         <span><span className="circle">{n.label}</span></span>
                         <p>{n.title}</p>
                       </div>
