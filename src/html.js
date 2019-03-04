@@ -6,8 +6,6 @@ export default class HTML extends React.Component {
     return (
       <html {...this.props.htmlAttributes}>
         <head>
-          <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,700" rel="stylesheet" />
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta

@@ -43,7 +43,9 @@
     "reactstrap": "^7.1.0",
     "stylelint": "^9.10.1",
     "stylelint-config-standard": "^18.2.0",
-    "stylelint-webpack-plugin": "^0.10.5"
+    "stylelint-webpack-plugin": "^0.10.5",
+    "typeface-lora": "0.0.72",
+    "typeface-titillium-web": "0.0.72"
   },
   "keywords": [
     "piano triennale"

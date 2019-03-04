@@ -10,6 +10,9 @@ import SlimHeader from './slimHeader';
 import MainHeader from './mainHeader';
 import Footer from './footer';
 
+require('typeface-lora');
+require('typeface-titillium-web');
+
 const Layout = props => (
   <StaticQuery
     query={graphql`

@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 
 import MegaMenu from './megaMenu';
-import Icon from './icon';
 
 const MainHeader = props => (
   <>
@@ -15,7 +14,7 @@ const MainHeader = props => (
               <div class="it-header-center-content-wrapper">
                 <div class="it-brand-wrapper">
                   <Link to="/">
-                    <Icon icon="code-circle" />
+                    {/* <Icon icon="code-circle" /> */}
                     <div class="it-brand-text">
                       <h2 class="no_toc">{props.title}</h2>
                       <h3 class="no_toc d-none d-md-block">{props.description}</h3>
