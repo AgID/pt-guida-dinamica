@@ -5,6 +5,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageNav from '../components/pageNav';
 import Actions from '../components/actions';
+import Legend from '../components/legend';
 
 const ReactMarkdown = require('react-markdown');
 
@@ -63,6 +64,7 @@ const Page = ({
       </div>
 
       {frontmatter.actions && Actions(frontmatter)}
+      {frontmatter.actions && Legend()}
 
       {(done[0] || todo[0]) &&
         <div className="my-4">
