@@ -50,7 +50,8 @@ class MegaMenu extends React.Component {
             className="w-100 d-inline-block"
             to={`/${parentSlug}/${subMenuItem.slug}`}
           >
-            {subMenuItem.name}
+            {subMenuItem.name}{' '}
+            <span class="sr-only">{subMenuItem.subtitle}</span>
           </Link>
           {subMenuItem.subtree && this.renderMenu(`/${parentSlug}/${subMenuItem.slug}`, subMenuItem.subtree, depth + 1)}
         </li>
@@ -190,9 +191,11 @@ MegaMenu.propTypes = {
     PropTypes.exact({
       name: PropTypes.string.isRequired,
       slug: PropTypes.string.isRequired,
+      subtitle: PropTypes.string,
       subtree: PropTypes.arrayOf(PropTypes.shape({
         name: PropTypes.string.isRequired,
-        slug: PropTypes.string.isRequired
+        slug: PropTypes.string.isRequired,
+        subtitle: PropTypes.string
       })
       )
     })

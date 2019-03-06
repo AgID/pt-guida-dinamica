@@ -4,7 +4,8 @@ const Legend = () => {
   const output =
     <ul style={{
       listStyleType: 'none',
-      columns: '2'
+      columns: '2',
+      fontSize: '0.8rem'
     }} className="mt-5 p-0">
       <li className="d-flex mb-3">
         <img src="/images/pianificata.svg" alt="ripianificata" className="mr-3" />

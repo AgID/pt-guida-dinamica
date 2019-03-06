@@ -15,7 +15,7 @@ function SEO({ description, lang, meta, keywords, title }) {
             htmlAttributes={{
               lang,
             }}
-            title={title}
+            title={title || 'Guida dinamica Piano Triennale 2019-2021'}
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
             meta={[
               {
@@ -55,7 +55,9 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: data.site.siteMetadata.keywords.join(`, `),
               }
             ].concat(meta)}
-          />
+          >
+            <html lang={lang} />
+          </Helmet>
         );
       }}
     />

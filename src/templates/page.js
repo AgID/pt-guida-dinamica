@@ -56,7 +56,7 @@ const Page = ({
 
   return (
     <Layout menu={pageContext.siteNav}>
-      <SEO title={frontmatter.title} />
+      <SEO title={frontmatter.title || frontmatter.hiddenTitle} lang={frontmatter.lang || 'it'} />
 
       <div className={getLayoutClasses(frontmatter)}>
         {frontmatter.title && <h1>{frontmatter.title}</h1>}
