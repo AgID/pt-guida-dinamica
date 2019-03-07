@@ -21,16 +21,9 @@ actions:
     new:
       - label: LA38
         title: Linee Guida SPID
-  - label: "37"
-    title: Progetto SPID
-    status: evolve
-    new:
       - label: LA39
         title: Attività a seguito della notifica di SPID alla Commissione Europea
-  - label: "37"
-    title: Progetto SPID
-    status: evolve
-    new:
+      - icon: risultati_down
       - label: LA40
         title: Integrazione con le identità digitali a livello europeo
   - label: "32"
@@ -40,12 +33,14 @@ actions:
     new:
       - label: LA33
         title: Completamento dell’adesione alla piattaforma pagoPA
+      - icon: risultati_down
   - label: ""
     title: ""
     status: necessaria
     new:
       - label: LA34
         title: Monitoraggio tecnico e dell’attivazione dei servizi
+      - icon: risultati_down
   - label: "39"
     title: Progetto pagoPA
     status: risultati

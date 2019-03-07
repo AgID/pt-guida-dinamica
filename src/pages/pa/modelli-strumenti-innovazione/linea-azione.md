@@ -7,6 +7,7 @@ actions:
     new:
       - label: LA75
         title: Attivazione e sperimentazione della Piattaforma per gli appalti di innovazione
+      - icon: risultati_down
       - label: LA76
         title: Promozione e monitoraggio degli appalti di innovazione
   - label: ""
@@ -15,6 +16,7 @@ actions:
     new:
       - label: LA77
         title: Definizione e implementazione del modello Smart City Landscape
+      - icon: risultati_down
       - label: LA78
         title: >
           Progettazione e realizzazione del primo prototipo del motore predittivo

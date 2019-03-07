@@ -7,6 +7,7 @@ actions:
     new:
       - label: LA55
         title: CERT-PA - ampliamento capacità operativa
+      - icon: risultati_down
       - label: LA56
         title: CERT-PA - Piattaforma INFOSEC
   - label: "56"
@@ -41,6 +42,7 @@ actions:
     new:
       - label: LA57
         title: Adeguamento delle PA agli standard Trasmissione automatizzata IoC
+      - icon: risultati_down
       - label: LA58
         title: Realizzazione piattaforma nazionale della PA per la trasmissione automatizzata degli IoC
   - label: "60"
