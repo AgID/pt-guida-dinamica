@@ -128,6 +128,7 @@ export const pageQuery = graphql`
           label
           title
           subtitle
+          delayed
           status
           new {
             label

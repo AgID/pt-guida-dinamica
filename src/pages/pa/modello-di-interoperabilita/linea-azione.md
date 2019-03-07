@@ -10,6 +10,7 @@ actions:
         title: Transizione dei servizi SP-Coop al nuovo modello da parte delle PA
   - label: "48"
     title: Adozione del Modello da parte delle PA
+    delayed: true
     subtitle: Linee guida del nuovo Modello di interoperabilità
     status: pianificata
     new:
@@ -17,12 +18,14 @@ actions:
         title: Adozione delle linee guida del nuovo Modello di interoperabilità
   - label: "49"
     title: Catalogo delle API
+    delayed: true
     status: pianificata
     new:
       - label: LA13
         title: Realizzazione e popolamento del "Catalogo delle Interfacce di Servizio"
   - label: "49"
     title: Popolamento del catalogo API
+    delayed: true
     status: pianificata
     new:
       - label: LA13

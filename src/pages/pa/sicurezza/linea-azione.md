@@ -17,7 +17,7 @@ actions:
         title: Emanazione Linee Guida di sicurezza cibernetica per le PA
   - label: "57"
     title: Architettura della sicurezza per servizi critici
-    subtitle: >
+    subtitle: |
       Linee Guida per l’adozione di un ciclo di sviluppo di software sicuro
       - Linee Guida per lo sviluppo sicuro di codice
       - Linee Guida per la configurazione per adeguare la sicurezza del software di  base
@@ -46,9 +46,9 @@ actions:
   - label: "60"
     status: pianificata
     title: Riorganizzazione del dominio "gov.it”
-    subtitle: >
-      - Disposizioni per il riordino del dominio “gov.it” 
-      - Adeguamento da parte delle PA alle suddette disposizioni     
+    subtitle: |
+      - Disposizioni per il riordino del dominio "gov.it"
+      - ![ritardo](/images/ritardo.svg) Adeguamento da parte delle PA alle suddette disposizioni
     new:
       - label: LA74
         title: Supporto alla migrazione verso il dominio .edu e il dominio .it

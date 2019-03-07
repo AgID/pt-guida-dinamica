@@ -3,9 +3,9 @@ title: Governare la trasformazione digitale
 actions:
   - label: "65"
     title: Sistema di monitoraggio
-    subtitle: >
+    subtitle: |
       - Insieme minimo di Indicatori per la misurazione dello stato di avanzamento del Piano 
-      - Prima release del sistema di monitoraggio
+      - ![ritardo](/images/ritardo.svg) Prima release del sistema di monitoraggio
     status: pianificata
     new:
       - label: LA84

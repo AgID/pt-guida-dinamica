@@ -33,17 +33,20 @@ actions:
         title: Disponibilità Catalogo dei servizi (servizi.gov.it)
   - label: "18"
     title: Completamento del popolamento di ANPR
+    delayed: true
     status: pianificata
     new:
       - label: LA17
         title: Completamento del popolamento di ANPR
   - label: "19"
+    delayed: true
     title: Adeguamento delle basi di dati di interesse nazionale al Modello di interoperabilità
     status: pianificata
     new:
       - label: LA12
         title: Adozione delle linee guida del nuovo Modello di interoperabilità
   - label: "20"
+    delayed: true
     title: Integrazione delle basi di dati con il DAF
     status: pianificata
     new:

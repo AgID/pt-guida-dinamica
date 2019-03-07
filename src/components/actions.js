@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
+const ReactMarkdown = require('react-markdown');
 
 const Actions = ({ actions }) => {
   const output =
@@ -19,10 +20,12 @@ const Actions = ({ actions }) => {
           {actions.map(a => (
             <tr key={`a${a.label}`}>
               <td>
-                <div className="d-flex">
+                <div className="d-flex align-start">
                   {a.label && <span><span className="circle">{a.label}</span></span>}
-                  <p>{a.title}<br />
-                    {a.subtitle && <small>{a.subtitle}</small>}
+                  {a.delayed && <img src="/images/ritardo.svg" alt="in ritardo" className="pr-2 pt-1" />}
+                  <p>
+                    {a.title}<br />
+                    {a.subtitle && <small><ReactMarkdown source={a.subtitle} /></small>}
                   </p>
                 </div>
               </td>
@@ -63,7 +66,8 @@ const RowShape = {
   label: PropTypes.string,
   title: PropTypes.string,
   subtitle: PropTypes.string,
-  status: PropTypes.string
+  status: PropTypes.string,
+  delayed: PropTypes.bool
 };
 RowShape.new = PropTypes.arrayOf(PropTypes.shape(RowShape));
 

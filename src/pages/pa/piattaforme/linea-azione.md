@@ -3,12 +3,14 @@ title: Piattaforme
 actions:
   - label: "31"
     title: Integrazione con SPID
+    delayed: true
     status: evolve
     new:
       - label: LA41
         title: Analisi diffusione di SPID ai fini dello switch-off
   - label: "38"
     title: Monitoraggio implementazione SPID da parte delle PA
+    delayed: true
     status: evolve
     new:
       - label: LA41
@@ -33,6 +35,7 @@ actions:
         title: Integrazione con le identità digitali a livello europeo
   - label: "32"
     title: Definizione dei piani di adesione e attivazione a pagoPA
+    delayed: true
     status: pianificata
     new:
       - label: LA33
@@ -85,12 +88,14 @@ actions:
         title: Accesso ai servizi online con CIE
   - label: "40"
     title: Sistema di avvisi e notifiche di cortesia
+    delayed: true
     status: evolve
     new:
       - label: LA73
         title: Progettazione e sviluppo dell’app e della piattaforma IO
   - label: "41"
     title: Standardizzazione a livello nazionale dei servizi alle imprese
+    delayed: true
     status: pianificata
     new:
       - label: LA90
@@ -115,6 +120,7 @@ actions:
         title: Evoluzione del sistema NoiPA e valorizzazione del patrimonio informativo gestito
   - label: "44"
     title: Realizzazione Sistema di gestione dei procedimenti amministrativi nazionali
+    delayed: true
     status: evolve
     new:
       - label: LA45
@@ -123,6 +129,7 @@ actions:
         title: Modelli per l'interoperabilità tra sistemi di gestione documentale delle PA
   - label: "45"
     title: Realizzazione Poli di Conservazione
+    delayed: true
     status: evolve
     new:
       - label: LA47

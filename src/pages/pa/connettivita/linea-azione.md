@@ -2,6 +2,7 @@
 title: Connettività
 actions:
   - label: "11"
+    delayed: true
     title: Pubblicazione e adeguamento alle Linee guida per la realizzazione di reti Wi-Fi pubbliche
     status: pianificata
     new:

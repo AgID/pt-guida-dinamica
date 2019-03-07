@@ -6,7 +6,7 @@ actions:
     status: conclusa
   - label: "2"
     title: Censimento patrimonio ICT della PA
-    subtitle: Primo rapporto del censimento
+    subtitle: "![ritardo](/images/ritardo.svg) Primo rapporto del censimento"
     status: ripianificata
     new:
       - label: LA04
