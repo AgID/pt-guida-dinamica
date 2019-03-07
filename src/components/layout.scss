@@ -87,3 +87,9 @@
 .card .card-body li {
   font-size: 0.775rem;
 }
+
+@media (min-width: 992px) {
+  .card .card-body p {
+    font-size: 0.95rem;
+  }
+}
