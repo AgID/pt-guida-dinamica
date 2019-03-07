@@ -61,6 +61,9 @@ const Page = ({
       <div className={getLayoutClasses(frontmatter)}>
         {frontmatter.title && <h1>{frontmatter.title}</h1>}
         <div dangerouslySetInnerHTML={{ __html: html }} />
+        {frontmatter.link_consulta_obiettivi && <p>
+          <a className="primary-color" href={frontmatter.link_consulta_obiettivi}>consulta obiettivi piano triennale 2019-2021</a>
+        </p>}
       </div>
 
       {frontmatter.actions && Actions(frontmatter)}
@@ -74,6 +77,11 @@ const Page = ({
               <div className="d-flex flex-wrap">
                 {done}
               </div>
+              <div className="d-flex flex-wrap">
+                <p className="mt-4 ml-auto text-right">
+                  <a className="primary-color" href={frontmatter.link_approfondisci}>approfondisci nel piano triennale 2019-2021</a>
+                </p>
+              </div>
             </>
           )}
 
@@ -82,6 +90,11 @@ const Page = ({
               <h2>Cosa rimane da fare</h2>
               <div className="d-flex flex-wrap">
                 {todo}
+              </div>
+              <div className="d-flex flex-wrap">
+                <p className="mt-4 ml-auto text-right">
+                  <a className="primary-color" href={frontmatter.link_visualizza_azioni}>visualizza azioni nel piano triennale 2019-2021</a>
+                </p>
               </div>
             </div>
           )}
@@ -124,6 +137,9 @@ export const pageQuery = graphql`
       frontmatter {
         title
         layout
+        link_visualizza_azioni
+        link_approfondisci
+        link_consulta_obiettivi
         actions {
           label
           title

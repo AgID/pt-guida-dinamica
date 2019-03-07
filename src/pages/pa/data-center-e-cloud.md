@@ -1,8 +1,8 @@
 ---
 title: Data center e cloud
-link_visualizza_azioni:
-link_approfondisci:
-link_consulta_obiettivi:
+link_visualizza_azioni: "/"
+link_approfondisci: "/"
+link_consulta_obiettivi: "/"
 ---
 
 Il Cloud nell’ambito della trasformazione digitale rappresenta una delle
