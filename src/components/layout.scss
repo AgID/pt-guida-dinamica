@@ -36,6 +36,11 @@
   width: 100vw;
 }
 
+.main h1,
+.main h2 {
+  max-width: 600px;
+}
+
 .main p {
   max-width: 32em;
   font-family: Lora, Georgia, serif;
@@ -92,4 +97,8 @@
   .card .card-body p {
     font-size: 0.95rem;
   }
+}
+
+.centered h1 {
+  margin: auto;
 }

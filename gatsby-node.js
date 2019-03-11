@@ -10,17 +10,22 @@ exports.createPages = ({ actions }) => {
   try {
     const pages = yaml.safeLoad(fs.readFileSync(path.resolve(`src/data/pages.yml`), 'utf8'));
 
-    // create homepage
-    createPage({
-      path: '/',
-      component: pageTemplate,
-      context: {
-        filenameRegex: `/home.md$/`,
-        pageNav: JSON.stringify(null),
-        slug: '',
-        tag: '',
-        siteNav: pages
-      }
+    [
+      { path: '/', name: `/home.md$/` },
+      { path: '/privacy-policy', name: `/privacy-policy.md$/` },
+      { path: '/note-legali', name: `/note-legali.md$/` }
+    ].map(page => {
+      createPage({
+        path: page.path,
+        component: pageTemplate,
+        context: {
+          filenameRegex: page.name,
+          pageNav: JSON.stringify(null),
+          slug: '',
+          tag: '',
+          siteNav: pages
+        }
+      });
     });
 
     Object.keys(pages).map((_, pageIndex, pagesArray) => {

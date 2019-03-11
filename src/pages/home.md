@@ -14,11 +14,16 @@ body {
     <h1 class="text-white">Guida dinamica<br> del piano triennale</h1>
     <p class="h6 text-white">2019-2021</p>
     <p class="text-white">
+    <!--
       La Guida dinamica alla lettura del Piano Triennale per l’informatica nella
       Pubblica Amministrazione è lo strumento che ha l’obiettivo di permettere una
       migliore comprensione del Piano attraverso l’approfondimento delle sue diverse
       parti, evidenziando le azioni che hanno un impatto su pubbliche amministrazioni,
       cittadini e imprese.
+    -->
+    La Guida dinamica vuole rendere più  agevole e fruibile la comprensione del Piano secondo le tre dimensioni: cittadini, imprese e PA.
+    Questa è un’anteprima. Nei prossimi giorni verrà aggiornata con i collegamenti alle novanta azioni del Piano, alle linee guida e alla normativa correlate.  
+    La guida è stata progettata per reagire ai feedback degli utenti in coerenza con il percorso collaborativo e inclusivo di crescita digitale del Paese.
     </p>
   </div>
   </div>

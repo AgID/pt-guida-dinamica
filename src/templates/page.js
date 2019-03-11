@@ -48,7 +48,7 @@ const Page = ({
     case 'home':
       return 'd-flex flex-wrap mb-4';
     case 'centered':
-      return 'd-flex flex-column text-center align-p-center mt-4';
+      return 'd-flex flex-column text-center align-p-center mt-4 centered';
     default:
       return 'mt-4';
     }
