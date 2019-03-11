@@ -1,5 +1,7 @@
 ---
 title: Governare la trasformazione digitale
+link_next: pa/rilevazione-spesa-ict
+link_next_label: Rilevazione della spesa ICT
 actions:
   - label: "65"
     title: Sistema di monitoraggio

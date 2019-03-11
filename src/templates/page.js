@@ -122,8 +122,8 @@ const Page = ({
           label: pageNav.parent.name,
         }} */
         right={{
-          path: pageNav.next.path,
-          label: pageNav.next.name
+          path: pageNav.next.path || frontmatter.link_next,
+          label: pageNav.next.name || frontmatter.link_next_label
         }}
       />}
     </Layout>
@@ -136,10 +136,13 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        hiddenTitle
         layout
         link_visualizza_azioni
         link_approfondisci
         link_consulta_obiettivi
+        link_next
+        link_next_label
         actions {
           label
           title

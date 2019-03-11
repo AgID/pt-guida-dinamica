@@ -51,7 +51,7 @@ class MegaMenu extends React.Component {
             to={`/${parentSlug}/${subMenuItem.slug}`}
           >
             {subMenuItem.name}{' '}
-            <span class="sr-only">{subMenuItem.subtitle}</span>
+            <span className="sr-only">{subMenuItem.subtitle}</span>
           </Link>
           {subMenuItem.subtree && this.renderMenu(`/${parentSlug}/${subMenuItem.slug}`, subMenuItem.subtree, depth + 1)}
         </li>

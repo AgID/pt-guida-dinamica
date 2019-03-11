@@ -1,5 +1,7 @@
 ---
 title: Dati della PA
+link_next: pa/piattaforme
+link_next_label: Piattaforme
 actions:
   - label: "13"
     title: Utilizzo delle anagrafi IPA e INI-PEC

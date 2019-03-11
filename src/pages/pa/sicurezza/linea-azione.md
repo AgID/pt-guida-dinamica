@@ -1,5 +1,7 @@
 ---
 title: Sicurezza
+link_next: pa/servizi-digitali
+link_next_label: Servizi digitali
 actions:
   - label: "55"
     title: CERT-PA

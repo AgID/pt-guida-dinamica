@@ -42,11 +42,11 @@ const Layout = props => (
     `}
     render={data => (
       <>
-        <div class="skiplinks">
-          <a class="sr-only sr-only-focusable" href="#main">Vai al contenuto principale</a>
-          <a class="sr-only sr-only-focusable" href="#footer">Vai al footer</a>
+        <div className="skiplinks">
+          <a className="sr-only sr-only-focusable" href="#main">Vai al contenuto principale</a>
+          <a className="sr-only sr-only-focusable" href="#footer">Vai al footer</a>
         </div>
-        <div class="it-header-wrapper">
+        <div className="it-header-wrapper">
           <SlimHeader
             owners={
               data.configYaml.owners

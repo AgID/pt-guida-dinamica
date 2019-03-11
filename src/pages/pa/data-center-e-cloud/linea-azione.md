@@ -1,5 +1,7 @@
 ---
 title: Data center e Cloud
+link_next: pa/connettivita
+link_next_label: Connettività
 actions:
   - label: "1"
     title: Attuazione delle indicazioni fornite nella Circolare AGID 2/2016

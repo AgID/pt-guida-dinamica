@@ -1,5 +1,7 @@
 ---
 title: Connettività
+link_next: pa/modello-di-interoperabilita
+link_next_label: Modello di interoperabilità
 actions:
   - label: "11"
     delayed: true

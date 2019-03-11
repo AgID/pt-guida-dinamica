@@ -1,5 +1,7 @@
 ---
 title: Modello di interoperabilità
+link_next: pa/dati-della-pa
+link_next_label: Dati della PA
 actions:
   - label: "47"
     title: Linee guida del nuovo Modello di interoperabilità

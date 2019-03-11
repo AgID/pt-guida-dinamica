@@ -6,25 +6,25 @@ import MegaMenu from './megaMenu';
 
 const MainHeader = props => (
   <>
-    <div class="it-nav-wrapper">
-      <div class="it-header-center-wrapper it-small-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="it-header-center-content-wrapper">
-                <div class="it-brand-wrapper">
+    <div className="it-nav-wrapper">
+      <div className="it-header-center-wrapper it-small-header">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="it-header-center-content-wrapper">
+                <div className="it-brand-wrapper">
                   <Link to="/">
                     {/* <Icon icon="code-circle" /> */}
-                    <div class="it-brand-text">
-                      <h2 class="no_toc">{props.title}</h2>
-                      <h3 class="no_toc d-none d-md-block">{props.description}</h3>
+                    <div className="it-brand-text">
+                      <h2 className="no_toc">{props.title}</h2>
+                      <h3 className="no_toc d-none d-md-block">{props.description}</h3>
                     </div>
                   </Link>
                 </div>
-                <div class="it-right-zone">
-                  <div class="it-socials d-none d-md-flex">
+                <div className="it-right-zone">
+                  <div className="it-socials d-none d-md-flex">
                   </div>
-                  <div class="it-search-wrapper">
+                  <div className="it-search-wrapper">
                   </div>
                 </div>
               </div>
@@ -32,10 +32,10 @@ const MainHeader = props => (
           </div >
         </div >
       </div >
-      <div class="it-header-navbar-wrapper">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
+      <div className="it-header-navbar-wrapper">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
               <MegaMenu menu={props.menu} />
             </div>
           </div>

@@ -1,5 +1,7 @@
 ---
 title: Strumenti per la generazione e la diffusione dei servizi digitali
+link_next: pa/modelli-strumenti-innovazione
+link_next_label: Modelli e strumenti per l'innovazione
 actions:
   - label: "53"
     title: Community

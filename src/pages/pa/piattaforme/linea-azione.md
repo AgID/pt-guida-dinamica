@@ -1,5 +1,7 @@
 ---
 title: Piattaforme
+link_next: pa/ecosistemi
+link_next_label: Ecosistemi
 actions:
   - label: "31"
     title: Integrazione con SPID
