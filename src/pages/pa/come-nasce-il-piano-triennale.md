@@ -1,6 +1,7 @@
 ---
 title: Come nasce il piano triennale
 layout: centered
+link_next: pa/come-nasce-il-piano-triennale/2017-2019
 ---
 
 Previsto dal CAD (art. 14-bis, lettera b) e dalla Legge di stabilità 2016 (art.

@@ -66,8 +66,8 @@ const Page = ({
         </p>}
       </div>
 
-      {frontmatter.actions && Actions(frontmatter)}
       {frontmatter.actions && Legend()}
+      {frontmatter.actions && Actions(frontmatter)}
 
       {(done[0] || todo[0]) &&
         <div className="my-4">
@@ -79,7 +79,7 @@ const Page = ({
               </div>
               <div className="d-flex flex-wrap">
                 <p className="mt-4 ml-auto text-right">
-                  <a className="primary-color" href={frontmatter.link_approfondisci}>approfondisci nel piano triennale 2019-2021</a>
+                  <a className="primary-color" href={frontmatter.link_approfondisci}>Approfondisci nel piano triennale 2019-2021</a>
                 </p>
               </div>
             </>
@@ -93,7 +93,7 @@ const Page = ({
               </div>
               <div className="d-flex flex-wrap">
                 <p className="mt-4 ml-auto text-right">
-                  <a className="primary-color" href={frontmatter.link_visualizza_azioni}>visualizza azioni nel piano triennale 2019-2021</a>
+                  <a className="primary-color" href={frontmatter.link_visualizza_azioni}>Visualizza azioni nel piano triennale 2019-2021</a>
                 </p>
               </div>
             </div>
@@ -122,8 +122,8 @@ const Page = ({
           label: pageNav.parent.name,
         }} */
         right={{
-          path: pageNav.next.path || frontmatter.link_next,
-          label: pageNav.next.name || frontmatter.link_next_label
+          path: frontmatter.link_next || pageNav.next.path,
+          label: frontmatter.link_next_label || pageNav.next.name
         }}
       />}
     </Layout>
@@ -143,6 +143,8 @@ export const pageQuery = graphql`
         link_consulta_obiettivi
         link_next
         link_next_label
+        link_prev
+        link_prev_label
         actions {
           label
           title
