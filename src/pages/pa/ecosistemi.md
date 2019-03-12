@@ -3,6 +3,7 @@ title: Ecosistemi
 link_visualizza_azioni:
 link_approfondisci:
 link_consulta_obiettivi:
+link_linee_azione: pa/ecosistemi/linea-azione
 ---
 
 Le pubbliche amministrazioni applicano il modello basato su ecosistemi per

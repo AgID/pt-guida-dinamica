@@ -3,6 +3,7 @@ title: Modelli e strumenti per l'innovazione
 link_visualizza_azioni:
 link_approfondisci:
 link_consulta_obiettivi:
+link_linee_azione: pa/modelli-strumenti-innovazione/linea-azione
 ---
 
 Le amministrazioni pubbliche sono chiamate ad attuare progetti ad elevato

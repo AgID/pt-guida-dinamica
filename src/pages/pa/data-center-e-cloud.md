@@ -2,7 +2,7 @@
 title: Data center e cloud
 link_visualizza_azioni: "/"
 link_approfondisci: "/"
-link_consulta_obiettivi: "/"
+link_linee_azione: pa/data-center-e-cloud/linea-azione
 ---
 
 Il Cloud nell’ambito della trasformazione digitale rappresenta una delle

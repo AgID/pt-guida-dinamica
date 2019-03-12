@@ -2,6 +2,8 @@
 title: Modelli e strumenti per l'innovazione
 link_next: pa/governare-trasformazione-digitale
 link_next_label: Governare la trasformazione digitale
+link_prev: pa/modelli-strumenti-innovazione
+link_prev_label: Modelli e strumenti per l'innovazione
 actions:
   - label: ""
     title: ""

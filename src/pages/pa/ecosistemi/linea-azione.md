@@ -2,6 +2,8 @@
 title: Ecosistemi
 link_next: pa/sicurezza
 link_next_label: Sicurezza
+link_prev: pa/ecosistemi
+link_prev_label: Ecosistemi
 actions:
   - label: "51"
     title: Gruppi di Lavoro degli ecosistemi

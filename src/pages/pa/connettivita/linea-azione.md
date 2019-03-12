@@ -2,6 +2,8 @@
 title: Connettività
 link_next: pa/modello-di-interoperabilita
 link_next_label: Modello di interoperabilità
+link_prev: pa/connettivita
+link_prev_label: Connettività
 actions:
   - label: "11"
     delayed: true

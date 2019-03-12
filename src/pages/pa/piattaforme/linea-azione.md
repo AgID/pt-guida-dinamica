@@ -2,6 +2,8 @@
 title: Piattaforme
 link_next: pa/ecosistemi
 link_next_label: Ecosistemi
+link_prev: pa/piattaforme
+link_prev_label: Piattaforme
 actions:
   - label: "31"
     title: Integrazione con SPID
@@ -88,7 +90,7 @@ actions:
     delayed: true
     status: evolve
     new:
-      - label: LA73
+      - label: LA72
         title: Progettazione e sviluppo dell’app e della piattaforma IO
   - label: "41"
     title: Standardizzazione a livello nazionale dei servizi alle imprese
@@ -133,8 +135,8 @@ actions:
         title: Progetto di redazione di linee guida di interoperabilità tra sistemi di conservazione
       - label: LA48
         title: Progetto di dematerializzazione documenti della PA
-  - label: ""
-    title: ""
+  - label: "46"
+    title: ANPR
     status: pianificata
     new:
       - label: LA18

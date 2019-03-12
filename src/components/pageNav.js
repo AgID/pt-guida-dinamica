@@ -1,91 +1,83 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import classNames from 'classnames';
 import { Link } from 'gatsby';
 import {
-  Button,
-  Col,
-  Container,
-  Row
+  Button
 } from 'reactstrap';
 
 import Icon from './icon';
 
 const PageNav = props => (
-  <Container className="py-3">
-    <Row>
-      <Col xs="12" lg="4" className="align-self-center text-center text-lg-left mb-2 mb-lg-0">
-        {props.left.path && (
-          <Link to={props.left.path}>
-            <Button
-              outline
-              color="secondary"
-              size="xs"
-              className="w-75 d-inline-flex align-items-center">
-              <Icon
-                icon="chevron-left"
-                className="icon-secondary"
-              />
-              <span className="flex-grow-1 text-nowrap text-truncate">{props.left.label}</span>
-            </Button>
-          </Link>
-        )}
-      </Col>
-      <Col xs="12" lg="4">
-        {props.up && props.up.path && (
-          <Col xs="12" className={classNames('text-center p-0', { 'mb-2': props.down.path })}>
-            <Link to={props.up.path}>
-              <Button
-                outline
-                color="secondary"
-                size="xs"
-                className="w-75 d-inline-flex align-items-center">
-                <Icon
-                  icon="collapse"
-                  className="icon-secondary"
-                />
-                <span className="flex-grow-1 text-nowrap text-truncate">{props.up.label}</span>
-              </Button>
-            </Link>
-          </Col>
-        )}
-        {props.down && props.down.path && (
-          <Col xs="12" className="text-center p-0">
-            <Link to={props.down.path}>
-              <Button
-                outline
-                color="secondary"
-                size="xs"
-                className="w-75 d-inline-flex align-items-center">
-                <Icon
-                  icon="expand"
-                  className="icon-secondary"
-                />
-                <span className="flex-grow-1 text-nowrap text-truncate">{props.down.label}</span>
-              </Button>
-            </Link>
-          </Col>
-        )}
-      </Col>
-      <Col xs="12" lg="4" className="align-self-center text-center text-lg-right mt-2 mb-lg-0">
-        {props.right.path && (
-          <Link to={props.right.path}>
-            <Button
-              outline
-              color="secondary"
-              size="xs"
-              className="w-75 d-inline-flex align-items-center">
-              <span className="flex-grow-1 text-nowrap text-truncate">{props.right.label}</span>
-              <Icon
-                icon="chevron-right"
-                className="icon-secondary"
-              />
-            </Button>
-          </Link>
-        )}
-      </Col>
-    </Row>
-  </Container>
+  <div className="py-3 d-lg-flex justify-content-between">
+    {props.left.path && (
+      <div className="mb-2 mb-lg-0">
+        <Link to={props.left.path}>
+          <Button
+            outline
+            color="secondary"
+            size="xs"
+            className="w-100 d-inline-flex align-items-center">
+            <Icon
+              icon="chevron-left"
+              className="icon-secondary"
+            />
+            <span className="text-nowrap">{props.left.label}</span>
+          </Button>
+        </Link>
+      </div>
+    )}
+    {props.up && props.up.path && (
+      <div className="align-self-center mb-2 mb-lg-0">
+        <Link to={props.up.path}>
+          <Button
+            outline
+            color="secondary"
+            size="xs"
+            className="w-100 d-inline-flex align-items-center">
+            <Icon
+              icon="collapse"
+              className="icon-secondary"
+            />
+            <span className="flex-grow-1 text-nowrap">{props.up.label}</span>
+          </Button>
+        </Link>
+      </div>
+    )}
+    {props.down && props.down.path && (
+      <div className="align-self-center p-0 mt-2 mb-lg-0">
+        <Link to={props.down.path}>
+          <Button
+            outline
+            color="secondary"
+            size="xs"
+            className="w-100 d-inline-flex align-items-center">
+            <Icon
+              icon="expand"
+              className="icon-secondary"
+            />
+            <span className="flex-grow-1 text-nowrap">{props.down.label}</span>
+          </Button>
+        </Link>
+      </div>
+    )}
+    {props.right.path && (
+      <div xs="12" lg="3" className="align-self-center mt-2 mb-lg-0">
+        <Link to={props.right.path}>
+          <Button
+            outline
+            color="secondary"
+            size="xs"
+            className="w-100 d-inline-flex align-items-center">
+            <span className="text-right flex-grow-1 text-nowrap">{props.right.label}</span>
+            <Icon
+              icon="chevron-right"
+              className="icon-secondary"
+            />
+          </Button>
+        </Link>
+      </div>
+    )}
+  </div>
 );
 
 PageNav.propTypes = {

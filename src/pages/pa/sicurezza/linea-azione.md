@@ -1,7 +1,9 @@
 ---
-title: Sicurezza
+title: Sicurezza informatica
 link_next: pa/servizi-digitali
 link_next_label: Servizi digitali
+link_prev: pa/sicurezza
+link_prev_label: Sicurezza informatica
 actions:
   - label: "55"
     title: CERT-PA
@@ -13,7 +15,7 @@ actions:
       - label: LA56
         title: CERT-PA - Piattaforma INFOSEC
   - label: "56"
-    title: CERT-PA
+    title: Pubblicazione e adeguamento Regole tecniche per la sicurezza ICT delle Pubbliche amministrazioni
     status: evolve
     new:
       - label: LA60
@@ -21,13 +23,13 @@ actions:
   - label: "57"
     title: Architettura della sicurezza per servizi critici
     subtitle: |
-      Linee Guida per l’adozione di un ciclo di sviluppo di software sicuro
+      - Linee Guida per l’adozione di un ciclo di sviluppo di software sicuro
       - Linee Guida per lo sviluppo sicuro di codice
       - Linee Guida per la configurazione per adeguare la sicurezza del software di  base
       - Linee Guida per la modellazione delle minacce e individuazione delle azioni di mitigazione conformi ai principi del Secure/Privacy by Design
     status: conclusa
     new: []
-  - label: "60"
+  - label: "58"
     title: Continuous monitoring
     subtitle: Tool di risk assesment a disposizione di tutte le PA
     status: conclusa

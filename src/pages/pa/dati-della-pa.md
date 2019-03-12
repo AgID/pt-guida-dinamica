@@ -3,6 +3,7 @@ title: Dati della PA
 link_visualizza_azioni:
 link_approfondisci:
 link_consulta_obiettivi:
+link_linee_azione: pa/dati-della-pa/linea-azione
 ---
 
 Le basi dati sono l’ossatura del patrimonio informativo pubblico da rendere

@@ -3,6 +3,7 @@ title: Piattaforme
 link_visualizza_azioni:
 link_approfondisci:
 link_consulta_obiettivi:
+link_linee_azione: pa/piattaforme/linea-azione
 ---
 
 Attraverso l’utilizzo delle Piattaforme si favorisce l’attuazione di un modello

@@ -2,6 +2,8 @@
 title: Dati della PA
 link_next: pa/piattaforme
 link_next_label: Piattaforme
+link_prev: pa/dati-della-pa
+link_prev_label: Dati della PA
 actions:
   - label: "13"
     title: Utilizzo delle anagrafi IPA e INI-PEC
@@ -114,12 +116,6 @@ actions:
     new:
       - label: LA25
         title: Sviluppo ontologie
-  - label: ""
-    title: ""
-    status: necessaria
-    new:
-      - label: LA20
-        title: Strategia complessiva per la valorizzazione dei dati
   - label: "30"
     title: "Utilizzo del Registro dei vocabolari controllati e dei modelli dei dati"
     status: risultati
@@ -129,7 +125,10 @@ actions:
 
   - label: "61"
     title: "Definizione e realizzazione piano di sviluppo della fase di sperimentazione del DAF"
-    new: []
+    status: evolve
+    new:
+      - label: LA26
+        title: Progettazione della PDND, sperimentazione e prima applicazione della stessa
   - label: "62"
     title: "Ingestione dei dati nel DAF - Fase Sperimentale"
     status: evolve

@@ -1,8 +1,5 @@
 ---
 title: Rilevazione della spesa ICT
-link_visualizza_azioni:
-link_approfondisci:
-link_consulta_obiettivi:
 ---
 
 Le indicazioni per le PA contenute nel Piano Triennale tracciano la strada per

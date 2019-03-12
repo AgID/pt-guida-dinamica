@@ -3,6 +3,7 @@ title: Connettività
 link_visualizza_azioni:
 link_approfondisci:
 link_consulta_obiettivi:
+link_linee_azione: pa/connettivita/linea-azione
 ---
 
 In raccordo con il Piano Nazionale Banda Ultra Larga e con la strategia di

@@ -110,14 +110,14 @@ const Page = ({
 
       {pageNav && <PageNav
         left={{
-          path: pageNav.prev.path,
-          label: pageNav.prev.name
+          path: frontmatter.link_prev || pageNav.prev.path,
+          label: frontmatter.link_prev_label || pageNav.prev.name
         }}
-        /* down={{
-          path: pageNav.firstChild.path,
-          label: pageNav.firstChild.name,
+        down={{
+          path: frontmatter.link_linee_azione || pageNav.firstChild.path,
+          label: frontmatter.link_linee_azione ? 'Confronto per linee d\'azione' : pageNav.firstChild.name,
         }}
-        up={{
+        /* up={{
           path: pageNav.parent.path,
           label: pageNav.parent.name,
         }} */
@@ -140,11 +140,11 @@ export const pageQuery = graphql`
         layout
         link_visualizza_azioni
         link_approfondisci
-        link_consulta_obiettivi
         link_next
         link_next_label
         link_prev
         link_prev_label
+        link_linee_azione
         actions {
           label
           title

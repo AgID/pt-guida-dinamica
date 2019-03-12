@@ -125,7 +125,7 @@
   text: >
     Per assicurare la comunicazione tra i propri sistemi esistenti e tra questi e
     quelli di soggetti terzi, le PA utilizzano gli standard e i profili definiti dal
-    Modello, secondo le indicazioni operative fornite da AGID.
+    Modello, secondo le [indicazioni operative fornite da AGID](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/allegati/3_indicazioni-operative-migrazione-spcoop.html).
   tags: [ da-fare, pa-modello-di-interoperabilita ]
 
 - title: Adozione linee guida nuovo Modello
@@ -135,17 +135,24 @@
   tags: [ da-fare, pa-modello-di-interoperabilita ]
 
 - title: Basi di dati di interesse nazionale
-  text: >
+  text: |
     Nell’agosto 2017 è stato pubblicato l’elenco delle [Basi di dati di interesse
     nazionale](https://www.agid.gov.it/it/dati/basi-dati-interesse-nazionale) 
-    e le relative schede descrittive. Da gennaio 2018 sono disponibili le
-    «Linee guida per l’implementazione della specifica europea GeoDCAT-AP». Da
-    aprile 2018 è on line la nuova versione (2.0) del [Repertorio nazionale dei dati
+    e le relative schede descrittive. 
+    
+    Da gennaio 2018 sono disponibili le
+    «Linee guida per l’implementazione della specifica europea GeoDCAT-AP». 
+    
+    Da aprile 2018 è on line la nuova versione (2.0) del [Repertorio nazionale dei dati
     territoriali](http://geodati.gov.it/). 
+
     A maggio 2018 è stato messo in produzione il Catalogo dei servizi.
+
     A settembre 2018 sono state redatte le [Linee guida](https://lineeguida-ipa.readthedocs.io/it/latest/index.html) 
     relative alle Regole tecniche
-    da seguire per l’iscrizione e l’aggiornamento dei dati in IPA. A novembre 2018
+    da seguire per l’iscrizione e l’aggiornamento dei dati in IPA. 
+    
+    A novembre 2018
     il popolamento di [ANPR](https://www.anpr.interno.it/) ha raggiunto i 1.206 comuni e oltre 14 milioni di
     abitanti.
   tags: [ fatto, pa-dati-della-pa ]
@@ -179,8 +186,8 @@
 - title: Dati aperti
   text: >
     A marzo 2017 è stato reso disponibile il portale dei dati aperti della PA
-    [dati.gov.it](https://dati.gov.it) Nell’agosto 2017 sono state aggiornate le «Linee guida per la
-    valorizzazione del patrimonio informativo pubblico».
+    [dati.gov.it](https://dati.gov.it) Nell’agosto 2017 sono state aggiornate le [Linee guida per la
+    valorizzazione del patrimonio informativo pubblico](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/).
   tags: [ fatto, pa-dati-della-pa ]
 
 - title: Vocabolari controllati e modelli di dati
@@ -276,7 +283,7 @@
 - title: SPID
   link: https://www.spid.gov.it/
   text: >
-    Sono stati accreditati 10 gestori di identità. AGID ha supportato le PA nelle
+    Sono stati accreditati 9 gestori di identità. AGID ha supportato le PA nelle
     attività di interfacciamento con SPID portando a 4000 il numero di PA che
     offrono servizi accessibili con SPID.
   tags: [ fatto, pa-piattaforme ]
@@ -444,8 +451,8 @@
 - title: Riorganizzazione del dominio «.gov.it»
   link: https://infosec.cert-pa.it/
   text: >
-    A febbraio 2018 è stata emanata la Determinazione n. 36/2018 per il riordino del
-    dominio di secondo livello (SLD) “.gov.it”. A marzo 2018 il dominio «edu.it» è
+    A febbraio 2018 è stata emanata la Determinazione n. 36/2018 per il riordino
+    del dominio di terzo livello (SLD) nel dominio ".gov.it". A marzo 2018 il dominio «edu.it» è
     stato assegnata al Ministero dell’Istruzione, dell’Università e della Ricerca.
   tags: [ fatto, pa-servizi-digitali ]
 
@@ -579,7 +586,7 @@
   tags: [ da-fare, pa-governare-trasformazione-digitale ]
 
 - title: Rilevazione della spesa ICT 2018
-  text: >
+  text: |
     Tra ottobre 2017 e maggio 2018 è stata realizzata un’attività di ricerca e
     analisi sulla spesa e sulle attività ICT nella PA, con il  coinvolgimento delle
     principali PA centrali e locali nella raccolta di dati e informazioni, che ha
@@ -588,12 +595,13 @@
     cui 68 amministrazioni, allargando il panel rispetto alla precedente edizione
     che aveva visto la partecipazione di 21 PAC.
 
-    L’insieme delle PA che hanno partecipato è così composto: 19 Amministrazioni
-    Centrali (tutti i Ministeri, Agenzie Fiscali, INPS, INAIL e ACI) 21
-    Amministrazioni Regionali e Province Autonome 14 Città Metropolitane 14 Comuni
-    capoluogo delle Città Metropolitane
-      5 società in-house centrali e regionali
-    10 centrali di committenza nazionali e regionali
+    L’insieme delle PA che hanno partecipato è così composto: 
+    - 19 Amministrazioni Centrali (tutti i Ministeri, Agenzie Fiscali, INPS, INAIL e ACI)
+    - 21 Amministrazioni Regionali e Province Autonome 14 Città Metropolitane 14 Comuni capoluogo delle Città Metropolitane
+    - 5 società in-house centrali e regionali
+    - 10 centrali di committenza nazionali e regionali
+
+    [Rilevazione spesa ICT della PA 2018 - Report di sintesi](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/allegati/2_rilevazione-spesa-ict-pa-2018.html)
 
   tags: [ fatto, pa-rilevazione-spesa-ict ]
 

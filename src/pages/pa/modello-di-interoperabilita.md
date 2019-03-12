@@ -3,6 +3,7 @@ title: Modello di interoperabilità
 link_visualizza_azioni:
 link_approfondisci:
 link_consulta_obiettivi:
+link_linee_azione: pa/modello-di-interoperabilita/linea-azione
 ---
 
 La definizione del modello di interoperabilità facilita l’interazione e lo

@@ -2,6 +2,8 @@
 title: Data center e Cloud
 link_next: pa/connettivita
 link_next_label: Connettività
+link_prev: pa/data-center-e-cloud
+link_prev_label: Data center e Cloud
 actions:
   - label: "1"
     title: Attuazione delle indicazioni fornite nella Circolare AGID 2/2016
@@ -19,7 +21,7 @@ actions:
     status: risultati
     new:
       - label: LA01
-        title: Comunicazione dei risultati del censimento del Patrimonio ICT
+        title: Attuazione del Programma nazionale di abilitazione al Cloud della PA
       - icon: risultati_down
       - label: LA02
         title: Migrazione dei sistemi informativi delle PA verso il Cloud 
