@@ -64,7 +64,7 @@
         - name: Confronto tra linee d'azione
           slug: linea-azione
           subtitle: sicurezza
-    - name: Servizi digitali
+    - name: Strumenti per la generazione e la diffusione dei servizi digitali
       slug: servizi-digitali
       tag: pa-servizi-digitali
       subtitle: pubblica amministrazione
