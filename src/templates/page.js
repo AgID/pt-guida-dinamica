@@ -77,11 +77,12 @@ const Page = ({
               <div className="d-flex flex-wrap">
                 {done}
               </div>
+              {frontmatter.link_approfondisci &&
               <div className="d-flex flex-wrap">
                 <p className="mt-4 ml-auto text-right">
                   <a className="primary-color" href={frontmatter.link_approfondisci}>Approfondisci nel piano triennale 2019-2021</a>
                 </p>
-              </div>
+              </div>}
             </>
           )}
 
@@ -91,11 +92,12 @@ const Page = ({
               <div className="d-flex flex-wrap">
                 {todo}
               </div>
+              {frontmatter.link_visualizza_azioni &&
               <div className="d-flex flex-wrap">
                 <p className="mt-4 ml-auto text-right">
                   <a className="primary-color" href={frontmatter.link_visualizza_azioni}>Visualizza azioni nel piano triennale 2019-2021</a>
                 </p>
-              </div>
+              </div>}
             </div>
           )}
         </div>

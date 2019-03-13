@@ -1,7 +1,7 @@
 ---
 title: Data center e cloud
-link_visualizza_azioni: "/"
-link_approfondisci: "/"
+link_visualizza_azioni: "https://pianotriennale-ict.italia.it/cloud-della-pa/"
+link_approfondisci: "https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/03_infrastrutture.html#scenario"
 link_linee_azione: pa/data-center-e-cloud/linea-azione
 ---
 

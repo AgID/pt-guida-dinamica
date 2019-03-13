@@ -1,8 +1,7 @@
 ---
 title: Ecosistemi
-link_visualizza_azioni:
-link_approfondisci:
-link_consulta_obiettivi:
+link_visualizza_azioni: "https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/07_ecosistemi.html#linee-di-azione"
+link_approfondisci: "https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/07_ecosistemi.html#scenario"
 link_linee_azione: pa/ecosistemi/linea-azione
 ---
 

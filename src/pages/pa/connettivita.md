@@ -1,8 +1,7 @@
 ---
 title: Connettività
-link_visualizza_azioni:
-link_approfondisci:
-link_consulta_obiettivi:
+link_visualizza_azioni: "https://pianotriennale-ict.italia.it/connettivita/"
+link_approfondisci: "https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/03_infrastrutture.html#id5"
 link_linee_azione: pa/connettivita/linea-azione
 ---
 

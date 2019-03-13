@@ -1,5 +1,6 @@
 ---
 title: Rilevazione della spesa ICT
+link_approfondisci: "https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/12_razionalizzazione-della-spesa.html"
 ---
 
 Le indicazioni per le PA contenute nel Piano Triennale tracciano la strada per

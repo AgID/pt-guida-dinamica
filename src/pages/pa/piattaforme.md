@@ -1,8 +1,7 @@
 ---
 title: Piattaforme
-link_visualizza_azioni:
-link_approfondisci:
-link_consulta_obiettivi:
+link_visualizza_azioni: "https://pianotriennale-ict.italia.it/piattaforme/"
+link_approfondisci: "https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/06_piattaforme.html"
 link_linee_azione: pa/piattaforme/linea-azione
 ---
 
