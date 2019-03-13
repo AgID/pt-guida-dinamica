@@ -22,7 +22,7 @@ const Actions = ({ actions }) => {
                   {a.label && (
                     <span>
                       <span className="circle">
-                        <ReactMarkdown source={a.label} />
+                        {a.label}
                       </span>
                     </span>
                   )}
@@ -64,10 +64,10 @@ const Actions = ({ actions }) => {
                         <div className="d-flex pb-2">
                           <span>
                             <span className="circle">
-                              <ReactMarkdown source={a.label} />
+                              {n.label}
                             </span>
                           </span>
-                          <p>{n.title}</p>
+                          <ReactMarkdown source={n.title} />
                         </div>
                       )}
                       {n.icon && (
