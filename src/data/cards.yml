@@ -624,24 +624,25 @@
 
 - title: Come funziona
   text: >
-    Tutti i cittadini devono poter avere pari condizioni di accesso ai siti  e ai
-    servizi progettati dalle PA per rispondere ad ogni esigenza di navigazione e
-    usabilità, sulla base di linee guida e kit di sviluppo definiti da AGID.
+    Le PA adeguano i siti e i servizi ad ogni esigenza di navigazione e usabilità,
+    sulla base di linee guida e kit di sviluppo definiti da AGID.
   tags: [ come-funziona, cit-accessibilita ]
 
 - title: Possibili vantaggi
   text: >
-    Tutti i cittadini devono poter avere pari condizioni di accesso ai siti  e ai
-    servizi progettati dalle PA per rispondere ad ogni esigenza di navigazione e
-    usabilità, sulla base di linee guida e kit di sviluppo definiti da AGID.
+    La semplificazione nell'accesso e nell’uso di strumenti informatici e servizi
+    pubblici digitali favorisce la partecipazione e l’inclusione di tutti i
+    cittadini, che hanno la possibilità di segnalare eventuali inadempienze alle PA,
+    anche attraverso il ricorso al Difensore Civico per il digitale.  
   tags: [ vantaggi, cit-accessibilita ]
 
 # CIE
 - title: Cos’è?
   text: >
-    La Carta Identità Elettronica è documento personale che attesta l’identità del
-    cittadino. Realizzato su supporto plastico, è dotato di elementi di sicurezza e
-    di un microchip a radiofrequenza (RF) che memorizza i dati del titolare.
+    La Carta d’Identità Elettronica è il documento personale, realizzato su supporto
+    plastico, che attesta l’identità del cittadino. È dotata di un microchip a
+    radiofrequenza (RF) che memorizza i dati del titolare e rispetta elevati
+    standard di sicurezza.
   tags: [ intro, cit-cie ]
 
 - title: Come funziona?
@@ -651,20 +652,15 @@
     di dimora che hanno attivato il servizio di emissione. Per velocizzare le
     operazioni di rilascio è possibile prenotare un appuntamento sul sito
     agendacie.interno.gov.it. La Carta è spedita direttamente al cittadino, presso
-    il Comune o presso un indirizzo indicato. L’emissione della CIE nelle sedi
-    estere dei consolati ne permetterà il rilascio anche agli italiani residenti
-    all’estero.
+    il Comune o presso un indirizzo indicato.
   tags: [ come-funziona, cit-cie ]
 
 - title: Quali possibili vantaggi?
   text: >
-    La CIE è l’evoluzione del documento di identità in versione cartacea, che i
-    cittadini possono utilizzare in modo sicuro in quanto dotata di una componente
-    elettronica di protezione dei dati anagrafici, della foto e delle impronte del
-    titolare da rischi di contraffazione. I cittadini possono utilizzare la CIE come
-    strumento per l’autenticazione in rete; come fattore abilitante per
-    l’acquisizione dell’identità digitale SPID e per la fruizione di ulteriori
-    servizi a valore aggiunto, in Italia e in Europa.
+    I cittadini possono utilizzare la CIE come strumento per l’autenticazione in
+    rete, come fattore abilitante per l’acquisizione dell’identità digitale SPID
+    e per la fruizione di ulteriori servizi a valore aggiunto, in Italia e in
+    Europa.
   tags: [ vantaggi, cit-cie ]
 
 # ANPR
@@ -676,21 +672,21 @@
 
 - title: Come funziona
   text: >
-    ANPR è un sistema integrato che consente ai Comuni di svolgere i servizi
-    anagrafici e di consultare o estrarre dati, monitorare le attività, effettuare
-    statistiche e diventa un punto di riferimento unico per tutti coloro che sono
-    interessati ai dati anagrafici.
+    ANPR è un sistema integrato che consente ai Comuni, che hanno completato la
+    migrazione dei dati, di svolgere i servizi anagrafici e di consultare o estrarre
+    dati, monitorare le attività e effettuare statistiche. Diventando così un punto
+    di riferimento unico per tutti coloro che sono interessati ai dati anagrafici.
   tags: [ come-funziona, cit-anpr ]
 
 - title: Possibili vantaggi
   text: >
     I cittadini hanno la possibilità di accedere in tempo reale ai propri dati non
-    solo dal comune di residenza ma da qualunque Comune subentrato in ANPR. I
-    cittadini possono visualizzare la propria situazione anagrafica (visura
+    solo dal Comune di residenza ma anche da ogni altro Comune subentrato in ANPR. I
+    cittadini possono visualizzare on line la propria situazione anagrafica (visura
     anagrafica) e quella della famiglia anagrafica in cui sono inseriti. l cittadini
-    non devono comunicare a ogni ufficio della Pubblica Amministrazione i dati
-    anagrafici o il cambio di residenza e possono ottenere certificati senza bisogno
-    di recarsi allo sportello.
+    non devono comunicare a ogni ufficio della PA i dati anagrafici o il cambio di
+    residenza e possono ottenere certificati senza bisogno di recarsi allo
+    sportello.
   tags: [ vantaggi, cit-anpr ]
 
 # CATALOGO SERVIZI
@@ -724,7 +720,7 @@
     tramite internet di un insieme di risorse di calcolo (ad es. reti, server,
     storage, applicazioni e servizi) erogate come un servizio. Il PT 2017-2019 ha
     introdotto il modello Cloud della PA che descrive l’insieme di infrastrutture IT
-    e servizi cloud qualificati da AGID a disposizione della PA. 
+    e servizi cloud qualificati da AGID a disposizione della PA.
   tags: [ intro, cit-cloud ]
 
 - title: Come funziona
@@ -746,17 +742,16 @@
 # DATI APERTI
 - title: Cos’è
   text: >
-    Il catalogo nazionale dei dati rilasciati in formato aperto dalle pubbliche
-    amministrazioni.
+    Il catalogo nazionale degli open data che espone i dati pubblicati e aggiornati
+    dalle pubbliche amministrazioni in formato aperto.
   tags: [ intro, cit-dati-aperti ]
 
 - title: Come funziona
   text: >
-    Le sezioni del portale sono dedicate a: ricercare i dati: nel catalogo sono
-    disponibili i metadati dei dataset, classificati per categorie tematiche; fare
-    open data: sono riportate le risorse utili ad attuare il processo di apertura
-    dei dati; usare i dati: sono fornite indicazioni tecniche agli sviluppatori per
-    utilizzare i dati.
+    Le sezioni del portale sono dedicate a:
+    ricercare i dati (sono disponibili i metadati dei dataset, classificati per categorie tematiche);
+    fare open data (sono riportate le risorse utili ad attuare il processo di apertura dei dati);
+    usare i dati (sono fornite indicazioni tecniche agli sviluppatori per utilizzare i dati).
   tags: [ come-funziona, cit-dati-aperti ]
 
 - title: Possibili vantaggi
@@ -779,72 +774,56 @@
 
 - title: Come funziona
   text: >
-    Il portale, che raccoglie i dati geospaziali e i relativi servizi disponibili
-    presso le PA, presenta due funzionalità tipiche di un servizio di catalogo: la
-    consultazione dei metadati, accessibile a tutti; la gestione dei metadati,
-    riservata alle Pubbliche Amministrazioni accreditate.
+    Il portale presenta due funzionalità: la consultazione dei metadati, accessibile
+    a tutti; la gestione dei metadati, riservata alle PA accreditate.
   tags: [ come-funziona, cit-geodati ]
 
 # DIRITTI
 - title: Cos’è
-  text: >
-    L’Ufficio del difensore civico per il digitale istituito presso AGID, ha la
-    funzione di difensore unico a livello nazionale dei diritti di cittadinanza
-    digitale del cittadino.
+  text: |
+    Il Difensore civico per il digitale ha il compito di raccogliere le segnalazioni
+    relative alle presunte violazioni in materia di digitalizzazione ed innovazione,
+    a garanzia dei diritti di cittadinanza digitali dei cittadini e delle imprese.
+
+    Questa figura, prevista in precedenza presso ogni amministrazione, assume oggi
+    la funzione di difensore unico a livello nazionale.
   tags: [ intro, cit-diritti ]
 
 - title: Come funziona
   text: >
-    I cittadini per esercitare i propri diritti di cittadinanza digitale possono
-    rivolgersi al difensore civico per il digitale presentando una segnalazione
-    tramite l’apposita sezione sul sito di AGID. I cittadini possono consultare
-    direttamente online le segnalazioni. I cittadini potranno inoltre approfondire
-    queste tematiche attraverso la guida dei diritti di cittadinanza digitale,
-    pubblicata da AGID.
+    I cittadini possono presentare una segnalazione e consultarne gli aggiornamenti
+    tramite l’apposita sezione sul sito di AGID.
   tags: [ come-funziona, cit-diritti ]
 
 - title: Possibili vantaggi
   text: >
-    I cittadini hanno la possibilità di segnalare presunte violazioni del Codice
-    dell’Amministrazione Digitale o di ogni altra norma in materia di
-    digitalizzazione ed innovazione, a garanzia dei propri diritti digitali. Il
-    difensore civico svolge la funzione di  tutela  dei diritti di cittadinanza
-    digitale, quali: la possibilità di utilizzare l’identità digitale, il domicilio
-    digitale, i pagamenti con le modalità informatiche,  la comunicazione mediante
-    le tecnologie dell’informazione, la corretta  attuazione  della legge Stanca
-    relativa agli strumenti informatici per persone con disabilità. altre tematiche
-    del settore ICT.
+    La tutela  dei diritti di cittadinanza digitale riguarda: l’identità digitale,
+    il domicilio digitale, i pagamenti con le modalità informatiche,  la
+    comunicazione mediante le tecnologie dell’informazione, l’accessibilità e altre
+    tematiche che i cittadini potranno approfondire attraverso la guida dei diritti
+    di cittadinanza digitale, pubblicata da AGID.
   tags: [ vantaggi, cit-diritti ]
 
 # IPA
 - title: Cos’è
   text: >
-    L’Ufficio del difensore civico per il digitale istituito presso AGID, ha la
-    funzione di difensore unico a livello nazionale dei diritti di cittadinanza
-    digitale del cittadino.
+    Indice delle pubbliche amministrazioni è l’elenco pubblico di fiducia, gestito
+    da AGID e alimentato periodicamente da tutte le PA, contenente i domicili
+    digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi.
   tags: [ intro, cit-ipa ]
 
 - title: Come funziona
   text: >
-    I cittadini per esercitare i propri diritti di cittadinanza digitale possono
-    rivolgersi al difensore civico per il digitale presentando una segnalazione
-    tramite l’apposita sezione sul sito di AGID. I cittadini possono consultare
-    direttamente online le segnalazioni. I cittadini potranno inoltre approfondire
-    queste tematiche attraverso la guida dei diritti di cittadinanza digitale,
-    pubblicata da AGID.
+    I cittadini, interrogando l’IPA, possono ottenere informazioni generali e
+    organizzative sulle PA (tra le quali il domicilio digitale e l’indirizzo di
+    posta certificata da utilizzare per le comunicazioni a valore legale) e i
+    servizi offerti dalle singole PA.
   tags: [ come-funziona, cit-ipa ]
 
 - title: Possibili vantaggi
   text: >
-    I cittadini hanno la possibilità di segnalare presunte violazioni del Codice
-    dell’Amministrazione Digitale o di ogni altra norma in materia di
-    digitalizzazione ed innovazione, a garanzia dei propri diritti digitali. Il
-    difensore civico svolge la funzione di  tutela  dei diritti di cittadinanza
-    digitale, quali: la possibilità di utilizzare l’identità digitale, il domicilio
-    digitale, i pagamenti con le modalità informatiche,  la comunicazione mediante
-    le tecnologie dell’informazione, la corretta  attuazione  della legge Stanca
-    relativa agli strumenti informatici per persone con disabilità. altre tematiche
-    del settore ICT.
+    I cittadini possono consultare e fruire, tramite interfaccia web, nell’ottica
+    della trasparenza, dei dati anche in formato aperto relativi alle singole PA.
   tags: [ vantaggi, cit-ipa ]
 
 # PAGAMENTI
@@ -869,12 +848,11 @@
 - title: Possibili vantaggi
   text: >
     I cittadini possono effettuare pagamenti elettronici verso le pubbliche
-    amministrazioni (Comuni, ASL, scuole o Regioni) in modo sicuro e affidabile in
-    totale trasparenza nei costi di commissione. I cittadini sono liberi di
-    scegliere in funzione delle proprie esigenze il canale di pagamento preferito
-    (sito della PA, sportelli fisici, home banking, smartphone o tablet) e possono
-    sempre pagare online con carte di pagamento (carte di credito, debito o
-    prepagate).
+    amministrazioni (Comuni, ASL, scuole o Regioni) in modo sicuro, affidabile,
+    trasparente (certezza dei costi di commissione, chiarezza degli importi, etc…).
+    I cittadini sono liberi di scegliere il canale di pagamento preferito (sito
+    della PA, sportelli fisici, home banking, smartphone o tablet) e possono sempre
+    pagare online con carte di pagamento (carte di credito, debito o prepagate).
   tags: [ intro, cit-pagamenti ]
 
 # Sicurezza
@@ -888,17 +866,17 @@
 - title: Come funziona
   text: >
     I cittadini devono avere la certezza che i servizi resi dalle pubbliche
-    amministrazioni sono sicuri e affidabili, e possono essere usati con fiducia. A
-    tal fine AGID attua iniziative tecniche e d organizzative rivolte alle PA per
-    migliorare la consapevolezza nei riguardi della minaccia di attacchi informatici
-    e ad aumentarne le capacità di prevenzione, protezione e risposta agli
-    incidenti. 
+    amministrazioni siano sicuri e affidabili, e possano essere usati con fiducia. A
+    tal fine le PA, per migliorare la consapevolezza nei riguardi della minaccia di
+    attacchi informatici e aumentare le capacità di prevenzione, protezione e
+    risposta agli incidenti, mettono in atto le iniziative tecniche ed organizzative
+    predisposte da AGID.
   tags: [ come-funziona, cit-sicurezza ]
 
 - title: Possibili vantaggi
   text: >
-    I cittadini sanno che i siti web che consultano e che offrono servizi rispettano
-    le indicazioni di sicurezza fissate da AGID e sono quindi affidabili.
+    I cittadini consultano siti web affidabili che offrono servizi nel rispetto
+    delle indicazioni di sicurezza fissate da AGID.
   tags: [ intro, cit-sicurezza ]
 
 # SPID
@@ -911,45 +889,45 @@
 - title: Come funziona
   text: >
     L’identità SPID è rilasciata dai Gestori di Identità Digitale (Identity
-    Provider), soggetti privati accreditati da AgID, che forniscono le identità
-    digitali e gestiscono l’autenticazione degli utenti. Si può richiedere
-    l’identità SPID al gestore che più si adatta alle proprie esigenze. Il gestore,
-    dopo aver verificato i dati, emette l’identità digitale, rilasciando le
-    credenziali. I cittadini accedono con SPID ai servizi online delle pubbliche
-    amministrazioni e dei privati aderenti.
+    Provider), soggetti privati accreditati da AGID, che forniscono le identità
+    digitali e gestiscono l’autenticazione degli utenti. Il gestore, dopo aver
+    verificato i dati, emette l’identità digitale, rilasciando le credenziali. I
+    cittadini accedono ai servizi online che le pubbliche amministrazioni e i
+    privati rendono accessibili tramite SPID.
   tags: [ come-funziona, cit-spid ]
 
 - title: Possibili vantaggi
   text: >
-    I cittadini utilizzano un’unica identità digitale (username e password) SPID per
-    accedere a tutti i servizi online della Pubblica Amministrazione e dei privati
-    aderenti da qualsiasi dispositivo: computer, tablet e smartphone. SPID assicura
-    ai cittadini la piena protezione dei dati personali. Possono ottenere e dunque
-    utilizzare SPID anche i cittadini italiani residenti all’estero.
+    I cittadini italiani, inclusi i residenti all’estero, utilizzano un’unica
+    identità digitale SPID per accedere in maniera sicura a tutti i servizi online
+    della Pubblica Amministrazione e dei privati aderenti, da computer, tablet e
+    smartphone.
   tags: [ vantaggi, cit-spid ]
 
 # WIFI
 - title: Cos’è
   text: >
-    La possibilità di connettersi, nei luoghi pubblici e negli uffici, gratuitamente
-    e in modo semplice alle reti WI – FI pubbliche diffuse sul territorio nazionale.
+    La possibilità di connettersi, nei luoghi pubblici e negli uffici,
+    gratuitamente e in modo semplice alle reti WI – FI pubbliche diffuse sul
+    territorio nazionale. 
   tags: [ intro, cit-wifi ]
 
 - title: Come funziona
   text: >
-    I cittadini potranno accedere alle reti wi-fi degli uffici e dei luoghi
-    pubblici, rese disponibili dalle amministrazioni sulla base delle linee guida
-    AGID.
+    I  cittadini potranno accedere alle reti wi-fi degli uffici e dei luoghi
+    pubblici, rese disponibili dalle pubbliche amministrazioni sulla base delle
+    linee guida AGID.
   tags: [ come-funziona, cit-wifi ]
 
 - title: Possibili vantaggi
-  text: >
-    Connessione internet presente in maniera uniforme in tutti i centri della vita
-    pubblica per favorire l’accesso ai servizi pubblici digitali (es. biblioteche o
-    ospedali) attraverso l’uso di reti WI – FI pubbliche. WI-FI pubblico gratuito ai
-    cittadini, da parte delle PA centrali e locali, all’interno di un quadro
-    normativo e tecnologico in linea con le indicazioni europee e nel rispetto degli
-    standard di sicurezza previsti da AGID.
+  text: |
+    Connessione internet presente in maniera uniforme in tutti i centri della
+    vita pubblica per favorire l’accesso ai servizi pubblici digitali (es.
+    biblioteche o ospedali) attraverso l’uso di reti WI-FI pubbliche. 
+    
+    WI-FI pubblico gratuito ai cittadini, da parte delle PA centrali e locali,
+    all’interno di un quadro normativo e tecnologico in linea con le indicazioni
+    europee e nel rispetto degli standard di sicurezza previsti da AGID.
   tags: [ vantaggi, cit-wifi ]
 
 ##################################

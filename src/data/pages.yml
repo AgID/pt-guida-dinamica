@@ -93,53 +93,53 @@
 - name: Cittadini
   slug: cittadini
   subtree:
-    - name: Accessibilita
-      slug: accessibilita
+    - name: Cloud
+      slug: cloud
+      tag: cit-cloud
       subtitle: cittadini
-      tag: cit-accessibilita
-    - name: ANPR
-      slug: anpr
-      tag: cit-anpr
+    - name: Wi-fi
+      slug: wifi
+      tag: cit-wifi
       subtitle: cittadini
     - name: Catalogo servizi
       slug: catalogo-servizi
       tag: cit-catalogo-servizi
       subtitle: cittadini
-    - name: CIE
-      slug: cie
-      tag: cit-cie
-      subtitle: cittadini
-    - name: Cloud
-      slug: cloud
-      tag: cit-cloud
-      subtitle: cittadini
-    - name: Dati aperti
-      slug: dati-aperti
-      tag: cit-dati-aperti
-      subtitle: cittadini
-    - name: Diritti
-      slug: diritti
-      tag: cit-diritti
+    - name: ANPR
+      slug: anpr
+      tag: cit-anpr
       subtitle: cittadini
     - name: IPA
       slug: ipa
       tag: cit-ipa
       subtitle: cittadini
+    - name: Dati aperti
+      slug: dati-aperti
+      tag: cit-dati-aperti
+      subtitle: cittadini
     - name: Pagamenti
       slug: pagamenti
       tag: cit-pagamenti
-      subtitle: cittadini
-    - name: Sicurezza informatica
-      slug: sicurezza
-      tag: cit-sicurezza
       subtitle: cittadini
     - name: SPID
       slug: spid
       tag: cit-spid
       subtitle: cittadini
-    - name: Wi-fi
-      slug: wifi
-      tag: cit-wifi
+    - name: CIE
+      slug: cie
+      tag: cit-cie
+      subtitle: cittadini
+    - name: Sicurezza informatica
+      slug: sicurezza
+      tag: cit-sicurezza
+      subtitle: cittadini
+    - name: Accessibilità
+      slug: accessibilita
+      subtitle: cittadini
+      tag: cit-accessibilita
+    - name: Diritti
+      slug: diritti
+      tag: cit-diritti
       subtitle: cittadini
 - name: Imprese
   slug: imprese
