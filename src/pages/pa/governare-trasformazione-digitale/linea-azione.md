@@ -8,7 +8,7 @@ actions:
   - label: "65"
     title: Sistema di monitoraggio
     subtitle: |
-      - Insieme minimo di Indicatori per la misurazione dello stato di avanzamento del Piano 
+      - ![conclusa](/images/conclusa.svg) Insieme minimo di Indicatori per la misurazione dello stato di avanzamento del Piano 
       - ![ritardo](/images/ritardo.svg) Prima release del sistema di monitoraggio
     status: pianificata
     new:
@@ -20,7 +20,7 @@ actions:
     title: Comunicazione del Piano Triennale
     status: ricorrente
   - label: "67"
-    title: Identificazione dei principali profili e azioni di promozione per la creazione di competenze digitali nella PA
+    title: "![conclusa](/images/conclusa.svg) Identificazione dei principali profili e azioni di promozione per la creazione di competenze digitali nella PA"
     status: risultati
     new:
       - label: LA86

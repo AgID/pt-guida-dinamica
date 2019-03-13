@@ -12,25 +12,25 @@ actions:
       - label: LA19
         title: Adozione delle linee Guida IPA
   - label: "14"
-    title: Pubblicazione elenco basi di dati di interesse nazionale
+    title: "![conclusa](/images/conclusa.svg) Pubblicazione elenco basi di dati di interesse nazionale"
     status: risultati
     new:
       - label: LA14
         title: Definizione delle linee di sviluppo delle basi di dati di interesse nazionale
   - label: "15"
-    title: Integrazione tra il repertorio nazionale dei dati territoriali e il catalogo dati.gov.it
+    title: "![conclusa](/images/conclusa.svg) Integrazione tra il repertorio nazionale dei dati territoriali e il catalogo dati.gov.it"
     status: risultati
     new:
       - label: LA15
         title: Implementazione standard Geo-DCAT-AP_IT
   - label: "16"
-    title: Alimentazione del repertorio nazionale dei dati territoriali
+    title: "![ricorrente](/images/ricorrente.svg) Alimentazione del repertorio nazionale dei dati territoriali"
     status: risultati
     new:
       - label: LA15
         title: Implementazione standard Geo-DCAT-AP_IT
   - label: "17"
-    title: Realizzazione Catalogo dei servizi (servizi.gov.it) e suo popolamento
+    title: "![conclusa](/images/conclusa.svg) Realizzazione Catalogo dei servizi (servizi.gov.it) e suo popolamento"
     status: risultati
     new:
       - label: LA16
@@ -57,39 +57,39 @@ actions:
       - label: LA27
         title: Messa in produzione della PDND
   - label: "21"
-    title: Banca dati degli operatori economici BDOE
+    title: "![conclusa](/images/conclusa.svg) Banca dati degli operatori economici BDOE"
     status: risultati
     new:
       - label: LA29
         title: Messa in esercizio della BDOE
   - label: "22"
     title: >-
-      Aggiornamento delle linee guida per la valorizzazione del patrimonio informativo 
+      ![conclusa](/images/conclusa.svg) Aggiornamento delle linee guida per la valorizzazione del patrimonio informativo 
       pubblico e predisposizione di standard per la gestione e la fruizione degli open data.
     status: risultati
     new:
       - label: LA23
         title: Aggiornamento delle linee guida per la valorizzazione del patrimonio informativo pubblico
   - label: "23"
-    title: Individuazione delle basi di dati chiave
+    title: "![conclusa](/images/conclusa.svg) Individuazione delle basi di dati chiave"
     status: risultati
     new:
       - label: LA14
         title: Definizione delle linee di sviluppo delle basi di dati di interesse nazionale
   - label: "24"
-    title: Evoluzione Dati.gov.it
+    title: "![conclusa](/images/conclusa.svg) Evoluzione Dati.gov.it"
     status: risultati
     new:
       - label: LA22
         title: Evoluzione del Catalogo nazionale dati.gov.it
   - label: "25"
-    title: Popolamento di Dati.gov.it
+    title: "![ricorrente](/images/ricorrente.svg) Popolamento di Dati.gov.it"
     status: risultati
     new:
       - label: LA22
         title: Evoluzione del Catalogo nazionale dati.gov.it
   - label: "26"
-    title: Predisposizione dei metadati che descrivono basi di dati e dati aperti secondo il profilo DCAT-AP_IT
+    title: "![conclusa](/images/conclusa.svg) Predisposizione dei metadati che descrivono basi di dati e dati aperti secondo il profilo DCAT-AP_IT"
     status: risultati
     new:
       - label: LA22
@@ -99,7 +99,7 @@ actions:
     status: conclusa
     new: []
   - label: "28"
-    title: Monitoraggio open data (Rapporto annuale per la valorizzazione del patrimonio informativo pubblico)
+    title: "![conclusa](/images/conclusa.svg) Monitoraggio open data (Rapporto annuale per la valorizzazione del patrimonio informativo pubblico)"
     status: evolve
     new:
       - label: LA21
@@ -111,26 +111,26 @@ actions:
       - label: LA20
         title: Strategia complessiva per la valorizzazione dei dati
   - label: "29"
-    title: Realizzazione del Registro dei vocabolari controllati e dei modelli dei dati
+    title: "![conclusa](/images/conclusa.svg) Realizzazione del Registro dei vocabolari controllati e dei modelli dei dati"
     status: risultati
     new:
       - label: LA25
         title: Sviluppo ontologie
   - label: "30"
-    title: "Utilizzo del Registro dei vocabolari controllati e dei modelli dei dati"
+    title: "![ricorrente](/images/ricorrente.svg) Utilizzo del Registro dei vocabolari controllati e dei modelli dei dati"
     status: risultati
     new:
       - label: LA24
         title: Ruoli e procedure per la gestione del Registry
 
   - label: "61"
-    title: "Definizione e realizzazione piano di sviluppo della fase di sperimentazione del DAF"
+    title: "![conclusa](/images/conclusa.svg) Definizione e realizzazione piano di sviluppo della fase di sperimentazione del DAF"
     status: evolve
     new:
       - label: LA26
         title: Progettazione della PDND, sperimentazione e prima applicazione della stessa
   - label: "62"
-    title: "Ingestione dei dati nel DAF - Fase Sperimentale"
+    title: "![conclusa](/images/conclusa.svg) Ingestione dei dati nel DAF - Fase Sperimentale"
     status: evolve
     new:
       - label: LA26
@@ -142,7 +142,7 @@ actions:
       - label: LA26
         title: Progettazione della PDND, sperimentazione e prima applicazione della stessa
   - label: "63"
-    title: "Messa in Produzione del DAF"
+    title: "![ritardo](/images/ritardo.svg) Messa in Produzione del DAF"
     status: pianificata
     new:
       - label: LA27

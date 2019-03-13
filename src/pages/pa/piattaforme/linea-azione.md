@@ -46,13 +46,13 @@ actions:
         title: Monitoraggio tecnico e dell’attivazione dei servizi
       - icon: risultati_down
   - label: "39"
-    title: Progetto pagoPA
+    title: "![conclusa](/images/conclusa.svg) Progetto pagoPA"
     status: risultati
     new:
       - label: LA32
         title: Evoluzione tecnologica della piattaforma pagoPA
   - label: "33"
-    title: Disegno dell’architettura del sistema ComproPA
+    title: "![conclusa](/images/conclusa.svg) Disegno dell’architettura del sistema ComproPA"
     status: evolve
     new:
       - label: LA28
@@ -64,7 +64,7 @@ actions:
       - label: LA28
         title: Adeguamento/evoluzione delle piattaforme telematiche del public e-procurement
   - label: "35"
-    title: Fatturazione elettronica
+    title: "![conclusa](/images/conclusa.svg) Fatturazione elettronica"
     status: evolve
     new:
       - label: LA30
@@ -72,7 +72,7 @@ actions:
       - label: LA31
         title: Gestione del formato europeo della Fattura Elettronica (EN)
   - label: "36"
-    title: Completamento servizio CIE
+    title: "![conclusa](/images/conclusa.svg) Completamento servizio CIE"
     status: risultati
     new:
       - label: LA42
@@ -100,7 +100,7 @@ actions:
       - label: LA90
         title: La semplificazione amministrativa degli sportelli unici delle attività produttive e dell’edilizia
   - label: "42"
-    title: Evoluzione del sistema SIOPE (SIOPE+)
+    title: "![conclusa](/images/conclusa.svg) Evoluzione del sistema SIOPE (SIOPE+)"
     status: risultati
     new:
       - label: LA35
@@ -112,7 +112,7 @@ actions:
       - label: LA36
         title: Revisione della piattaforma open data Soldipubblici
   - label: "43"
-    title: Evoluzione del sistema NoiPA
+    title: "![conclusa](/images/conclusa.svg) Evoluzione del sistema NoiPA"
     status: risultati
     new:
       - label: LA37

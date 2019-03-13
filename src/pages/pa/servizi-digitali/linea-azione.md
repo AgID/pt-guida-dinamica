@@ -11,7 +11,7 @@ actions:
     new: []
   - label: "54"
     status: risultati
-    title: Strumenti e modelli condivisi per la progettazione e la realizzazione di servizi
+    title: "![conclusa](/images/conclusa.svg) Strumenti e modelli condivisi per la progettazione e la realizzazione di servizi"
     new:
       - label: LA61
         title: Adeguamento alle Linee guida di design nei siti web delle PA

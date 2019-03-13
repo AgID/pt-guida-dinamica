@@ -6,7 +6,7 @@ link_prev: pa/sicurezza
 link_prev_label: Sicurezza informatica
 actions:
   - label: "55"
-    title: CERT-PA
+    title: "![conclusa](/images/conclusa.svg) CERT-PA"
     status: prosegue
     new:
       - label: LA55
@@ -21,7 +21,7 @@ actions:
       - label: LA60
         title: Emanazione Linee Guida di sicurezza cibernetica per le PA
   - label: "57"
-    title: Architettura della sicurezza per servizi critici
+    title: "![ricorrente](/images/ricorrente.svg) Architettura della sicurezza per servizi critici"
     subtitle: |
       - Linee Guida per l’adozione di un ciclo di sviluppo di software sicuro
       - Linee Guida per lo sviluppo sicuro di codice
@@ -30,7 +30,7 @@ actions:
     status: conclusa
     new: []
   - label: "58"
-    title: Continuous monitoring
+    title: "![ricorrente](/images/ricorrente.svg) Continuous monitoring"
     subtitle: Tool di risk assesment a disposizione di tutte le PA
     status: conclusa
     new: []
@@ -53,7 +53,7 @@ actions:
     status: pianificata
     title: Riorganizzazione del dominio "gov.it”
     subtitle: |
-      - Disposizioni per il riordino del dominio "gov.it"
+      - ![conclusa](/images/conclusa.svg) Disposizioni per il riordino del dominio "gov.it"
       - ![ritardo](/images/ritardo.svg) Adeguamento da parte delle PA alle suddette disposizioni
     new:
       - label: LA74

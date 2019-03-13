@@ -16,7 +16,7 @@ actions:
       - label: LA04
         title: Comunicazione dei risultati del censimento del Patrimonio ICT
   - label: "3"
-    title: Qualificazione di soluzioni SaaS erogabili sul Cloud SPC e modalità di procurement
+    title: "![conclusa](/images/conclusa.svg) Qualificazione di soluzioni SaaS erogabili sul Cloud SPC e modalità di procurement"
     subtitle: Primo rapporto del censimento
     status: risultati
     new:
