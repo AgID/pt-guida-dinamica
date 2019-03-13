@@ -78,11 +78,11 @@ const Page = ({
                 {done}
               </div>
               {frontmatter.link_approfondisci &&
-              <div className="d-flex flex-wrap">
-                <p className="mt-4 ml-auto text-right">
-                  <a className="primary-color" href={frontmatter.link_approfondisci}>Approfondisci nel piano triennale 2019-2021</a>
-                </p>
-              </div>}
+                <div className="d-flex flex-wrap">
+                  <p className="mt-4 ml-auto text-right">
+                    <a className="primary-color" href={frontmatter.link_approfondisci}>Approfondisci nel piano triennale 2019-2021</a>
+                  </p>
+                </div>}
             </>
           )}
 
@@ -93,11 +93,11 @@ const Page = ({
                 {todo}
               </div>
               {frontmatter.link_visualizza_azioni &&
-              <div className="d-flex flex-wrap">
-                <p className="mt-4 ml-auto text-right">
-                  <a className="primary-color" href={frontmatter.link_visualizza_azioni}>Visualizza azioni nel piano triennale 2019-2021</a>
-                </p>
-              </div>}
+                <div className="d-flex flex-wrap">
+                  <p className="mt-4 ml-auto text-right">
+                    <a className="primary-color" href={frontmatter.link_visualizza_azioni}>Visualizza azioni nel piano triennale 2019-2021</a>
+                  </p>
+                </div>}
             </div>
           )}
         </div>
@@ -112,11 +112,11 @@ const Page = ({
 
       {pageNav && <PageNav
         left={{
-          path: frontmatter.link_prev || pageNav.prev.path,
+          path: frontmatter.link_prev !== null ? frontmatter.link_prev : pageNav.prev.path,
           label: frontmatter.link_prev_label || pageNav.prev.name
         }}
         down={{
-          path: frontmatter.link_linee_azione || pageNav.firstChild.path,
+          path: frontmatter.link_linee_azione !== null ? frontmatter.link_linee_azione : pageNav.firstChild.path,
           label: frontmatter.link_linee_azione ? 'Confronto per linee d\'azione' : pageNav.firstChild.name,
         }}
         /* up={{
@@ -124,7 +124,7 @@ const Page = ({
           label: pageNav.parent.name,
         }} */
         right={{
-          path: frontmatter.link_next || pageNav.next.path,
+          path: frontmatter.link_next !== null ? frontmatter.link_next : pageNav.next.path,
           label: frontmatter.link_next_label || pageNav.next.name
         }}
       />}

@@ -853,7 +853,7 @@
     I cittadini sono liberi di scegliere il canale di pagamento preferito (sito
     della PA, sportelli fisici, home banking, smartphone o tablet) e possono sempre
     pagare online con carte di pagamento (carte di credito, debito o prepagate).
-  tags: [ intro, cit-pagamenti ]
+  tags: [ vantaggi, cit-pagamenti ]
 
 # Sicurezza
 - title: Cos’è
@@ -877,7 +877,7 @@
   text: >
     I cittadini consultano siti web affidabili che offrono servizi nel rispetto
     delle indicazioni di sicurezza fissate da AGID.
-  tags: [ intro, cit-sicurezza ]
+  tags: [ vantaggi, cit-sicurezza ]
 
 # SPID
 - title: Cos’è?

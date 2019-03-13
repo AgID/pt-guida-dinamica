@@ -1,79 +1,69 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
-import {
-  Button
-} from 'reactstrap';
-
+import classNames from 'classnames';
 import Icon from './icon';
 
 const PageNav = props => (
   <div className="py-3 d-lg-flex justify-content-between">
-    {props.left.path && (
-      <div className="mb-2 mb-lg-0">
+    {props.left && props.left.path && props.left.path !== '' && (
+      <div className="align-self-center mb-2 mb-lg-0">
         <Link to={props.left.path}>
-          <Button
-            outline
-            color="secondary"
-            size="xs"
-            className="w-100 d-inline-flex align-items-center">
+          <span
+            className="btn btn-outline-secondary btn-xs w-100 d-inline-flex align-items-center pr-4">
             <Icon
               icon="chevron-left"
               className="icon-secondary"
             />
             <span className="text-nowrap">{props.left.label}</span>
-          </Button>
+          </span>
         </Link>
       </div>
     )}
-    {props.up && props.up.path && (
+    {props.up && props.up.path && props.up.path !== '' && (
       <div className="align-self-center mb-2 mb-lg-0">
         <Link to={props.up.path}>
-          <Button
-            outline
-            color="secondary"
-            size="xs"
-            className="w-100 d-inline-flex align-items-center">
+          <span
+            className="btn btn-outline-secondary btn-xs w-100 d-inline-flex align-items-center pr-4">
             <Icon
               icon="collapse"
               className="icon-secondary"
             />
             <span className="flex-grow-1 text-nowrap">{props.up.label}</span>
-          </Button>
+          </span>
         </Link>
       </div>
     )}
-    {props.down && props.down.path && (
-      <div className="align-self-center p-0 mt-2 mb-lg-0">
+    {props.down && props.down.path && props.down.path !== '' && (
+      <div className="align-self-center mb-2 mb-lg-0">
         <Link to={props.down.path}>
-          <Button
-            outline
-            color="secondary"
-            size="xs"
-            className="w-100 d-inline-flex align-items-center">
+          <span
+            className="btn btn-outline-secondary btn-xs w-100 d-inline-flex align-items-center pr-4">
             <Icon
               icon="expand"
               className="icon-secondary"
             />
             <span className="flex-grow-1 text-nowrap">{props.down.label}</span>
-          </Button>
+          </span>
         </Link>
       </div>
     )}
-    {props.right.path && (
-      <div xs="12" lg="3" className="align-self-center mt-2 mb-lg-0">
+    {props.right && props.right.path && props.right.path !== '' && (
+      <div className={classNames({
+        'align-self-center': true,
+        'mb-2': true,
+        'mb-lg-0': true,
+        'ml-auto': (!props.left || !props.left.path || props.left.path === '')
+      })}>
         <Link to={props.right.path}>
-          <Button
-            outline
-            color="secondary"
-            size="xs"
-            className="w-100 d-inline-flex align-items-center">
+          <span
+            className="btn btn-outline-secondary btn-xs w-100 d-inline-flex align-items-center pl-4">
             <span className="text-right flex-grow-1 text-nowrap">{props.right.label}</span>
             <Icon
               icon="chevron-right"
               className="icon-secondary"
             />
-          </Button>
+          </span>
         </Link>
       </div>
     )}
