@@ -1,4 +1,4 @@
-- name: Pubblica amministrazione
+- name: Pubblica Amministrazione
   slug: pa
   subtree:
     - name: Come nasce il Piano Triennale

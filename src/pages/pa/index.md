@@ -1,5 +1,5 @@
 ---
-title: Pubblica amministrazione
+title: Pubblica Amministrazione
 ---
 
 Attraverso la guida, le Pubbliche amministrazioni, nella sezione a loro
