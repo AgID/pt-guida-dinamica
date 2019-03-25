@@ -11,7 +11,7 @@ body {
 <div class="u-layout-releaseFull primary-bg-b1 py-5" style="background: #0066cc url(../images/visual.png) no-repeat 60em 50%">
   <div class="col-xs-12 col-md-8 col-lg-6 mx-auto">
   <div class="px-2 px-sm-4 px-md-2 px-lg-0">
-    <h1 class="text-white">Guida dinamica<br> del piano triennale</h1>
+    <h1 class="text-white">Guida dinamica<br> del Piano Triennale</h1>
     <p class="h6 text-white">2019-2021</p>
     <p class="text-white">
     <!--

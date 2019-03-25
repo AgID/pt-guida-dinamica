@@ -1,20 +1,17 @@
 title: Guida dinamica
-description: Piano triennale ICT 2019-2021
+description: Piano Triennale ICT 2019-2021
 author: Agenzia per l'Italia Digitale
 owners:
   - name: AGID
     url: https://www.agid.gov.it
 slimHeaderLinks:
-  -
-    - name: Piano triennale
+  - - name: Piano Triennale
       url: https://pianotriennale-ict.italia.it
-  -
-    - name: Developers
+  - - name: Developers
       url: https://developers.italia.it
     - name: Designers
       url: http://designers.italia.it
-  -
-    - name: Forum
+  - - name: Forum
       url: https://forum.italia.it
     - name: Docs
       url: https://docs.italia.it

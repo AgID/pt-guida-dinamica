@@ -1,13 +1,13 @@
 - name: Pubblica amministrazione
   slug: pa
   subtree:
-    - name: Come nasce il piano triennale
+    - name: Come nasce il Piano Triennale
       slug: come-nasce-il-piano-triennale
       subtree:
-        - name: 'Piano triennale 2017-2019'
-          slug: '2017-2019'
-        - name: 'Piano triennale 2019-2021'
-          slug: '2019-2021'
+        - name: "Piano Triennale 2017-2019"
+          slug: "2017-2019"
+        - name: "Piano Triennale 2019-2021"
+          slug: "2019-2021"
     - name: Data center e cloud
       slug: data-center-e-cloud
       tag: pa-data-center-e-cloud
