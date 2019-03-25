@@ -11,7 +11,7 @@
     - name: Data center e cloud
       slug: data-center-e-cloud
       tag: pa-data-center-e-cloud
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       subtree:
         - name: Confronto tra linee d'azione
           subtitle: data center e cloud
@@ -19,7 +19,7 @@
     - name: Connettività
       slug: connettivita
       tag: pa-connettivita
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       subtree:
         - name: Confronto tra linee d'azione
           slug: linea-azione
@@ -27,7 +27,7 @@
     - name: Modello di interoperabilità
       slug: modello-di-interoperabilita
       tag: pa-modello-di-interoperabilita
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       subtree:
         - name: Confronto tra linee d'azione
           slug: linea-azione
@@ -35,22 +35,22 @@
     - name: Dati della PA
       slug: dati-della-pa
       tag: pa-dati-della-pa
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       subtree:
         - name: Confronto tra linee d'azione
           slug: linea-azione
-          subtitle: dati della pubblica amministrazione
+          subtitle: dati della Pubblica Amministrazione
     - name: Piattaforme
       slug: piattaforme
       tag: pa-piattaforme
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       subtree:
         - name: Confronto tra linee d'azione
           slug: linea-azione
           subtitle: piattaforme
     - name: Ecosistemi
       slug: ecosistemi
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       tag: pa-ecosistemi
       subtree:
         - name: Confronto tra linee d'azione
@@ -59,7 +59,7 @@
     - name: Sicurezza informatica
       slug: sicurezza
       tag: pa-sicurezza
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       subtree:
         - name: Confronto tra linee d'azione
           slug: linea-azione
@@ -67,7 +67,7 @@
     - name: Strumenti per la generazione e la diffusione dei servizi digitali
       slug: servizi-digitali
       tag: pa-servizi-digitali
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       subtree:
         - name: Confronto tra linee d'azione
           slug: linea-azione
@@ -75,7 +75,7 @@
     - name: Modelli e strumenti per l'innovazione
       slug: modelli-strumenti-innovazione
       tag: pa-modelli-strumenti-innovazione
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       subtree:
         - name: Confronto tra linee d'azione
           slug: linea-azione
