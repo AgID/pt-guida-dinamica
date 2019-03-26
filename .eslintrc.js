@@ -1,7 +1,8 @@
 module.exports = {
-  extends: ["standard"],
-  plugins: ["standard", "react"],
+  extends: ["standard", "plugin:prettier/recommended"],
+  plugins: ["standard", "react", "prettier"],
   rules: {
+    "prettier/prettier": "error",
     "no-var": "error", // optional, recommended when using es6+
     "no-unused-vars": 1, // recommended
     "arrow-spacing": ["error", { before: true, after: true }], // recommended
@@ -13,11 +14,11 @@ module.exports = {
         arrays: "only-multiline",
         imports: "never",
         exports: "never",
-        functions: "never",
-      },
+        functions: "never"
+      }
     ],
 
-    "semi": ["error", "always"],
+    semi: ["error", "always"],
     "arrow-parens": ["error", "as-needed"],
 
     // standard.js
@@ -26,8 +27,8 @@ module.exports = {
       {
         named: "never",
         anonymous: "always",
-        asyncArrow: "always",
-      },
+        asyncArrow: "always"
+      }
     ],
 
     // standard plugin - options
@@ -38,10 +39,10 @@ module.exports = {
 
     // react plugin - options
     "react/jsx-uses-react": "error",
-    "react/jsx-uses-vars": "error",
+    "react/jsx-uses-vars": "error"
   },
   parser: "babel-eslint",
   parserOptions: {
-    ecmaVersion: 8, // optional, recommended 6+
-  },
-}
+    ecmaVersion: 8 // optional, recommended 6+
+  }
+};
