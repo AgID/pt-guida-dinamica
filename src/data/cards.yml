@@ -73,8 +73,8 @@
 - title: Connettività della rete internazionale della PA
   link: http://www.consip.it/bandi-di-gara/gare-e-avvisi/gara-s-ripa-2
   text: >
-    Consip ha indetto una gara per la stipula di un accordo quadro avente ad oggetto
-    la progettazione della rete e l’erogazione dei servizi di connettività della
+    Consip ha indetto una gara per la stipula di un accordo quadro che ha per
+    oggetto la progettazione della rete e l’erogazione dei servizi di connettività della
     Rete Internazionale della PA.
   tags: [fatto, pa-connettivita]
 
@@ -107,11 +107,13 @@
 - title: Linee Guida per transitare al nuovo Modello di interoperabilità
   link: https://www.agid.gov.it/sites/default/files/repository_files/upload_avvisi/linee_guida_passaggio_nuovo_modello_interoperabilita.pdf
   text: >
+
+
     Nell’agosto 2017, AGID ha definito, per le piattaforme esistenti e per le
     attività progettuali in corso, nella determina 219/2017 «Linee Guida per
-    transitare al nuovo Modello di Interoperabilità», le azioni che le pubbliche
-    amministrazioni devono realizzare al fine di dare seguito al processo di
-    transizione al nuovo Modello.
+    transitare al nuovo Modello di Interoperabilità», le azioni che
+    le pubbliche amministrazioni devono realizzare per dare seguito al
+    processo di transizione al nuovo modello.
   tags: [fatto, pa-modello-di-interoperabilita]
 
 - title: Linee Guida del nuovo Modello di interoperabilità
@@ -150,7 +152,7 @@
 
     A settembre 2018 sono state redatte le [Linee guida](https://lineeguida-ipa.readthedocs.io/it/latest/index.html) 
     relative alle Regole tecniche
-    da seguire per l’iscrizione e l’aggiornamento dei dati in IPA. 
+    da seguire per l’iscrizione e l’aggiornamento dei dati nell'[Indice delle Pubbliche Amministrazioni](https://www.indicepa.gov.it) (IPA). 
 
     A novembre 2018
     il popolamento di [ANPR](https://www.anpr.interno.it/) ha raggiunto i 1.206 comuni e oltre 14 milioni di
@@ -179,15 +181,15 @@
 
 - title: Aggiornamento IPA
   text: >
-    Le Amministrazioni gestori di pubblici servizi adottano le linee guida per
+    Le Amministrazioni che gestiscono pubblici servizi adottano le linee guida per
     l’aggiornamento dei dati in IPA.
   tags: [da-fare, pa-dati-della-pa]
 
 - title: Dati aperti
   text: >
     A marzo 2017 è stato reso disponibile il portale dei dati aperti della PA
-    [dati.gov.it](https://dati.gov.it) Nell’agosto 2017 sono state aggiornate le [Linee guida per la
-    valorizzazione del patrimonio informativo pubblico](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/).
+    [dati.gov.it](https://dati.gov.it) Nell’agosto 2017 sono state aggiornate le
+    [Linee guida nazionali per la valorizzazione del patrimonio informativo pubblico](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/).
   tags: [fatto, pa-dati-della-pa]
 
 - title: Vocabolari controllati e modelli di dati
@@ -236,7 +238,7 @@
   text: >
     Dall’avvio in produzione del sistema nel 2012, particolare cura è stata dedicata
     al miglioramento dell’esperienza utente, con l’introduzione di funzionalità che
-    consentono di semplificare il pagamento. È a disposizione delle PA, un kit di
+    consentono di semplificare il pagamento. È a disposizione delle PA un kit di
     sviluppo software per realizzare applicazioni mobili integrate con pagoPA.
   tags: [fatto, pa-piattaforme]
 
@@ -519,7 +521,7 @@
   link: https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2018/02/15/verso-obiettivi-europa-2020-firmato-accordo-agid-regioni-province-autonome
   text: >
     A febbraio 2018 AGID e Conferenza delle Regioni e delle Province Autonome hanno
-    siglato un Accordo di collaborazione ai fini dell’attuazione della strategia
+    siglato un Accordo di collaborazione per l’attuazione della strategia
     Crescita Digitale.
   tags: [fatto, pa-governare-trasformazione-digitale]
 
@@ -550,7 +552,8 @@
   text: >
     Presso AGID è stato istituito l’ufficio del difensore civico per il digitale. Il
     Dipartimento della funzione pubblica ha avviato con AGID, Regioni, Comuni e
-    sistema Camerale un’azione di semplificazione amministrativa dei SUAP.
+    sistema Camerale un’azione di semplificazione amministrativa 
+    degli Sportelli Unici Attività Produttive (SUAP).
   tags: [fatto, pa-governare-trasformazione-digitale]
 
 - title: Costituzione PMO
@@ -597,7 +600,7 @@
 
     L’insieme delle PA che hanno partecipato è così composto: 
     - 19 Amministrazioni Centrali (tutti i Ministeri, Agenzie Fiscali, INPS, INAIL e ACI)
-    - 21 Amministrazioni Regionali e Province Autonome 14 Città Metropolitane 14 Comuni capoluogo delle Città Metropolitane
+    - 21 Amministrazioni Regionali e Province Autonome, 14 Città Metropolitane, 14 Comuni capoluogo delle Città Metropolitane
     - 5 società in-house centrali e regionali
     - 10 centrali di committenza nazionali e regionali
 
@@ -628,7 +631,7 @@
     sulla base di linee guida e kit di sviluppo definiti da AGID.
   tags: [come-funziona, cit-accessibilita]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     La semplificazione nell'accesso e nell’uso di strumenti informatici e servizi
     pubblici digitali favorisce la partecipazione e l’inclusione di tutti i
@@ -655,7 +658,7 @@
     il Comune o presso un indirizzo indicato.
   tags: [come-funziona, cit-cie]
 
-- title: Quali possibili vantaggi?
+- title: Quali Vantaggi?
   text: >
     I cittadini possono utilizzare la CIE come strumento per l’autenticazione in
     rete, come fattore abilitante per l’acquisizione dell’identità digitale SPID
@@ -678,7 +681,7 @@
     di riferimento unico per tutti coloro che sono interessati ai dati anagrafici.
   tags: [come-funziona, cit-anpr]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     I cittadini hanno la possibilità di accedere in tempo reale ai propri dati non
     solo dal Comune di residenza ma anche da ogni altro Comune subentrato in ANPR. I
@@ -704,7 +707,7 @@
     dei servizi definita da AGID.
   tags: [come-funziona, cit-catalogo-servizi]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     I cittadini vengono indirizzati in modo efficace all'utilizzo dei servizi
     digitali e hanno a disposizione informazioni semplificate e aggiornate. I
@@ -730,7 +733,7 @@
     erogazione dei servizi della PA verso i cittadini.
   tags: [come-funziona, cit-cloud]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Il Cloud della PA introduce vantaggi significativi rispetto alle tradizionali
     soluzioni hardware, consentendo di usufruire delle applicazioni da qualsiasi
@@ -754,7 +757,7 @@
     usare i dati (sono fornite indicazioni tecniche agli sviluppatori per utilizzare i dati).
   tags: [come-funziona, cit-dati-aperti]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     I cataloghi nazionali di dati aperti rendono disponibili risorse utili ad
     approfondire il tema dei dati aperti e a migliorare la qualità dei dati esposti,
@@ -795,7 +798,7 @@
     tramite l’apposita sezione sul sito di AGID.
   tags: [come-funziona, cit-diritti]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     La tutela  dei diritti di cittadinanza digitale riguarda: l’identità digitale,
     il domicilio digitale, i pagamenti con le modalità informatiche,  la
@@ -820,7 +823,7 @@
     servizi offerti dalle singole PA.
   tags: [come-funziona, cit-ipa]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     I cittadini possono consultare e fruire, tramite interfaccia web, nell’ottica
     della trasparenza, dei dati anche in formato aperto relativi alle singole PA.
@@ -845,7 +848,7 @@
       * uffici Postali.
   tags: [come-funziona, cit-pagamenti]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     I cittadini possono effettuare pagamenti elettronici verso le pubbliche
     amministrazioni (Comuni, ASL, scuole o Regioni) in modo sicuro, affidabile,
@@ -873,7 +876,7 @@
     predisposte da AGID.
   tags: [come-funziona, cit-sicurezza]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     I cittadini consultano siti web affidabili che offrono servizi nel rispetto
     delle indicazioni di sicurezza fissate da AGID.
@@ -896,7 +899,7 @@
     privati rendono accessibili tramite SPID.
   tags: [come-funziona, cit-spid]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     I cittadini italiani, inclusi i residenti all’estero, utilizzano un’unica
     identità digitale SPID per accedere in maniera sicura a tutti i servizi online
@@ -919,7 +922,7 @@
     linee guida AGID.
   tags: [come-funziona, cit-wifi]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: |
     Connessione internet presente in maniera uniforme in tutti i centri della
     vita pubblica per favorire l’accesso ai servizi pubblici digitali (es.
@@ -948,7 +951,7 @@
     erogazione dei servizi della PA verso le imprese.
   tags: [come-funziona, imp-cloud]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Il Cloud della PA introduce vantaggi significativi rispetto alle
     tradizionali soluzioni hardware, consentendo di usufruire delle applicazioni
@@ -970,7 +973,7 @@
     classificazione dei servizi definita da AGID.
   tags: [come-funziona, imp-servizi]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Le imprese vengono indirizzate in modo efficace all'utilizzo dei servizi
     digitali e hanno a disposizione informazioni semplificate e aggiornate.
@@ -991,7 +994,7 @@
     servizi offerti dalle singole PA.
   tags: [come-funziona, imp-ipa]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Le imprese possono consultare e fruire, tramite interfaccia web, nell’ottica
     della trasparenza, dei dati anche in formato aperto relativi alle singole
@@ -1013,7 +1016,7 @@
     i dati).
   tags: [come-funziona, imp-dati]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Le imprese possono accedere alle piattaforme dei dati aperti ai fini del
     riutilizzo degli stessi, per finalità commerciali. La diffusione di queste
@@ -1033,7 +1036,7 @@
     a tutti; la gestione dei metadati, riservata alle PA accreditate.
   tags: [come-funziona, imp-geodati]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Le imprese possono accedere alle piattaforme dei dati aperti ai fini del
     riutilizzo degli stessi, per finalità commerciali. La diffusione di queste
@@ -1055,7 +1058,7 @@
     ATM (se abilitati) punti vendita di SISAL, Lottomatica e Banca 5 uffici Postali.
   tags: [come-funziona, imp-pagopa]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Le imprese possono utilizzare pagoPA per effettuare pagamenti verso la
     Pubblica Amministrazione in modo sicuro, semplice, affidabile e trasparente
@@ -1082,7 +1085,7 @@
     rendono accessibili tramite SPID.
   tags: [come-funziona, imp-spid]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Le imprese possono utilizzare l’identità digitale SPID per uso professionale.
     Essa costituisce prova dell’appartenenza di una persona fisica
@@ -1106,7 +1109,7 @@
     ambiti con relativi processi: pre-aggiudicazione e post-aggiudicazione.
   tags: [come-funziona, imp-procurement]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Sono ridotti gli oneri documentali ed economici a carico delle imprese per
     favorire la loro partecipazione alle procedure di affidamento dei contratti
@@ -1131,7 +1134,7 @@
     conservazione permanente.
   tags: [come-funziona, imp-conservazione]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Le imprese possono avere vantaggi in termini di accessibilità, autenticità e
     fruibilità della documentazione conservata a lungo termine dalle pubbliche
@@ -1155,7 +1158,7 @@
     predisposte da AGID.
   tags: [come-funziona, imp-sicurezza]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Le imprese consultano siti web affidabili che offrono servizi nel rispetto
     delle indicazioni di sicurezza fissate da AGID.
@@ -1174,7 +1177,7 @@
     sulla base di linee guida e kit di sviluppo definiti da AGID.
   tags: [come-funziona, imp-accessibilita]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     La semplificazione nell'accesso e nell’uso di strumenti informatici e servizi
     pubblici digitali favorisce la comunicazione tra imprese e PA.
@@ -1188,7 +1191,7 @@
   text: >
   tags: [come-funziona, imp-smart]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
   tags: [vantaggi, imp-smart]
 
@@ -1211,7 +1214,7 @@
     realizzate o in via di realizzazione.
   tags: [come-funziona, imp-semplificazione]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Attuazione del principio del once only: la stessa informazione inserita una sola
     volta ed usata in più procedure comprese le partecipazioni a gare. Riduzione dei
