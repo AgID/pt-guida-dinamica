@@ -1,17 +1,15 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { StaticQuery, graphql } from 'gatsby';
-import {
-  Container
-} from 'reactstrap';
+import React from "react";
+import PropTypes from "prop-types";
+import { StaticQuery, graphql } from "gatsby";
+import { Container } from "reactstrap";
 
-import './layout.scss';
-import SlimHeader from './slimHeader';
-import MainHeader from './mainHeader';
-import Footer from './footer';
+import "./layout.scss";
+import SlimHeader from "./slimHeader";
+import MainHeader from "./mainHeader";
+import Footer from "./footer";
 
-require('typeface-lora');
-require('typeface-titillium-web');
+require("typeface-lora");
+require("typeface-titillium-web");
 
 const Layout = props => (
   <StaticQuery
@@ -43,17 +41,17 @@ const Layout = props => (
     render={data => (
       <>
         <div className="skiplinks">
-          <a className="sr-only sr-only-focusable" href="#main">Vai al contenuto principale</a>
-          <a className="sr-only sr-only-focusable" href="#footer">Vai al footer</a>
+          <a className="sr-only sr-only-focusable" href="#main">
+            Vai al contenuto principale
+          </a>
+          <a className="sr-only sr-only-focusable" href="#footer">
+            Vai al footer
+          </a>
         </div>
         <div className="it-header-wrapper">
           <SlimHeader
-            owners={
-              data.configYaml.owners
-            }
-            slimHeaderLinks={
-              data.configYaml.slimHeaderLinks
-            }
+            owners={data.configYaml.owners}
+            slimHeaderLinks={data.configYaml.slimHeaderLinks}
           />
           <MainHeader
             title={data.configYaml.title}

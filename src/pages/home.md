@@ -40,8 +40,7 @@ Questa è un’anteprima. Nei prossimi giorni verrà aggiornata con i collegamen
   </p>
   <br>
   <p class="m-auto">
-  Attraverso il Piano Triennale, quindi, si dà attuazione al modello strategico
-  per lo sviluppo del digitale secondo cui:
+    Attraverso il Piano triennale, quindi, si attua il modello strategico per lo sviluppo del digitale secondo cui:  
   </p>
 </div>
 

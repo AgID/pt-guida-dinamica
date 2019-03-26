@@ -6,7 +6,14 @@ module.exports = {
     "no-var": "error", // optional, recommended when using es6+
     "no-unused-vars": 1, // recommended
     "arrow-spacing": ["error", { before: true, after: true }], // recommended
-    indent: ["error", 2],
+    indent: [
+      "error",
+      2,
+      {
+        SwitchCase: 1,
+        flatTernaryExpressions: true
+      }
+    ],
     "comma-dangle": [
       "error",
       {

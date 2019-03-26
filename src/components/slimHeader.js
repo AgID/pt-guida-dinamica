@@ -1,13 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import {
-  Col,
-  Collapse,
-  Container,
-  Row
-} from 'reactstrap';
+import React from "react";
+import PropTypes from "prop-types";
+import { Col, Collapse, Container, Row } from "reactstrap";
 
-import Icon from './icon';
+import Icon from "./icon";
 
 class SlimHeader extends React.Component {
   state = {
@@ -36,7 +31,8 @@ class SlimHeader extends React.Component {
                         <a
                           className="navbar-brand mr-1 mr-lg-3"
                           key={institutionalOwner.name}
-                          href={institutionalOwner.url}>
+                          href={institutionalOwner.url}
+                        >
                           {institutionalOwner.name}
                         </a>
                       );
@@ -45,12 +41,12 @@ class SlimHeader extends React.Component {
                       prev,
                       <span
                         key={index}
-                        className="navbar-brand text-white mr-1 mr-lg-3">
+                        className="navbar-brand text-white mr-1 mr-lg-3"
+                      >
                         +
                       </span>,
                       curr
-                    ])
-                  }
+                    ])}
                 </div>
                 <span className="nav-mobile col-12 col-lg-auto">
                   <nav aria-label="navigazione network">
@@ -62,7 +58,8 @@ class SlimHeader extends React.Component {
                               <a
                                 className="navbar-brand mr-1 mr-lg-3"
                                 key={institutionalOwner.name}
-                                href={institutionalOwner.url}>
+                                href={institutionalOwner.url}
+                              >
                                 {institutionalOwner.name}
                               </a>
                             );
@@ -71,12 +68,12 @@ class SlimHeader extends React.Component {
                             prev,
                             <span
                               key={index}
-                              className="navbar-brand text-white mr-1 mr-lg-3">
+                              className="navbar-brand text-white mr-1 mr-lg-3"
+                            >
                               +
                             </span>,
                             curr
-                          ])
-                        }
+                          ])}
                       </div>
                       <a
                         className="it-opener d-lg-none p-1 ml-auto"
@@ -95,29 +92,31 @@ class SlimHeader extends React.Component {
                       id="slimHeaderLinks"
                     >
                       <ul className="link-list border-0">
-                        {this.props.slimHeaderLinks
-                          .map((slimHeaderLinkGroup, groupIndex) =>
-                            slimHeaderLinkGroup.map((slimHeaderLinkItem, itemIndex) =>
-                              <li
-                                key={[groupIndex, itemIndex].join('-')}
-                                className={
-                                  (itemIndex + 1 ===
-                                        slimHeaderLinkGroup.length) &&
-                                        (groupIndex + 1 !==
-                                          this.props.slimHeaderLinks.length)
-                                    ? 'border-lg-right border-bottom border-lg-bottom-0' : null
-                                }
-                              >
-                                <a
-                                  href={slimHeaderLinkItem.url}
-                                  className="px-0 px-lg-3"
+                        {this.props.slimHeaderLinks.map(
+                          (slimHeaderLinkGroup, groupIndex) =>
+                            slimHeaderLinkGroup.map(
+                              (slimHeaderLinkItem, itemIndex) => (
+                                <li
+                                  key={[groupIndex, itemIndex].join("-")}
+                                  className={
+                                    itemIndex + 1 ===
+                                      slimHeaderLinkGroup.length &&
+                                    groupIndex + 1 !==
+                                      this.props.slimHeaderLinks.length
+                                      ? "border-lg-right border-bottom border-lg-bottom-0"
+                                      : null
+                                  }
                                 >
-                                  {slimHeaderLinkItem.name}
-                                </a>
-                              </li>
+                                  <a
+                                    href={slimHeaderLinkItem.url}
+                                    className="px-0 px-lg-3"
+                                  >
+                                    {slimHeaderLinkItem.name}
+                                  </a>
+                                </li>
+                              )
                             )
-                          )
-                        }
+                        )}
                       </ul>
                     </Collapse>
                   </nav>
@@ -136,14 +135,16 @@ SlimHeader.propTypes = {
     PropTypes.exact({
       name: PropTypes.string.isRequired,
       url: PropTypes.string.isRequired
-    })).isRequired,
-  slimHeaderLinks:
-    PropTypes.arrayOf(PropTypes.arrayOf(
+    })
+  ).isRequired,
+  slimHeaderLinks: PropTypes.arrayOf(
+    PropTypes.arrayOf(
       PropTypes.exact({
         name: PropTypes.string.isRequired,
         url: PropTypes.string.isRequired
       })
-    )).isRequired
+    )
+  ).isRequired
 };
 
 export default SlimHeader;

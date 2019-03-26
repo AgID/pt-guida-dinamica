@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
+import React from "react";
+import PropTypes from "prop-types";
+import { Link } from "gatsby";
 
-import MegaMenu from './megaMenu';
+import MegaMenu from "./megaMenu";
 
 const MainHeader = props => (
   <>
@@ -17,21 +17,21 @@ const MainHeader = props => (
                     {/* <Icon icon="code-circle" /> */}
                     <div className="it-brand-text">
                       <h2 className="no_toc">{props.title}</h2>
-                      <h3 className="no_toc d-none d-md-block">{props.description}</h3>
+                      <h3 className="no_toc d-none d-md-block">
+                        {props.description}
+                      </h3>
                     </div>
                   </Link>
                 </div>
                 <div className="it-right-zone">
-                  <div className="it-socials d-none d-md-flex">
-                  </div>
-                  <div className="it-search-wrapper">
-                  </div>
+                  <div className="it-socials d-none d-md-flex" />
+                  <div className="it-search-wrapper" />
                 </div>
               </div>
-            </div >
-          </div >
-        </div >
-      </div >
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="it-header-navbar-wrapper">
         <div className="container">
           <div className="row">
@@ -48,14 +48,13 @@ const MainHeader = props => (
 MainHeader.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  socialLinks:
-    PropTypes.arrayOf(
-      PropTypes.exact({
-        name: PropTypes.string.isRequired,
-        url: PropTypes.string.isRequired,
-        icon: PropTypes.string.isRequired
-      })
-    ).isRequired,
+  socialLinks: PropTypes.arrayOf(
+    PropTypes.exact({
+      name: PropTypes.string.isRequired,
+      url: PropTypes.string.isRequired,
+      icon: PropTypes.string.isRequired
+    })
+  ).isRequired,
   menu: PropTypes.array.isRequired
 };
 
