@@ -1,5 +1,5 @@
 ---
-title: "Avere sicurezza dei propri dati e disponibilità dei servizi"
+title: "Cloud: sicurezza dei propri dati e disponibilità dei servizi"
 subtitle: Cloud
 link_forum:
 link_faq:

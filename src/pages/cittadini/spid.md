@@ -1,5 +1,5 @@
 ---
-title: "Avere un’unica identità digitale per accedere ai servizi online"
+title: "SPID: unica identità digitale per i servizi pubblici online"
 subtitle: SPID
 link_forum:
 link_faq:

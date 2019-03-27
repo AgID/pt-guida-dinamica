@@ -1,5 +1,5 @@
 ---
-title: "Accedere gratuitamente alla rete internet delle PA"
+title: "Wi-fi: accesso gratuito alla rete internet delle PA"
 subtitle: Wi-Fi Pubblico
 link_forum:
 link_faq:

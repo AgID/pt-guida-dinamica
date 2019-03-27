@@ -650,20 +650,19 @@
 
 - title: Come funziona?
   text: >
-    La CIE può essere richiesta alla scadenza della propria Carta d’identità (o in
-    seguito a smarrimento, furto o deterioramento) presso il Comune di residenza o
-    di dimora che hanno attivato il servizio di emissione. Per velocizzare le
-    operazioni di rilascio è possibile prenotare un appuntamento sul sito
-    agendacie.interno.gov.it. La Carta è spedita direttamente al cittadino, presso
-    il Comune o presso un indirizzo indicato.
+    La CIE può essere richiesta presso i Comuni di residenza o di dimora che hanno attivato il servizio
+    di emissione, alla scadenza - o in seguito a smarrimento, furto o deterioramento - della propria
+    carta d’identità. Per velocizzare le operazioni di rilascio è possibile prenotare un appuntamento
+    sul sito dedicato del Ministero dell’Interno [Agenda Online](agendacie.interno.gov.it). La carta è
+    spedita direttamente al cittadino, presso il Comune o presso un indirizzo indicato.
   tags: [come-funziona, cit-cie]
 
-- title: Quali Vantaggi?
-  text: >
-    I cittadini possono utilizzare la CIE come strumento per l’autenticazione in
-    rete, come fattore abilitante per l’acquisizione dell’identità digitale SPID
-    e per la fruizione di ulteriori servizi a valore aggiunto, in Italia e in
-    Europa.
+- title: Vantaggi
+  text: |
+    I cittadini possono utilizzare la CIE per: 
+      * autenticarsi in rete;
+      * acquisire l’identità digitale SPID;
+      * fruire di ulteriori servizi a valore aggiunto in Italia e in Europa.
   tags: [vantaggi, cit-cie]
 
 # ANPR
@@ -696,7 +695,7 @@
 - title: Cos’è
   text: >
     Lo strumento a disposizione delle pubbliche amministrazioni per far conoscere i
-    propri servizi digitali ai cittadini, mettendo a loro disposizione informazioni
+    propri servizi digitali ai cittadini con informazioni
     di dettaglio sempre aggiornate.
   tags: [intro, cit-catalogo-servizi]
 
@@ -710,10 +709,9 @@
 - title: Vantaggi
   text: >
     I cittadini vengono indirizzati in modo efficace all'utilizzo dei servizi
-    digitali e hanno a disposizione informazioni semplificate e aggiornate. I
-    cittadini vengono guidati nei rapporti di comunicazione e interazione con le
-    pubbliche amministrazioni grazie anche al censimento dei servizi online delle
-    pubbliche amministrazioni.
+    digitali e hanno a disposizione informazioni semplificate e aggiornate. I cittadini vengono
+    guidati nei rapporti di comunicazione e interazione con le PA grazie anche al
+    censimento dei servizi pubblici online delle varie amministrazioni.
   tags: [vantaggi, cit-catalogo-servizi]
 
 # CLOUD
@@ -721,7 +719,7 @@
   text: >
     Il cloud è un modello di infrastrutture informatiche che consente di disporre
     tramite internet di un insieme di risorse di calcolo (ad es. reti, server,
-    storage, applicazioni e servizi) erogate come un servizio. Il PT 2017-2019 ha
+    storage, applicazioni e servizi) erogate come un servizio. Il Piano Triennale 2017 - 2019 ha
     introdotto il modello Cloud della PA che descrive l’insieme di infrastrutture IT
     e servizi cloud qualificati da AGID a disposizione della PA.
   tags: [intro, cit-cloud]
@@ -810,7 +808,7 @@
 # IPA
 - title: Cos’è
   text: >
-    Indice delle pubbliche amministrazioni è l’elenco pubblico di fiducia, gestito
+    [Indice delle pubbliche amministrazioni](https://www.indicepa.gov.it) è l’elenco pubblico di fiducia, gestito
     da AGID e alimentato periodicamente da tutte le PA, contenente i domicili
     digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi.
   tags: [intro, cit-ipa]
@@ -891,27 +889,25 @@
 
 - title: Come funziona
   text: >
-    L’identità SPID è rilasciata dai Gestori di Identità Digitale (Identity
-    Provider), soggetti privati accreditati da AGID, che forniscono le identità
-    digitali e gestiscono l’autenticazione degli utenti. Il gestore, dopo aver
-    verificato i dati, emette l’identità digitale, rilasciando le credenziali. I
-    cittadini accedono ai servizi online che le pubbliche amministrazioni e i
-    privati rendono accessibili tramite SPID.
+    L’identità SPID è rilasciata dai Gestori di Identità Digitale (Identity Provider) accreditati
+    da AGID, che forniscono le identità digitali e gestiscono l’autenticazione degli utenti. Il
+    gestore, dopo aver verificato i dati, emette l’identità digitale, rilasciando le credenziali. I
+    cittadini accedono ai servizi online che vengono resi fruibili tramite il sistema unico di
+    identità digitale.
   tags: [come-funziona, cit-spid]
 
 - title: Vantaggi
   text: >
-    I cittadini italiani, inclusi i residenti all’estero, utilizzano un’unica
-    identità digitale SPID per accedere in maniera sicura a tutti i servizi online
-    della Pubblica Amministrazione e dei privati aderenti, da computer, tablet e
-    smartphone.
+    I cittadini italiani, inclusi i residenti all’estero, utilizzano un’unica identità digitale
+    SPID per accedere in maniera sicura ai servizi online della pubblica amministrazione e dei
+    privati aderenti da computer, tablet e smartphone.
   tags: [vantaggi, cit-spid]
 
 # WIFI
 - title: Cos’è
   text: >
     La possibilità di connettersi, nei luoghi pubblici e negli uffici,
-    gratuitamente e in modo semplice alle reti WI – FI pubbliche diffuse sul
+    gratuitamente e in modo semplice alle reti wi-fi pubbliche diffuse sul
     territorio nazionale.
   tags: [intro, cit-wifi]
 
@@ -924,11 +920,11 @@
 
 - title: Vantaggi
   text: |
-    Connessione internet presente in maniera uniforme in tutti i centri della
-    vita pubblica per favorire l’accesso ai servizi pubblici digitali (es.
-    biblioteche o ospedali) attraverso l’uso di reti WI-FI pubbliche. 
+    Connessione internet presente in maniera uniforme in tutti i luoghi più frequentati della vita
+    sociale per favorire l’accesso ai servizi pubblici digitali (es. biblioteche o ospedali) attraverso
+    l’uso di reti wi-fi gratuite offerte dalle PA.
 
-    WI-FI pubblico gratuito ai cittadini, da parte delle PA centrali e locali,
+    Wi-fi pubblico gratuito ai cittadini, da parte delle PA centrali e locali,
     all’interno di un quadro normativo e tecnologico in linea con le indicazioni
     europee e nel rispetto degli standard di sicurezza previsti da AGID.
   tags: [vantaggi, cit-wifi]
@@ -1003,7 +999,8 @@
 
 - title: Cos'è
   text: >
-    Il catalogo nazionale degli open data che espone i dati pubblicati e aggiornati
+    [Il catalogo nazionale degli open data](https://www.dati.gov.it)
+    che espone i dati pubblicati e aggiornati
     dalle pubbliche amministrazioni in formato aperto
   tags: [intro, imp-dati]
 
@@ -1055,7 +1052,7 @@
     standardizzata, direttamente sul sito o sull’app dell’Ente (il Comune, ad
     esempio) o attraverso i canali (online e fisici) di banche e di altri Prestatori
     di Servizi di Pagamento, ovvero: agenzie bancarie home banking del PSP sportelli
-    ATM (se abilitati) punti vendita di SISAL, Lottomatica e Banca 5 uffici Postali.
+    ATM (se abilitati) punti vendita di SISAL, Lottomatica e Banca 5 uffici postali.
   tags: [come-funziona, imp-pagopa]
 
 - title: Vantaggi
