@@ -1,5 +1,5 @@
 ---
-title: "Ottenere informazioni sulla PA"
+title: "Indice delle pubbliche amministrazioni"
 subtitle: IPA
 link_forum:
 link_faq:

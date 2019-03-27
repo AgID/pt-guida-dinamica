@@ -1,5 +1,5 @@
 ---
-title: "Effettuare pagamenti digitali verso la PA"
+title: "pagoPA: i pagamenti digitali verso le Pubbliche Amministrazioni"
 subtitle: pagoPA
 link_forum:
 link_faq:

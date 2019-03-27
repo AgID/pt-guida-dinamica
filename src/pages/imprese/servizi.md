@@ -1,5 +1,5 @@
 ---
-title: "Conoscere i servizi della PA"
+title: "I servizi della PA"
 subtitle: Catalogo dei servizi
 link_forum:
 link_faq:

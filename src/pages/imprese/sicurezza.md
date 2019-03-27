@@ -1,5 +1,5 @@
 ---
-title: "Interagire in modo sicuro con le PA"
+title: "Sicurezza informatica: interagire in modo sicuro con le PA"
 subtitle: Sicurezza informatica
 link_forum:
 link_faq:

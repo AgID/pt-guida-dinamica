@@ -1014,10 +1014,9 @@
 
 - title: Vantaggi
   text: >
-    Le imprese possono accedere alle piattaforme dei dati aperti ai fini del
-    riutilizzo degli stessi, per finalità commerciali. La diffusione di queste
-    informazioni favorisce la crescita economica e produttiva, la ricerca,
-    l’innovazione e la competitività.
+    Le imprese possono accedere alle piattaforme dei dati aperti per il loro riutilizzo a finalità
+    commerciali. La diffusione di queste informazioni favorisce la crescita economica e produttiva, la
+    ricerca, l’innovazione e la competitività.
   tags: [vantaggi, imp-dati]
 
 - title: Cos'è
@@ -1034,10 +1033,9 @@
 
 - title: Vantaggi
   text: >
-    Le imprese possono accedere alle piattaforme dei dati aperti ai fini del
-    riutilizzo degli stessi, per finalità commerciali. La diffusione di queste
-    informazioni favorisce la crescita economica e produttiva, la ricerca,
-    l’innovazione e la competitività.
+    Le imprese possono accedere alle piattaforme dei dati aperti per il loro riutilizzo a finalità
+    commerciali. La diffusione di queste informazioni favorisce la crescita economica e produttiva, la
+    ricerca, l’innovazione e la competitività.
   tags: [vantaggi, imp-geodati]
 
 - title: Cos'è
@@ -1092,17 +1090,19 @@
 - title: Cos'è
   text: >
     L’architettura del public e-procurement sottende al processo di acquisto e
-    negoziazione di beni e servizi della PA e, è costituita da un insieme di regole
+    negoziazione di beni e servizi della PA ed è costituita da un insieme di regole
     che permetterà di gestire in digitale l’intero processo di procurement delle PA
   tags: [intro, imp-procurement]
 
 - title: Come funziona
-  text: >
-    Il sistema public e-procurement è costituito da piattaforme di acquisto sia
-    pubbliche che private, da soggetti istituzionali che gestiscono servizi,
-    piattaforme e banche dati coinvolti nel processo di acquisto e negoziazione,
-    registri pubblici nazionali ecc. Nel public procurement si distinguono due
-    ambiti con relativi processi: pre-aggiudicazione e post-aggiudicazione.
+  text: |
+    Il sistema public e-procurement è costituito da:
+      * piattaforme di acquisto sia pubbliche che private; 
+      * soggetti istituzionali che gestiscono servizi;
+      * piattaforme e banche dati coinvolti nel processo di acquisto e negoziazione;
+      * registri pubblici nazionali. 
+    Nel public procurement si distinguono due ambiti con relativi processi: pre-aggiudicazione e
+    post-aggiudicazione.
   tags: [come-funziona, imp-procurement]
 
 - title: Vantaggi
@@ -1116,18 +1116,16 @@
 
 - title: Cos'è
   text: >
-    La conservazione digitale di documenti e dati informatici, si realizza
-    attraverso il ricorso ai conservatori accreditati da AGID, soggetti pubblici
-    e privati specializzati.
+    La conservazione digitale di documenti e dati informatici si realizza attraverso
+    il ricorso ai [conservatori accreditati](https://www.agid.gov.it/it/piattaforme/conservazione/conservatori-accreditati) da AGID.
   tags: [intro, imp-conservazione]
 
 - title: Come funziona
   text: >
-    La conservazione digitale si realizza attraverso il ricorso ai conservatori
+    La conservazione digitale si realizza per il tramite dei conservatori
     accreditati da AGID, soggetti pubblici e privati che sono specializzati
-    nell’offerta di servizi di conservazione per le pubbliche amministrazioni. Ai
-    fini di memoria storica i Poli di conservazione svolgono funzioni di
-    conservazione permanente.
+    nell’offerta di servizi di conservazione per le pubbliche amministrazioni. I
+    Poli di conservazione svolgono funzioni di conservazione permanente.
   tags: [come-funziona, imp-conservazione]
 
 - title: Vantaggi
@@ -1193,12 +1191,11 @@
 
 - title: Cos'è
   text: >
-    La semplificazione amministrativa punta alla semplificazione e standardizzazione
-    procedurale, che si realizza attraverso una serie di azioni che vanno
-    dall’ampliamento della ricognizione dei procedimenti aventi un impatto sulle
-    imprese per le attività produttive all’ulteriore riduzione dei procedimenti
-    ancora assoggettati ad autorizzazioni, completando la standardizzazione della
-    modulistica.
+    La semplificazione amministrativa si realizza attraverso una serie di azioni che
+    vanno dall’ampliamento della ricognizione dei procedimenti che hanno un impatto
+    sulle imprese per le attività produttive, all’ulteriore riduzione dei
+    procedimenti ancora assoggettati ad autorizzazioni, completando così la
+    standardizzazione della modulistica.
   tags: [intro, imp-semplificazione]
 
 - title: Come funziona
