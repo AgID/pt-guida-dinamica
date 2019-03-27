@@ -1,5 +1,5 @@
 ---
-title: "Esercitare i propri diritti digitali"
+title: "Diritti digitali"
 subtitle: Difensore civico per il digitale
 link_forum:
 link_faq:

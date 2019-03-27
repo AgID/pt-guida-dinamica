@@ -148,7 +148,7 @@
       slug: cloud
       subtitle: cittadini
       tag: imp-cloud
-    - name: Servizi
+    - name: Catalogo servizi
       slug: servizi
       subtitle: cittadini
       tag: imp-servizi
@@ -156,7 +156,7 @@
       slug: ipa
       subtitle: cittadini
       tag: imp-ipa
-    - name: Dati
+    - name: Dati aperti
       slug: dati
       subtitle: cittadini
       tag: imp-dati
@@ -164,7 +164,7 @@
       slug: geodati
       subtitle: cittadini
       tag: imp-geodati
-    - name: Pagamenti
+    - name: pagoPA
       slug: pagamenti
       subtitle: cittadini
       tag: imp-pagopa
@@ -184,7 +184,7 @@
       subtitle: cittadini
       slug: sicurezza
       tag: imp-sicurezza
-    - name: Accessibilita
+    - name: Accessibilità
       slug: accessibilita
       subtitle: cittadini
       tag: imp-accessibilita

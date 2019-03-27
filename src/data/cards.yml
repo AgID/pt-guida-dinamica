@@ -793,7 +793,7 @@
 - title: Come funziona
   text: >
     I cittadini possono presentare una segnalazione e consultarne gli aggiornamenti
-    tramite l’apposita sezione sul sito di AGID.
+    tramite l’[apposita sezione sul sito di AGID](https://www.agid.gov.it/it/agenzia/difensore-civico-il-digitale).
   tags: [come-funziona, cit-diritti]
 
 - title: Vantaggi
@@ -802,7 +802,7 @@
     il domicilio digitale, i pagamenti con le modalità informatiche,  la
     comunicazione mediante le tecnologie dell’informazione, l’accessibilità e altre
     tematiche che i cittadini potranno approfondire attraverso la guida dei diritti
-    di cittadinanza digitale, pubblicata da AGID.
+    di cittadinanza digitale pubblicata da AGID.
   tags: [vantaggi, cit-diritti]
 
 # IPA
@@ -866,12 +866,10 @@
 
 - title: Come funziona
   text: >
-    I cittadini devono avere la certezza che i servizi resi dalle pubbliche
-    amministrazioni siano sicuri e affidabili, e possano essere usati con fiducia. A
-    tal fine le PA, per migliorare la consapevolezza nei riguardi della minaccia di
-    attacchi informatici e aumentare le capacità di prevenzione, protezione e
-    risposta agli incidenti, mettono in atto le iniziative tecniche ed organizzative
-    predisposte da AGID.
+    I cittadini devono avere la certezza che i servizi resi dalle pubbliche amministrazioni siano
+    sicuri e affidabili. Le PA mettono in atto le iniziative tecniche e organizzative predisposte da
+    AGID per migliorare la consapevolezza nei riguardi della minaccia di attacchi informatici e
+    aumentare le capacità di prevenzione, protezione e risposta agli incidenti.
   tags: [come-funziona, cit-sicurezza]
 
 - title: Vantaggi
@@ -935,7 +933,7 @@
   text: >
     Il cloud è un modello di infrastrutture informatiche che consente di disporre
     tramite internet di un insieme di risorse di calcolo (ad es. reti, server,
-    storage, applicazioni e servizi) erogate come un servizio. Il PT 2017-2019 ha
+    storage, applicazioni e servizi) erogate come un servizio. Il Piano Triennale 2017 - 2019 ha
     introdotto il modello Cloud della PA che descrive l’insieme di infrastrutture IT
     e servizi cloud qualificati da AGID a disposizione della PA.
   tags: [intro, imp-cloud]
@@ -958,15 +956,16 @@
 
 - title: Cos'è
   text: >
-    Lo strumento a disposizione delle imprese per conoscere i servizi digitali
-    della PA, attraverso informazioni di dettaglio sempre aggiornate.
+    Lo strumento a disposizione delle imprese per conoscere i 
+    [servizi digitali della PA](https://www.dati.gov.it/content/catalogo-dei-servizi-pa-primi-passi), 
+    attraverso informazioni di dettaglio sempre aggiornate.
   tags: [intro, imp-servizi]
 
 - title: Come funziona
   text: >
-    Le imprese possono utilizzare il Catalogo, progressivamente popolato dalle
-    pubbliche amministrazioni, utilizzando come chiave di ricerca la
-    classificazione dei servizi definita da AGID.
+    Le imprese possono servirsi del Catalogo, progressivamente popolato dalle pubbliche
+    amministrazioni, utilizzando come chiave di ricerca la classificazione dei servizi definita da
+    AGID.
   tags: [come-funziona, imp-servizi]
 
 - title: Vantaggi

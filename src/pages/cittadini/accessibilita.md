@@ -1,5 +1,5 @@
 ---
-title: "Accedere facilmente ai siti e servizi online"
+title: "Accessibilità"
 subtitle: Accessibilità
 link_forum:
 link_faq:
