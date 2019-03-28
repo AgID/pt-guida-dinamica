@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react';
-import PropTypes from 'prop-types';
-const ReactMarkdown = require('react-markdown');
+import React, { Fragment } from "react";
+import PropTypes from "prop-types";
+const ReactMarkdown = require("react-markdown");
 
 const Actions = ({ actions }) => {
   const output = (
@@ -8,9 +8,9 @@ const Actions = ({ actions }) => {
       <table className="table table-striped table-borderless table-responsive-md">
         <thead>
           <tr>
-            <th scope="col">Azioni Piano triennale 2017-2019</th>
+            <th scope="col">Azioni Piano Triennale 2017-2019</th>
             <th className="text-center" scope="col" />
-            <th scope="col">Azioni Piano triennale 2019-2021</th>
+            <th scope="col">Azioni Piano Triennale 2019-2021</th>
           </tr>
         </thead>
 
@@ -21,9 +21,7 @@ const Actions = ({ actions }) => {
                 <div className="d-flex align-start">
                   {a.label && (
                     <span>
-                      <span className="circle">
-                        {a.label}
-                      </span>
+                      <span className="circle">{a.label}</span>
                     </span>
                   )}
                   {a.delayed && (
@@ -63,9 +61,7 @@ const Actions = ({ actions }) => {
                       {n.label && (
                         <div className="d-flex pb-2">
                           <span>
-                            <span className="circle">
-                              {n.label}
-                            </span>
+                            <span className="circle">{n.label}</span>
                           </span>
                           <ReactMarkdown source={n.title} />
                         </div>

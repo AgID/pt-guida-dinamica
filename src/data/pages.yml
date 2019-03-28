@@ -1,17 +1,17 @@
-- name: Pubblica amministrazione
+- name: Pubblica Amministrazione
   slug: pa
   subtree:
-    - name: Come nasce il piano triennale
+    - name: Come nasce il Piano Triennale
       slug: come-nasce-il-piano-triennale
       subtree:
-        - name: 'Piano triennale 2017-2019'
-          slug: '2017-2019'
-        - name: 'Piano triennale 2019-2021'
-          slug: '2019-2021'
+        - name: "Piano Triennale 2017-2019"
+          slug: "2017-2019"
+        - name: "Piano Triennale 2019-2021"
+          slug: "2019-2021"
     - name: Data center e cloud
       slug: data-center-e-cloud
       tag: pa-data-center-e-cloud
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       subtree:
         - name: Confronto tra linee d'azione
           subtitle: data center e cloud
@@ -19,7 +19,7 @@
     - name: Connettività
       slug: connettivita
       tag: pa-connettivita
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       subtree:
         - name: Confronto tra linee d'azione
           slug: linea-azione
@@ -27,7 +27,7 @@
     - name: Modello di interoperabilità
       slug: modello-di-interoperabilita
       tag: pa-modello-di-interoperabilita
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       subtree:
         - name: Confronto tra linee d'azione
           slug: linea-azione
@@ -35,22 +35,22 @@
     - name: Dati della PA
       slug: dati-della-pa
       tag: pa-dati-della-pa
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       subtree:
         - name: Confronto tra linee d'azione
           slug: linea-azione
-          subtitle: dati della pubblica amministrazione
+          subtitle: dati della Pubblica Amministrazione
     - name: Piattaforme
       slug: piattaforme
       tag: pa-piattaforme
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       subtree:
         - name: Confronto tra linee d'azione
           slug: linea-azione
           subtitle: piattaforme
     - name: Ecosistemi
       slug: ecosistemi
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       tag: pa-ecosistemi
       subtree:
         - name: Confronto tra linee d'azione
@@ -59,7 +59,7 @@
     - name: Sicurezza informatica
       slug: sicurezza
       tag: pa-sicurezza
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       subtree:
         - name: Confronto tra linee d'azione
           slug: linea-azione
@@ -67,7 +67,7 @@
     - name: Strumenti per la generazione e la diffusione dei servizi digitali
       slug: servizi-digitali
       tag: pa-servizi-digitali
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       subtree:
         - name: Confronto tra linee d'azione
           slug: linea-azione
@@ -75,7 +75,7 @@
     - name: Modelli e strumenti per l'innovazione
       slug: modelli-strumenti-innovazione
       tag: pa-modelli-strumenti-innovazione
-      subtitle: pubblica amministrazione
+      subtitle: Pubblica Amministrazione
       subtree:
         - name: Confronto tra linee d'azione
           slug: linea-azione
@@ -117,7 +117,7 @@
       slug: dati-aperti
       tag: cit-dati-aperti
       subtitle: cittadini
-    - name: Pagamenti
+    - name: pagoPA
       slug: pagamenti
       tag: cit-pagamenti
       subtitle: cittadini
@@ -148,7 +148,7 @@
       slug: cloud
       subtitle: cittadini
       tag: imp-cloud
-    - name: Servizi
+    - name: Catalogo servizi
       slug: servizi
       subtitle: cittadini
       tag: imp-servizi
@@ -156,7 +156,7 @@
       slug: ipa
       subtitle: cittadini
       tag: imp-ipa
-    - name: Dati
+    - name: Dati aperti
       slug: dati
       subtitle: cittadini
       tag: imp-dati
@@ -164,7 +164,7 @@
       slug: geodati
       subtitle: cittadini
       tag: imp-geodati
-    - name: Pagamenti
+    - name: pagoPA
       slug: pagamenti
       subtitle: cittadini
       tag: imp-pagopa
@@ -184,7 +184,7 @@
       subtitle: cittadini
       slug: sicurezza
       tag: imp-sicurezza
-    - name: Accessibilita
+    - name: Accessibilità
       slug: accessibilita
       subtitle: cittadini
       tag: imp-accessibilita

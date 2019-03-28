@@ -26,7 +26,7 @@ actions:
       - label: LA69
         title: Evoluzione della piattaforma Docs Italia
       - label: LA70
-        title: Sperimentazione adozione Docs Italia per documentare progetti pubblici legati all’agenda digitale
+        title: Sperimentazione adozione Docs Italia per documentare progetti pubblici legati all’Agenda digitale
       - label: LA71
         title: Avvio del processo di onboarding alla piattaforma “Web analytics Italia”
       - label: LA72

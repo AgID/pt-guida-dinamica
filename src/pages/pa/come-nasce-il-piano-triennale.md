@@ -1,5 +1,5 @@
 ---
-title: Come nasce il piano triennale
+title: Come nasce il Piano Triennale
 layout: centered
 link_next: ""
 ---

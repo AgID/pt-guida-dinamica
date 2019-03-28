@@ -3,20 +3,20 @@
   text: >
     Da novembre 2017 è online la circolare n. 5/2017 «Censimento del Patrimonio ICT
     delle Amministrazioni e qualificazione dei Poli Strategici Nazionali».
-  tags: [ fatto, pa-data-center-e-cloud ]
+  tags: [fatto, pa-data-center-e-cloud]
 
 - title: Censimento del patrimonio ICT
   text: >
     Dopo una prima fase di rilevazione, avviata a dicembre 2017, ad aprile 2018 è
     stata avviata la seconda fase.
-  tags: [ fatto, pa-data-center-e-cloud ]
+  tags: [fatto, pa-data-center-e-cloud]
 
 - title: Circolari 2 e 3/2018 Cloud della PA
   link: https://cloud.italia.it/projects/cloud-italia-docs/it/latest/
   text: >
     Da aprile 2018 sono state avviate le qualificazioni dei Cloud Service Provider
     (CSP) ed è stato realizzato il registro pubblico dei CSP.
-  tags: [ fatto, pa-data-center-e-cloud ]
+  tags: [fatto, pa-data-center-e-cloud]
 
 - title: Marketplace della PA
   link: https://cloud.italia.it/marketplace/
@@ -24,7 +24,7 @@
     Da aprile 2018 è stato realizzato il catalogo dei servizi cloud qualificati, la
     piattaforma espone servizi e infrastrutture qualificate da AGID secondo quanto
     previsto dalle circolari.
-  tags: [ fatto, pa-data-center-e-cloud ]
+  tags: [fatto, pa-data-center-e-cloud]
 
 - title: Portale cloud.italia.it
   link: https://cloud.italia.it/
@@ -32,26 +32,26 @@
     Da giugno 2018 è stato pubblicato il portale cloud.italia.it per rendere più
     fruibile la strategia sull’adozione del Cloud Computing nella PA e diffondere
     informazioni e strumenti utili.
-  tags: [ fatto, pa-data-center-e-cloud ]
+  tags: [fatto, pa-data-center-e-cloud]
 
 - title: Servizi Cloud qualificati
   text: >
     Dal 1° aprile 2019, le PA possono acquisire solo servizi IaaS, PaaS e SaaS
     qualificati da AGID e pubblicati nel Cloud Marketplace.
-  tags: [ da-fare, pa-data-center-e-cloud ]
+  tags: [da-fare, pa-data-center-e-cloud]
 
 - title: Acquisti infrastrutture
   text: >
     Le PA non possono effettuare spese o investimenti in materia di data center,
     secondo le indicazioni e le eccezioni indicate nella circolare AGID n.2/2016 e
     nella circolare AGID n.5/2017.
-  tags: [ da-fare, pa-data-center-e-cloud ]
+  tags: [da-fare, pa-data-center-e-cloud]
 
 - title: Piani di migrazione
   text: >
     Le PA dovranno progressivamente definire un piano per la migrazione verso il
     Cloud della PA.
-  tags: [ da-fare, pa-data-center-e-cloud ]
+  tags: [da-fare, pa-data-center-e-cloud]
 
 - title: I nuovi contratti SPC2
   link: https://www.censimentoict.italia.it/it/latest/docs/circolari/2017113005.html
@@ -59,7 +59,7 @@
     Sono stati sottoscritti un migliaio di contratti per i servizi di connettività
     nell’ambito del Sistema pubblico di connettività (SPC), di cui 50 afferenti alle
     PA centrali.
-  tags: [ fatto, pa-connettivita ]
+  tags: [fatto, pa-connettivita]
 
 - title: L’infrastruttura QXN2
   link: https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita
@@ -68,81 +68,83 @@
     precedenti contratti SPC sui nuovi contratti quadro SPC2 ed è avvenuto il
     rilascio da parte di AGID della nuova infrastruttura QXN2, su cui sono operativi
     i fornitori della nuova gara SPC2.
-  tags: [ fatto, pa-connettivita ]
+  tags: [fatto, pa-connettivita]
 
 - title: Connettività della rete internazionale della PA
   link: http://www.consip.it/bandi-di-gara/gare-e-avvisi/gara-s-ripa-2
   text: >
-    Consip ha indetto una gara per la stipula di un accordo quadro avente ad oggetto
-    la progettazione della rete e l’erogazione dei servizi di connettività della
+    Consip ha indetto una gara per la stipula di un accordo quadro che ha per
+    oggetto la progettazione della rete e l’erogazione dei servizi di connettività della
     Rete Internazionale della PA.
-  tags: [ fatto, pa-connettivita ]
+  tags: [fatto, pa-connettivita]
 
 - title: Cessazione infrastruttura QXN
   text: >
     Entro il 31 marzo 2019 è prevista la cessazione dei servizi della vecchia
     infrastruttura QXN.
-  tags: [ da-fare, pa-connettivita ]
+  tags: [da-fare, pa-connettivita]
 
 - title: Capacità di connessione della PA
   text: >
     Le PA devono avviare processi di adeguamento della propria connettività sulla
     base delle linee guida fornite da AGID.
-  tags: [ da-fare, pa-connettivita ]
+  tags: [da-fare, pa-connettivita]
 
 - title: Linee guida wi-fi
   text: >
     Saranno pubblicate entro settembre 2019 le linee guida per l’utilizzo delle
     wi-fi, al fine di rendere accessibile ai cittadini wi-fi gratuito negli uffici e
     nei luoghi pubblici.
-  tags: [ da-fare, pa-connettivita ]
+  tags: [da-fare, pa-connettivita]
 
 - title: Modello di interoperabilità
   text: >
     Rappresenta l’asse portante all’attuazione del Piano Triennale, rendendo
     possibile la collaborazione tra pubbliche amministrazioni e tra queste e
     soggetti terzi (cittadini e imprese).
-  tags: [ fatto, pa-modello-di-interoperabilita ]
+  tags: [fatto, pa-modello-di-interoperabilita]
 
 - title: Linee Guida per transitare al nuovo Modello di interoperabilità
   link: https://www.agid.gov.it/sites/default/files/repository_files/upload_avvisi/linee_guida_passaggio_nuovo_modello_interoperabilita.pdf
   text: >
+
+
     Nell’agosto 2017, AGID ha definito, per le piattaforme esistenti e per le
     attività progettuali in corso, nella determina 219/2017 «Linee Guida per
-    transitare al nuovo Modello di Interoperabilità», le azioni che le pubbliche
-    amministrazioni devono realizzare al fine di dare seguito al processo di
-    transizione al nuovo Modello.
-  tags: [ fatto, pa-modello-di-interoperabilita ]
+    transitare al nuovo Modello di Interoperabilità», le azioni che
+    le pubbliche amministrazioni devono realizzare per dare seguito al
+    processo di transizione al nuovo modello.
+  tags: [fatto, pa-modello-di-interoperabilita]
 
 - title: Linee Guida del nuovo Modello di interoperabilità
   link: http://www.consip.it/bandi-di-gara/gare-e-avvisi/gara-s-ripa-2
   text: >
     AGID ha rilasciato i primi due capitoli del nuovo Modello, definendo il quadro
     di riferimento tecnico per l'implementazione dei servizi digitali nella PA.
-  tags: [ fatto, pa-modello-di-interoperabilita ]
+  tags: [fatto, pa-modello-di-interoperabilita]
 
 - title: Transizione dei servizi SP-Coop
   text: >
     Per assicurare la comunicazione tra i propri sistemi esistenti e tra questi e
     quelli di soggetti terzi, le PA utilizzano gli standard e i profili definiti dal
     Modello, secondo le [indicazioni operative fornite da AGID](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/allegati/3_indicazioni-operative-migrazione-spcoop.html).
-  tags: [ da-fare, pa-modello-di-interoperabilita ]
+  tags: [da-fare, pa-modello-di-interoperabilita]
 
 - title: Adozione linee guida nuovo Modello
   text: >
     Le PA realizzano le Interfacce di servizio per abilitare la comunicazione tra i
     sistemi informatici della PA e di questi con cittadini ed imprese.
-  tags: [ da-fare, pa-modello-di-interoperabilita ]
+  tags: [da-fare, pa-modello-di-interoperabilita]
 
 - title: Basi di dati di interesse nazionale
   text: |
     Nell’agosto 2017 è stato pubblicato l’elenco delle [Basi di dati di interesse
     nazionale](https://www.agid.gov.it/it/dati/basi-dati-interesse-nazionale) 
     e le relative schede descrittive. 
-    
+
     Da gennaio 2018 sono disponibili le
     «Linee guida per l’implementazione della specifica europea GeoDCAT-AP». 
-    
+
     Da aprile 2018 è on line la nuova versione (2.0) del [Repertorio nazionale dei dati
     territoriali](http://geodati.gov.it/). 
 
@@ -150,24 +152,24 @@
 
     A settembre 2018 sono state redatte le [Linee guida](https://lineeguida-ipa.readthedocs.io/it/latest/index.html) 
     relative alle Regole tecniche
-    da seguire per l’iscrizione e l’aggiornamento dei dati in IPA. 
-    
+    da seguire per l’iscrizione e l’aggiornamento dei dati nell'[Indice delle Pubbliche Amministrazioni](https://www.indicepa.gov.it) (IPA). 
+
     A novembre 2018
     il popolamento di [ANPR](https://www.anpr.interno.it/) ha raggiunto i 1.206 comuni e oltre 14 milioni di
     abitanti.
-  tags: [ fatto, pa-dati-della-pa ]
+  tags: [fatto, pa-dati-della-pa]
 
 - title: Basi dati di interesse nazionale
   text: >
     AGID e PA titolari definiscono piani di sviluppo e aggiornamento dei servizi per
     l’utilizzo delle banche dati.
-  tags: [ da-fare, pa-dati-della-pa ]
+  tags: [da-fare, pa-dati-della-pa]
 
 - title: Catalogo dei servizi
   text: >
     Le PA procedono al popolamento del Catalogo dei servizi, attraverso le nuove
     funzionalità implementate da AGID.
-  tags: [ da-fare, pa-dati-della-pa ]
+  tags: [da-fare, pa-dati-della-pa]
 
 - title: ANPR
   text: >
@@ -175,27 +177,27 @@
     Un campione di Comuni realizza prototipi di registri di stato civile, valutando
     le possibili semplificazioni derivanti dalla loro digitalizzazione e
     centralizzazione.
-  tags: [ da-fare, pa-dati-della-pa ]
+  tags: [da-fare, pa-dati-della-pa]
 
 - title: Aggiornamento IPA
   text: >
-    Le Amministrazioni gestori di pubblici servizi adottano le linee guida per
+    Le Amministrazioni che gestiscono pubblici servizi adottano le linee guida per
     l’aggiornamento dei dati in IPA.
-  tags: [ da-fare, pa-dati-della-pa ]
+  tags: [da-fare, pa-dati-della-pa]
 
 - title: Dati aperti
   text: >
     A marzo 2017 è stato reso disponibile il portale dei dati aperti della PA
-    [dati.gov.it](https://dati.gov.it) Nell’agosto 2017 sono state aggiornate le [Linee guida per la
-    valorizzazione del patrimonio informativo pubblico](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/).
-  tags: [ fatto, pa-dati-della-pa ]
+    [dati.gov.it](https://dati.gov.it) Nell’agosto 2017 sono state aggiornate le
+    [Linee guida nazionali per la valorizzazione del patrimonio informativo pubblico](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/).
+  tags: [fatto, pa-dati-della-pa]
 
 - title: Vocabolari controllati e modelli di dati
   link: http://registry.geodati.gov.it/registry
   text: >
     Nel 2018 è stato pubblicato il Sistema di Registri centrale INSPIRE Italia per
     la gestione dei vocabolari controllati.
-  tags: [ fatto, pa-dati-della-pa ]
+  tags: [fatto, pa-dati-della-pa]
 
 - title: Piattaforma Digitale Nazionale Dati
   link: https://dataportal.daf.teamdigitale.it/
@@ -203,24 +205,24 @@
     Nel 2018 la piattaforma tecnologica PDND ha raggiunto uno stadio sperimentale
     pubblicato sul sito [dataportal.daf.teamdigitale.it](https://dataportal.daf.teamdigitale.it) 
     e al momento viene utilizzata su alcuni casi di studio.
-  tags: [ fatto, pa-dati-della-pa ]
+  tags: [fatto, pa-dati-della-pa]
 
 - title: Evoluzione del catalogo nazionale dati.gov.it
   text: >
     AGID rilascerà la nuova versione del catalogo nazionale con nuove funzionalità.
-  tags: [ da-fare, pa-dati-della-pa ]
+  tags: [da-fare, pa-dati-della-pa]
 
 - title: Sviluppo ontologie
   text: >
     Le PA con AGID lavorano alla definizione di ontologie e/o vocabolari controllati
     di riferimento.
-  tags: [ da-fare, pa-dati-della-pa ]
+  tags: [da-fare, pa-dati-della-pa]
 
 - title: Sviluppo PDND
   text: >
     Il Team per la trasformazione Digitale lavora al consolidamento e alla
     successiva messa in produzione della piattaforma.
-  tags: [ da-fare, pa-dati-della-pa ]
+  tags: [da-fare, pa-dati-della-pa]
 
 - title: Public e-procurement
   link: https://www.agid.gov.it/it/piattaforme/procurement
@@ -229,16 +231,16 @@
     componenti: ComproPA, Banca dati degli operatori economici (BDOE), Nodo di
     smistamento degli ordini di acquisto delle amministrazioni pubbliche (NSO),
     Fatturazione elettronica.
-  tags: [ fatto, pa-piattaforme ]
+  tags: [fatto, pa-piattaforme]
 
 - title: pagoPA
   link: https://www.agid.gov.it/it/piattaforme/pagopa
   text: >
     Dall’avvio in produzione del sistema nel 2012, particolare cura è stata dedicata
     al miglioramento dell’esperienza utente, con l’introduzione di funzionalità che
-    consentono di semplificare il pagamento. È a disposizione delle PA, un kit di
+    consentono di semplificare il pagamento. È a disposizione delle PA un kit di
     sviluppo software per realizzare applicazioni mobili integrate con pagoPA.
-  tags: [ fatto, pa-piattaforme ]
+  tags: [fatto, pa-piattaforme]
 
 - title: Siope+
   link: https://www.agid.gov.it/it/piattaforme/siope
@@ -246,39 +248,39 @@
     L’iniziativa è governata dal MEF e rappresenta l’evoluzione di SIOPE, il sistema
     informativo sulle operazioni degli enti pubblici. Il sistema SIOPE+ è andato a
     regime dal 2018 per Regioni, Comuni, Asl e aziende ospedaliere.
-  tags: [ fatto, pa-piattaforme ]
+  tags: [fatto, pa-piattaforme]
 
 - title: NoiPA
   link: https://noipa.mef.gov.it/
   text: >
     Da gennaio 2018 è operativa la piattaforma cloud in termini di componenti
     strutturali e prodotti software.
-  tags: [ fatto, pa-piattaforme ]
+  tags: [fatto, pa-piattaforme]
 
 - title: Implementazione public e-procurement
   text: >
     Rispetto all’attuale stato di avanzamento delle diverse componenti
     dell’architettura, verranno realizzate la messa in esercizio, il rilascio delle
     evoluzioni e il relativo adeguamento da parte delle PA.
-  tags: [ da-fare, pa-piattaforme ]
+  tags: [da-fare, pa-piattaforme]
 
 - title: Evoluzione pagoPA
   text: >
     Sarà completata l’attivazione dei servizi da parte dei soggetti obbligati
     all’adesione alla piattaforma.
-  tags: [ da-fare, pa-piattaforme ]
+  tags: [da-fare, pa-piattaforme]
 
 - title: Dispiegamento SIOPE+
   text: >
     È prevista l’adesione da parte di Enti di ricerca, Università, Autorità
     portuali, Enti Parco e l’estensione successiva ad altri enti pubblici.
-  tags: [ da-fare, pa-piattaforme ]
+  tags: [da-fare, pa-piattaforme]
 
 - title: Evoluzione NoiPA
   text: >
     Si procederà a completare il sistema NoiPA, integrandolo con le altre
     Piattaforme abilitanti, per favorirne l'adozione da parte di tutte le PA.
-  tags: [ da-fare, pa-piattaforme ]
+  tags: [da-fare, pa-piattaforme]
 
 - title: SPID
   link: https://www.spid.gov.it/
@@ -286,14 +288,14 @@
     Sono stati accreditati 9 gestori di identità. AGID ha supportato le PA nelle
     attività di interfacciamento con SPID portando a 4000 il numero di PA che
     offrono servizi accessibili con SPID.
-  tags: [ fatto, pa-piattaforme ]
+  tags: [fatto, pa-piattaforme]
 
 - title: Carta d’identità elettronica (CIE)
   link: https://www.cartaidentita.interno.gov.it/
   text: >
     A fine 2018 risultano emesse 6,7 mln di CIE. Il dispiegamento del sistema ha
     coperto quasi totalmente il territorio nazionale.
-  tags: [ fatto, pa-piattaforme ]
+  tags: [fatto, pa-piattaforme]
 
 - title: Sistema di gestione di procedimenti amministrativi
   link: https://www.agid.gov.it/it/piattaforme/sistema-gestione-procedimenti-amministrativi
@@ -301,7 +303,7 @@
     Nell’ambito della progettazione della piattaforma SGPA, AGID ha avviato attività
     per la diffusione e la gestione dei documenti informatici nelle PA, tra cui la
     redazione di regole tecniche e documenti di riferimento.
-  tags: [ fatto, pa-piattaforme ]
+  tags: [fatto, pa-piattaforme]
 
 - title: Poli di conservazione
   link: https://www.agid.gov.it/it/piattaforme/conservazione
@@ -310,7 +312,7 @@
     Notariato, il Ministero della Difesa e AGID hanno sottoscritto un accordo di
     collaborazione per la definizione di regole di interscambio tra i sistemi di
     conservazione.
-  tags: [ fatto, pa-piattaforme ]
+  tags: [fatto, pa-piattaforme]
 
 - title: ANPR
   link: https://www.agid.gov.it/it/piattaforme/anagrafe-nazionale-popolazione-residente
@@ -319,48 +321,48 @@
     funzionalità sono stati realizzati: interventi per valorizzare i risultati
     conseguiti, azioni di raccordo con le altre iniziative del PT e azioni di
     comunicazione verso gli stakeholder.
-  tags: [ fatto, pa-piattaforme ]
+  tags: [fatto, pa-piattaforme]
 
 - title: Evoluzione e diffusione SPID
   text: >
     Evoluzione del sistema per l’integrazione con fornitori di servizi privati,
     l’adesione delle Attribute authority e l’automazione dei processi.
-  tags: [ da-fare, pa-piattaforme ]
+  tags: [da-fare, pa-piattaforme]
 
 - title: Sviluppo funzionalità CIE
   text: >
     Emissione della CIE all’estero e accesso ai servizi online.
-  tags: [ da-fare, pa-piattaforme ]
+  tags: [da-fare, pa-piattaforme]
 
 - title: Linee Guida e modelli per SGPA
   text: >
     Emanazione di Linee Guida per la formazione, conservazione e gestione dei
     documenti informatici e di moduli per l'interoperabilità tra sistemi.
-  tags: [ da-fare, pa-piattaforme ]
+  tags: [da-fare, pa-piattaforme]
 
 - title: Regole per l’interoperabilità tra sistemi di conservazione
   text: >
     Pubblicazione delle regole tecniche da parte di AGID. Le PA comunicano avvio e
     conclusione del processo di dematerializzazione.
-  tags: [ da-fare, pa-piattaforme ]
+  tags: [da-fare, pa-piattaforme]
 
 - title: Servizio nazionale per la certificazione anagrafica
   text: >
     Definizione di un modello per la stipula di accordi di servizio. Realizzazione
     web app nazionale di servizi di certificazione.
-  tags: [ da-fare, pa-piattaforme ]
+  tags: [da-fare, pa-piattaforme]
 
 - title: Definizione degli ecosistemi
   text: >
     AGID ha provveduto a una prima definizione degli ecosistemi e del loro perimetro
     e ha individuato le amministrazioni capofila degli ecosistemi.
-  tags: [ fatto, pa-ecosistemi ]
+  tags: [fatto, pa-ecosistemi]
 
 - title: Modello di riferimento
   text: >
     AGID ha definito un modello di riferimento che descrive un processo di
     costruzione e di evoluzione degli ecosistemi.
-  tags: [ fatto, pa-ecosistemi ]
+  tags: [fatto, pa-ecosistemi]
 
 - title: Sviluppo primi ecosistemi
   text: >
@@ -368,7 +370,7 @@
     degli ecosistemi più maturi in termini di iniziative e progettualità (Sanità,
     Finanza pubblica, Beni culturali e turismo, Sviluppo e sostenibilità, Giustizia
     e Welfare).
-  tags: [ fatto, pa-ecosistemi ]
+  tags: [fatto, pa-ecosistemi]
 
 - title: Ecosistema Sanità
   link: http://www.gazzettaufficiale.it/eli/id/2017/08/22/17A05772/sg
@@ -376,7 +378,7 @@
     In riferimento all’ecosistema Sanità ad agosto 2017 è stato pubblicato il
     Decreto ministeriale che definisce le regole di interoperabilità del Fascicolo
     sanitario elettronico (FSE).
-  tags: [ fatto, pa-ecosistemi ]
+  tags: [fatto, pa-ecosistemi]
 
 - title: Gruppi di lavoro
   text: >
@@ -384,14 +386,14 @@
     coinvolte anche attraverso la predisposizione di gruppi di lavoro volti a
     definire regole e standard di riferimento e linee guida specifiche e ad avviare
     progettualità innovative.
-  tags: [ da-fare, pa-ecosistemi ]
+  tags: [da-fare, pa-ecosistemi]
 
 - title: Coinvolgimento degli stakeholder
   text: >
     Le amministrazioni capofila hanno il compito di definire il perimetro
     dell’ecosistema, di individuare e coinvolgere gli stakeholder pubblici e privati
     di riferimento e di supportare lo sviluppo dell’ecosistema.
-  tags: [ da-fare, pa-ecosistemi ]
+  tags: [da-fare, pa-ecosistemi]
 
 - title: Misure per la sicurezza ICT
   link: https://www.agid.gov.it/sites/default/files/repository_files/documentazione/misure_minime_di_sicurezza_v.1.0.pdf
@@ -400,7 +402,7 @@
     ICT delle Pubbliche amministrazioni» per fornire alle PA indicazioni puntuali su
     come raggiungere livelli di sicurezza prefissati a partire da quello minimo,
     obbligatorio per tutti.
-  tags: [ fatto, pa-sicurezza ]
+  tags: [fatto, pa-sicurezza]
 
 - title: CERT-PA
   link: https://www.cert-pa.it/
@@ -408,7 +410,7 @@
     È stata progressivamente aumentata la capacità operativa del CERT-PA,
     completando l’infrastruttura ICT di erogazione dei servizi di base e realizzando
     un primo modello di sistema informativo sulle minacce cibernetiche.
-  tags: [ fatto, pa-sicurezza ]
+  tags: [fatto, pa-sicurezza]
 
 - title: Piattaforma Infosec
   link: https://infosec.cert-pa.it/
@@ -416,20 +418,20 @@
     Nel corso del 2017 AGID, tramite il CERT-PA, ha provveduto a sviluppare
     ulteriormente il National Vulnerability Database, gestito tramite la piattaforma
     Infosec.
-  tags: [ fatto, pa-sicurezza ]
+  tags: [fatto, pa-sicurezza]
 
 - title: Garantire la sicurezza
   text: >
     Le pubbliche amministrazioni devono garantire la sicurezza dei servizi
     informatici e telematici erogati, rispettando le indicazioni sul tema fornite da
     AGID.
-  tags: [ da-fare, pa-sicurezza ]
+  tags: [da-fare, pa-sicurezza]
 
 - title: Segnalare incidenti di sicurezza
   text: >
     Le PA devono segnalare al CERT-PA eventuali incidenti di sicurezza informatica,
     tramite piattaforma Infosec.
-  tags: [ da-fare, pa-sicurezza ]
+  tags: [da-fare, pa-sicurezza]
 
 - title: Designers Italia
   link: https://designers.italia.it/
@@ -438,15 +440,15 @@
     all’aggiornamento di linee guida, strumenti e kit di sviluppo  front-end per
     siti web della PA. Designers Italia contiene indicazioni circa l’accessibilità e
     l’usabilità dei siti web istituzionali.
-  tags: [ fatto, pa-servizi-digitali ]
+  tags: [fatto, pa-servizi-digitali]
 
 - title: Docs Italia
   link: https://docs.italia.it/
   text: >
     È stata realizzata una piattaforma, a disposizione di tutte le pubbliche
     amministrazioni per la pubblicazione e la consultazione di documenti pubblici
-    relativi ai progetti tecnologici dell’agenda digitale.
-  tags: [ fatto, pa-servizi-digitali ]
+    relativi ai progetti tecnologici dell’Agenda digitale.
+  tags: [fatto, pa-servizi-digitali]
 
 - title: Riorganizzazione del dominio «.gov.it»
   link: https://infosec.cert-pa.it/
@@ -454,38 +456,38 @@
     A febbraio 2018 è stata emanata la Determinazione n. 36/2018 per il riordino
     del dominio di terzo livello (SLD) nel dominio ".gov.it". A marzo 2018 il dominio «edu.it» è
     stato assegnata al Ministero dell’Istruzione, dell’Università e della Ricerca.
-  tags: [ fatto, pa-servizi-digitali ]
+  tags: [fatto, pa-servizi-digitali]
 
 - title: Linee guida di design
   text: >
     Aggiornamento delle Linee guida di design dei siti e dei servizi web della PA.
     Attuazione della direttiva europea 2016/2102 sull’accessibilità dei siti web.
     Realizzazione dei test di usabilità secondo il protocollo eGLU.
-  tags: [ da-fare, pa-servizi-digitali ]
+  tags: [da-fare, pa-servizi-digitali]
 
 - title: Riuso
   text: >
     Predisposizione di linee guida per fornire alla PA le indicazioni per la
     condivisione di software aperti.
-  tags: [ da-fare, pa-servizi-digitali ]
+  tags: [da-fare, pa-servizi-digitali]
 
 - title: Web Analytics
   text: >
     Creazione della piattaforma Web Analytics Italia a disposizione delle PA per
     l’analisi dei propri servizi digitali.
-  tags: [ da-fare, pa-servizi-digitali ]
+  tags: [da-fare, pa-servizi-digitali]
 
 - title: IO
   text: >
     Sviluppo di un’app che rende possibile la fruizione efficace dei servizi
     pubblici digitali delle PA da parte di cittadini e imprese.
-  tags: [ da-fare, pa-servizi-digitali ]
+  tags: [da-fare, pa-servizi-digitali]
 
 - title: Dominio «.edu.it» e «.it»
   text: >
     Migrazione delle scuole al dominio «.edu.it» e degli enti territoriali al
     dominio «.it».
-  tags: [ da-fare, pa-servizi-digitali ]
+  tags: [da-fare, pa-servizi-digitali]
 
 - title: Pre Commercial Procurement
   link: https://www.agid.gov.it/it/agenzia/programmi-nazionali/innovazione-del-mercato
@@ -494,34 +496,34 @@
     pre-commerciali](https://www.agid.gov.it/it/agenzia/programmi-nazionali/gare-pcp-nazionali) 
     finalizzati alla soddisfazione dei fabbisogni di innovazione del
     settore pubblico. Dal 2017 sono state avviate in tutto 19 gare.
-  tags: [ fatto, pa-modelli-strumenti-innovazione ]
+  tags: [fatto, pa-modelli-strumenti-innovazione]
 
 - title: Modello di Smart Community
   text: >
     AGID ha lavorato alla definizione e allo sviluppo di un nuovo modello di smart
     community denominato Smart Landscape.
-  tags: [ fatto, pa-modelli-strumenti-innovazione ]
+  tags: [fatto, pa-modelli-strumenti-innovazione]
 
 - title: Strumenti per l’innovazione
   text: >
     Le amministrazioni devono utilizzare pratiche per appalti di innovazione:
     consultazioni di mercato, procedure negoziate, dialogo competitivo, partenariato
     per l’innovazione a condividere le informazioni chiave.
-  tags: [ da-fare, pa-modelli-strumenti-innovazione ]
+  tags: [da-fare, pa-modelli-strumenti-innovazione]
 
 - title: Modelli per l’innovazione
   text: >
     Progettazione e realizzazione del primo prototipo del motore predittivo a
     supporto della governance del modello Smart Landscape.
-  tags: [ da-fare, pa-modelli-strumenti-innovazione ]
+  tags: [da-fare, pa-modelli-strumenti-innovazione]
 
 - title: Coordinamento sul territorio
   link: https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2018/02/15/verso-obiettivi-europa-2020-firmato-accordo-agid-regioni-province-autonome
   text: >
     A febbraio 2018 AGID e Conferenza delle Regioni e delle Province Autonome hanno
-    siglato un Accordo di collaborazione ai fini dell’attuazione della strategia
+    siglato un Accordo di collaborazione per l’attuazione della strategia
     Crescita Digitale.
-  tags: [ fatto, pa-governare-trasformazione-digitale ]
+  tags: [fatto, pa-governare-trasformazione-digitale]
 
 - title: Responsabile della transizione al digitale
   text: >
@@ -529,13 +531,13 @@
     Amministrazione](http://www.funzionepubblica.gov.it/articolo/dipartimento/01-10-2018/circolare-n3-del-2018) 
     per sollecitare tutte le Amministrazioni ad individuare al
     proprio interno un RTD.
-  tags: [ fatto, pa-governare-trasformazione-digitale ]
+  tags: [fatto, pa-governare-trasformazione-digitale]
 
 - title: Monitoraggio
   text: >
     Sono stati individuati i primi indicatori in coerenza con quelli della Strategia
     per la Crescita Digitale.
-  tags: [ fatto, pa-governare-trasformazione-digitale ]
+  tags: [fatto, pa-governare-trasformazione-digitale]
 
 - title: Competenze digitali
   text: >
@@ -544,46 +546,47 @@
     delle professioni e dei profili ICT. SNA, Formez, AGID e Team
     digitale hanno avviato attività di formazione e webinar per i dipendenti della
     PA.
-  tags: [ fatto, pa-governare-trasformazione-digitale ]
+  tags: [fatto, pa-governare-trasformazione-digitale]
 
 - title: Cittadini e imprese
   text: >
     Presso AGID è stato istituito l’ufficio del difensore civico per il digitale. Il
     Dipartimento della funzione pubblica ha avviato con AGID, Regioni, Comuni e
-    sistema Camerale un’azione di semplificazione amministrativa dei SUAP.
-  tags: [ fatto, pa-governare-trasformazione-digitale ]
+    sistema Camerale un’azione di semplificazione amministrativa 
+    degli Sportelli Unici Attività Produttive (SUAP).
+  tags: [fatto, pa-governare-trasformazione-digitale]
 
 - title: Costituzione PMO
   text: >
     Progressiva istituzione di unità di Program Management Office nazionali e
     regionali con il compito di coordinare le attività operative oggetto
     dell’accordo.
-  tags: [ da-fare, pa-governare-trasformazione-digitale ]
+  tags: [da-fare, pa-governare-trasformazione-digitale]
 
 - title: Avvio della rete RTD
   text: >
     Creazione di un gruppo di lavoro permanente (RTD di PA centrali, Regioni, Città
     Metro e relativi Comuni capoluogo).
-  tags: [ da-fare, pa-governare-trasformazione-digitale ]
+  tags: [da-fare, pa-governare-trasformazione-digitale]
 
 - title: Sistema di monitoraggio
   text: >
     Rilascio di una piattaforma per la raccolta dei dati e il monitoraggio degli
     aspetti tecnici ed economici da parte delle PA sull’attuazione delle Agende
     digitali.
-  tags: [ da-fare, pa-governare-trasformazione-digitale ]
+  tags: [da-fare, pa-governare-trasformazione-digitale]
 
 - title: Sviluppo di competenze digitali
   text: >
     Incremento delle attività di formazione di project management, specialistica e
     di base per RTD, dipendenti pubblici e cittadini.
-  tags: [ da-fare, pa-governare-trasformazione-digitale ]
+  tags: [da-fare, pa-governare-trasformazione-digitale]
 
 - title: Prime iniziative verso cittadini e imprese
   text: >
     Redazione guida sui diritti di cittadinanza digitale. Adozione modulistica
     standardizzata per le attività produttive.
-  tags: [ da-fare, pa-governare-trasformazione-digitale ]
+  tags: [da-fare, pa-governare-trasformazione-digitale]
 
 - title: Rilevazione della spesa ICT 2018
   text: |
@@ -597,20 +600,20 @@
 
     L’insieme delle PA che hanno partecipato è così composto: 
     - 19 Amministrazioni Centrali (tutti i Ministeri, Agenzie Fiscali, INPS, INAIL e ACI)
-    - 21 Amministrazioni Regionali e Province Autonome 14 Città Metropolitane 14 Comuni capoluogo delle Città Metropolitane
+    - 21 Amministrazioni Regionali e Province Autonome, 14 Città Metropolitane, 14 Comuni capoluogo delle Città Metropolitane
     - 5 società in-house centrali e regionali
     - 10 centrali di committenza nazionali e regionali
 
     [Rilevazione spesa ICT della PA 2018 - Report di sintesi](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/allegati/2_rilevazione-spesa-ict-pa-2018.html)
 
-  tags: [ fatto, pa-rilevazione-spesa-ict ]
+  tags: [fatto, pa-rilevazione-spesa-ict]
 
 - title: Monitoraggio spesa e progetti ICT
   text: >
     Le amministrazioni e gli enti individuati devono proseguire – o avviare - la
     partecipazione alla Rilevazione sulla spesa ICT secondo le indicazioni di AGID,
     sia nella fase di sperimentazione sia in quella di realizzazione e di follow-up.
-  tags: [ da-fare, pa-rilevazione-spesa-ict ]
+  tags: [da-fare, pa-rilevazione-spesa-ict]
 
 #############################
 
@@ -620,21 +623,21 @@
     Una serie di azioni atte a semplificare e migliorare lo sviluppo e l’utilizzo
     dei siti istituzionali e dei servizi digitali erogati al cittadino dalle
     pubbliche amministrazioni.
-  tags: [ intro, cit-accessibilita ]
+  tags: [intro, cit-accessibilita]
 
 - title: Come funziona
   text: >
     Le PA adeguano i siti e i servizi ad ogni esigenza di navigazione e usabilità,
     sulla base di linee guida e kit di sviluppo definiti da AGID.
-  tags: [ come-funziona, cit-accessibilita ]
+  tags: [come-funziona, cit-accessibilita]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     La semplificazione nell'accesso e nell’uso di strumenti informatici e servizi
     pubblici digitali favorisce la partecipazione e l’inclusione di tutti i
     cittadini, che hanno la possibilità di segnalare eventuali inadempienze alle PA,
-    anche attraverso il ricorso al Difensore Civico per il digitale.  
-  tags: [ vantaggi, cit-accessibilita ]
+    anche attraverso il ricorso al Difensore Civico per il digitale.
+  tags: [vantaggi, cit-accessibilita]
 
 # CIE
 - title: Cos’è?
@@ -643,32 +646,31 @@
     plastico, che attesta l’identità del cittadino. È dotata di un microchip a
     radiofrequenza (RF) che memorizza i dati del titolare e rispetta elevati
     standard di sicurezza.
-  tags: [ intro, cit-cie ]
+  tags: [intro, cit-cie]
 
 - title: Come funziona?
   text: >
-    La CIE può essere richiesta alla scadenza della propria Carta d’identità (o in
-    seguito a smarrimento, furto o deterioramento) presso il Comune di residenza o
-    di dimora che hanno attivato il servizio di emissione. Per velocizzare le
-    operazioni di rilascio è possibile prenotare un appuntamento sul sito
-    agendacie.interno.gov.it. La Carta è spedita direttamente al cittadino, presso
-    il Comune o presso un indirizzo indicato.
-  tags: [ come-funziona, cit-cie ]
+    La CIE può essere richiesta presso i Comuni di residenza o di dimora che hanno attivato il servizio
+    di emissione, alla scadenza - o in seguito a smarrimento, furto o deterioramento - della propria
+    carta d’identità. Per velocizzare le operazioni di rilascio è possibile prenotare un appuntamento
+    sul sito dedicato del Ministero dell’Interno [Agenda Online](agendacie.interno.gov.it). La carta è
+    spedita direttamente al cittadino, presso il Comune o presso un indirizzo indicato.
+  tags: [come-funziona, cit-cie]
 
-- title: Quali possibili vantaggi?
-  text: >
-    I cittadini possono utilizzare la CIE come strumento per l’autenticazione in
-    rete, come fattore abilitante per l’acquisizione dell’identità digitale SPID
-    e per la fruizione di ulteriori servizi a valore aggiunto, in Italia e in
-    Europa.
-  tags: [ vantaggi, cit-cie ]
+- title: Vantaggi
+  text: |
+    I cittadini possono utilizzare la CIE per: 
+      * autenticarsi in rete;
+      * acquisire l’identità digitale SPID;
+      * fruire di ulteriori servizi a valore aggiunto in Italia e in Europa.
+  tags: [vantaggi, cit-cie]
 
 # ANPR
 - title: Cos’è
   text: >
     ANPR è l’anagrafe centrale unica di tutti i cittadini e i residenti in Italia,
     in cui confluiscono progressivamente le anagrafi comunali.
-  tags: [ intro, cit-anpr ]
+  tags: [intro, cit-anpr]
 
 - title: Come funziona
   text: >
@@ -676,9 +678,9 @@
     migrazione dei dati, di svolgere i servizi anagrafici e di consultare o estrarre
     dati, monitorare le attività e effettuare statistiche. Diventando così un punto
     di riferimento unico per tutti coloro che sono interessati ai dati anagrafici.
-  tags: [ come-funziona, cit-anpr ]
+  tags: [come-funziona, cit-anpr]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     I cittadini hanno la possibilità di accedere in tempo reale ai propri dati non
     solo dal Comune di residenza ma anche da ogni altro Comune subentrato in ANPR. I
@@ -687,64 +689,63 @@
     non devono comunicare a ogni ufficio della PA i dati anagrafici o il cambio di
     residenza e possono ottenere certificati senza bisogno di recarsi allo
     sportello.
-  tags: [ vantaggi, cit-anpr ]
+  tags: [vantaggi, cit-anpr]
 
 # CATALOGO SERVIZI
 - title: Cos’è
   text: >
     Lo strumento a disposizione delle pubbliche amministrazioni per far conoscere i
-    propri servizi digitali ai cittadini, mettendo a loro disposizione informazioni
+    propri servizi digitali ai cittadini con informazioni
     di dettaglio sempre aggiornate.
-  tags: [ intro, cit-catalogo-servizi ]
+  tags: [intro, cit-catalogo-servizi]
 
 - title: Come funziona
   text: >
     I cittadini possono utilizzare il Catalogo, progressivamente popolato dalle
     pubbliche amministrazioni, utilizzando come chiave di ricerca la classificazione
     dei servizi definita da AGID.
-  tags: [ come-funziona, cit-catalogo-servizi ]
+  tags: [come-funziona, cit-catalogo-servizi]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     I cittadini vengono indirizzati in modo efficace all'utilizzo dei servizi
-    digitali e hanno a disposizione informazioni semplificate e aggiornate. I
-    cittadini vengono guidati nei rapporti di comunicazione e interazione con le
-    pubbliche amministrazioni grazie anche al censimento dei servizi online delle
-    pubbliche amministrazioni.
-  tags: [ vantaggi, cit-catalogo-servizi ]
+    digitali e hanno a disposizione informazioni semplificate e aggiornate. I cittadini vengono
+    guidati nei rapporti di comunicazione e interazione con le PA grazie anche al
+    censimento dei servizi pubblici online delle varie amministrazioni.
+  tags: [vantaggi, cit-catalogo-servizi]
 
 # CLOUD
 - title: Cos’è
   text: >
     Il cloud è un modello di infrastrutture informatiche che consente di disporre
     tramite internet di un insieme di risorse di calcolo (ad es. reti, server,
-    storage, applicazioni e servizi) erogate come un servizio. Il PT 2017-2019 ha
+    storage, applicazioni e servizi) erogate come un servizio. Il Piano Triennale 2017 - 2019 ha
     introdotto il modello Cloud della PA che descrive l’insieme di infrastrutture IT
     e servizi cloud qualificati da AGID a disposizione della PA.
-  tags: [ intro, cit-cloud ]
+  tags: [intro, cit-cloud]
 
 - title: Come funziona
   text: >
     Questo modello semplifica la gestione dei sistemi informativi, trasformando le
     infrastrutture fisiche in servizi virtuali e migliorando i processi di
     erogazione dei servizi della PA verso i cittadini.
-  tags: [ come-funziona, cit-cloud ]
+  tags: [come-funziona, cit-cloud]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Il Cloud della PA introduce vantaggi significativi rispetto alle tradizionali
     soluzioni hardware, consentendo di usufruire delle applicazioni da qualsiasi
     dispositivo in qualsiasi luogo tramite l’accesso internet, garantendo elevati
     standard di sicurezza ed affidabilità e incrementando il livello di
     disponibilità dei servizi al cittadino.
-  tags: [ vantaggi, cit-cloud ]
+  tags: [vantaggi, cit-cloud]
 
 # DATI APERTI
 - title: Cos’è
   text: >
-    Il catalogo nazionale degli open data che espone i dati pubblicati e aggiornati
-    dalle pubbliche amministrazioni in formato aperto.
-  tags: [ intro, cit-dati-aperti ]
+    Il [catalogo nazionale degli open data](https://www.dati.gov.it)
+    che espone i dati pubblicati e aggiornati dalle pubbliche amministrazioni in formato aperto.
+  tags: [intro, cit-dati-aperti]
 
 - title: Come funziona
   text: >
@@ -752,9 +753,9 @@
     ricercare i dati (sono disponibili i metadati dei dataset, classificati per categorie tematiche);
     fare open data (sono riportate le risorse utili ad attuare il processo di apertura dei dati);
     usare i dati (sono fornite indicazioni tecniche agli sviluppatori per utilizzare i dati).
-  tags: [ come-funziona, cit-dati-aperti ]
+  tags: [come-funziona, cit-dati-aperti]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     I cataloghi nazionali di dati aperti rendono disponibili risorse utili ad
     approfondire il tema dei dati aperti e a migliorare la qualità dei dati esposti,
@@ -762,21 +763,21 @@
     diffusione di queste informazioni favorisce la crescita economica e produttiva,
     la ricerca, l’innovazione, la competitività e incoraggia la partecipazione dei
     cittadini alla vita pubblica.
-  tags: [ vantaggi, cit-dati-aperti ]
+  tags: [vantaggi, cit-dati-aperti]
 
 ## Geodati.gov.it
 
 - title: Cos’è?
   text: >
-    Il catalogo nazionale dei dati territoriali rilasciati in formato aperto dalle
-    pubbliche amministrazioni.
-  tags: [ intro, cit-geodati ]
+    Il [catalogo nazionale dei dati territoriali](https://geodati.gov.it)
+    rilasciati in formato aperto dalle pubbliche amministrazioni.
+  tags: [intro, cit-geodati]
 
 - title: Come funziona
   text: >
     Il portale presenta due funzionalità: la consultazione dei metadati, accessibile
     a tutti; la gestione dei metadati, riservata alle PA accreditate.
-  tags: [ come-funziona, cit-geodati ]
+  tags: [come-funziona, cit-geodati]
 
 # DIRITTI
 - title: Cos’è
@@ -787,30 +788,30 @@
 
     Questa figura, prevista in precedenza presso ogni amministrazione, assume oggi
     la funzione di difensore unico a livello nazionale.
-  tags: [ intro, cit-diritti ]
+  tags: [intro, cit-diritti]
 
 - title: Come funziona
   text: >
     I cittadini possono presentare una segnalazione e consultarne gli aggiornamenti
-    tramite l’apposita sezione sul sito di AGID.
-  tags: [ come-funziona, cit-diritti ]
+    tramite l’[apposita sezione sul sito di AGID](https://www.agid.gov.it/it/agenzia/difensore-civico-il-digitale).
+  tags: [come-funziona, cit-diritti]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     La tutela  dei diritti di cittadinanza digitale riguarda: l’identità digitale,
     il domicilio digitale, i pagamenti con le modalità informatiche,  la
     comunicazione mediante le tecnologie dell’informazione, l’accessibilità e altre
     tematiche che i cittadini potranno approfondire attraverso la guida dei diritti
-    di cittadinanza digitale, pubblicata da AGID.
-  tags: [ vantaggi, cit-diritti ]
+    di cittadinanza digitale pubblicata da AGID.
+  tags: [vantaggi, cit-diritti]
 
 # IPA
 - title: Cos’è
   text: >
-    Indice delle pubbliche amministrazioni è l’elenco pubblico di fiducia, gestito
+    [Indice delle pubbliche amministrazioni](https://www.indicepa.gov.it) è l’elenco pubblico di fiducia, gestito
     da AGID e alimentato periodicamente da tutte le PA, contenente i domicili
     digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi.
-  tags: [ intro, cit-ipa ]
+  tags: [intro, cit-ipa]
 
 - title: Come funziona
   text: >
@@ -818,19 +819,19 @@
     organizzative sulle PA (tra le quali il domicilio digitale e l’indirizzo di
     posta certificata da utilizzare per le comunicazioni a valore legale) e i
     servizi offerti dalle singole PA.
-  tags: [ come-funziona, cit-ipa ]
+  tags: [come-funziona, cit-ipa]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     I cittadini possono consultare e fruire, tramite interfaccia web, nell’ottica
     della trasparenza, dei dati anche in formato aperto relativi alle singole PA.
-  tags: [ vantaggi, cit-ipa ]
+  tags: [vantaggi, cit-ipa]
 
 # PAGAMENTI
 - title: Cos’è
   text: >
     ll sistema dei pagamenti elettronici a favore della Pubblica Amministrazione.
-  tags: [ intro, cit-pagamenti ]
+  tags: [intro, cit-pagamenti]
 
 - title: Come funziona
   text: >
@@ -843,9 +844,9 @@
       * sportelli ATM (se abilitati)
       * punti vendita di SISAL, Lottomatica e Banca 5
       * uffici Postali.
-  tags: [ come-funziona, cit-pagamenti ]
+  tags: [come-funziona, cit-pagamenti]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     I cittadini possono effettuare pagamenti elettronici verso le pubbliche
     amministrazioni (Comuni, ASL, scuole o Regioni) in modo sicuro, affidabile,
@@ -853,7 +854,7 @@
     I cittadini sono liberi di scegliere il canale di pagamento preferito (sito
     della PA, sportelli fisici, home banking, smartphone o tablet) e possono sempre
     pagare online con carte di pagamento (carte di credito, debito o prepagate).
-  tags: [ vantaggi, cit-pagamenti ]
+  tags: [vantaggi, cit-pagamenti]
 
 # Sicurezza
 - title: Cos’è
@@ -861,74 +862,69 @@
     La sicurezza informatica garantisce la disponibilità, l’integrità e la
     riservatezza delle informazioni del Sistema informativo della Pubblica
     amministrazione.
-  tags: [ intro, cit-sicurezza ]
+  tags: [intro, cit-sicurezza]
 
 - title: Come funziona
   text: >
-    I cittadini devono avere la certezza che i servizi resi dalle pubbliche
-    amministrazioni siano sicuri e affidabili, e possano essere usati con fiducia. A
-    tal fine le PA, per migliorare la consapevolezza nei riguardi della minaccia di
-    attacchi informatici e aumentare le capacità di prevenzione, protezione e
-    risposta agli incidenti, mettono in atto le iniziative tecniche ed organizzative
-    predisposte da AGID.
-  tags: [ come-funziona, cit-sicurezza ]
+    I cittadini devono avere la certezza che i servizi resi dalle pubbliche amministrazioni siano
+    sicuri e affidabili. Le PA mettono in atto le iniziative tecniche e organizzative predisposte da
+    AGID per migliorare la consapevolezza nei riguardi della minaccia di attacchi informatici e
+    aumentare le capacità di prevenzione, protezione e risposta agli incidenti.
+  tags: [come-funziona, cit-sicurezza]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     I cittadini consultano siti web affidabili che offrono servizi nel rispetto
     delle indicazioni di sicurezza fissate da AGID.
-  tags: [ vantaggi, cit-sicurezza ]
+  tags: [vantaggi, cit-sicurezza]
 
 # SPID
 - title: Cos’è?
   text: >
     La soluzione che permette di accedere a tutti i servizi online della Pubblica
     Amministrazione con un'unica identità digitale.
-  tags: [ intro, cit-spid ]
+  tags: [intro, cit-spid]
 
 - title: Come funziona
   text: >
-    L’identità SPID è rilasciata dai Gestori di Identità Digitale (Identity
-    Provider), soggetti privati accreditati da AGID, che forniscono le identità
-    digitali e gestiscono l’autenticazione degli utenti. Il gestore, dopo aver
-    verificato i dati, emette l’identità digitale, rilasciando le credenziali. I
-    cittadini accedono ai servizi online che le pubbliche amministrazioni e i
-    privati rendono accessibili tramite SPID.
-  tags: [ come-funziona, cit-spid ]
+    L’identità SPID è rilasciata dai Gestori di Identità Digitale (Identity Provider) accreditati da
+    AGID, che forniscono le identità digitali e gestiscono l’autenticazione degli utenti. Il
+    gestore, dopo aver verificato i dati, emette l’identità digitale, rilasciando le credenziali. I
+    cittadini accedono ai servizi online che vengono resi fruibili tramite il sistema unico di
+    identità digitale.
+  tags: [come-funziona, cit-spid]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
-    I cittadini italiani, inclusi i residenti all’estero, utilizzano un’unica
-    identità digitale SPID per accedere in maniera sicura a tutti i servizi online
-    della Pubblica Amministrazione e dei privati aderenti, da computer, tablet e
-    smartphone.
-  tags: [ vantaggi, cit-spid ]
+    I cittadini italiani, inclusi i residenti all’estero, utilizzano un’unica identità digitale
+    SPID per accedere in maniera sicura ai servizi online della pubblica amministrazione e dei privati aderenti.
+  tags: [vantaggi, cit-spid]
 
 # WIFI
 - title: Cos’è
   text: >
     La possibilità di connettersi, nei luoghi pubblici e negli uffici,
-    gratuitamente e in modo semplice alle reti WI – FI pubbliche diffuse sul
-    territorio nazionale. 
-  tags: [ intro, cit-wifi ]
+    gratuitamente e in modo semplice alle reti wi-fi pubbliche diffuse sul
+    territorio nazionale.
+  tags: [intro, cit-wifi]
 
 - title: Come funziona
   text: >
     I  cittadini potranno accedere alle reti wi-fi degli uffici e dei luoghi
     pubblici, rese disponibili dalle pubbliche amministrazioni sulla base delle
     linee guida AGID.
-  tags: [ come-funziona, cit-wifi ]
+  tags: [come-funziona, cit-wifi]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: |
-    Connessione internet presente in maniera uniforme in tutti i centri della
-    vita pubblica per favorire l’accesso ai servizi pubblici digitali (es.
-    biblioteche o ospedali) attraverso l’uso di reti WI-FI pubbliche. 
-    
-    WI-FI pubblico gratuito ai cittadini, da parte delle PA centrali e locali,
+    Connessione internet presente in maniera uniforme in tutti i luoghi più frequentati della vita
+    sociale per favorire l’accesso ai servizi pubblici digitali (es. biblioteche o ospedali) attraverso
+    l’uso di reti wi-fi gratuite offerte dalle PA.
+
+    Wi-fi pubblico gratuito ai cittadini, da parte delle PA centrali e locali,
     all’interno di un quadro normativo e tecnologico in linea con le indicazioni
     europee e nel rispetto degli standard di sicurezza previsti da AGID.
-  tags: [ vantaggi, cit-wifi ]
+  tags: [vantaggi, cit-wifi]
 
 ##################################
 
@@ -936,52 +932,53 @@
   text: >
     Il cloud è un modello di infrastrutture informatiche che consente di disporre
     tramite internet di un insieme di risorse di calcolo (ad es. reti, server,
-    storage, applicazioni e servizi) erogate come un servizio. Il PT 2017-2019 ha
+    storage, applicazioni e servizi) erogate come un servizio. Il Piano Triennale 2017 - 2019 ha
     introdotto il modello Cloud della PA che descrive l’insieme di infrastrutture IT
     e servizi cloud qualificati da AGID a disposizione della PA.
-  tags: [ intro, imp-cloud ]
+  tags: [intro, imp-cloud]
 
 - title: Come funziona
   text: >
     Questo modello semplifica la gestione dei sistemi informativi, trasformando le
     infrastrutture fisiche in servizi virtuali e migliorando i processi di
     erogazione dei servizi della PA verso le imprese.
-  tags: [ come-funziona, imp-cloud ]
+  tags: [come-funziona, imp-cloud]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Il Cloud della PA introduce vantaggi significativi rispetto alle
     tradizionali soluzioni hardware, consentendo di usufruire delle applicazioni
     da qualsiasi dispositivo in qualsiasi luogo tramite l’accesso internet,
     garantendo elevati standard di sicurezza ed affidabilità e incrementando il
     livello di disponibilità dei servizi alle imprese.
-  tags: [ vantaggi, imp-cloud ]
+  tags: [vantaggi, imp-cloud]
 
 - title: Cos'è
   text: >
-    Lo strumento a disposizione delle imprese per conoscere i servizi digitali
-    della PA, attraverso informazioni di dettaglio sempre aggiornate.
-  tags: [ intro, imp-servizi ]
+    Lo strumento a disposizione delle imprese per conoscere i 
+    [servizi digitali della PA](https://www.dati.gov.it/content/catalogo-dei-servizi-pa-primi-passi), 
+    attraverso informazioni di dettaglio sempre aggiornate.
+  tags: [intro, imp-servizi]
 
 - title: Come funziona
   text: >
-    Le imprese possono utilizzare il Catalogo, progressivamente popolato dalle
-    pubbliche amministrazioni, utilizzando come chiave di ricerca la
-    classificazione dei servizi definita da AGID.
-  tags: [ come-funziona, imp-servizi ]
+    Le imprese possono servirsi del Catalogo, progressivamente popolato dalle pubbliche
+    amministrazioni, utilizzando come chiave di ricerca la classificazione dei servizi definita da
+    AGID.
+  tags: [come-funziona, imp-servizi]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Le imprese vengono indirizzate in modo efficace all'utilizzo dei servizi
     digitali e hanno a disposizione informazioni semplificate e aggiornate.
-  tags: [ vantaggi, imp-servizi ]
+  tags: [vantaggi, imp-servizi]
 
 - title: Cos'è
   text: >
     Indice delle pubbliche amministrazioni è l’elenco pubblico di fiducia, gestito
     da AGID e alimentato periodicamente da tutte le PA, contenente i domicili
     digitali delle pubbliche amministrazioni e dei gestori di pubblici servizi.
-  tags: [ intro, imp-ipa ]
+  tags: [intro, imp-ipa]
 
 - title: Come funziona
   text: >
@@ -989,20 +986,21 @@
     organizzative sulle PA (tra le quali il domicilio digitale e l’indirizzo di
     posta certificata da utilizzare per le comunicazioni a valore legale) e i
     servizi offerti dalle singole PA.
-  tags: [ come-funziona, imp-ipa ]
+  tags: [come-funziona, imp-ipa]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Le imprese possono consultare e fruire, tramite interfaccia web, nell’ottica
     della trasparenza, dei dati anche in formato aperto relativi alle singole
     PA.
-  tags: [ vantaggi, imp-ipa ]
+  tags: [vantaggi, imp-ipa]
 
 - title: Cos'è
   text: >
-    Il catalogo nazionale degli open data che espone i dati pubblicati e aggiornati
+    [Il catalogo nazionale degli open data](https://www.dati.gov.it)
+    che espone i dati pubblicati e aggiornati
     dalle pubbliche amministrazioni in formato aperto
-  tags: [ intro, imp-dati ]
+  tags: [intro, imp-dati]
 
 - title: Come funziona
   text: >
@@ -1011,40 +1009,38 @@
     (sono riportate le risorse utili ad attuare il processo di apertura dei dati);
     usare i dati (sono fornite indicazioni tecniche agli sviluppatori per utilizzare
     i dati).
-  tags: [ come-funziona, imp-dati ]
+  tags: [come-funziona, imp-dati]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
-    Le imprese possono accedere alle piattaforme dei dati aperti ai fini del
-    riutilizzo degli stessi, per finalità commerciali. La diffusione di queste
-    informazioni favorisce la crescita economica e produttiva, la ricerca,
-    l’innovazione e la competitività.
-  tags: [ vantaggi, imp-dati ]
+    Le imprese possono accedere alle piattaforme dei dati aperti per il loro riutilizzo a finalità
+    commerciali. La diffusione di queste informazioni favorisce la crescita economica e produttiva, la
+    ricerca, l’innovazione e la competitività.
+  tags: [vantaggi, imp-dati]
 
 - title: Cos'è
   text: >
     Il catalogo nazionale dei dati territoriali rilasciati in formato aperto
     dalle pubbliche amministrazioni.
-  tags: [ intro, imp-geodati ]
+  tags: [intro, imp-geodati]
 
 - title: Come funziona
   text: >
     Il portale presenta due funzionalità: la consultazione dei metadati, accessibile
     a tutti; la gestione dei metadati, riservata alle PA accreditate.
-  tags: [ come-funziona, imp-geodati ]
+  tags: [come-funziona, imp-geodati]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
-    Le imprese possono accedere alle piattaforme dei dati aperti ai fini del
-    riutilizzo degli stessi, per finalità commerciali. La diffusione di queste
-    informazioni favorisce la crescita economica e produttiva, la ricerca,
-    l’innovazione e la competitività.
-  tags: [ vantaggi, imp-geodati ]
+    Le imprese possono accedere alle piattaforme dei dati aperti per il loro riutilizzo a finalità
+    commerciali. La diffusione di queste informazioni favorisce la crescita economica e produttiva, la
+    ricerca, l’innovazione e la competitività.
+  tags: [vantaggi, imp-geodati]
 
 - title: Cos'è
   text: >
     ll sistema dei pagamenti elettronici a favore della Pubblica Amministrazione.
-  tags: [ intro, imp-pagopa ]
+  tags: [intro, imp-pagopa]
 
 - title: Come funziona
   text: >
@@ -1052,98 +1048,101 @@
     standardizzata, direttamente sul sito o sull’app dell’Ente (il Comune, ad
     esempio) o attraverso i canali (online e fisici) di banche e di altri Prestatori
     di Servizi di Pagamento, ovvero: agenzie bancarie home banking del PSP sportelli
-    ATM (se abilitati) punti vendita di SISAL, Lottomatica e Banca 5 uffici Postali.
-  tags: [ come-funziona, imp-pagopa ]
+    ATM (se abilitati) punti vendita di SISAL, Lottomatica e Banca 5 uffici postali.
+  tags: [come-funziona, imp-pagopa]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Le imprese possono utilizzare pagoPA per effettuare pagamenti verso la
-    pubblica amministrazione in modo sicuro, semplice, affidabile e trasparente
+    Pubblica Amministrazione in modo sicuro, semplice, affidabile e trasparente
     (certezza dei costi di commissione, chiarezza degli importi, etc…). Le
     imprese sono libere di scegliere il canale di pagamento preferito (sito
     della PA, sportelli fisici, home banking, smartphone o tablet) e possono
     sempre pagare online con carte di pagamento (carte di credito, debito o
     prepagate).
-  tags: [ vantaggi, imp-pagopa ]
+  tags: [vantaggi, imp-pagopa]
 
 - title: Cos'è
   text: >
     La soluzione che permette di accedere a tutti i servizi online della
     Pubblica Amministrazione con un'unica identità digitale.
-  tags: [ intro, imp-spid ]
+  tags: [intro, imp-spid]
 
 - title: Come funziona
   text: >
     L’identità SPID è rilasciata dai Gestori di Identità Digitale (Identity
-    Provider), soggetti privati accreditati da AGID, che forniscono le identità
-    digitali e gestiscono l’autenticazione degli utenti. Il gestore, dopo aver
+    Provider) accreditati da AGID, che forniscono le identità digitali e gestiscono
+    l’autenticazione degli utenti. Il gestore, dopo aver
     verificato i dati, emette l’identità digitale, rilasciando le credenziali. Le
     imprese accedono ai servizi online che le pubbliche amministrazioni e i privati
     rendono accessibili tramite SPID.
-  tags: [ come-funziona, imp-spid ]
+  tags: [come-funziona, imp-spid]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Le imprese possono utilizzare l’identità digitale SPID per uso professionale.
     Essa costituisce prova dell’appartenenza di una persona fisica
     all’organizzazione di una persona giuridica e/o la sua qualità di
     professionista.
-  tags: [ vantaggi, imp-spid ]
+  tags: [vantaggi, imp-spid]
 
 - title: Cos'è
   text: >
     L’architettura del public e-procurement sottende al processo di acquisto e
-    negoziazione di beni e servizi della PA e, è costituita da un insieme di regole
+    negoziazione di beni e servizi della PA ed è costituita da un insieme di regole
     che permetterà di gestire in digitale l’intero processo di procurement delle PA
-  tags: [ intro, imp-procurement ]
+  tags: [intro, imp-procurement]
 
 - title: Come funziona
-  text: >
-    Il sistema public e-procurement è costituito da piattaforme di acquisto sia
-    pubbliche che private, da soggetti istituzionali che gestiscono servizi,
-    piattaforme e banche dati coinvolti nel processo di acquisto e negoziazione,
-    registri pubblici nazionali ecc. Nel public procurement si distinguono due
-    ambiti con relativi processi: pre-aggiudicazione e post-aggiudicazione.
-  tags: [ come-funziona, imp-procurement ]
+  text: |
+    Il sistema public e-procurement è costituito da:
+      * piattaforme di acquisto sia pubbliche che private; 
+      * soggetti istituzionali che gestiscono servizi;
+      * piattaforme e banche dati coinvolti nel processo di acquisto e negoziazione;
+      * registri pubblici nazionali. 
+    Nel public procurement si distinguono due ambiti con relativi processi: pre-aggiudicazione e
+    post-aggiudicazione.
+  tags: [come-funziona, imp-procurement]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Sono ridotti gli oneri documentali ed economici a carico delle imprese per
     favorire la loro partecipazione alle procedure di affidamento dei contratti
     pubblici  in un’ottica di competitività e allargamento dell’ambito  geografico.
     Si sviluppano nuove strategie commerciali verso il mercato pubblico che viene
     percepito più trasparente e accessibile.
-  tags: [ vantaggi, imp-procurement ]
+  tags: [vantaggi, imp-procurement]
 
 - title: Cos'è
   text: >
-    La conservazione digitale di documenti e dati informatici, si realizza
-    attraverso il ricorso ai conservatori accreditati da AGID, soggetti pubblici
-    e privati specializzati.  
-  tags: [ intro, imp-conservazione ]
+    La [conservazione digitale di documenti e dati
+    informatici](https://www.agid.gov.it/it/piattaforme/conservazione) si realizza attraverso il
+    ricorso ai [conservatori
+    accreditati](https://www.agid.gov.it/it/piattaforme/conservazione/conservatori-accreditati) da
+    AGID.
+  tags: [intro, imp-conservazione]
 
 - title: Come funziona
   text: >
-    La conservazione digitale si realizza attraverso il ricorso ai conservatori
+    La conservazione digitale si realizza per il tramite dei conservatori
     accreditati da AGID, soggetti pubblici e privati che sono specializzati
-    nell’offerta di servizi di conservazione per le pubbliche amministrazioni. Ai
-    fini di memoria storica i Poli di conservazione svolgono funzioni di
-    conservazione permanente.
-  tags: [ come-funziona, imp-conservazione ]
+    nell’offerta di servizi di conservazione per le pubbliche amministrazioni. I
+    Poli di conservazione svolgono funzioni di conservazione permanente.
+  tags: [come-funziona, imp-conservazione]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Le imprese possono avere vantaggi in termini di accessibilità, autenticità e
     fruibilità della documentazione conservata a lungo termine dalle pubbliche
     amministrazioni.
-  tags: [ vantaggi, imp-conservazione ]
+  tags: [vantaggi, imp-conservazione]
 
 - title: Cos'è
   text: >
     La sicurezza informatica garantisce la disponibilità, l’integrità e la
     riservatezza delle informazioni del Sistema informativo della Pubblica
     amministrazione.
-  tags: [ intro, imp-sicurezza ]
+  tags: [intro, imp-sicurezza]
 
 - title: Come funziona
   text: >
@@ -1153,54 +1152,53 @@
     attacchi informatici e aumentare le capacità di prevenzione, protezione e
     risposta agli incidenti, mettono in atto le iniziative tecniche ed organizzative
     predisposte da AGID.
-  tags: [ come-funziona, imp-sicurezza ]
+  tags: [come-funziona, imp-sicurezza]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Le imprese consultano siti web affidabili che offrono servizi nel rispetto
     delle indicazioni di sicurezza fissate da AGID.
-  tags: [ vantaggi, imp-sicurezza ]
+  tags: [vantaggi, imp-sicurezza]
 
 - title: Cos'è
   text: >
     Una serie di azioni atte a semplificare e migliorare lo sviluppo e l’utilizzo
     dei siti istituzionali e dei servizi digitali erogati alle imprese dalle
     pubbliche amministrazioni.
-  tags: [ intro, imp-accessibilita ]
+  tags: [intro, imp-accessibilita]
 
 - title: Come funziona
   text: >
     Le PA adeguano i siti e i servizi ad ogni esigenza di navigazione e usabilità,
     sulla base di linee guida e kit di sviluppo definiti da AGID.
-  tags: [ come-funziona, imp-accessibilita ]
+  tags: [come-funziona, imp-accessibilita]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     La semplificazione nell'accesso e nell’uso di strumenti informatici e servizi
     pubblici digitali favorisce la comunicazione tra imprese e PA.
-  tags: [ vantaggi, imp-accessibilita ]
+  tags: [vantaggi, imp-accessibilita]
 
 - title: Cos'è
   text: >
-  tags: [ intro, imp-smart ]
+  tags: [intro, imp-smart]
 
 - title: Come funziona
   text: >
-  tags: [ come-funziona, imp-smart ]
+  tags: [come-funziona, imp-smart]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
-  tags: [ vantaggi, imp-smart ]
+  tags: [vantaggi, imp-smart]
 
 - title: Cos'è
   text: >
-    La semplificazione amministrativa punta alla semplificazione e standardizzazione
-    procedurale, che si realizza attraverso una serie di azioni che vanno
-    dall’ampliamento della ricognizione dei procedimenti aventi un impatto sulle
-    imprese per le attività produttive all’ulteriore riduzione dei procedimenti
-    ancora assoggettati ad autorizzazioni, completando la standardizzazione della
-    modulistica.
-  tags: [ intro, imp-semplificazione ]
+    La semplificazione amministrativa si realizza attraverso una serie di azioni che
+    vanno dall’ampliamento della ricognizione dei procedimenti che hanno un impatto
+    sulle imprese per le attività produttive, all’ulteriore riduzione dei
+    procedimenti ancora assoggettati ad autorizzazioni, completando così la
+    standardizzazione della modulistica.
+  tags: [intro, imp-semplificazione]
 
 - title: Come funziona
   text: >
@@ -1208,14 +1206,13 @@
     unici delle attività produttive (SUAP) e dell’edilizia (SUE), si è avviato il
     passaggio da un approccio autorizzativo-centrico ad uno impresa-centrico,
     attraverso l’incremento dell’interoperabilità delle soluzioni software
-    realizzate o in via di realizzazione. 
-  tags: [ come-funziona, imp-semplificazione ]
+    realizzate o in via di realizzazione.
+  tags: [come-funziona, imp-semplificazione]
 
-- title: Possibili vantaggi
+- title: Vantaggi
   text: >
     Attuazione del principio del once only: la stessa informazione inserita una sola
     volta ed usata in più procedure comprese le partecipazioni a gare. Riduzione dei
     punti di contatto con la PA così come previsto dal DPR 160/2010. Conoscenza in
     tempo reale dello stato delle pratiche avviate.
-  tags: [ vantaggi, imp-semplificazione ]
-  
+  tags: [vantaggi, imp-semplificazione]
