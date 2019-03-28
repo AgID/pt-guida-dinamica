@@ -1,5 +1,5 @@
 ---
-title: "Accedere ai dati aperti della PA"
+title: "I dati aperti della PA"
 subtitle: dati.gov.it
 link_forum:
 link_faq:

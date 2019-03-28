@@ -1,5 +1,5 @@
 ---
-title: "Accedere ai Dati aperti della PA"
+title: "I dati aperti della PA"
 subtitle: geodati.gov.it
 link_forum:
 link_faq:
