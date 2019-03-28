@@ -136,6 +136,19 @@ const Page = ({ data, pageContext }) => {
         </div>
       )}
 
+      {frontmatter.link_piano_triennale && (
+        <div className="d-flex flex-wrap">
+          <p className="mt-4 ml-auto text-right">
+            <a
+              className="primary-color"
+              href={frontmatter.link_piano_triennale}
+            >
+              Approfondisci nel Piano Triennale 2019-2021
+            </a>
+          </p>
+        </div>
+      )}
+
       {pageNav && (
         <PageNav
           left={{
@@ -181,6 +194,7 @@ export const pageQuery = graphql`
         layout
         link_visualizza_azioni
         link_approfondisci
+        link_piano_triennale
         link_next
         link_next_label
         link_prev
