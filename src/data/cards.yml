@@ -743,8 +743,8 @@
 # DATI APERTI
 - title: Cos’è
   text: >
-    Il catalogo nazionale degli open data che espone i dati pubblicati e aggiornati
-    dalle pubbliche amministrazioni in formato aperto.
+    Il [catalogo nazionale degli open data](https://www.dati.gov.it)
+    che espone i dati pubblicati e aggiornati dalle pubbliche amministrazioni in formato aperto.
   tags: [intro, cit-dati-aperti]
 
 - title: Come funziona
@@ -769,8 +769,8 @@
 
 - title: Cos’è?
   text: >
-    Il catalogo nazionale dei dati territoriali rilasciati in formato aperto dalle
-    pubbliche amministrazioni.
+    Il [catalogo nazionale dei dati territoriali](https://geodati.gov.it)
+    rilasciati in formato aperto dalle pubbliche amministrazioni.
   tags: [intro, cit-geodati]
 
 - title: Come funziona
@@ -887,8 +887,8 @@
 
 - title: Come funziona
   text: >
-    L’identità SPID è rilasciata dai Gestori di Identità Digitale (Identity Provider) accreditati
-    da AGID, che forniscono le identità digitali e gestiscono l’autenticazione degli utenti. Il
+    L’identità SPID è rilasciata dai Gestori di Identità Digitale (Identity Provider) accreditati da
+    AGID, che forniscono le identità digitali e gestiscono l’autenticazione degli utenti. Il
     gestore, dopo aver verificato i dati, emette l’identità digitale, rilasciando le credenziali. I
     cittadini accedono ai servizi online che vengono resi fruibili tramite il sistema unico di
     identità digitale.
@@ -897,8 +897,7 @@
 - title: Vantaggi
   text: >
     I cittadini italiani, inclusi i residenti all’estero, utilizzano un’unica identità digitale
-    SPID per accedere in maniera sicura ai servizi online della pubblica amministrazione e dei
-    privati aderenti da computer, tablet e smartphone.
+    SPID per accedere in maniera sicura ai servizi online della pubblica amministrazione e dei privati aderenti.
   tags: [vantaggi, cit-spid]
 
 # WIFI
@@ -1072,8 +1071,8 @@
 - title: Come funziona
   text: >
     L’identità SPID è rilasciata dai Gestori di Identità Digitale (Identity
-    Provider), soggetti privati accreditati da AGID, che forniscono le identità
-    digitali e gestiscono l’autenticazione degli utenti. Il gestore, dopo aver
+    Provider) accreditati da AGID, che forniscono le identità digitali e gestiscono
+    l’autenticazione degli utenti. Il gestore, dopo aver
     verificato i dati, emette l’identità digitale, rilasciando le credenziali. Le
     imprese accedono ai servizi online che le pubbliche amministrazioni e i privati
     rendono accessibili tramite SPID.
@@ -1116,8 +1115,11 @@
 
 - title: Cos'è
   text: >
-    La conservazione digitale di documenti e dati informatici si realizza attraverso
-    il ricorso ai [conservatori accreditati](https://www.agid.gov.it/it/piattaforme/conservazione/conservatori-accreditati) da AGID.
+    La [conservazione digitale di documenti e dati
+    informatici](https://www.agid.gov.it/it/piattaforme/conservazione) si realizza attraverso il
+    ricorso ai [conservatori
+    accreditati](https://www.agid.gov.it/it/piattaforme/conservazione/conservatori-accreditati) da
+    AGID.
   tags: [intro, imp-conservazione]
 
 - title: Come funziona
