@@ -22,7 +22,7 @@ body {
       cittadini e imprese.
     -->
 La Guida dinamica vuole rendere più  agevole e fruibile la comprensione del Piano secondo le tre dimensioni: cittadini, imprese e PA.
-Questa è un’anteprima. Nei prossimi giorni verrà aggiornata con i collegamenti alle novanta azioni del Piano, alle linee guida e alla normativa correlate.  La guida è stata progettata per reagire ai feedback degli utenti in coerenza con il percorso collaborativo e inclusivo di crescita digitale del Paese.    
+La Guida è costantemente aggiornata con i collegamenti alle novanta azioni del Piano, alle linee guida e alla normativa correlate ed è stata progettata per reagire ai feedback degli utenti in coerenza con il percorso collaborativo e inclusivo di crescita digitale del Paese.    
     </p>
   </div>
   </div>

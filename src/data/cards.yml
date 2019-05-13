@@ -18,7 +18,7 @@
     (CSP) ed è stato realizzato il registro pubblico dei CSP.
   tags: [fatto, pa-data-center-e-cloud]
 
-- title: Marketplace della PA
+- title: Catalogo dei servizi Cloud per la PA qualificati
   link: https://cloud.italia.it/marketplace/
   text: >
     Da aprile 2018 è stato realizzato il catalogo dei servizi cloud qualificati, la
@@ -37,14 +37,15 @@
 - title: Servizi Cloud qualificati
   text: >
     Dal 1° aprile 2019, le PA possono acquisire solo servizi IaaS, PaaS e SaaS
-    qualificati da AGID e pubblicati nel Cloud Marketplace.
+    qualificati da AGID e pubblicati nel Catalogo dei servizi Cloud per la PA qualificati.
   tags: [da-fare, pa-data-center-e-cloud]
 
 - title: Acquisti infrastrutture
   text: >
     Le PA non possono effettuare spese o investimenti in materia di data center,
-    secondo le indicazioni e le eccezioni indicate nella circolare AGID n.2/2016 e
-    nella circolare AGID n.5/2017.
+    secondo le indicazioni e le eccezioni indicate nella
+    [circolare AGID n.2/2016](https://www.agid.gov.it/sites/default/files/repository_files/documentazione/circolare_piano_triennale_24.6.2016._def.pdf)
+    e nella [circolare AGID n.5/2017](https://censimentoict.italia.it/it/latest/docs/circolari/2017113005.html#circolare-n-05-del-30-novembre-2017).
   tags: [da-fare, pa-data-center-e-cloud]
 
 - title: Piani di migrazione
@@ -54,7 +55,7 @@
   tags: [da-fare, pa-data-center-e-cloud]
 
 - title: I nuovi contratti SPC2
-  link: https://www.censimentoict.italia.it/it/latest/docs/circolari/2017113005.html
+  link: http://www.consip.it/attivita/contratti-spc-e-s-ripa-istruzioni-per-luso
   text: >
     Sono stati sottoscritti un migliaio di contratti per i servizi di connettività
     nell’ambito del Sistema pubblico di connettività (SPC), di cui 50 afferenti alle
@@ -95,6 +96,9 @@
     Saranno pubblicate entro settembre 2019 le linee guida per l’utilizzo delle
     wi-fi, al fine di rendere accessibile ai cittadini wi-fi gratuito negli uffici e
     nei luoghi pubblici.
+
+
+    [Pubblicate in consultazione](https://docs.italia.it/AgID/documenti-in-consultazione/lg-pubblicowififree/it/bozza/)
   tags: [da-fare, pa-connettivita]
 
 - title: Modello di interoperabilità
@@ -117,7 +121,7 @@
   tags: [fatto, pa-modello-di-interoperabilita]
 
 - title: Linee Guida del nuovo Modello di interoperabilità
-  link: http://www.consip.it/bandi-di-gara/gare-e-avvisi/gara-s-ripa-2
+  link: https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/v2018.1/index.html
   text: >
     AGID ha rilasciato i primi due capitoli del nuovo Modello, definendo il quadro
     di riferimento tecnico per l'implementazione dei servizi digitali nella PA.
@@ -182,13 +186,19 @@
 - title: Aggiornamento IPA
   text: >
     Le Amministrazioni che gestiscono pubblici servizi adottano le linee guida per
-    l’aggiornamento dei dati in IPA.
+    l’aggiornamento dei dati in IPA.  
+
+
+    [In vigore](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/191001128380O__OLINEE+GUIDA+IPA.pdf)
   tags: [da-fare, pa-dati-della-pa]
 
 - title: Dati aperti
   text: >
     A marzo 2017 è stato reso disponibile il portale dei dati aperti della PA
-    [dati.gov.it](https://dati.gov.it) Nell’agosto 2017 sono state aggiornate le
+    [dati.gov.it](https://dati.gov.it).  
+
+
+    Nell’agosto 2017 sono state aggiornate le
     [Linee guida nazionali per la valorizzazione del patrimonio informativo pubblico](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/).
   tags: [fatto, pa-dati-della-pa]
 
@@ -451,7 +461,7 @@
   tags: [fatto, pa-servizi-digitali]
 
 - title: Riorganizzazione del dominio «.gov.it»
-  link: https://infosec.cert-pa.it/
+  link: https://www.agid.gov.it/sites/default/files/repository_files/36_-_dt_dg_n._36_-_12_feb_2018_-_riorganizzazione_dominio_gov_22.12.2017_003_1_4.pdf
   text: >
     A febbraio 2018 è stata emanata la Determinazione n. 36/2018 per il riordino
     del dominio di terzo livello (SLD) nel dominio ".gov.it". A marzo 2018 il dominio «edu.it» è
@@ -509,6 +519,9 @@
     Le amministrazioni devono utilizzare pratiche per appalti di innovazione:
     consultazioni di mercato, procedure negoziate, dialogo competitivo, partenariato
     per l’innovazione a condividere le informazioni chiave.
+
+
+    [Online la Piattaforma per gli appalti di innovazione](https://appaltinnovativi.gov.it/)
   tags: [da-fare, pa-modelli-strumenti-innovazione]
 
 - title: Modelli per l’innovazione
@@ -526,6 +539,7 @@
   tags: [fatto, pa-governare-trasformazione-digitale]
 
 - title: Responsabile della transizione al digitale
+  link: https://www.agid.gov.it/index.php/it/agenzia/responsabile-transizione-digitale
   text: >
     A ottobre 2018 è stata emanata la [circolare 3/2018 del Ministro per la Pubblica
     Amministrazione](http://www.funzionepubblica.gov.it/articolo/dipartimento/01-10-2018/circolare-n3-del-2018) 
@@ -550,7 +564,11 @@
 
 - title: Cittadini e imprese
   text: >
-    Presso AGID è stato istituito l’ufficio del difensore civico per il digitale. Il
+    Presso AGID è stato istituito l’[ufficio del difensore civico per il
+    digitale](https://www.agid.gov.it/it/agenzia/difensore-civico-il-digitale).
+
+
+    Il
     Dipartimento della funzione pubblica ha avviato con AGID, Regioni, Comuni e
     sistema Camerale un’azione di semplificazione amministrativa 
     degli Sportelli Unici Attività Produttive (SUAP).
@@ -567,6 +585,9 @@
   text: >
     Creazione di un gruppo di lavoro permanente (RTD di PA centrali, Regioni, Città
     Metro e relativi Comuni capoluogo).
+
+
+    [Avvio Conferenza RTD](https://www.agid.gov.it/it/agenzia/responsabile-transizione-digitale/conferenza)
   tags: [da-fare, pa-governare-trasformazione-digitale]
 
 - title: Sistema di monitoraggio
@@ -584,8 +605,14 @@
 
 - title: Prime iniziative verso cittadini e imprese
   text: >
-    Redazione guida sui diritti di cittadinanza digitale. Adozione modulistica
+    Redazione guida sui diritti di cittadinanza digitale.  
+
+
+    Adozione modulistica
     standardizzata per le attività produttive.
+
+
+    [Nuovi moduli standardizzati](http://www.funzionepubblica.gov.it/articolo/dipartimento/19-04-2019/nuovi-moduli-unificati-e-standardizzati-approvati-conferenza)
   tags: [da-fare, pa-governare-trasformazione-digitale]
 
 - title: Rilevazione della spesa ICT 2018

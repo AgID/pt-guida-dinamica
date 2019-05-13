@@ -44,7 +44,7 @@ actions:
     new:
       - label: LA34
         title: Monitoraggio tecnico e dell’attivazione dei servizi
-      - icon: risultati_down
+      - icon: risultati_up
   - label: "39"
     title: "![conclusa](/images/conclusa.svg) Progetto pagoPA"
     status: risultati

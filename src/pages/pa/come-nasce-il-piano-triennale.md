@@ -8,7 +8,8 @@ Previsto dal CAD (art. 14-bis, lettera b) e dalla Legge di stabilità 2016 (art.
 1, comma 513 e seguenti), il Piano Triennale è stato costruito sulla base del
 Modello strategico di evoluzione del sistema informativo della Pubblica
 Amministrazione e ha come riferimento le azioni, la definizione dei fabbisogni
-finanziari e gli indicatori indicati nella Strategia per la Crescita Digitale,
+finanziari e gli indicatori indicati nella 
+[Strategia per la Crescita Digitale](https://www.agid.gov.it/sites/default/files/repository_files/documentazione/strategia_crescita_digitale_ver_def_21062016.pdf),
 secondo le linee guida del Governo e in coerenza con gli obiettivi e i programmi
 europei per la trasformazione digitale. 
 
@@ -16,11 +17,12 @@ europei per la trasformazione digitale.
 
 <div class="card-wrapper card-space col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
   <div class="card card-bg m-2 text-left">
-    <h2 class="text-sans-serif mt-3 px-3" style="color: #0066cc; font-size: 1rem; letter-spacing: 0.01rem">2015 Strategia per la Crescita Digitale</h2>
+    <h2 class="text-sans-serif mt-3 px-3" style="color: #0066cc; font-size: 1rem; letter-spacing: 0.01rem">2015 
+    <a href="https://www.agid.gov.it/sites/default/files/repository_files/documentazione/strategia_crescita_digitale_ver_def_21062016.pdf">Strategia per la Crescita Digitale</a></h2>
     <div class="card-body">
       <p class="card-text">
         Rappresenta l’Agenda Digitale italiana
-        approvata dal Governo e dalla Commissione Europea.
+        approvata dal Governo e dalla Commissione Europea.<br /><br />
       </p>
       <div class="d-flex mt-3">
         <img src="/images/cover_pt_2015_80px.svg" />
@@ -32,7 +34,8 @@ europei per la trasformazione digitale.
 
 <div class="card-wrapper card-space col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
   <div class="card card-bg m-2 text-left">
-    <h2 class="text-sans-serif mt-3 px-3" style="color: #0066cc; font-size: 1rem; letter-spacing: 0.01rem">2016 Modello Strategico ICT</h2>
+    <h2 class="text-sans-serif mt-3 px-3" style="color: #0066cc; font-size: 1rem; letter-spacing: 0.01rem">
+    2016 <a href="https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/01_piano-triennale-per-informatica-nella-pa.html#mappa-del-modello-strategico">Modello Strategico ICT</a></h2>
     <div class="card-body">
       <p class="card-text">
         Individua gli elementi tecnici abilitanti per
@@ -48,7 +51,8 @@ europei per la trasformazione digitale.
 
 <div class="card-wrapper card-space col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
   <div class="card card-bg m-2 text-left">
-    <h2 class="text-sans-serif mt-3 px-3" style="color: #0066cc; font-size: 1rem; letter-spacing: 0.01rem">2017 Piano Triennale ICT</h2>
+    <h2 class="text-sans-serif mt-3 px-3" style="color: #0066cc; font-size: 1rem; letter-spacing: 0.01rem">2017 
+    <a href="https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2017-2019/">Piano Triennale ICT</a></h2>
     <div class="card-body">
       <p class="card-text">
         Declina azioni e obiettivi da raggiungere per ogni

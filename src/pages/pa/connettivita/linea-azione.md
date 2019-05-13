@@ -6,9 +6,8 @@ link_prev: pa/connettivita
 link_prev_label: Connettività
 actions:
   - label: "11"
-    delayed: true
     title: Pubblicazione e adeguamento alle Linee guida per la realizzazione di reti Wi-Fi pubbliche
-    status: pianificata
+    status: conclusa
     new:
       - label: LA10
         title: Realizzazione dei servizi in conformità alle Linee guida per la realizzazione di reti wi-fi pubbliche
