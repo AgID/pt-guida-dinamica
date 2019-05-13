@@ -54,11 +54,11 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "node node_modules/gatsby/dist/bin/gatsby.js build --prefix-paths",
+    "build": "node node_modules/gatsby/dist/bin/gatsby.js build",
     "develop": "node node_modules/gatsby/dist/bin/gatsby.js develop",
     "start": "npm run develop",
-    "test": "node node_modules/pa11y-ci/bin/pa11y-ci.js './docs/**/*.html'",
-    "deploy": "node node_modules/gh-pages/bin/gh-pages.js -d docs -m 'Automated deploy [ci skip]'"
+    "test": "node node_modules/pa11y-ci/bin/pa11y-ci.js './public/**/*.html'",
+    "deploy": "node node_modules/gh-pages/bin/gh-pages.js -d public -m 'Manual deploy [ci skip]'"
   },
   "repository": {
     "type": "git",
