@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: master
+
+publish_mode: editorial_workflow
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "page"
+    label: "page"
+    folder: "src/pages"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "title", name: "titl", widget: "string"}
+      - {label: "subtitle", name: "subtitle", widget: "string"}
+      - {label: "link_forum", name: "link_forum", widget: "string"}
+      - {label: "link_faq", name: "link_faq", widget: "string"}
+      - {label: "link_piano_triennale", name: "link_piano_triennale", widget: "string"}
+      - {label: "body", name: "body", widget: "markdown"}

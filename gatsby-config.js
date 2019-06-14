@@ -82,9 +82,15 @@ module.exports = {
         }
       }
     },
-    `gatsby-transformer-remark`
+    `gatsby-transformer-remark`,
     // this (optional) plugin enables PWA + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+        enableIdentityWidget: false
+      }
+    }
   ]
 };
