@@ -1,5 +1,5 @@
 ---
-title: Modelli e strumenti per l'innovazione
+title: Modelli e strumenti per l'innovazione e smart community
 link_visualizza_azioni: "https://pianotriennale-ict.italia.it/modelli-e-strumenti-innovazione/"
 link_approfondisci: "https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/10_modelli-e-strumenti-innovazione.html"
 link_linee_azione: pa/modelli-strumenti-innovazione/linea-azione
