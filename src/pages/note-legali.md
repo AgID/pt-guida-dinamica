@@ -11,7 +11,7 @@ pubbliche amministrazioni, imprese e cittadini informazioni in materia di
 innovazione ed Agenda Digitale.
 
 Nella presente pagina sono riportate le Note legali relative all’utilizzo del
-Sito.
+Sito. Test.
 
 Il presente documento potrà essere modificato in qualsiasi momento e senza
 preavviso. L’Utente è pertanto invitato a prendere regolarmente visione
