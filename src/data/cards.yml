@@ -132,6 +132,9 @@
     Per assicurare la comunicazione tra i propri sistemi esistenti e tra questi e
     quelli di soggetti terzi, le PA utilizzano gli standard e i profili definiti dal
     Modello, secondo le [indicazioni operative fornite da AGID](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/allegati/3_indicazioni-operative-migrazione-spcoop.html).
+    
+    
+    [Pubblicate in consultazione le linee guida del Modello di interoperabilità](https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/istruzioni_consultazione.html#informazioni-sulla-consultazione)
   tags: [da-fare, pa-modello-di-interoperabilita]
 
 - title: Adozione linee guida nuovo Modello
@@ -435,6 +438,10 @@
     Le pubbliche amministrazioni devono garantire la sicurezza dei servizi
     informatici e telematici erogati, rispettando le indicazioni sul tema fornite da
     AGID.
+    
+    [Pubblicate, in consultazione, le Linee Guida sulla sicurezza nel procurement ICT](https://docs.italia.it/AgID/documenti-in-consultazione/lg-procurement-ict/it/bozza/)
+ 
+    [Pubblicate, in consultazione, le Linee Guida per lo sviluppo e la definizione del modello nazionale di riferimento per i CERT regionali](https://docs.italia.it/AgID/documenti-in-consultazione/lg-cert-regionali/it/bozza/)
   tags: [da-fare, pa-sicurezza]
 
 - title: Segnalare incidenti di sicurezza
@@ -473,12 +480,16 @@
     Aggiornamento delle Linee guida di design dei siti e dei servizi web della PA.
     Attuazione della direttiva europea 2016/2102 sull’accessibilità dei siti web.
     Realizzazione dei test di usabilità secondo il protocollo eGLU.
+    
+    [Usabilità: avviato il gruppo di lavoro per l'usabilità nei siti delle PA](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/05/22/dfp-agid-lusabilita-nei-siti-pa)
   tags: [da-fare, pa-servizi-digitali]
 
 - title: Riuso
   text: >
     Predisposizione di linee guida per fornire alla PA le indicazioni per la
     condivisione di software aperti.
+    
+    [Adottate le linee guida sull’acquisizione e il riuso del software nella PA](https://www.agid.gov.it/sites/default/files/repository_files/lg-acquisizione-e-riuso-software-per-pa-docs_pubblicata.pdf)
   tags: [da-fare, pa-servizi-digitali]
 
 - title: Web Analytics
@@ -595,6 +606,8 @@
     Rilascio di una piattaforma per la raccolta dei dati e il monitoraggio degli
     aspetti tecnici ed economici da parte delle PA sull’attuazione delle Agende
     digitali.
+    
+    [Avviate le attività dell'Osservatorio Nazionale Crescita Ecosistema digitale (ONCE)](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/05/17/entra-vivo-once-losservatorio-agid-che-innova-metodologie-monitoraggio-crea)
   tags: [da-fare, pa-governare-trasformazione-digitale]
 
 - title: Sviluppo di competenze digitali
