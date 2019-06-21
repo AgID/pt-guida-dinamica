@@ -1,6 +1,6 @@
-const path = require('path');
-const fs = require('fs');
-const yaml = require('js-yaml');
+const path = require("path");
+const fs = require("fs");
+const yaml = require("js-yaml");
 
 const pageTemplate = path.resolve(`src/templates/page.js`);
 
@@ -8,12 +8,14 @@ exports.createPages = ({ actions }) => {
   const { createPage } = actions;
 
   try {
-    const pages = yaml.safeLoad(fs.readFileSync(path.resolve(`src/data/pages.yml`), 'utf8'));
+    const pages = yaml.safeLoad(
+      fs.readFileSync(path.resolve(`src/data/pages.yml`), "utf8")
+    );
 
     [
-      { path: '/', name: `/home.md$/` },
-      { path: '/privacy-policy', name: `/privacy-policy.md$/` },
-      { path: '/note-legali', name: `/note-legali.md$/` }
+      { path: "/", name: `/home.md$/` },
+      { path: "/privacy-policy", name: `/privacy-policy.md$/` },
+      { path: "/note-legali", name: `/note-legali.md$/` }
     ].map(page => {
       createPage({
         path: page.path,
@@ -21,22 +23,27 @@ exports.createPages = ({ actions }) => {
         context: {
           filenameRegex: page.name,
           pageNav: JSON.stringify(null),
-          slug: '',
-          tag: '',
+          slug: "",
+          tag: "",
           siteNav: pages
         }
       });
     });
 
     Object.keys(pages).map((_, pageIndex, pagesArray) => {
-      createMarkdownPages(createPage, pages[pageIndex], getPageNav(
-        null,
-        null,
+      createMarkdownPages(
+        createPage,
         pages[pageIndex],
-        (pageIndex - 1) in pagesArray ? pages[pageIndex - 1] : null,
-        (pageIndex + 1) in pagesArray ? pages[pageIndex + 1] : null,
-        pages[pageIndex].subtree ? pages[pageIndex].subtree[0] : null
-      ), pages);
+        getPageNav(
+          null,
+          null,
+          pages[pageIndex],
+          pageIndex - 1 in pagesArray ? pages[pageIndex - 1] : null,
+          pageIndex + 1 in pagesArray ? pages[pageIndex + 1] : null,
+          pages[pageIndex].subtree ? pages[pageIndex].subtree[0] : null
+        ),
+        pages
+      );
     });
   } catch (error) {
     console.error(error);
@@ -46,32 +53,42 @@ exports.createPages = ({ actions }) => {
 const createMarkdownPages = (createPage, page, pageNav, siteNav) => {
   const pagePath = getPagePath(pageNav.parent.path, page.slug);
 
-  siteNav = siteNav[0].slug !== '' ? siteNav : siteNav[0].subtree;
+  siteNav = siteNav[0].slug !== "" ? siteNav : siteNav[0].subtree;
 
-  console.log(`creating: /${pagePath.replace('/', '\\/')}.md$/`);
+  console.log(`creating: /${pagePath.replace("/", "\\/")}.md$/`);
 
   createPage({
     path: pagePath,
     component: pageTemplate,
     context: {
-      filenameRegex: `/${pagePath.replace('/', '\\/')}.md$/`,
+      filenameRegex: `/${pagePath.replace("/", "\\/")}.md$/`,
       pageNav: JSON.stringify(pageNav),
       slug: page.slug,
-      tag: page.tag || '',
+      tag: page.tag || "",
       siteNav: siteNav
     }
   });
 
-  page.subtree && page.subtree.map((subPage, subPageIndex) => {
-    createMarkdownPages(createPage, subPage, getPageNav(
-      pagePath,
-      page,
-      subPage,
-      (subPageIndex - 1) in page.subtree ? page.subtree[subPageIndex - 1] : null,
-      (subPageIndex + 1) in page.subtree ? page.subtree[subPageIndex + 1] : null,
-      subPage.subtree ? subPage.subtree[0] : null
-    ), siteNav);
-  });
+  page.subtree &&
+    page.subtree.map((subPage, subPageIndex) => {
+      createMarkdownPages(
+        createPage,
+        subPage,
+        getPageNav(
+          pagePath,
+          page,
+          subPage,
+          subPageIndex - 1 in page.subtree
+            ? page.subtree[subPageIndex - 1]
+            : null,
+          subPageIndex + 1 in page.subtree
+            ? page.subtree[subPageIndex + 1]
+            : null,
+          subPage.subtree ? subPage.subtree[0] : null
+        ),
+        siteNav
+      );
+    });
 };
 
 /**
@@ -86,7 +103,14 @@ const createMarkdownPages = (createPage, page, pageNav, siteNav) => {
  * @param {Object} firstChildPage First child page object.
  * @returns {Object} Pages paths and names
  */
-const getPageNav = (parentPagePath, parentPage, currentPage, prevPage, nextPage, firstChildPage) => {
+const getPageNav = (
+  parentPagePath,
+  parentPage,
+  currentPage,
+  prevPage,
+  nextPage,
+  firstChildPage
+) => {
   return {
     parent: {
       name: parentPage && parentPage.name,
@@ -102,11 +126,17 @@ const getPageNav = (parentPagePath, parentPage, currentPage, prevPage, nextPage,
     },
     firstChild: {
       name: firstChildPage && firstChildPage.name,
-      path: firstChildPage && getPagePath(parentPagePath, [currentPage.slug, firstChildPage.slug].join('/'))
+      path:
+        firstChildPage &&
+        getPagePath(
+          parentPagePath,
+          [currentPage.slug, firstChildPage.slug].join("/")
+        )
     }
   };
 };
 
-const trimTrailingSlash = url => (url || '').replace(/\/$/, '');
+const trimTrailingSlash = url => (url || "").replace(/\/$/, "");
 
-const getPagePath = (parentPagePath, pageSlug) => [trimTrailingSlash(parentPagePath), pageSlug].join('/');
+const getPagePath = (parentPagePath, pageSlug) =>
+  [trimTrailingSlash(parentPagePath), pageSlug].join("/");

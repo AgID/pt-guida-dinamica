@@ -72,7 +72,7 @@
         - name: Confronto tra linee d'azione
           slug: linea-azione
           subtitle: servizi digitali
-    - name: Modelli e strumenti per l'innovazione e smart community (Smart Landscape)
+    - name: Modelli e strumenti per l'innovazione
       slug: modelli-strumenti-innovazione
       tag: pa-modelli-strumenti-innovazione
       subtitle: Pubblica Amministrazione
@@ -80,6 +80,9 @@
         - name: Confronto tra linee d'azione
           slug: linea-azione
           subtitle: modelli strumenti innovazione
+    - name: Smart community (Smart Landscape)
+      href: https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/10_modelli-e-strumenti-innovazione.html%23smart-landscape-verso-un-nuovo-modello-di-smart-community
+      subtitle: Pubblica Amministrazione
     - name: Governare la trasformazione digitale
       slug: governare-trasformazione-digitale
       tag: pa-governare-trasformazione-digitale
