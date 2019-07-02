@@ -53,6 +53,12 @@
     Le PA dovranno progressivamente definire un piano per la migrazione verso il
     Cloud della PA.
   tags: [da-fare, pa-data-center-e-cloud]
+  
+  - title: Classificazione delle Infrastrutture IT
+  text: >
+    AGID fornisce le indicazioni per dar corso al processo di razionalizzazione dei data center delle PA e di formazione dei Poli strategici nazionali.
+   [Pubblicata Circolare AGID n.1/2019](https://www.agid.gov.it/sites/default/files/repository_files/approfondimentocircolare18062019_0.pdf)
+  tags: [da-fare, pa-data-center-e-cloud]
 
 - title: I nuovi contratti SPC2
   link: http://www.consip.it/attivita/contratti-spc-e-s-ripa-istruzioni-per-luso
@@ -340,6 +346,12 @@
   text: >
     Evoluzione del sistema per l’integrazione con fornitori di servizi privati,
     l’adesione delle Attribute authority e l’automazione dei processi.
+    
+    
+    [SPID: nuovo tariffario per il mercato privato](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/06/21/spid-nuovo-tariffario-il-mercato-privato)
+    
+    
+    [SPID apre ai privati: primo servizio accessibile](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/06/26/spid-apre-ai-privati-primo-servizio-accessibile-il-sistema-pubblico-didentita)
   tags: [da-fare, pa-piattaforme]
 
 - title: Sviluppo funzionalità CIE
@@ -481,6 +493,7 @@
     Attuazione della direttiva europea 2016/2102 sull’accessibilità dei siti web.
     Realizzazione dei test di usabilità secondo il protocollo eGLU.
     
+    
     [Usabilità: avviato il gruppo di lavoro per l'usabilità nei siti delle PA](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/05/22/dfp-agid-lusabilita-nei-siti-pa)
   tags: [da-fare, pa-servizi-digitali]
 
@@ -488,6 +501,7 @@
   text: >
     Predisposizione di linee guida per fornire alla PA le indicazioni per la
     condivisione di software aperti.
+    
     
     [Adottate le linee guida sull’acquisizione e il riuso del software nella PA](https://www.agid.gov.it/sites/default/files/repository_files/lg-acquisizione-e-riuso-software-per-pa-docs_pubblicata.pdf)
   tags: [da-fare, pa-servizi-digitali]
@@ -533,6 +547,9 @@
 
 
     [Online la Piattaforma per gli appalti di innovazione](https://appaltinnovativi.gov.it/)
+    
+    
+    [Nasce il primo centro di competenza territoriale sugli appalti innovativi](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/06/27/appalti-innovativi-nasce-il-centro-competenza)
   tags: [da-fare, pa-modelli-strumenti-innovazione]
 
 - title: "Smart Landscape: verso un nuovo modello di smart community"
