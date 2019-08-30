@@ -60,6 +60,8 @@
    
    
    [Pubblicata Circolare AGID n.1/2019](https://www.agid.gov.it/sites/default/files/repository_files/approfondimentocircolare18062019_0.pdf)
+  
+   [Procedura per la verifica dell’idoneità di una infrastruttura all’utilizzo da parte di PSN](https://www.agid.gov.it/sites/default/files/repository_files/procedura_per_la_verifica_dellidoneita_di_una_infrastruttura_allutilizzo_da_parte_di_psn_-_in_razionalizzazione.pdf) 
   tags: [da-fare, pa-data-center-e-cloud]
 
 - title: I nuovi contratti SPC2
@@ -354,7 +356,13 @@
     
     
     [SPID apre ai privati: primo servizio accessibile](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/06/26/spid-apre-ai-privati-primo-servizio-accessibile-il-sistema-pubblico-didentita)
-  tags: [da-fare, pa-piattaforme]
+  
+  
+    [Pubblicate in consultazione le Linee Guida per la realizzazione di un modello di R.A.O. pubblico](https://docs.italia.it/AgID/documenti-in-consultazione/lg-modello-rao-docs/it/bozza/LineeGuidaRAO.html#riferimenti-normativi)
+
+
+    [Pubblicate in consultazione le Linee Guida su OpenID Connect](https://docs.italia.it/AgID/documenti-in-consultazione/lg-openidconnect-spid-docs/it/bozza/)
+tags: [da-fare, pa-piattaforme]
 
 - title: Sviluppo funzionalità CIE
   text: >
@@ -497,6 +505,9 @@
     
     
     [Usabilità: avviato il gruppo di lavoro per l'usabilità nei siti delle PA](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/05/22/dfp-agid-lusabilita-nei-siti-pa)
+    
+    
+    [Pubblicate in consultazione le linee guida per l’accessibilità degli strumenti informatici](https://docs.italia.it/AgID/documenti-in-consultazione/lg-accessibilita-docs/it/bozza/)
   tags: [da-fare, pa-servizi-digitali]
 
 - title: Riuso
@@ -603,6 +614,16 @@
     sistema Camerale un’azione di semplificazione amministrativa 
     degli Sportelli Unici Attività Produttive (SUAP).
   tags: [fatto, pa-governare-trasformazione-digitale]
+  
+
+- title: Territori digitali
+  link: https://www.agid.gov.it/index.php/it/agenzia/il-supporto-pa/territori-digitali
+  text: >
+    A seguito dell'Accordo Quadro, AGID ha stipulato una serie di specifici accordi con le Regioni 
+    per l’attuazione delle Agende digitali regionali secondo le linee di azione del Piano Triennale 
+    per l’informatica nella PA
+  tags: [da-fare, pa-governare-trasformazione-digitale]
+
 
 - title: Costituzione PMO
   text: >
