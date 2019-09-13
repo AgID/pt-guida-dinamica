@@ -54,14 +54,17 @@
     Cloud della PA.
   tags: [da-fare, pa-data-center-e-cloud]
   
-  - title: Classificazione delle Infrastrutture IT
+- title: Classificazione delle Infrastrutture IT
+
   text: >
     AGID fornisce le indicazioni per dar corso al processo di razionalizzazione dei data center delle PA e di formazione dei Poli strategici nazionali.
    
    
    [Pubblicata Circolare AGID n.1/2019](https://www.agid.gov.it/sites/default/files/repository_files/approfondimentocircolare18062019_0.pdf)
   
+  
    [Procedura per la verifica dell’idoneità di una infrastruttura all’utilizzo da parte di PSN](https://www.agid.gov.it/sites/default/files/repository_files/procedura_per_la_verifica_dellidoneita_di_una_infrastruttura_allutilizzo_da_parte_di_psn_-_in_razionalizzazione.pdf) 
+
   tags: [da-fare, pa-data-center-e-cloud]
 
 - title: I nuovi contratti SPC2
@@ -364,6 +367,7 @@
     [Pubblicate in consultazione le Linee Guida su OpenID Connect](https://docs.italia.it/AgID/documenti-in-consultazione/lg-openidconnect-spid-docs/it/bozza/)
 tags: [da-fare, pa-piattaforme]
 
+
 - title: Sviluppo funzionalità CIE
   text: >
     Emissione della CIE all’estero e accesso ai servizi online.
@@ -464,7 +468,9 @@ tags: [da-fare, pa-piattaforme]
     [Pubblicate, in consultazione, le Linee Guida sulla sicurezza nel procurement ICT](https://docs.italia.it/AgID/documenti-in-consultazione/lg-procurement-ict/it/bozza/)
  
     [Pubblicate, in consultazione, le Linee Guida per lo sviluppo e la definizione del modello nazionale di riferimento per i CERT regionali](https://docs.italia.it/AgID/documenti-in-consultazione/lg-cert-regionali/it/bozza/)
- tags: [da-fare, pa-sicurezza]
+
+  tags: [da-fare, pa-sicurezza]
+
 
 - title: Segnalare incidenti di sicurezza
   text: >
@@ -502,11 +508,10 @@ tags: [da-fare, pa-piattaforme]
     Aggiornamento delle Linee guida di design dei siti e dei servizi web della PA.
     Attuazione della direttiva europea 2016/2102 sull’accessibilità dei siti web.
     Realizzazione dei test di usabilità secondo il protocollo eGLU.
-    
-    
+        
     [Usabilità: avviato il gruppo di lavoro per l'usabilità nei siti delle PA](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/05/22/dfp-agid-lusabilita-nei-siti-pa)
-    
-    
+
+
     [Pubblicate in consultazione le linee guida per l’accessibilità degli strumenti informatici](https://docs.italia.it/AgID/documenti-in-consultazione/lg-accessibilita-docs/it/bozza/)
   tags: [da-fare, pa-servizi-digitali]
 

@@ -43,13 +43,21 @@ class MegaMenu extends React.Component {
             className={`mx-${depth > 0 ? "2" : "4"} my-2`}
             key={`${parentSlug}-${subMenuItem.slug}`}
           >
-            <Link
-              className="w-100 d-inline-block"
-              to={`/${parentSlug}/${subMenuItem.slug}`}
-            >
-              {subMenuItem.name}{" "}
-              <span className="sr-only">{subMenuItem.subtitle}</span>
-            </Link>
+            {subMenuItem.slug && (
+              <Link
+                className="w-100 d-inline-block"
+                to={`/${parentSlug}/${subMenuItem.slug}`}
+              >
+                {subMenuItem.name}{" "}
+                <span className="sr-only">{subMenuItem.subtitle}</span>
+              </Link>
+            )}
+            {subMenuItem.href && (
+              <a className="w-100 d-inline-block" href={subMenuItem.href}>
+                {subMenuItem.name}{" "}
+                <span className="sr-only">{subMenuItem.subtitle}</span>
+              </a>
+            )}
             {subMenuItem.subtree &&
               this.renderMenu(
                 `/${parentSlug}/${subMenuItem.slug}`,
