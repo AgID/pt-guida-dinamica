@@ -72,7 +72,7 @@
         - name: Confronto tra linee d'azione
           slug: linea-azione
           subtitle: servizi digitali
- - name: Modelli e strumenti per l'innovazione
+    - name: Modelli e strumenti per l'innovazione
       slug: modelli-strumenti-innovazione
       tag: pa-modelli-strumenti-innovazione
       subtitle: Pubblica Amministrazione

@@ -53,18 +53,13 @@
     Le PA dovranno progressivamente definire un piano per la migrazione verso il
     Cloud della PA.
   tags: [da-fare, pa-data-center-e-cloud]
-  
+
 - title: Classificazione delle Infrastrutture IT
 
   text: >
     AGID fornisce le indicazioni per dar corso al processo di razionalizzazione dei data center delle PA e di formazione dei Poli strategici nazionali.
-   
-   
-   [Pubblicata Circolare AGID n.1/2019](https://www.agid.gov.it/sites/default/files/repository_files/approfondimentocircolare18062019_0.pdf)
-  
-  
-   [Procedura per la verifica dell’idoneità di una infrastruttura all’utilizzo da parte di PSN](https://www.agid.gov.it/sites/default/files/repository_files/procedura_per_la_verifica_dellidoneita_di_una_infrastruttura_allutilizzo_da_parte_di_psn_-_in_razionalizzazione.pdf) 
-
+    [Pubblicata Circolare AGID n.1/2019](https://www.agid.gov.it/sites/default/files/repository_files/approfondimentocircolare18062019_0.pdf)
+    [Procedura per la verifica dell’idoneità di una infrastruttura all’utilizzo da parte di PSN](https://www.agid.gov.it/sites/default/files/repository_files/procedura_per_la_verifica_dellidoneita_di_una_infrastruttura_allutilizzo_da_parte_di_psn_-_in_razionalizzazione.pdf)
   tags: [da-fare, pa-data-center-e-cloud]
 
 - title: I nuovi contratti SPC2
@@ -145,8 +140,8 @@
     Per assicurare la comunicazione tra i propri sistemi esistenti e tra questi e
     quelli di soggetti terzi, le PA utilizzano gli standard e i profili definiti dal
     Modello, secondo le [indicazioni operative fornite da AGID](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/allegati/3_indicazioni-operative-migrazione-spcoop.html).
-    
-    
+
+
     [Pubblicate in consultazione le linee guida del Modello di interoperabilità](https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/istruzioni_consultazione.html#informazioni-sulla-consultazione)
   tags: [da-fare, pa-modello-di-interoperabilita]
 
@@ -353,20 +348,15 @@
   text: >
     Evoluzione del sistema per l’integrazione con fornitori di servizi privati,
     l’adesione delle Attribute authority e l’automazione dei processi.
-    
-    
-    [SPID: nuovo tariffario per il mercato privato](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/06/21/spid-nuovo-tariffario-il-mercato-privato)
-    
-    
-    [SPID apre ai privati: primo servizio accessibile](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/06/26/spid-apre-ai-privati-primo-servizio-accessibile-il-sistema-pubblico-didentita)
-  
-  
+
+    [SPID: nuovo tariffario per il mercato privato](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/06/21/spid-nuovo-tariffario-il-mercato-privato)    
+
+    [SPID apre ai privati: primo servizio accessibile](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/06/26/spid-apre-ai-privati-primo-servizio-accessibile-il-sistema-pubblico-didentita)  
+
     [Pubblicate in consultazione le Linee Guida per la realizzazione di un modello di R.A.O. pubblico](https://docs.italia.it/AgID/documenti-in-consultazione/lg-modello-rao-docs/it/bozza/LineeGuidaRAO.html#riferimenti-normativi)
 
-
     [Pubblicate in consultazione le Linee Guida su OpenID Connect](https://docs.italia.it/AgID/documenti-in-consultazione/lg-openidconnect-spid-docs/it/bozza/)
-tags: [da-fare, pa-piattaforme]
-
+  tags: [da-fare, pa-piattaforme]
 
 - title: Sviluppo funzionalità CIE
   text: >
@@ -464,13 +454,12 @@ tags: [da-fare, pa-piattaforme]
     Le pubbliche amministrazioni devono garantire la sicurezza dei servizi
     informatici e telematici erogati, rispettando le indicazioni sul tema fornite da
     AGID.
-    
+
     [Pubblicate, in consultazione, le Linee Guida sulla sicurezza nel procurement ICT](https://docs.italia.it/AgID/documenti-in-consultazione/lg-procurement-ict/it/bozza/)
- 
+
     [Pubblicate, in consultazione, le Linee Guida per lo sviluppo e la definizione del modello nazionale di riferimento per i CERT regionali](https://docs.italia.it/AgID/documenti-in-consultazione/lg-cert-regionali/it/bozza/)
 
   tags: [da-fare, pa-sicurezza]
-
 
 - title: Segnalare incidenti di sicurezza
   text: >
@@ -519,8 +508,8 @@ tags: [da-fare, pa-piattaforme]
   text: >
     Predisposizione di linee guida per fornire alla PA le indicazioni per la
     condivisione di software aperti.
-    
-    
+
+
     [Adottate le linee guida sull’acquisizione e il riuso del software nella PA](https://www.agid.gov.it/sites/default/files/repository_files/lg-acquisizione-e-riuso-software-per-pa-docs_pubblicata.pdf)
   tags: [da-fare, pa-servizi-digitali]
 
@@ -565,8 +554,8 @@ tags: [da-fare, pa-piattaforme]
 
 
     [Online la Piattaforma per gli appalti di innovazione](https://appaltinnovativi.gov.it/)
-    
-    
+
+
     [Nasce il primo centro di competenza territoriale sugli appalti innovativi](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/06/27/appalti-innovativi-nasce-il-centro-competenza)
   tags: [da-fare, pa-modelli-strumenti-innovazione]
 
@@ -619,7 +608,6 @@ tags: [da-fare, pa-piattaforme]
     sistema Camerale un’azione di semplificazione amministrativa 
     degli Sportelli Unici Attività Produttive (SUAP).
   tags: [fatto, pa-governare-trasformazione-digitale]
-  
 
 - title: Territori digitali
   link: https://www.agid.gov.it/index.php/it/agenzia/il-supporto-pa/territori-digitali
@@ -628,7 +616,6 @@ tags: [da-fare, pa-piattaforme]
     per l’attuazione delle Agende digitali regionali secondo le linee di azione del Piano Triennale 
     per l’informatica nella PA
   tags: [da-fare, pa-governare-trasformazione-digitale]
-
 
 - title: Costituzione PMO
   text: >
@@ -651,7 +638,7 @@ tags: [da-fare, pa-piattaforme]
     Rilascio di una piattaforma per la raccolta dei dati e il monitoraggio degli
     aspetti tecnici ed economici da parte delle PA sull’attuazione delle Agende
     digitali.
-    
+
     [Avviate le attività dell'Osservatorio Nazionale Crescita Ecosistema digitale (ONCE)](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/05/17/entra-vivo-once-losservatorio-agid-che-innova-metodologie-monitoraggio-crea)
   tags: [da-fare, pa-governare-trasformazione-digitale]
 
