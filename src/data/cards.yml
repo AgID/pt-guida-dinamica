@@ -58,7 +58,11 @@
 
   text: >
     AGID fornisce le indicazioni per dar corso al processo di razionalizzazione dei data center delle PA e di formazione dei Poli strategici nazionali.
+    
+    
     [Pubblicata Circolare AGID n.1/2019](https://www.agid.gov.it/sites/default/files/repository_files/approfondimentocircolare18062019_0.pdf)
+    
+    
     [Procedura per la verifica dell’idoneità di una infrastruttura all’utilizzo da parte di PSN](https://www.agid.gov.it/sites/default/files/repository_files/procedura_per_la_verifica_dellidoneita_di_una_infrastruttura_allutilizzo_da_parte_di_psn_-_in_razionalizzazione.pdf)
   tags: [da-fare, pa-data-center-e-cloud]
 
@@ -348,12 +352,16 @@
   text: >
     Evoluzione del sistema per l’integrazione con fornitori di servizi privati,
     l’adesione delle Attribute authority e l’automazione dei processi.
-
+ 
+ 
     [SPID: nuovo tariffario per il mercato privato](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/06/21/spid-nuovo-tariffario-il-mercato-privato)    
+
 
     [SPID apre ai privati: primo servizio accessibile](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/06/26/spid-apre-ai-privati-primo-servizio-accessibile-il-sistema-pubblico-didentita)  
 
+
     [Pubblicate in consultazione le Linee Guida per la realizzazione di un modello di R.A.O. pubblico](https://docs.italia.it/AgID/documenti-in-consultazione/lg-modello-rao-docs/it/bozza/LineeGuidaRAO.html#riferimenti-normativi)
+
 
     [Pubblicate in consultazione le Linee Guida su OpenID Connect](https://docs.italia.it/AgID/documenti-in-consultazione/lg-openidconnect-spid-docs/it/bozza/)
   tags: [da-fare, pa-piattaforme]
@@ -361,12 +369,21 @@
 - title: Sviluppo funzionalità CIE
   text: >
     Emissione della CIE all’estero e accesso ai servizi online.
+    
+    
+    [Avvio sperimentazione emissione della CIE all'estero](https://www.esteri.it/mae/it/sala_stampa/archivionotizie/retediplomatica/2019/09/al-via-in-3-citta-carta-di-identita-elettronica-sperimentale.html)
+
+
+    [Concluso il percorso di notifica europea della CIE](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/09/18/eidas-concluso-il-percorso-notifica-europea-carta-didentita-elettronica-diventera)
   tags: [da-fare, pa-piattaforme]
 
 - title: Linee Guida e modelli per SGPA
   text: >
     Emanazione di Linee Guida per la formazione, conservazione e gestione dei
     documenti informatici e di moduli per l'interoperabilità tra sistemi.
+    
+    
+    [Pubblicate in consultazione](https://docs.italia.it/AgID/documenti-in-consultazione/lg-documenti-informatici-docs/it/bozza/)
   tags: [da-fare, pa-piattaforme]
 
 - title: Regole per l’interoperabilità tra sistemi di conservazione
@@ -408,6 +425,14 @@
     Decreto ministeriale che definisce le regole di interoperabilità del Fascicolo
     sanitario elettronico (FSE).
   tags: [fatto, pa-ecosistemi]
+
+- title: Fascicolo sanitario elettronico (FSE)
+  text: >
+    AGID ha adottato la circolare n.3/2019 che disciplina la procedura di accesso al FSE con SPID e favorisce l'interoperabilità dei dati e metadati degli FSE nazionali.
+
+
+  [Circolare n.3/2019](https://www.agid.gov.it/sites/default/files/repository_files/03_-_agid_circ_n._03_-_02_sett_2019.pdf)
+  tags: [da-fare, pa-ecosistemi]
 
 - title: Gruppi di lavoro
   text: >
@@ -458,13 +483,20 @@
     [Pubblicate, in consultazione, le Linee Guida sulla sicurezza nel procurement ICT](https://docs.italia.it/AgID/documenti-in-consultazione/lg-procurement-ict/it/bozza/)
 
     [Pubblicate, in consultazione, le Linee Guida per lo sviluppo e la definizione del modello nazionale di riferimento per i CERT regionali](https://docs.italia.it/AgID/documenti-in-consultazione/lg-cert-regionali/it/bozza/)
-
   tags: [da-fare, pa-sicurezza]
 
 - title: Segnalare incidenti di sicurezza
   text: >
     Le PA devono segnalare al CERT-PA eventuali incidenti di sicurezza informatica,
     tramite piattaforma Infosec.
+  tags: [da-fare, pa-sicurezza]
+  
+  - title: Piattaforma nazionale di contrasto agli attacci informatici 
+  text: >
+    AGID realizza, in via sperimentale, per le pubbliche amministrazioni, una piattaforma nazionale di trasmissione automatizzata degli IoC. 
+  
+  
+   [Il CERT-PA avvia la fase pilota della piattaforma nazionale di contrasto agli attacchi informatici](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/10/25/sicurezza-cibernetica-il-cert-pa-avvia-fase-pilota-piattaforma-nazionale-contrasto)
   tags: [da-fare, pa-sicurezza]
 
 - title: Designers Italia
@@ -502,6 +534,9 @@
 
 
     [Pubblicate in consultazione le linee guida per l’accessibilità degli strumenti informatici](https://docs.italia.it/AgID/documenti-in-consultazione/lg-accessibilita-docs/it/bozza/)
+  
+  
+    [Rilasciato kit per il design del sito dei Comuni](https://designers.italia.it/kit/comuni/)
   tags: [da-fare, pa-servizi-digitali]
 
 - title: Riuso
@@ -523,6 +558,9 @@
   text: >
     Sviluppo di un’app che rende possibile la fruizione efficace dei servizi
     pubblici digitali delle PA da parte di cittadini e imprese.
+    
+    
+    [Avviata fase di sperimentazione dell'app IO](https://teamdigitale.governo.it/it/projects/cittadinanza-digitale.htm)
   tags: [da-fare, pa-servizi-digitali]
 
 - title: Dominio «.edu.it» e «.it»
@@ -646,7 +684,13 @@
   text: >
     Incremento delle attività di formazione di project management, specialistica e
     di base per RTD, dipendenti pubblici e cittadini.
-  tags: [da-fare, pa-governare-trasformazione-digitale]
+    
+   
+   [Ciclo di incontri formativi in Veneto](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/09/12/piano-triennale-al-ciclo-dincontri-formativi-veneto)
+   
+   
+   [Ciclo di formazione specialistico RTD](https://www.agid.gov.it/it/agenzia/responsabile-transizione-digitale/formazione-rtd) 
+ tags: [da-fare, pa-governare-trasformazione-digitale]
 
 - title: Prime iniziative verso cittadini e imprese
   text: >
