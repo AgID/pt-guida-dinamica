@@ -51,23 +51,39 @@ exports.createPages = ({ actions }) => {
 };
 
 const createMarkdownPages = (createPage, page, pageNav, siteNav) => {
+  if (!page.slug || page.slug === "") {
+    return;
+  }
+
   const pagePath = getPagePath(pageNav.parent.path, page.slug);
+  let filenameRegex = `/${pagePath.replace("/", "\\/")}.md$/`;
+  let createCurrentPage = true;
+
+  if (!fs.existsSync(`src/pages${pagePath}.md`)) {
+    const tryPath = pagePath + "/index";
+    filenameRegex = `/${tryPath.replace("/", "\\/")}.md$/`;
+
+    if (!fs.existsSync(`src/pages${tryPath}.md`)) {
+      createCurrentPage = false;
+    }
+  }
 
   siteNav = siteNav[0].slug !== "" ? siteNav : siteNav[0].subtree;
 
-  console.log(`creating: /${pagePath.replace("/", "\\/")}.md$/`);
+  createCurrentPage && console.log(`creating: ${pagePath}`);
 
-  createPage({
-    path: pagePath,
-    component: pageTemplate,
-    context: {
-      filenameRegex: `/${pagePath.replace("/", "\\/")}.md$/`,
-      pageNav: JSON.stringify(pageNav),
-      slug: page.slug,
-      tag: page.tag || "",
-      siteNav: siteNav
-    }
-  });
+  createCurrentPage &&
+    createPage({
+      path: pagePath,
+      component: pageTemplate,
+      context: {
+        filenameRegex: filenameRegex,
+        pageNav: JSON.stringify(pageNav),
+        slug: page.slug,
+        tag: page.tag || "",
+        siteNav: siteNav
+      }
+    });
 
   page.subtree &&
     page.subtree.map((subPage, subPageIndex) => {
