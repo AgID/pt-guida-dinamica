@@ -23,6 +23,8 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "clean": "gatsby clean",
+    "serve": "gatsby serve",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "test": "pa11y-ci './public/**/*.html' '!./public/admin/index.html'",
