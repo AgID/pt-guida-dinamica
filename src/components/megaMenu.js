@@ -217,7 +217,7 @@ MegaMenu.propTypes = {
       subtree: PropTypes.arrayOf(
         PropTypes.shape({
           name: PropTypes.string.isRequired,
-          slug: PropTypes.string.isRequired,
+          slug: PropTypes.string,
           subtitle: PropTypes.string
         })
       )

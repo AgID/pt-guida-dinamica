@@ -25,7 +25,7 @@ europei per la trasformazione digitale.
         approvata dal Governo e dalla Commissione Europea.<br /><br />
       </p>
       <div class="d-flex mt-3">
-        <img src="/images/cover_pt_2015_80px.svg" />
+        <img src="/images/cover_pt_2015_80px.svg" / alt="">
         <p class="p-4">2014-2015<br />la strategia approvata dal governo</p>
       </div>
     </div>
@@ -42,7 +42,7 @@ europei per la trasformazione digitale.
         realizzare l’Agenda Digitale.<br /><br />
       </p>
       <div class="d-flex mt-3">
-        <img src="/images/cover_pt_2016_80px.svg" />
+        <img src="/images/cover_pt_2016_80px.svg" alt=""/>
         <p class="p-4">2016<br />il modello strategico di trasformazione digitale della PA</p>
       </div>
     </div>
@@ -59,7 +59,7 @@ europei per la trasformazione digitale.
         elemento del modello.<BR />
       </p>
       <div class="d-flex mt-4">
-        <img src="/images/cover_pt_2017_80.svg" />
+        <img src="/images/cover_pt_2017_80.svg" alt=""/>
         <p class="p-4">2017<br />il Piano Triennale definisce gli obiettivi da raggiungere</p>
       </div>
     </div>

@@ -55,14 +55,11 @@
   tags: [da-fare, pa-data-center-e-cloud]
 
 - title: Classificazione delle Infrastrutture IT
-
   text: >
     AGID fornisce le indicazioni per dar corso al processo di razionalizzazione dei data center delle PA e di formazione dei Poli strategici nazionali.
-    
-    
+
     [Pubblicata Circolare AGID n.1/2019](https://www.agid.gov.it/sites/default/files/repository_files/approfondimentocircolare18062019_0.pdf)
-    
-    
+
     [Procedura per la verifica dell’idoneità di una infrastruttura all’utilizzo da parte di PSN](https://www.agid.gov.it/sites/default/files/repository_files/procedura_per_la_verifica_dellidoneita_di_una_infrastruttura_allutilizzo_da_parte_di_psn_-_in_razionalizzazione.pdf)
   tags: [da-fare, pa-data-center-e-cloud]
 
@@ -109,7 +106,6 @@
     wi-fi, al fine di rendere accessibile ai cittadini wi-fi gratuito negli uffici e
     nei luoghi pubblici.
 
-
     [Pubblicate in consultazione](https://docs.italia.it/AgID/documenti-in-consultazione/lg-pubblicowififree/it/bozza/)
   tags: [da-fare, pa-connettivita]
 
@@ -123,8 +119,6 @@
 - title: Linee Guida per transitare al nuovo Modello di interoperabilità
   link: https://www.agid.gov.it/sites/default/files/repository_files/upload_avvisi/linee_guida_passaggio_nuovo_modello_interoperabilita.pdf
   text: >
-
-
     Nell’agosto 2017, AGID ha definito, per le piattaforme esistenti e per le
     attività progettuali in corso, nella determina 219/2017 «Linee Guida per
     transitare al nuovo Modello di Interoperabilità», le azioni che
@@ -145,7 +139,6 @@
     quelli di soggetti terzi, le PA utilizzano gli standard e i profili definiti dal
     Modello, secondo le [indicazioni operative fornite da AGID](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/allegati/3_indicazioni-operative-migrazione-spcoop.html).
 
-
     [Pubblicate in consultazione le linee guida del Modello di interoperabilità](https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/istruzioni_consultazione.html#informazioni-sulla-consultazione)
   tags: [da-fare, pa-modello-di-interoperabilita]
 
@@ -158,20 +151,20 @@
 - title: Basi di dati di interesse nazionale
   text: |
     Nell’agosto 2017 è stato pubblicato l’elenco delle [Basi di dati di interesse
-    nazionale](https://www.agid.gov.it/it/dati/basi-dati-interesse-nazionale) 
-    e le relative schede descrittive. 
+    nazionale](https://www.agid.gov.it/it/dati/basi-dati-interesse-nazionale)
+    e le relative schede descrittive.
 
     Da gennaio 2018 sono disponibili le
-    «Linee guida per l’implementazione della specifica europea GeoDCAT-AP». 
+    «Linee guida per l’implementazione della specifica europea GeoDCAT-AP».
 
     Da aprile 2018 è on line la nuova versione (2.0) del [Repertorio nazionale dei dati
-    territoriali](http://geodati.gov.it/). 
+    territoriali](http://geodati.gov.it/).
 
     A maggio 2018 è stato messo in produzione il Catalogo dei servizi.
 
-    A settembre 2018 sono state redatte le [Linee guida](https://lineeguida-ipa.readthedocs.io/it/latest/index.html) 
+    A settembre 2018 sono state redatte le [Linee guida](https://lineeguida-ipa.readthedocs.io/it/latest/index.html)
     relative alle Regole tecniche
-    da seguire per l’iscrizione e l’aggiornamento dei dati nell'[Indice delle Pubbliche Amministrazioni](https://www.indicepa.gov.it) (IPA). 
+    da seguire per l’iscrizione e l’aggiornamento dei dati nell'[Indice delle Pubbliche Amministrazioni](https://www.indicepa.gov.it) (IPA).
 
     A novembre 2018
     il popolamento di [ANPR](https://www.anpr.interno.it/) ha raggiunto i 1.206 comuni e oltre 14 milioni di
@@ -201,8 +194,7 @@
 - title: Aggiornamento IPA
   text: >
     Le Amministrazioni che gestiscono pubblici servizi adottano le linee guida per
-    l’aggiornamento dei dati in IPA.  
-
+    l’aggiornamento dei dati in IPA.
 
     [In vigore](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/191001128380O__OLINEE+GUIDA+IPA.pdf)
   tags: [da-fare, pa-dati-della-pa]
@@ -210,8 +202,7 @@
 - title: Dati aperti
   text: >
     A marzo 2017 è stato reso disponibile il portale dei dati aperti della PA
-    [dati.gov.it](https://dati.gov.it).  
-
+    [dati.gov.it](https://dati.gov.it).
 
     Nell’agosto 2017 sono state aggiornate le
     [Linee guida nazionali per la valorizzazione del patrimonio informativo pubblico](https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/stabile/).
@@ -228,7 +219,7 @@
   link: https://dataportal.daf.teamdigitale.it/
   text: >
     Nel 2018 la piattaforma tecnologica PDND ha raggiunto uno stadio sperimentale
-    pubblicato sul sito [dataportal.daf.teamdigitale.it](https://dataportal.daf.teamdigitale.it) 
+    pubblicato sul sito [dataportal.daf.teamdigitale.it](https://dataportal.daf.teamdigitale.it)
     e al momento viene utilizzata su alcuni casi di studio.
   tags: [fatto, pa-dati-della-pa]
 
@@ -352,16 +343,12 @@
   text: >
     Evoluzione del sistema per l’integrazione con fornitori di servizi privati,
     l’adesione delle Attribute authority e l’automazione dei processi.
- 
- 
-    [SPID: nuovo tariffario per il mercato privato](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/06/21/spid-nuovo-tariffario-il-mercato-privato)    
 
+    [SPID: nuovo tariffario per il mercato privato](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/06/21/spid-nuovo-tariffario-il-mercato-privato)
 
-    [SPID apre ai privati: primo servizio accessibile](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/06/26/spid-apre-ai-privati-primo-servizio-accessibile-il-sistema-pubblico-didentita)  
-
+    [SPID apre ai privati: primo servizio accessibile](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/06/26/spid-apre-ai-privati-primo-servizio-accessibile-il-sistema-pubblico-didentita)
 
     [Pubblicate in consultazione le Linee Guida per la realizzazione di un modello di R.A.O. pubblico](https://docs.italia.it/AgID/documenti-in-consultazione/lg-modello-rao-docs/it/bozza/LineeGuidaRAO.html#riferimenti-normativi)
-
 
     [Pubblicate in consultazione le Linee Guida su OpenID Connect](https://docs.italia.it/AgID/documenti-in-consultazione/lg-openidconnect-spid-docs/it/bozza/)
   tags: [da-fare, pa-piattaforme]
@@ -369,10 +356,8 @@
 - title: Sviluppo funzionalità CIE
   text: >
     Emissione della CIE all’estero e accesso ai servizi online.
-    
-    
-    [Avvio sperimentazione emissione della CIE all'estero](https://www.esteri.it/mae/it/sala_stampa/archivionotizie/retediplomatica/2019/09/al-via-in-3-citta-carta-di-identita-elettronica-sperimentale.html)
 
+    [Avvio sperimentazione emissione della CIE all'estero](https://www.esteri.it/mae/it/sala_stampa/archivionotizie/retediplomatica/2019/09/al-via-in-3-citta-carta-di-identita-elettronica-sperimentale.html)
 
     [Concluso il percorso di notifica europea della CIE](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/09/18/eidas-concluso-il-percorso-notifica-europea-carta-didentita-elettronica-diventera)
   tags: [da-fare, pa-piattaforme]
@@ -381,8 +366,7 @@
   text: >
     Emanazione di Linee Guida per la formazione, conservazione e gestione dei
     documenti informatici e di moduli per l'interoperabilità tra sistemi.
-    
-    
+
     [Pubblicate in consultazione](https://docs.italia.it/AgID/documenti-in-consultazione/lg-documenti-informatici-docs/it/bozza/)
   tags: [da-fare, pa-piattaforme]
 
@@ -430,8 +414,7 @@
   text: >
     AGID ha adottato la circolare n.3/2019 che disciplina la procedura di accesso al FSE con SPID e favorisce l'interoperabilità dei dati e metadati degli FSE nazionali.
 
-
-  [Circolare n.3/2019](https://www.agid.gov.it/sites/default/files/repository_files/03_-_agid_circ_n._03_-_02_sett_2019.pdf)
+    [Circolare n.3/2019](https://www.agid.gov.it/sites/default/files/repository_files/03_-_agid_circ_n._03_-_02_sett_2019.pdf)
   tags: [da-fare, pa-ecosistemi]
 
 - title: Gruppi di lavoro
@@ -490,13 +473,12 @@
     Le PA devono segnalare al CERT-PA eventuali incidenti di sicurezza informatica,
     tramite piattaforma Infosec.
   tags: [da-fare, pa-sicurezza]
-  
-  - title: Piattaforma nazionale di contrasto agli attacci informatici 
+
+- title: Piattaforma nazionale di contrasto agli attacci informatici
   text: >
-    AGID realizza, in via sperimentale, per le pubbliche amministrazioni, una piattaforma nazionale di trasmissione automatizzata degli IoC. 
-  
-  
-   [Il CERT-PA avvia la fase pilota della piattaforma nazionale di contrasto agli attacchi informatici](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/10/25/sicurezza-cibernetica-il-cert-pa-avvia-fase-pilota-piattaforma-nazionale-contrasto)
+    AGID realizza, in via sperimentale, per le pubbliche amministrazioni, una piattaforma nazionale di trasmissione automatizzata degli IoC.
+
+    [Il CERT-PA avvia la fase pilota della piattaforma nazionale di contrasto agli attacchi informatici](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/10/25/sicurezza-cibernetica-il-cert-pa-avvia-fase-pilota-piattaforma-nazionale-contrasto)
   tags: [da-fare, pa-sicurezza]
 
 - title: Designers Italia
@@ -529,13 +511,11 @@
     Aggiornamento delle Linee guida di design dei siti e dei servizi web della PA.
     Attuazione della direttiva europea 2016/2102 sull’accessibilità dei siti web.
     Realizzazione dei test di usabilità secondo il protocollo eGLU.
-        
+
     [Usabilità: avviato il gruppo di lavoro per l'usabilità nei siti delle PA](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/05/22/dfp-agid-lusabilita-nei-siti-pa)
 
-
     [Pubblicate in consultazione le linee guida per l’accessibilità degli strumenti informatici](https://docs.italia.it/AgID/documenti-in-consultazione/lg-accessibilita-docs/it/bozza/)
-  
-  
+
     [Rilasciato kit per il design del sito dei Comuni](https://designers.italia.it/kit/comuni/)
   tags: [da-fare, pa-servizi-digitali]
 
@@ -543,7 +523,6 @@
   text: >
     Predisposizione di linee guida per fornire alla PA le indicazioni per la
     condivisione di software aperti.
-
 
     [Adottate le linee guida sull’acquisizione e il riuso del software nella PA](https://www.agid.gov.it/sites/default/files/repository_files/lg-acquisizione-e-riuso-software-per-pa-docs_pubblicata.pdf)
   tags: [da-fare, pa-servizi-digitali]
@@ -558,8 +537,7 @@
   text: >
     Sviluppo di un’app che rende possibile la fruizione efficace dei servizi
     pubblici digitali delle PA da parte di cittadini e imprese.
-    
-    
+
     [Avviata fase di sperimentazione dell'app IO](https://teamdigitale.governo.it/it/projects/cittadinanza-digitale.htm)
   tags: [da-fare, pa-servizi-digitali]
 
@@ -573,7 +551,7 @@
   link: https://www.agid.gov.it/it/agenzia/programmi-nazionali/innovazione-del-mercato
   text: >
     AGID è partner istituzionale del MIUR per l'attuazione del [Programma di appalti
-    pre-commerciali](https://www.agid.gov.it/it/agenzia/programmi-nazionali/gare-pcp-nazionali) 
+    pre-commerciali](https://www.agid.gov.it/it/agenzia/programmi-nazionali/gare-pcp-nazionali)
     finalizzati alla soddisfazione dei fabbisogni di innovazione del
     settore pubblico. Dal 2017 sono state avviate in tutto 19 gare.
   tags: [fatto, pa-modelli-strumenti-innovazione]
@@ -590,9 +568,7 @@
     consultazioni di mercato, procedure negoziate, dialogo competitivo, partenariato
     per l’innovazione a condividere le informazioni chiave.
 
-
     [Online la Piattaforma per gli appalti di innovazione](https://appaltinnovativi.gov.it/)
-
 
     [Nasce il primo centro di competenza territoriale sugli appalti innovativi](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/06/27/appalti-innovativi-nasce-il-centro-competenza)
   tags: [da-fare, pa-modelli-strumenti-innovazione]
@@ -615,7 +591,7 @@
   link: https://www.agid.gov.it/index.php/it/agenzia/responsabile-transizione-digitale
   text: >
     A ottobre 2018 è stata emanata la [circolare 3/2018 del Ministro per la Pubblica
-    Amministrazione](http://www.funzionepubblica.gov.it/articolo/dipartimento/01-10-2018/circolare-n3-del-2018) 
+    Amministrazione](http://www.funzionepubblica.gov.it/articolo/dipartimento/01-10-2018/circolare-n3-del-2018)
     per sollecitare tutte le Amministrazioni ad individuare al
     proprio interno un RTD.
   tags: [fatto, pa-governare-trasformazione-digitale]
@@ -629,7 +605,7 @@
 - title: Competenze digitali
   text: >
     AGID ha pubblicato [le Linee guida per l’armonizzazione delle qualificazioni
-    professionali](https://lg-competenzedigitali.readthedocs.io/it/latest/index.html), 
+    professionali](https://lg-competenzedigitali.readthedocs.io/it/latest/index.html),
     delle professioni e dei profili ICT. SNA, Formez, AGID e Team
     digitale hanno avviato attività di formazione e webinar per i dipendenti della
     PA.
@@ -640,18 +616,16 @@
     Presso AGID è stato istituito l’[ufficio del difensore civico per il
     digitale](https://www.agid.gov.it/it/agenzia/difensore-civico-il-digitale).
 
-
-    Il
-    Dipartimento della funzione pubblica ha avviato con AGID, Regioni, Comuni e
-    sistema Camerale un’azione di semplificazione amministrativa 
+    Il Dipartimento della funzione pubblica ha avviato con AGID, Regioni, Comuni e
+    sistema Camerale un’azione di semplificazione amministrativa
     degli Sportelli Unici Attività Produttive (SUAP).
   tags: [fatto, pa-governare-trasformazione-digitale]
 
 - title: Territori digitali
   link: https://www.agid.gov.it/index.php/it/agenzia/il-supporto-pa/territori-digitali
   text: >
-    A seguito dell'Accordo Quadro, AGID ha stipulato una serie di specifici accordi con le Regioni 
-    per l’attuazione delle Agende digitali regionali secondo le linee di azione del Piano Triennale 
+    A seguito dell'Accordo Quadro, AGID ha stipulato una serie di specifici accordi con le Regioni
+    per l’attuazione delle Agende digitali regionali secondo le linee di azione del Piano Triennale
     per l’informatica nella PA
   tags: [da-fare, pa-governare-trasformazione-digitale]
 
@@ -666,7 +640,6 @@
   text: >
     Creazione di un gruppo di lavoro permanente (RTD di PA centrali, Regioni, Città
     Metro e relativi Comuni capoluogo).
-
 
     [Avvio Conferenza RTD](https://www.agid.gov.it/it/agenzia/responsabile-transizione-digitale/conferenza)
   tags: [da-fare, pa-governare-trasformazione-digitale]
@@ -684,22 +657,17 @@
   text: >
     Incremento delle attività di formazione di project management, specialistica e
     di base per RTD, dipendenti pubblici e cittadini.
-    
-   
-   [Ciclo di incontri formativi in Veneto](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/09/12/piano-triennale-al-ciclo-dincontri-formativi-veneto)
-   
-   
-   [Ciclo di formazione specialistico RTD](https://www.agid.gov.it/it/agenzia/responsabile-transizione-digitale/formazione-rtd) 
- tags: [da-fare, pa-governare-trasformazione-digitale]
+
+    [Ciclo di incontri formativi in Veneto](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2019/09/12/piano-triennale-al-ciclo-dincontri-formativi-veneto)
+
+    [Ciclo di formazione specialistico RTD](https://www.agid.gov.it/it/agenzia/responsabile-transizione-digitale/formazione-rtd)
+  tags: [da-fare, pa-governare-trasformazione-digitale]
 
 - title: Prime iniziative verso cittadini e imprese
   text: >
-    Redazione guida sui diritti di cittadinanza digitale.  
+    Redazione guida sui diritti di cittadinanza digitale.
 
-
-    Adozione modulistica
-    standardizzata per le attività produttive.
-
+    Adozione modulistica standardizzata per le attività produttive.
 
     [Nuovi moduli standardizzati](http://www.funzionepubblica.gov.it/articolo/dipartimento/19-04-2019/nuovi-moduli-unificati-e-standardizzati-approvati-conferenza)
   tags: [da-fare, pa-governare-trasformazione-digitale]
@@ -714,14 +682,13 @@
     cui 68 amministrazioni, allargando il panel rispetto alla precedente edizione
     che aveva visto la partecipazione di 21 PAC.
 
-    L’insieme delle PA che hanno partecipato è così composto: 
+    L’insieme delle PA che hanno partecipato è così composto:
     - 19 Amministrazioni Centrali (tutti i Ministeri, Agenzie Fiscali, INPS, INAIL e ACI)
     - 21 Amministrazioni Regionali e Province Autonome, 14 Città Metropolitane, 14 Comuni capoluogo delle Città Metropolitane
     - 5 società in-house centrali e regionali
     - 10 centrali di committenza nazionali e regionali
 
     [Rilevazione spesa ICT della PA 2018 - Report di sintesi](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2019-2021/allegati/2_rilevazione-spesa-ict-pa-2018.html)
-
   tags: [fatto, pa-rilevazione-spesa-ict]
 
 - title: Monitoraggio spesa e progetti ICT
@@ -775,7 +742,7 @@
 
 - title: Vantaggi
   text: |
-    I cittadini possono utilizzare la CIE per: 
+    I cittadini possono utilizzare la CIE per:
       * autenticarsi in rete;
       * acquisire l’identità digitale SPID;
       * fruire di ulteriori servizi a valore aggiunto in Italia e in Europa.
@@ -956,7 +923,7 @@
     dell’Ente (il Comune, ad esempio) o attraverso i canali (online e fisici) di
     banche e altri Prestatori di Servizi di Pagamento, ovvero:
       * agenzie bancarie
-      * home banking del PSP 
+      * home banking del PSP
       * sportelli ATM (se abilitati)
       * punti vendita di SISAL, Lottomatica e Banca 5
       * uffici Postali.
@@ -1071,8 +1038,8 @@
 
 - title: Cos'è
   text: >
-    Lo strumento a disposizione delle imprese per conoscere i 
-    [servizi digitali della PA](https://www.dati.gov.it/content/catalogo-dei-servizi-pa-primi-passi), 
+    Lo strumento a disposizione delle imprese per conoscere i
+    [servizi digitali della PA](https://www.dati.gov.it/content/catalogo-dei-servizi-pa-primi-passi),
     attraverso informazioni di dettaglio sempre aggiornate.
   tags: [intro, imp-servizi]
 
@@ -1212,10 +1179,10 @@
 - title: Come funziona
   text: |
     Il sistema public e-procurement è costituito da:
-      * piattaforme di acquisto sia pubbliche che private; 
+      * piattaforme di acquisto sia pubbliche che private;
       * soggetti istituzionali che gestiscono servizi;
       * piattaforme e banche dati coinvolti nel processo di acquisto e negoziazione;
-      * registri pubblici nazionali. 
+      * registri pubblici nazionali.
     Nel public procurement si distinguono due ambiti con relativi processi: pre-aggiudicazione e
     post-aggiudicazione.
   tags: [come-funziona, imp-procurement]
