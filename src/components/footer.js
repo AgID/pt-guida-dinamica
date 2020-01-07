@@ -7,7 +7,7 @@ import Icon from "./icon";
 import AgidLogo from "../images/logo-agid.svg";
 
 const Footer = props => (
-  <footer className="neutral-1-bg-a9">
+  <footer className="neutral-1-bg-a9" id={props.id}>
     <Container>
       <Row className="py-4">
         <Col xs="12" sm="6" md="4">

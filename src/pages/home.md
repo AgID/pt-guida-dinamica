@@ -19,7 +19,7 @@ body {
       </p>
     </div>
     <div class="d-none d-lg-block">
-      <img src="../images/Italy.svg" />
+      <img src="../images/Italy.svg" alt="Italy"/>
     </div>
   </div>
 </div>
