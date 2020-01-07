@@ -25,7 +25,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
-    "test": "pa11y-ci './public/**/*.html'",
+    "test": "pa11y-ci './public/**/*.html' '!./public/admin/index.html'",
     "deploy": "gh-pages -d public -m 'Manual deploy [ci skip]'"
   },
   "repository": {
