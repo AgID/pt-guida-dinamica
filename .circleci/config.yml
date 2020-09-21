@@ -125,16 +125,16 @@ workflows:
             branches:
               ignore: gh-pages
 
-      - test:
-          requires:
-            - build
-          filters:
-            branches:
-              ignore: gh-pages
+      # - test:
+      #     requires:
+      #       - build
+      #     filters:
+      #       branches:
+      #         ignore: gh-pages
 
       - github-pages:
           requires:
-            - test
+            - build
           filters:
             branches:
               only: master
